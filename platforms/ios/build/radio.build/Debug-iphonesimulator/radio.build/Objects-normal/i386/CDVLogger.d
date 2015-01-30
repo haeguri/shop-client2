@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/haegyun/Ionic/radio/platforms/ios/radio/Plugins/org.apache.cordova.console/CDVLogger.m \
+  /Users/haegyun/Ionic/radio/platforms/ios/radio/Plugins/org.apache.cordova.console/CDVLogger.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDV.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVDebug.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h \
+  /Users/haegyun/Ionic/radio/platforms/ios/build/emulator/include/Cordova/CDVJSON.h

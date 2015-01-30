@@ -1,0 +1,37 @@
+2015-01-30 21:22:26.250 radio[81718:5902429] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Data/Application/91BC1FEB-ECFC-4A0C-A121-830A10AF5FE5/Library/Cookies/Cookies.binarycookies
+2015-01-30 21:22:26.319 radio[81718:5902429] Multi-tasking -> Device: YES, App: YES
+2015-01-30 21:22:26.345 radio[81718:5902429] Unlimited access to network resources
+2015-01-30 21:22:26.724 radio[81718:5902429] [CDVTimer][keyboard] 0.061989ms
+2015-01-30 21:22:26.724 radio[81718:5902429] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-01-30 21:22:26.724 radio[81718:5902429] [CDVTimer][statusbar] 0.100017ms
+2015-01-30 21:22:26.724 radio[81718:5902429] [CDVTimer][TotalPluginStartup] 0.404000ms
+2015-01-30 21:22:27.039 radio[81718:5902429] Resetting plugins due to page load.
+2015-01-30 21:22:27.258 radio[81718:5902429] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/D68B1729-97B8-41CF-8DC4-1BB63F8FE07F/radio.app/www/index.html#/login
+2015-01-30 22:36:36.081 radio[82808:5942757] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Data/Application/C72C4D15-9494-4C4E-A536-4DB5F831F7C3/Library/Cookies/Cookies.binarycookies
+2015-01-30 22:36:36.214 radio[82808:5942757] Multi-tasking -> Device: YES, App: YES
+2015-01-30 22:36:36.239 radio[82808:5942757] Unlimited access to network resources
+2015-01-30 22:36:36.474 radio[82808:5942757] [CDVTimer][keyboard] 0.056028ms
+2015-01-30 22:36:36.474 radio[82808:5942757] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-01-30 22:36:36.474 radio[82808:5942757] [CDVTimer][statusbar] 0.100017ms
+2015-01-30 22:36:36.474 radio[82808:5942757] [CDVTimer][TotalPluginStartup] 0.392973ms
+2015-01-30 22:36:36.701 radio[82808:5942757] Resetting plugins due to page load.
+2015-01-30 22:36:36.949 radio[82808:5942757] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/ACFC8878-B5B1-400A-B193-37B4C8748958/radio.app/www/index.html#/login
+2015-01-30 22:37:02.593 radio[82991:5943698] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Data/Application/65528F21-09DD-4D46-92B1-AC74CEF66C6E/Library/Cookies/Cookies.binarycookies
+2015-01-30 22:37:02.649 radio[82991:5943698] Multi-tasking -> Device: YES, App: YES
+2015-01-30 22:37:02.656 radio[82991:5943698] Unlimited access to network resources
+2015-01-30 22:37:02.811 radio[82991:5943698] [CDVTimer][keyboard] 0.069022ms
+2015-01-30 22:37:02.811 radio[82991:5943698] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-01-30 22:37:02.812 radio[82991:5943698] [CDVTimer][statusbar] 0.257015ms
+2015-01-30 22:37:02.812 radio[82991:5943698] [CDVTimer][TotalPluginStartup] 0.800967ms
+2015-01-30 22:37:02.963 radio[82991:5943698] Resetting plugins due to page load.
+2015-01-30 22:37:03.149 radio[82991:5943698] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/D5413BC9-767F-42B2-B43B-835258EA8868/radio.app/www/index.html#/login
+2015-01-30 22:37:50.292 radio[83132:5944672] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Data/Application/86D87D7F-7243-4D8F-B927-8BB3E763EAF3/Library/Cookies/Cookies.binarycookies
+2015-01-30 22:37:50.344 radio[83132:5944672] Multi-tasking -> Device: YES, App: YES
+2015-01-30 22:37:50.349 radio[83132:5944672] Unlimited access to network resources
+2015-01-30 22:37:50.440 radio[83132:5944672] [CDVTimer][keyboard] 0.067055ms
+2015-01-30 22:37:50.440 radio[83132:5944672] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-01-30 22:37:50.440 radio[83132:5944672] [CDVTimer][statusbar] 0.173986ms
+2015-01-30 22:37:50.440 radio[83132:5944672] [CDVTimer][TotalPluginStartup] 0.647962ms
+2015-01-30 22:37:50.544 radio[83132:5944672] Resetting plugins due to page load.
+2015-01-30 22:37:50.674 radio[83132:5944672] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/F2C0E295-4145-4737-B6E8-D22DC544B502/radio.app/www/index.html#/login
+2015-01-30 22:38:01.335 radio[83132:5944817] Terminating since there is no system app.
