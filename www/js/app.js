@@ -5,6 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('radio', [
   'ionic',
+  'radio.service',
   'radio.controller'
   ])
 
@@ -38,12 +39,14 @@ angular.module('radio', [
     
     .state('login', {
       url: '/login',
-      templateUrl: 'templates/login.html'
+      templateUrl: 'templates/login.html',
+      controller: 'LoginCtrl'
     })
     
     .state('signup', {
       url: '/signup',
-      templateUrl: 'templates/signup.html'
+      templateUrl: 'templates/signup.html',
+      controller: 'SingupCtrl'
     })
     
     .state('tabs', {
