@@ -1,0 +1,371 @@
+/* horizontal scroll invisible */
+.wide-as-needed {
+  overflow: scroll;
+  white-space: nowrap;
+}
+.scroll { 
+  min-width: 100%;
+}
+
+#radio-tabs ion-header-bar.bar-subheader div.scroll-bar-indicator {
+  display: none;
+}
+
+/* 
+ * make the content's top changes animate.
+ * might not always look good, but looks
+ * good when our loader is added & removed
+ */ 
+/* make loading bar slide up/down */
+
+/* ------common code--------
+------------------------- */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+a {
+  cursor: pointer; 
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.radio-items-wrap {
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+i[name='radio-like-true'] {color:#e60000;}
+i[name='radio-like-false'] {color:#444444;}
+
+button.class
+
+hr {
+  height: 5px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.radio-user-male {
+  color: #87ceeb;
+}
+
+.radio-user-femail {
+  color: #ff748c;
+}
+
+/* -----nav bar------
+------------------ */
+
+ion-header-bar > button > .fa-arrow-left {
+  color: #262626;
+}
+
+.bar.bar-stable{
+  background-color: rgba(255,255,255,.0) !important;
+}
+
+.scroll-content.signup-content {
+  margin-top: -44px;
+  border-color: none;
+}
+
+#nav-search { margin-top:4px; background-color:#444;}
+
+#nav-search > input {
+  background-color: #a6a6a6;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.nav-btn { border: none; background-color: transparent; }
+
+/* ----- radio bottom tabs ------
+-------------------------------*/
+
+#radio-tabs > div.tab-nav > a:hover{
+  color: white;
+}
+
+#radio-tabs .tab-title { font-weight: bold; font-size: 11px; }
+
+/* ----- main page -------
+-----------------------*/
+
+#main-alert-header {
+  background-color: #000067; color: #ffffff;
+}
+
+#main-content div.col {
+  border-radius: 50%;
+  float: left;
+  text-align: center;
+}
+
+#main-content div.col:nth-of-type(3n+1) {
+  clear: both;
+}
+
+.main-image {
+  border-radius: 50%;
+  height: 30vw;
+  width: 30vw;
+  padding: 20px;
+  margin-bottom: -10px;
+}
+
+/* ----- main notify page --------
+-------------------------------*/
+
+#main-notify-content div.list p{
+  white-space: normal;
+}
+
+#main-notify-content div.list a img {
+  max-height: 50px;
+  max-width: 50px;
+  top: 15%;
+}
+
+#main-notify-content div.list div.main-notify-info {
+  margin-left: 20px;
+}
+
+/*-----detail cody page--------
+----------------------------*/
+
+#detail-cody-content div.col.col-50 {
+  float: left;
+}
+
+#detail-cody-content div.card{
+  clear:both;
+}
+
+#detail-cody-content span{
+  font-size: 11px;
+}
+
+#detail-cody-content h4{
+  font-weight: bold;
+}
+
+img.detail-cody-item {
+  height: 50vw;
+  padding: 10px;
+}
+
+img.detail-cody-designer {
+  height: 10vw;
+  display: block !important;
+}
+
+div.detail-cody-designer-info {
+  float: bottom !important;
+}
+
+/* ----- edit channel -----
+-------------------------*/
+
+/* -----channel page------
+----------------------- */
+
+.channel-follow {
+  float: right;
+  display: inline-block;
+  height: 50px;
+}
+
+.channel-info {
+  display: inline-block;
+}
+
+.fa.fa-plus {
+  cursor: pointer;
+}
+
+/* ------shop list page --------
+------------------------ */
+
+#shop-list-category {
+  display: block;
+  width: 100%;
+}
+
+#shop-list-tag-wrap{
+  float: left;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+#shop-list-tag-wrap > ol{
+  vertical-align: middle;
+}
+
+.shop-list-tag  a{
+  float: left;
+  margin-left: 10px;
+  display: inline !important;
+}
+
+#shop-list-sort {
+  float: right;
+  display: inline-block;
+}
+
+div.col.product-list {
+  float: left;
+}
+
+div.col.product-list img{
+  height: 50vw;
+}
+
+#nav-search > input[type="search"]::-webkit-input-placeholder{ color: white; }
+
+#nav-search > input[type="search"]:-moz-placeholder { color: white; }
+
+#nav-search > input[type="search"]::-moz-placeholder { color: white; }
+
+#nav-search > input[type="search"]:-ms-input-placeholder { color: white; }
+
+
+/* -----shop detail page-------
+--------------------------------*/
+
+#shop-detail-desginer {
+  display: inline-block;
+}
+
+#shop-detail-like {
+  float: right;
+}
+
+#shop-detail-like-info {
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+
+/* ------cart page--------
+------------------------*/
+
+.item-footer { background-color: white; }
+
+#cart-alert-header { background-color: #f2dede; color: #a94442;}
+
+.cart-quantity-block > input{
+	float: left;
+	width: 50px;
+}
+
+.cart-quantity-up, .cart-quantity-down { 
+	margin-top: 3px;
+	cursor:pointer;
+	position: absolute;
+}
+
+.cart-quantity-down {
+	margin-top: 15px;
+}
+
+/* ------private page--------
+-------------------------- */
+
+
+/* my info */
+
+#private-info-content button i{
+  margin-left: 10px;
+}
+
+#private-tabs > div.tab-nav > a:hover{
+  color: white;
+}
+
+.private-info-row {
+  text-align: center;
+}
+
+.private-info-row button {
+  width: 100px;
+}
+
+/* my channel */
+
+.channel-unfollow {
+  float: right;
+  height: 100%;
+}
+
+#edit-channel-alert {
+  padding-top: 35px;
+}
+
+/* my brand */
+
+/* my product */
+
+#private-product-content div.col {
+  float: left;
+}
+
+/* -----login page----
+------------------- */
+
+#login-form {
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+#login-facebook-link > i{
+  margin-right:5px;
+}
+
+#login-title {
+  margin-top: 80px;
+}
+
+#login-facebook-link {
+  background: #3b5a95;
+  border: none;
+  color: #fff;
+}
+
+/* -----signup page------
+---------------------- */
+
+
+#signup-form {
+  margin-top: 90px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#signup-form-submit {
+  margin-top: 30px;
+}
+
+/* ----- more load snippet -----
+---------------------------- */
+
+.icon.ion-loading-d.icon-refreshing {
+  color: #444444;
+}
+
+
+
+/* ----loading animation ----- 
+----------------------------*/
+
+div.loading-container.visible.active > div.loading { background: transparent; }

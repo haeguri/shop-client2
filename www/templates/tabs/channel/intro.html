@@ -1,0 +1,22 @@
+<ion-view>
+  <ion-nav-title>
+    <label class="item-input-wrapper" id="nav-search">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="search" placeholder="채널을 검색합니다.">
+    </label>
+  </ion-nav-title>
+  <ion-content class="padding" id="channel-content">
+   	<div class="list card" ng-repeat="cody in channel_intro.cody_list">
+      <div class="item item-image">
+        <a ng-click="channel_intro.openCodyDetail(cody.channel, cody.id)">
+          <img ng-src="{{channel_intro.mediaUrl + cody.image}}">
+        </a>
+      </div>
+      <div class="item tabs tabs-secondary tabs-icon-left item-footer">
+        <div class="tab-item">
+        	{{cody.title}}
+        </div>
+      </div>
+    </div>
+    </ion-content>
+</ion-view>

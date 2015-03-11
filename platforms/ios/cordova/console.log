@@ -35,3 +35,857 @@
 2015-01-30 22:37:50.544 radio[83132:5944672] Resetting plugins due to page load.
 2015-01-30 22:37:50.674 radio[83132:5944672] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/F2C0E295-4145-4737-B6E8-D22DC544B502/radio.app/www/index.html#/login
 2015-01-30 22:38:01.335 radio[83132:5944817] Terminating since there is no system app.
+2015-02-02 16:51:00.425 radio[92578:6559330] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Data/Application/182E55F1-E12A-4C84-AF30-0F3DFC15440C/Library/Cookies/Cookies.binarycookies
+2015-02-02 16:51:00.505 radio[92578:6559330] Multi-tasking -> Device: YES, App: YES
+2015-02-02 16:51:00.529 radio[92578:6559330] Unlimited access to network resources
+2015-02-02 16:51:00.911 radio[92578:6559330] [CDVTimer][keyboard] 0.055015ms
+2015-02-02 16:51:00.912 radio[92578:6559330] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-02 16:51:00.912 radio[92578:6559330] [CDVTimer][statusbar] 0.147045ms
+2015-02-02 16:51:00.912 radio[92578:6559330] [CDVTimer][TotalPluginStartup] 0.545979ms
+2015-02-02 16:51:01.112 radio[92578:6559330] Resetting plugins due to page load.
+2015-02-02 16:51:01.362 radio[92578:6559330] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/FA362DAC-F573-463C-8896-455BA6D61F79/radio.app/www/index.html#/login
+2015-02-02 16:51:06.042 radio[92578:6559330] response [object Object]
+2015-02-02 16:51:07.953 radio[92578:6559330] success data [object Object],[object Object]
+2015-02-02 16:51:07.953 radio[92578:6559330] response [object Object],[object Object]
+2015-02-02 16:51:18.836 radio[92578:6559330] logout
+2015-02-02 16:52:27.772 radio[92578:6560762] Communications error: <OS_xpc_error: <error: 0x2e145f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2e1483c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-02-04 02:03:52.562 radio[97211:7084480] Multi-tasking -> Device: YES, App: YES
+2015-02-04 02:03:52.585 radio[97211:7084480] Unlimited access to network resources
+2015-02-04 02:03:53.010 radio[97211:7084480] [CDVTimer][keyboard] 0.073969ms
+2015-02-04 02:03:53.010 radio[97211:7084480] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-04 02:03:53.010 radio[97211:7084480] [CDVTimer][statusbar] 0.108004ms
+2015-02-04 02:03:53.010 radio[97211:7084480] [CDVTimer][TotalPluginStartup] 0.469029ms
+2015-02-04 02:03:53.156 radio[97211:7084480] Resetting plugins due to page load.
+2015-02-04 02:03:53.472 radio[97211:7084480] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/B1F890A9-D79B-4552-BF4A-3B7D5E985ED3/radio.app/www/index.html#/login
+2015-02-04 02:03:57.908 radio[97211:7084480] response [object Object]
+2015-02-04 02:03:58.992 radio[97211:7084480] data [object Object]
+2015-02-04 02:03:59.346 radio[97211:7084480] $scope.shop.products[i].id 1
+2015-02-04 02:03:59.346 radio[97211:7084480] $scope.shop.products[i].id 2
+2015-02-04 02:03:59.346 radio[97211:7084480] $scope.shop.products[i].id 3
+2015-02-04 02:04:00.542 radio[97211:7084480] data.status false
+2015-02-04 02:04:04.032 radio[97211:7084480] data.status false
+2015-02-04 02:19:49.413 radio[97211:7093628] Communications error: <OS_xpc_error: <error: 0x2dfb5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2dfb83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-02-04 19:03:00.297 radio[99434:7311264] Multi-tasking -> Device: YES, App: YES
+2015-02-04 19:03:00.314 radio[99434:7311264] Unlimited access to network resources
+2015-02-04 19:03:00.751 radio[99434:7311264] [CDVTimer][keyboard] 0.066996ms
+2015-02-04 19:03:00.751 radio[99434:7311264] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-04 19:03:00.751 radio[99434:7311264] [CDVTimer][statusbar] 0.099003ms
+2015-02-04 19:03:00.751 radio[99434:7311264] [CDVTimer][TotalPluginStartup] 0.431001ms
+2015-02-04 19:03:00.861 radio[99434:7311264] Resetting plugins due to page load.
+2015-02-04 19:03:01.127 radio[99434:7311264] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/BF49A70E-2924-4EC7-87F3-219C22A0B17C/radio.app/www/index.html#/login
+2015-02-11 05:05:06.321 radio[14014:8740661] Multi-tasking -> Device: YES, App: YES
+2015-02-11 05:05:06.340 radio[14014:8740661] Unlimited access to network resources
+2015-02-11 05:05:06.700 radio[14014:8740661] [CDVTimer][keyboard] 0.056028ms
+2015-02-11 05:05:06.700 radio[14014:8740661] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-11 05:05:06.700 radio[14014:8740661] [CDVTimer][statusbar] 0.118971ms
+2015-02-11 05:05:06.700 radio[14014:8740661] [CDVTimer][TotalPluginStartup] 0.404954ms
+2015-02-11 05:05:06.826 radio[14014:8740661] Resetting plugins due to page load.
+2015-02-11 05:05:07.200 radio[14014:8740661] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/D02972F7-D3C5-4FF1-ABFA-7F49E8489285/radio.app/www/index.html
+2015-02-11 05:05:10.752 radio[14014:8740746] Communications error: <OS_xpc_error: <error: 0x2e1c5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2e1c83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-02-11 05:05:11.321 radio[14014:8740661] response.data in RadioAuth [object Object]
+2015-02-11 05:05:11.371 radio[14014:8740661] cartinit data!! [object Object]
+2015-02-11 05:06:29.369 radio[14014:8740661] Cart.data.id [object Object]
+2015-02-11 05:06:37.608 radio[14014:8740661] Cart.data.id [object Object]
+2015-02-11 05:06:46.678 radio[14014:8740661] Cart.data.id [object Object]
+2015-02-11 05:06:51.454 radio[14014:8740661] Cart.data.id [object Object]
+2015-02-11 05:06:54.764 radio[14014:8740661] Cart.data.id [object Object]
+2015-02-12 17:23:45.320 radio[19400:9149597] Multi-tasking -> Device: YES, App: YES
+2015-02-12 17:23:45.342 radio[19400:9149597] Unlimited access to network resources
+2015-02-12 17:23:45.826 radio[19400:9149597] [CDVTimer][keyboard] 0.051975ms
+2015-02-12 17:23:45.826 radio[19400:9149597] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-12 17:23:45.826 radio[19400:9149597] [CDVTimer][statusbar] 0.097990ms
+2015-02-12 17:23:45.826 radio[19400:9149597] [CDVTimer][TotalPluginStartup] 0.379026ms
+2015-02-12 17:23:45.980 radio[19400:9149597] Resetting plugins due to page load.
+2015-02-12 17:23:46.336 radio[19400:9149597] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/9550BBCA-DDD6-417D-84E5-FB2027D9EC36/radio.app/www/index.html
+2015-02-12 17:25:37.608 radio[20033:9151796] Multi-tasking -> Device: YES, App: YES
+2015-02-12 17:25:37.616 radio[20033:9151796] Unlimited access to network resources
+2015-02-12 17:25:37.720 radio[20033:9151796] [CDVTimer][keyboard] 0.052989ms
+2015-02-12 17:25:37.720 radio[20033:9151796] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-12 17:25:37.720 radio[20033:9151796] [CDVTimer][statusbar] 0.160992ms
+2015-02-12 17:25:37.720 radio[20033:9151796] [CDVTimer][TotalPluginStartup] 0.513971ms
+2015-02-12 17:25:37.846 radio[20033:9151796] Resetting plugins due to page load.
+2015-02-12 17:25:38.077 radio[20033:9151796] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/DBF09E68-BC70-4CEB-8478-4DDAE819D78D/radio.app/www/index.html
+2015-02-12 17:25:48.499 radio[20033:9151796] data 
+2015-02-12 17:25:48.499 radio[20033:9151796] Login Deny
+2015-02-12 17:26:11.858 radio[20033:9151796] data [object Object]
+2015-02-12 17:26:11.858 radio[20033:9151796] Login Deny
+2015-02-12 17:26:45.138 radio[20359:9153328] Multi-tasking -> Device: YES, App: YES
+2015-02-12 17:26:45.143 radio[20359:9153328] Unlimited access to network resources
+2015-02-12 17:26:45.225 radio[20359:9153328] [CDVTimer][keyboard] 0.051975ms
+2015-02-12 17:26:45.225 radio[20359:9153328] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-12 17:26:45.225 radio[20359:9153328] [CDVTimer][statusbar] 0.108004ms
+2015-02-12 17:26:45.225 radio[20359:9153328] [CDVTimer][TotalPluginStartup] 0.506043ms
+2015-02-12 17:26:45.316 radio[20359:9153328] Resetting plugins due to page load.
+2015-02-12 17:26:45.493 radio[20359:9153328] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/C72B6297-961D-45F0-8AD8-06506EBB28D6/radio.app/www/index.html
+2015-02-14 04:45:07.543 radio[26795:9611291] Multi-tasking -> Device: YES, App: YES
+2015-02-14 04:45:07.566 radio[26795:9611291] Unlimited access to network resources
+2015-02-14 04:45:07.933 radio[26795:9611291] [CDVTimer][keyboard] 0.056982ms
+2015-02-14 04:45:07.933 radio[26795:9611291] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-14 04:45:07.933 radio[26795:9611291] [CDVTimer][statusbar] 0.152051ms
+2015-02-14 04:45:07.933 radio[26795:9611291] [CDVTimer][TotalPluginStartup] 0.454009ms
+2015-02-14 04:45:08.190 radio[26795:9611291] Resetting plugins due to page load.
+2015-02-14 04:45:08.491 radio[26795:9611291] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/A02E6959-238E-4426-B5DA-266C4FF047F0/radio.app/www/index.html
+2015-02-14 04:45:16.062 radio[26795:9611291] data 
+2015-02-14 04:45:16.062 radio[26795:9611291] Login Deny
+2015-02-14 04:46:22.719 radio[27159:9613060] Multi-tasking -> Device: YES, App: YES
+2015-02-14 04:46:22.725 radio[27159:9613060] Unlimited access to network resources
+2015-02-14 04:46:22.816 radio[27159:9613060] [CDVTimer][keyboard] 0.048995ms
+2015-02-14 04:46:22.816 radio[27159:9613060] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-14 04:46:22.816 radio[27159:9613060] [CDVTimer][statusbar] 0.099003ms
+2015-02-14 04:46:22.817 radio[27159:9613060] [CDVTimer][TotalPluginStartup] 0.379980ms
+2015-02-14 04:46:22.857 radio[27159:9613060] Resetting plugins due to page load.
+2015-02-14 04:46:23.034 radio[27159:9613060] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/95D63442-E616-4F2E-A747-2A9D854E4190/radio.app/www/index.html
+2015-02-14 04:46:29.626 radio[27159:9613060] cart init! [object Object]
+2015-02-14 04:47:13.470 radio[27460:9614250] Multi-tasking -> Device: YES, App: YES
+2015-02-14 04:47:13.476 radio[27460:9614250] Unlimited access to network resources
+2015-02-14 04:47:13.593 radio[27460:9614250] [CDVTimer][keyboard] 0.077009ms
+2015-02-14 04:47:13.593 radio[27460:9614250] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-14 04:47:13.593 radio[27460:9614250] [CDVTimer][statusbar] 0.190020ms
+2015-02-14 04:47:13.594 radio[27460:9614250] [CDVTimer][TotalPluginStartup] 0.674963ms
+2015-02-14 04:47:13.707 radio[27460:9614250] Resetting plugins due to page load.
+2015-02-14 04:47:13.923 radio[27460:9614250] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/40FF03B0-AAA7-496D-BE6A-E39F37650068/radio.app/www/index.html
+2015-02-14 04:47:19.993 radio[27460:9614250] cart init! [object Object]
+2015-02-14 04:47:40.521 radio[27460:9614250] clicked!
+2015-02-14 04:47:54.603 radio[27460:9614250] clicked!
+2015-02-14 04:51:09.122 radio[27767:9616980] Multi-tasking -> Device: YES, App: YES
+2015-02-14 04:51:09.130 radio[27767:9616980] Unlimited access to network resources
+2015-02-14 04:51:09.258 radio[27767:9616980] [CDVTimer][keyboard] 0.058949ms
+2015-02-14 04:51:09.258 radio[27767:9616980] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2015-02-14 04:51:09.258 radio[27767:9616980] [CDVTimer][statusbar] 0.171006ms
+2015-02-14 04:51:09.259 radio[27767:9616980] [CDVTimer][TotalPluginStartup] 0.572026ms
+2015-02-14 04:51:09.407 radio[27767:9616980] Resetting plugins due to page load.
+2015-02-14 04:51:09.638 radio[27767:9616980] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/F7032A6B-BAFC-4D53-B07A-DF6D7E39C119/radio.app/www/index.html
+2015-02-14 04:51:13.723 radio[27767:9616980] cart init! [object Object]
+2015-02-16 21:09:38.443 radio[3344:34826] Multi-tasking -> Device: YES, App: YES
+2015-02-16 21:09:38.462 radio[3344:34826] Unlimited access to network resources
+2015-02-16 21:09:38.819 radio[3344:34826] [CDVTimer][keyboard] 0.048995ms
+2015-02-16 21:09:38.819 radio[3344:34826] [CDVTimer][TotalPluginStartup] 0.189006ms
+2015-02-16 21:09:38.945 radio[3344:34826] Resetting plugins due to page load.
+2015-02-16 21:09:39.223 radio[3344:34826] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/6FD2D317-CE45-4A30-9CA8-3E6A96A55389/radio.app/www/index.html
+2015-02-16 21:09:43.850 radio[3344:34826] cart init! [object Object]
+2015-02-16 21:09:45.030 radio[3344:34826] response.data [object Object]
+2015-02-16 21:09:45.686 radio[3344:34826] scroll
+2015-02-16 21:09:45.701 radio[3344:34826] scroll
+2015-02-16 21:09:45.718 radio[3344:34826] scroll
+2015-02-16 21:09:45.738 radio[3344:34826] scroll
+2015-02-16 21:09:45.752 radio[3344:34826] scroll
+2015-02-16 21:09:45.807 radio[3344:34826] scroll
+2015-02-16 21:09:45.819 radio[3344:34826] scroll
+2015-02-16 21:09:45.829 radio[3344:34826] scroll
+2015-02-16 21:09:45.840 radio[3344:34826] scroll
+2015-02-16 21:09:45.855 radio[3344:34826] scroll
+2015-02-16 21:09:45.870 radio[3344:34826] scroll
+2015-02-16 21:09:45.887 radio[3344:34826] scroll
+2015-02-16 21:09:45.904 radio[3344:34826] scroll
+2015-02-16 21:09:45.920 radio[3344:34826] scroll
+2015-02-16 21:09:45.938 radio[3344:34826] scroll
+2015-02-16 21:09:45.955 radio[3344:34826] scroll
+2015-02-16 21:09:46.356 radio[3344:34826] scroll
+2015-02-16 21:09:46.374 radio[3344:34826] scroll
+2015-02-16 21:09:46.390 radio[3344:34826] scroll
+2015-02-16 21:09:46.406 radio[3344:34826] scroll
+2015-02-16 21:09:46.425 radio[3344:34826] scroll
+2015-02-16 21:09:46.441 radio[3344:34826] scroll
+2015-02-16 21:09:46.459 radio[3344:34826] scroll
+2015-02-16 21:09:46.469 radio[3344:34826] scroll
+2015-02-16 21:09:46.482 radio[3344:34826] scroll
+2015-02-16 21:09:46.500 radio[3344:34826] scroll
+2015-02-16 21:09:46.517 radio[3344:34826] scroll
+2015-02-16 21:09:46.534 radio[3344:34826] scroll
+2015-02-16 21:09:46.550 radio[3344:34826] scroll
+2015-02-16 21:09:46.567 radio[3344:34826] scroll
+2015-02-16 21:09:46.598 radio[3344:34826] scroll
+2015-02-16 21:09:46.616 radio[3344:34826] scroll
+2015-02-16 21:09:46.633 radio[3344:34826] scroll
+2015-02-16 21:09:46.650 radio[3344:34826] scroll
+2015-02-16 21:09:46.666 radio[3344:34826] scroll
+2015-02-16 21:09:46.682 radio[3344:34826] scroll
+2015-02-16 21:09:46.699 radio[3344:34826] scroll
+2015-02-16 21:09:46.717 radio[3344:34826] scroll
+2015-02-16 21:09:46.733 radio[3344:34826] scroll
+2015-02-16 21:09:46.750 radio[3344:34826] scroll
+2015-02-16 21:09:46.766 radio[3344:34826] scroll
+2015-02-16 21:09:46.783 radio[3344:34826] scroll
+2015-02-16 21:09:46.869 radio[3344:34826] scroll
+2015-02-16 21:09:46.886 radio[3344:34826] scroll
+2015-02-16 21:09:46.903 radio[3344:34826] scroll
+2015-02-16 21:09:46.921 radio[3344:34826] scroll
+2015-02-16 21:09:47.057 radio[3344:34826] scroll
+2015-02-16 21:09:47.074 radio[3344:34826] scroll
+2015-02-16 21:09:47.091 radio[3344:34826] scroll
+2015-02-16 21:09:47.107 radio[3344:34826] scroll
+2015-02-16 21:09:47.123 radio[3344:34826] scroll
+2015-02-16 21:09:47.141 radio[3344:34826] scroll
+2015-02-16 21:09:47.157 radio[3344:34826] scroll
+2015-02-16 21:09:47.202 radio[3344:34826] scroll
+2015-02-16 21:09:47.219 radio[3344:34826] scroll
+2015-02-16 21:09:47.236 radio[3344:34826] scroll
+2015-02-16 21:09:47.252 radio[3344:34826] scroll
+2015-02-16 21:09:47.268 radio[3344:34826] scroll
+2015-02-16 21:09:47.286 radio[3344:34826] scroll
+2015-02-16 21:09:47.303 radio[3344:34826] scroll
+2015-02-16 21:09:47.318 radio[3344:34826] scroll
+2015-02-16 21:09:47.335 radio[3344:34826] scroll
+2015-02-16 21:09:47.351 radio[3344:34826] scroll
+2015-02-16 21:09:47.368 radio[3344:34826] scroll
+2015-02-16 21:09:47.386 radio[3344:34826] scroll
+2015-02-16 21:09:47.402 radio[3344:34826] scroll
+2015-02-16 21:09:47.419 radio[3344:34826] scroll
+2015-02-16 21:09:47.436 radio[3344:34826] scroll
+2015-02-16 21:09:47.453 radio[3344:34826] scroll
+2015-02-16 21:09:47.469 radio[3344:34826] scroll
+2015-02-16 21:09:47.486 radio[3344:34826] scroll
+2015-02-16 21:09:47.502 radio[3344:34826] scroll
+2015-02-16 21:09:47.520 radio[3344:34826] scroll
+2015-02-16 21:09:47.537 radio[3344:34826] scroll
+2015-02-16 21:09:47.553 radio[3344:34826] scroll
+2015-02-16 21:09:47.569 radio[3344:34826] scroll
+2015-02-16 21:09:47.586 radio[3344:34826] scroll
+2015-02-16 21:09:47.602 radio[3344:34826] scroll
+2015-02-16 21:09:47.619 radio[3344:34826] scroll
+2015-02-16 21:09:47.636 radio[3344:34826] scroll
+2015-02-16 21:09:47.653 radio[3344:34826] scroll
+2015-02-16 21:09:47.669 radio[3344:34826] scroll
+2015-02-16 21:09:47.685 radio[3344:34826] scroll
+2015-02-16 21:09:47.703 radio[3344:34826] scroll
+2015-02-16 21:09:47.719 radio[3344:34826] scroll
+2015-02-16 21:09:47.735 radio[3344:34826] scroll
+2015-02-16 21:09:47.752 radio[3344:34826] scroll
+2015-02-16 21:09:47.769 radio[3344:34826] scroll
+2015-02-16 21:09:47.786 radio[3344:34826] scroll
+2015-02-16 21:09:47.944 radio[3344:34826] end scroll
+2015-02-16 21:09:47.945 radio[3344:34826] scroll
+2015-02-16 21:09:48.804 radio[3344:34826] end scroll
+2015-02-16 21:09:48.805 radio[3344:34826] scroll
+2015-02-16 21:09:49.754 radio[3344:34826] end scroll
+2015-02-16 21:09:49.755 radio[3344:34826] scroll
+2015-02-16 21:10:07.307 radio[3701:36104] Multi-tasking -> Device: YES, App: YES
+2015-02-16 21:10:07.315 radio[3701:36104] Unlimited access to network resources
+2015-02-16 21:10:07.430 radio[3701:36104] [CDVTimer][keyboard] 0.051022ms
+2015-02-16 21:10:07.430 radio[3701:36104] [CDVTimer][TotalPluginStartup] 0.199974ms
+2015-02-16 21:10:07.478 radio[3701:36104] Resetting plugins due to page load.
+2015-02-16 21:10:07.680 radio[3701:36104] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/24564440-535B-4791-9D74-8B4BD9B707EA/radio.app/www/index.html
+2015-02-16 21:10:12.230 radio[3701:36104] cart init! [object Object]
+2015-02-16 21:10:13.169 radio[3701:36104] response.data [object Object]
+2015-02-16 21:10:14.079 radio[3701:36104] scroll
+2015-02-16 21:10:14.097 radio[3701:36104] scroll
+2015-02-16 21:10:14.109 radio[3701:36104] scroll
+2015-02-16 21:10:14.127 radio[3701:36104] scroll
+2015-02-16 21:10:14.143 radio[3701:36104] scroll
+2015-02-16 21:10:14.161 radio[3701:36104] scroll
+2015-02-16 21:10:14.177 radio[3701:36104] scroll
+2015-02-16 21:10:14.194 radio[3701:36104] scroll
+2015-02-16 21:10:14.211 radio[3701:36104] scroll
+2015-02-16 21:10:14.228 radio[3701:36104] scroll
+2015-02-16 21:10:14.434 radio[3701:36104] end scroll
+2015-02-16 21:10:14.434 radio[3701:36104] scroll
+2015-02-16 21:10:15.050 radio[3701:36104] end scroll
+2015-02-16 21:10:15.050 radio[3701:36104] scroll
+2015-02-16 21:10:15.674 radio[3701:36104] end scroll
+2015-02-16 21:10:15.674 radio[3701:36104] scroll
+2015-02-16 21:10:17.274 radio[3701:36104] end scroll
+2015-02-16 21:10:17.274 radio[3701:36104] scroll
+2015-02-16 21:10:17.850 radio[3701:36104] end scroll
+2015-02-16 21:10:17.850 radio[3701:36104] scroll
+2015-02-16 21:10:18.860 radio[3701:36104] end scroll
+2015-02-16 21:10:18.860 radio[3701:36104] scroll
+2015-02-16 21:10:19.474 radio[3701:36104] end scroll
+2015-02-16 21:10:19.474 radio[3701:36104] scroll
+2015-02-16 21:10:20.454 radio[3701:36104] clicked!
+2015-02-16 21:10:20.456 radio[3701:36104] end scroll
+2015-02-16 21:10:20.456 radio[3701:36104] scroll
+2015-02-16 21:10:22.262 radio[3701:36104] scroll
+2015-02-16 21:10:22.335 radio[3701:36104] scroll
+2015-02-16 21:10:22.346 radio[3701:36104] scroll
+2015-02-16 21:10:22.487 radio[3701:36104] scroll
+2015-02-16 21:10:22.505 radio[3701:36104] scroll
+2015-02-16 21:10:22.523 radio[3701:36104] scroll
+2015-02-16 21:10:22.546 radio[3701:36104] scroll
+2015-02-16 21:10:22.560 radio[3701:36104] scroll
+2015-02-16 21:10:22.577 radio[3701:36104] scroll
+2015-02-16 21:10:22.593 radio[3701:36104] scroll
+2015-02-16 21:10:22.610 radio[3701:36104] scroll
+2015-02-16 21:10:22.628 radio[3701:36104] scroll
+2015-02-16 21:10:22.644 radio[3701:36104] scroll
+2015-02-16 21:10:22.659 radio[3701:36104] scroll
+2015-02-16 21:10:22.677 radio[3701:36104] scroll
+2015-02-16 21:10:22.693 radio[3701:36104] scroll
+2015-02-16 21:10:22.711 radio[3701:36104] scroll
+2015-02-16 21:10:22.726 radio[3701:36104] scroll
+2015-02-16 21:10:22.743 radio[3701:36104] scroll
+2015-02-16 21:10:22.760 radio[3701:36104] scroll
+2015-02-16 21:10:22.777 radio[3701:36104] scroll
+2015-02-16 21:10:22.793 radio[3701:36104] scroll
+2015-02-16 21:10:22.809 radio[3701:36104] scroll
+2015-02-16 21:10:22.827 radio[3701:36104] scroll
+2015-02-16 21:10:22.842 radio[3701:36104] scroll
+2015-02-16 21:10:22.859 radio[3701:36104] scroll
+2015-02-16 21:10:22.877 radio[3701:36104] scroll
+2015-02-16 21:10:22.893 radio[3701:36104] scroll
+2015-02-16 21:10:22.910 radio[3701:36104] scroll
+2015-02-16 21:10:22.927 radio[3701:36104] scroll
+2015-02-16 21:10:22.943 radio[3701:36104] scroll
+2015-02-16 21:10:22.961 radio[3701:36104] scroll
+2015-02-16 21:10:22.977 radio[3701:36104] scroll
+2015-02-16 21:10:22.993 radio[3701:36104] scroll
+2015-02-16 21:10:23.127 radio[3701:36104] end scroll
+2015-02-16 21:10:23.128 radio[3701:36104] scroll
+2015-02-16 21:10:23.738 radio[3701:36104] end scroll
+2015-02-16 21:10:23.738 radio[3701:36104] scroll
+2015-02-16 21:10:24.746 radio[3701:36104] end scroll
+2015-02-16 21:10:24.746 radio[3701:36104] scroll
+2015-02-16 21:10:25.923 radio[3701:36104] scroll
+2015-02-16 21:10:25.945 radio[3701:36104] scroll
+2015-02-16 21:10:25.956 radio[3701:36104] scroll
+2015-02-16 21:10:25.975 radio[3701:36104] scroll
+2015-02-16 21:10:25.992 radio[3701:36104] scroll
+2015-02-16 21:10:26.135 radio[3701:36104] scroll
+2015-02-16 21:10:26.151 radio[3701:36104] end scroll
+2015-02-16 21:10:26.152 radio[3701:36104] scroll
+2015-02-16 21:10:26.722 radio[3701:36104] scroll
+2015-02-16 21:10:26.742 radio[3701:36104] scroll
+2015-02-16 21:10:26.755 radio[3701:36104] scroll
+2015-02-16 21:10:26.774 radio[3701:36104] scroll
+2015-02-16 21:10:26.791 radio[3701:36104] scroll
+2015-02-16 21:10:26.808 radio[3701:36104] scroll
+2015-02-16 21:10:26.827 radio[3701:36104] scroll
+2015-02-16 21:10:26.960 radio[3701:36104] end scroll
+2015-02-16 21:10:26.961 radio[3701:36104] scroll
+2015-02-16 21:10:27.473 radio[3701:36104] scroll
+2015-02-16 21:10:27.489 radio[3701:36104] scroll
+2015-02-16 21:10:27.506 radio[3701:36104] scroll
+2015-02-16 21:10:27.524 radio[3701:36104] scroll
+2015-02-16 21:10:27.542 radio[3701:36104] scroll
+2015-02-16 21:10:27.559 radio[3701:36104] scroll
+2015-02-16 21:10:27.578 radio[3701:36104] scroll
+2015-02-16 21:10:27.595 radio[3701:36104] scroll
+2015-02-16 21:10:27.719 radio[3701:36104] end scroll
+2015-02-16 21:10:27.720 radio[3701:36104] scroll
+2015-02-28 05:11:31.856 radio[5643:400484] Multi-tasking -> Device: YES, App: YES
+2015-02-28 05:11:31.887 radio[5643:400484] Unlimited access to network resources
+2015-02-28 05:11:32.481 radio[5643:400484] [CDVTimer][keyboard] 0.083983ms
+2015-02-28 05:11:32.481 radio[5643:400484] [CDVTimer][TotalPluginStartup] 0.335991ms
+2015-02-28 05:11:32.737 radio[5643:400484] Resetting plugins due to page load.
+2015-02-28 05:11:33.080 radio[5643:400484] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/6CB5D8D3-5FEE-4958-A2F5-BB10470E2321/radio.app/www/index.html
+2015-02-28 05:11:36.995 radio[5643:400484] User Data [object Object]
+2015-02-28 05:11:41.796 radio[5643:400484] ChannelCtrl!
+2015-02-28 05:11:48.622 radio[5643:400484] Clicked!!
+2015-02-28 05:11:48.623 radio[5643:400484] $location.absUrl(); file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/6CB5D8D3-5FEE-4958-A2F5-BB10470E2321/radio.app/www/index.html#/tabs/main-detail-channel/1
+2015-02-28 05:11:48.623 radio[5643:400484] state! [object Object]
+2015-02-28 05:11:48.623 radio[5643:400484] Clicked!!
+2015-02-28 05:11:48.693 radio[5643:400484] response [object Object]
+2015-02-28 05:11:48.693 radio[5643:400484] data detail-channel [object Object],[object Object]
+2015-02-28 05:11:57.552 radio[5643:400484] $location.absUrl(); file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/6CB5D8D3-5FEE-4958-A2F5-BB10470E2321/radio.app/www/index.html#/tabs/detail-channel/3
+2015-02-28 05:11:57.552 radio[5643:400484] state! [object Object]
+2015-02-28 05:11:57.552 radio[5643:400484] response [object Object]
+2015-02-28 05:11:57.552 radio[5643:400484] data detail-channel [object Object],[object Object]
+2015-02-28 05:11:59.314 radio[5643:400484] UserDataRefresh
+2015-02-28 05:13:17.282 radio[5643:400484] ChannelListUpdate
+2015-02-28 05:13:22.389 radio[5643:400484] ChannelListUpdate
+2015-02-28 05:13:41.042 radio[5643:400484] UserDataRefresh
+2015-02-28 05:14:40.519 radio[6032:402883] Multi-tasking -> Device: YES, App: YES
+2015-02-28 05:14:40.564 radio[6032:402883] Unlimited access to network resources
+2015-02-28 05:14:41.268 radio[6032:402883] [CDVTimer][keyboard] 0.156999ms
+2015-02-28 05:14:41.268 radio[6032:402883] [CDVTimer][TotalPluginStartup] 1.024008ms
+2015-02-28 05:14:42.046 radio[6032:402883] Resetting plugins due to page load.
+2015-02-28 05:14:43.841 radio[6032:402883] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/A654EB6A-2CA5-45E4-8A55-2E056327460B/radio.app/www/index.html
+2015-02-28 05:14:43.933 radio[6032:402883] THREAD WARNING: ['Device'] took '21.337158' ms. Plugin should use a background thread.
+2015-02-28 05:14:48.777 radio[6032:402883] User Data [object Object]
+2015-02-28 05:14:58.562 radio[6032:402883] ChannelCtrl!
+2015-02-28 05:15:04.101 radio[6032:402883] ChannelListUpdate
+2015-02-28 05:15:06.831 radio[6032:402883] UserDataRefresh
+2015-02-28 05:15:11.144 radio[6032:402883] UserDataRefresh
+2015-02-28 05:16:12.475 radio[6032:402883] Clicked!!
+2015-02-28 05:16:12.475 radio[6032:402883] $location.absUrl(); file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/7DED04F2-7D91-46BE-BC91-23E95AE0AB77/data/Containers/Bundle/Application/A654EB6A-2CA5-45E4-8A55-2E056327460B/radio.app/www/index.html#/tabs/main-detail-channel/2
+2015-02-28 05:16:12.475 radio[6032:402883] state! [object Object]
+2015-02-28 05:16:12.584 radio[6032:402883] response [object Object]
+2015-02-28 05:16:12.584 radio[6032:402883] data detail-channel [object Object],[object Object]
+2015-03-03 21:25:17.958 radio[11758:1019314] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Data/Application/0EC978F7-7A8B-456A-AADE-04489C3F27D8/Library/Cookies/Cookies.binarycookies
+2015-03-03 21:25:18.038 radio[11758:1019314] Multi-tasking -> Device: YES, App: YES
+2015-03-03 21:25:18.057 radio[11758:1019314] Unlimited access to network resources
+2015-03-03 21:25:18.434 radio[11758:1019314] [CDVTimer][keyboard] 0.056982ms
+2015-03-03 21:25:18.434 radio[11758:1019314] [CDVTimer][TotalPluginStartup] 0.208020ms
+2015-03-03 21:25:19.143 radio[11758:1019314] Resetting plugins due to page load.
+2015-03-03 21:25:19.429 radio[11758:1019314] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/49A4BFE1-3015-42DF-9363-17094E92AD9F/radio.app/www/index.html
+2015-03-03 21:25:26.354 radio[11758:1019314] User Data [object Object]
+2015-03-03 21:25:26.374 radio[11758:1019314] THREAD WARNING: ['Keyboard'] took '20.031006' ms. Plugin should use a background thread.
+2015-03-03 23:24:27.967 radio[12752:1080198] Multi-tasking -> Device: YES, App: YES
+2015-03-03 23:24:27.986 radio[12752:1080198] Unlimited access to network resources
+2015-03-03 23:24:28.370 radio[12752:1080198] [CDVTimer][keyboard] 0.057042ms
+2015-03-03 23:24:28.370 radio[12752:1080198] [CDVTimer][TotalPluginStartup] 0.216007ms
+2015-03-03 23:24:28.665 radio[12752:1080198] Resetting plugins due to page load.
+2015-03-03 23:24:29.049 radio[12752:1080198] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/AC02C2DA-815E-43AD-9015-EF50EC41854E/radio.app/www/index.html
+2015-03-03 23:57:53.280 radio[12752:1080198] User Data [object Object]
+2015-03-04 00:11:21.434 radio[13417:1103592] Multi-tasking -> Device: YES, App: YES
+2015-03-04 00:11:21.457 radio[13417:1103592] Unlimited access to network resources
+2015-03-04 00:11:21.735 radio[13417:1103592] [CDVTimer][keyboard] 0.072956ms
+2015-03-04 00:11:21.735 radio[13417:1103592] [CDVTimer][TotalPluginStartup] 0.259995ms
+2015-03-04 00:11:21.953 radio[13417:1103592] Resetting plugins due to page load.
+2015-03-04 00:11:22.215 radio[13417:1103592] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/5AD72ECF-3599-4AFA-98F1-71F9CE2867E1/radio.app/www/index.html
+2015-03-04 00:11:28.961 radio[13417:1103592] User Data [object Object]
+2015-03-04 00:11:46.216 radio[13417:1103592] ChannelCtrl!
+2015-03-04 00:11:49.025 radio[13417:1103592] data in shop [object Object]
+2015-03-04 00:12:18.830 radio[13417:1103592] UserDataRefresh
+2015-03-04 00:12:46.718 radio[13417:1103592] UserDataRefresh
+2015-03-04 00:14:14.175 radio[13417:1103592] clicked!
+2015-03-04 00:14:20.646 radio[13417:1103592] clicked!
+2015-03-04 00:15:02.708 radio[13417:1103592] clicked!
+2015-03-04 00:15:14.763 radio[13417:1103592] clicked!
+2015-03-04 00:15:49.266 radio[13417:1103592] clicked!
+2015-03-04 01:44:18.963 radio[14266:1147101] Multi-tasking -> Device: YES, App: YES
+2015-03-04 01:44:18.986 radio[14266:1147101] Unlimited access to network resources
+2015-03-04 01:44:19.344 radio[14266:1147101] [CDVTimer][keyboard] 0.083983ms
+2015-03-04 01:44:19.344 radio[14266:1147101] [CDVTimer][TotalPluginStartup] 0.330031ms
+2015-03-04 01:44:19.621 radio[14266:1147101] Resetting plugins due to page load.
+2015-03-04 01:44:19.892 radio[14266:1147101] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/851082C5-16B0-4528-8184-A9A7EC7AEF85/radio.app/www/index.html
+2015-03-04 01:44:24.021 radio[14266:1147101] User Data [object Object]
+2015-03-04 01:44:27.558 radio[14266:1147101] data in shop [object Object]
+2015-03-04 01:44:28.482 radio[14266:1147101] clicked!
+2015-03-04 01:45:51.023 radio[14778:1148819] Multi-tasking -> Device: YES, App: YES
+2015-03-04 01:45:51.031 radio[14778:1148819] Unlimited access to network resources
+2015-03-04 01:45:51.237 radio[14778:1148819] [CDVTimer][keyboard] 0.055969ms
+2015-03-04 01:45:51.237 radio[14778:1148819] [CDVTimer][TotalPluginStartup] 0.253975ms
+2015-03-04 01:45:51.354 radio[14778:1148819] Resetting plugins due to page load.
+2015-03-04 01:45:51.578 radio[14778:1148819] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/F69E5053-C11E-42E4-95AF-7AA0371D9B52/radio.app/www/index.html
+2015-03-04 01:45:57.370 radio[14778:1148819] User Data [object Object]
+2015-03-04 01:46:00.622 radio[14778:1148819] data in shop [object Object]
+2015-03-04 01:46:01.186 radio[14778:1148819] clicked!
+2015-03-04 01:58:36.323 radio[15334:1155946] Multi-tasking -> Device: YES, App: YES
+2015-03-04 01:58:36.332 radio[15334:1155946] Unlimited access to network resources
+2015-03-04 01:58:36.600 radio[15334:1155946] [CDVTimer][keyboard] 0.060976ms
+2015-03-04 01:58:36.601 radio[15334:1155946] [CDVTimer][TotalPluginStartup] 0.223994ms
+2015-03-04 01:58:36.778 radio[15334:1155946] Resetting plugins due to page load.
+2015-03-04 01:58:36.998 radio[15334:1155946] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/D1EDFC6A-9757-4407-8398-52DD87AFD9A2/radio.app/www/index.html
+2015-03-04 01:58:42.004 radio[15334:1155946] User Data [object Object]
+2015-03-04 01:58:45.713 radio[15334:1155946] data in shop [object Object]
+2015-03-04 01:58:46.408 radio[15334:1155946] clicked!
+2015-03-04 01:59:34.209 radio[15846:1157319] Multi-tasking -> Device: YES, App: YES
+2015-03-04 01:59:34.217 radio[15846:1157319] Unlimited access to network resources
+2015-03-04 01:59:34.465 radio[15846:1157319] [CDVTimer][keyboard] 0.054002ms
+2015-03-04 01:59:34.465 radio[15846:1157319] [CDVTimer][TotalPluginStartup] 0.204027ms
+2015-03-04 01:59:34.590 radio[15846:1157319] Resetting plugins due to page load.
+2015-03-04 01:59:34.840 radio[15846:1157319] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/6860E793-F904-4574-B0E8-7C80EC20B7EF/radio.app/www/index.html
+2015-03-04 01:59:39.826 radio[15846:1157319] User Data [object Object]
+2015-03-04 01:59:43.236 radio[15846:1157319] data in shop [object Object]
+2015-03-04 02:10:38.174 radio[15846:1157319] clicked!
+2015-03-04 02:11:29.704 radio[16370:1163177] Multi-tasking -> Device: YES, App: YES
+2015-03-04 02:11:29.709 radio[16370:1163177] Unlimited access to network resources
+2015-03-04 02:11:29.953 radio[16370:1163177] [CDVTimer][keyboard] 0.083029ms
+2015-03-04 02:11:29.953 radio[16370:1163177] [CDVTimer][TotalPluginStartup] 0.330985ms
+2015-03-04 02:11:30.106 radio[16370:1163177] Resetting plugins due to page load.
+2015-03-04 02:11:30.341 radio[16370:1163177] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/E1C8A51D-390F-4816-94A0-46C106220D7A/radio.app/www/index.html
+2015-03-04 02:11:34.821 radio[16370:1163177] User Data [object Object]
+2015-03-04 02:11:38.010 radio[16370:1163177] data in shop [object Object]
+2015-03-04 02:11:58.423 radio[16370:1163177] run
+2015-03-04 02:12:03.114 radio[16882:1164285] Multi-tasking -> Device: YES, App: YES
+2015-03-04 02:12:03.119 radio[16882:1164285] Unlimited access to network resources
+2015-03-04 02:12:03.319 radio[16882:1164285] [CDVTimer][keyboard] 0.054002ms
+2015-03-04 02:12:03.319 radio[16882:1164285] [CDVTimer][TotalPluginStartup] 0.209987ms
+2015-03-04 02:12:03.453 radio[16882:1164285] Resetting plugins due to page load.
+2015-03-04 02:12:03.667 radio[16882:1164285] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/F089EBDE-7178-44EA-A361-9D8217D8CE35/radio.app/www/index.html
+2015-03-04 02:37:50.339 radio[17435:1173439] Multi-tasking -> Device: YES, App: YES
+2015-03-04 02:37:50.347 radio[17435:1173439] Unlimited access to network resources
+2015-03-04 02:37:50.594 radio[17435:1173439] [CDVTimer][keyboard] 0.083029ms
+2015-03-04 02:37:50.594 radio[17435:1173439] [CDVTimer][TotalPluginStartup] 0.331998ms
+2015-03-04 02:37:50.757 radio[17435:1173439] Resetting plugins due to page load.
+2015-03-04 02:37:50.978 radio[17435:1173439] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/903BC17F-DF8E-4B7C-9002-CF926918B928/radio.app/www/index.html
+2015-03-04 02:37:55.008 radio[17435:1173439] User Data [object Object]
+2015-03-04 02:37:58.323 radio[17435:1173439] data in shop [object Object]
+2015-03-04 02:38:00.896 radio[17435:1173439] clicked!
+2015-03-04 02:38:05.261 radio[17435:1173439] clicked!
+2015-03-04 02:41:06.897 radio[17978:1176468] Multi-tasking -> Device: YES, App: YES
+2015-03-04 02:41:06.903 radio[17978:1176468] Unlimited access to network resources
+2015-03-04 02:41:07.144 radio[17978:1176468] [CDVTimer][keyboard] 0.075996ms
+2015-03-04 02:41:07.144 radio[17978:1176468] [CDVTimer][TotalPluginStartup] 0.302017ms
+2015-03-04 02:41:07.256 radio[17978:1176468] Resetting plugins due to page load.
+2015-03-04 02:41:07.484 radio[17978:1176468] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/969B48C6-9A69-40BF-9B35-86910C822EF6/radio.app/www/index.html
+2015-03-04 02:41:11.495 radio[17978:1176468] User Data [object Object]
+2015-03-04 02:41:14.914 radio[17978:1176468] data in shop [object Object]
+2015-03-04 02:41:15.365 radio[17978:1176468] clicked!
+2015-03-04 03:52:47.731 radio[18742:1209939] Multi-tasking -> Device: YES, App: YES
+2015-03-04 03:52:47.736 radio[18742:1209939] Unlimited access to network resources
+2015-03-04 03:52:47.933 radio[18742:1209939] [CDVTimer][keyboard] 0.081003ms
+2015-03-04 03:52:47.933 radio[18742:1209939] [CDVTimer][TotalPluginStartup] 0.320017ms
+2015-03-04 03:52:47.996 radio[18742:1209939] Resetting plugins due to page load.
+2015-03-04 03:52:48.244 radio[18742:1209939] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/BAACCEFD-B43E-4417-9DA0-7FBFC5FA113D/radio.app/www/index.html
+2015-03-04 03:52:54.588 radio[18742:1209939] User Data [object Object]
+2015-03-04 03:52:57.718 radio[18742:1209939] data in shop [object Object]
+2015-03-04 03:52:58.261 radio[18742:1209939] clicked!
+2015-03-04 03:53:07.758 radio[19257:1210960] Multi-tasking -> Device: YES, App: YES
+2015-03-04 03:53:07.764 radio[19257:1210960] Unlimited access to network resources
+2015-03-04 03:53:07.949 radio[19257:1210960] [CDVTimer][keyboard] 0.056028ms
+2015-03-04 03:53:07.949 radio[19257:1210960] [CDVTimer][TotalPluginStartup] 0.256002ms
+2015-03-04 03:53:08.011 radio[19257:1210960] Resetting plugins due to page load.
+2015-03-04 03:53:08.275 radio[19257:1210960] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/A4953B3D-7504-4703-8134-2A315E33DEB7/radio.app/www/index.html
+2015-03-04 03:53:14.201 radio[19257:1210960] User Data [object Object]
+2015-03-04 03:53:17.382 radio[19257:1210960] data in shop [object Object]
+2015-03-04 03:53:17.915 radio[19257:1210960] clicked!
+2015-03-04 03:54:14.902 radio[19777:1212574] Multi-tasking -> Device: YES, App: YES
+2015-03-04 03:54:14.910 radio[19777:1212574] Unlimited access to network resources
+2015-03-04 03:54:15.130 radio[19777:1212574] [CDVTimer][keyboard] 0.059009ms
+2015-03-04 03:54:15.131 radio[19777:1212574] [CDVTimer][TotalPluginStartup] 0.275016ms
+2015-03-04 03:54:15.252 radio[19777:1212574] Resetting plugins due to page load.
+2015-03-04 03:54:15.489 radio[19777:1212574] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/EAAE6F66-705B-494E-98B0-76479218BFA4/radio.app/www/index.html
+2015-03-04 03:54:49.561 radio[19777:1212574] User Data [object Object]
+2015-03-04 03:54:52.892 radio[19777:1212574] data in shop [object Object]
+2015-03-04 03:56:00.042 radio[20296:1214711] Multi-tasking -> Device: YES, App: YES
+2015-03-04 03:56:00.050 radio[20296:1214711] Unlimited access to network resources
+2015-03-04 03:56:00.291 radio[20296:1214711] [CDVTimer][keyboard] 0.056982ms
+2015-03-04 03:56:00.292 radio[20296:1214711] [CDVTimer][TotalPluginStartup] 0.240028ms
+2015-03-04 03:56:00.412 radio[20296:1214711] Resetting plugins due to page load.
+2015-03-04 03:56:00.632 radio[20296:1214711] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/AF48FFED-5583-4D2F-B0CE-10DADEE02342/radio.app/www/index.html
+2015-03-04 03:56:15.146 radio[20296:1214711] User Data [object Object]
+2015-03-04 03:56:18.285 radio[20296:1214711] data in shop [object Object]
+2015-03-04 03:56:19.012 radio[20296:1214711] clicked!
+2015-03-04 03:56:43.461 radio[20805:1216122] Multi-tasking -> Device: YES, App: YES
+2015-03-04 03:56:43.468 radio[20805:1216122] Unlimited access to network resources
+2015-03-04 03:56:43.664 radio[20805:1216122] [CDVTimer][keyboard] 0.053048ms
+2015-03-04 03:56:43.664 radio[20805:1216122] [CDVTimer][TotalPluginStartup] 0.199974ms
+2015-03-04 03:56:43.714 radio[20805:1216122] Resetting plugins due to page load.
+2015-03-04 03:56:44.000 radio[20805:1216122] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/43520312-064B-4FFD-9BED-E2942D2EAB59/radio.app/www/index.html
+2015-03-04 03:56:54.247 radio[20805:1216122] User Data [object Object]
+2015-03-04 03:56:57.270 radio[20805:1216122] data in shop [object Object]
+2015-03-04 03:56:57.795 radio[20805:1216122] clicked!
+2015-03-04 04:01:08.350 radio[21318:1219423] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:01:08.358 radio[21318:1219423] Unlimited access to network resources
+2015-03-04 04:01:08.600 radio[21318:1219423] [CDVTimer][keyboard] 0.079036ms
+2015-03-04 04:01:08.600 radio[21318:1219423] [CDVTimer][TotalPluginStartup] 0.312030ms
+2015-03-04 04:01:08.719 radio[21318:1219423] Resetting plugins due to page load.
+2015-03-04 04:01:08.932 radio[21318:1219423] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/F6F1C034-09C7-4510-9262-04E38068DD2B/radio.app/www/index.html
+2015-03-04 04:01:13.179 radio[21318:1219423] User Data [object Object]
+2015-03-04 04:01:18.955 radio[21318:1219423] data in shop [object Object]
+2015-03-04 04:01:19.645 radio[21318:1219423] clicked!
+2015-03-04 04:01:23.178 radio[21318:1219423] clicked!
+2015-03-04 04:01:28.796 radio[21318:1219423] clicked!
+2015-03-04 04:08:11.999 radio[21841:1224065] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:08:12.004 radio[21841:1224065] Unlimited access to network resources
+2015-03-04 04:08:12.209 radio[21841:1224065] [CDVTimer][keyboard] 0.059962ms
+2015-03-04 04:08:12.209 radio[21841:1224065] [CDVTimer][TotalPluginStartup] 0.215054ms
+2015-03-04 04:08:12.350 radio[21841:1224065] Resetting plugins due to page load.
+2015-03-04 04:08:12.584 radio[21841:1224065] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/482F7F69-1709-4452-A815-CA8B918D1C6B/radio.app/www/index.html
+2015-03-04 04:08:16.813 radio[21841:1224065] User Data [object Object]
+2015-03-04 04:08:20.814 radio[21841:1224065] data in shop [object Object]
+2015-03-04 04:08:21.208 radio[21841:1224065] clicked!
+2015-03-04 04:08:27.186 radio[21841:1224065] clicked!
+2015-03-04 04:09:06.795 radio[22353:1225506] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:09:06.800 radio[22353:1225506] Unlimited access to network resources
+2015-03-04 04:09:07.027 radio[22353:1225506] [CDVTimer][keyboard] 0.089049ms
+2015-03-04 04:09:07.027 radio[22353:1225506] [CDVTimer][TotalPluginStartup] 0.303030ms
+2015-03-04 04:09:07.140 radio[22353:1225506] Resetting plugins due to page load.
+2015-03-04 04:09:07.362 radio[22353:1225506] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/CE067CE6-DA28-4872-A102-2FF9B21AD62D/radio.app/www/index.html
+2015-03-04 04:09:11.962 radio[22353:1225506] User Data [object Object]
+2015-03-04 04:09:15.162 radio[22353:1225506] data in shop [object Object]
+2015-03-04 04:09:16.047 radio[22353:1225506] clicked!
+2015-03-04 04:09:42.907 radio[22860:1226813] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:09:42.912 radio[22860:1226813] Unlimited access to network resources
+2015-03-04 04:09:43.096 radio[22860:1226813] [CDVTimer][keyboard] 0.054002ms
+2015-03-04 04:09:43.096 radio[22860:1226813] [CDVTimer][TotalPluginStartup] 0.203013ms
+2015-03-04 04:09:43.145 radio[22860:1226813] Resetting plugins due to page load.
+2015-03-04 04:09:43.379 radio[22860:1226813] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/4E3E1BA5-4825-4A83-B6C8-49130D1F16C5/radio.app/www/index.html
+2015-03-04 04:09:47.035 radio[22860:1226813] User Data [object Object]
+2015-03-04 04:09:50.182 radio[22860:1226813] data in shop [object Object]
+2015-03-04 04:09:50.965 radio[22860:1226813] clicked!
+2015-03-04 04:10:27.794 radio[23375:1228085] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:10:27.799 radio[23375:1228085] Unlimited access to network resources
+2015-03-04 04:10:28.001 radio[23375:1228085] [CDVTimer][keyboard] 0.088036ms
+2015-03-04 04:10:28.001 radio[23375:1228085] [CDVTimer][TotalPluginStartup] 0.344992ms
+2015-03-04 04:10:28.089 radio[23375:1228085] Resetting plugins due to page load.
+2015-03-04 04:10:28.315 radio[23375:1228085] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/BDA26471-F210-4CCE-83AA-4BB30ED7E805/radio.app/www/index.html
+2015-03-04 04:10:32.808 radio[23375:1228085] User Data [object Object]
+2015-03-04 04:10:35.829 radio[23375:1228085] data in shop [object Object]
+2015-03-04 04:10:36.569 radio[23375:1228085] clicked!
+2015-03-04 04:10:40.397 radio[23375:1228085] clicked!
+2015-03-04 04:21:13.634 radio[23903:1234311] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:21:13.644 radio[23903:1234311] Unlimited access to network resources
+2015-03-04 04:21:13.949 radio[23903:1234311] [CDVTimer][keyboard] 0.087976ms
+2015-03-04 04:21:13.950 radio[23903:1234311] [CDVTimer][TotalPluginStartup] 0.747979ms
+2015-03-04 04:21:14.089 radio[23903:1234311] Resetting plugins due to page load.
+2015-03-04 04:21:14.440 radio[23903:1234311] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/978D424C-A383-4F86-BF2D-DD03C614F081/radio.app/www/index.html
+2015-03-04 04:22:24.341 radio[23903:1234311] User Data [object Object]
+2015-03-04 04:22:27.349 radio[23903:1234311] data in shop [object Object]
+2015-03-04 04:22:28.136 radio[23903:1234311] clicked!
+2015-03-04 04:22:55.754 radio[24416:1236135] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:22:55.762 radio[24416:1236135] Unlimited access to network resources
+2015-03-04 04:22:56.033 radio[24416:1236135] [CDVTimer][keyboard] 0.057042ms
+2015-03-04 04:22:56.033 radio[24416:1236135] [CDVTimer][TotalPluginStartup] 0.213027ms
+2015-03-04 04:22:56.164 radio[24416:1236135] Resetting plugins due to page load.
+2015-03-04 04:22:56.391 radio[24416:1236135] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/4932A401-70CB-4927-BA91-163E307EA761/radio.app/www/index.html
+2015-03-04 04:23:15.190 radio[24924:1237176] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:23:15.197 radio[24924:1237176] Unlimited access to network resources
+2015-03-04 04:23:15.379 radio[24924:1237176] [CDVTimer][keyboard] 0.051022ms
+2015-03-04 04:23:15.380 radio[24924:1237176] [CDVTimer][TotalPluginStartup] 0.241995ms
+2015-03-04 04:23:15.462 radio[24924:1237176] Resetting plugins due to page load.
+2015-03-04 04:23:15.654 radio[24924:1237176] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/78EAF186-0FD8-43BC-BD75-E2AEA2EE3553/radio.app/www/index.html
+2015-03-04 04:23:20.573 radio[24924:1237176] User Data [object Object]
+2015-03-04 04:23:23.773 radio[24924:1237176] data in shop [object Object]
+2015-03-04 04:23:24.397 radio[24924:1237176] clicked!
+2015-03-04 04:23:27.027 radio[24924:1237176] clicked!
+2015-03-04 04:35:31.486 radio[25451:1243868] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:35:31.491 radio[25451:1243868] Unlimited access to network resources
+2015-03-04 04:35:31.755 radio[25451:1243868] [CDVTimer][keyboard] 0.055015ms
+2015-03-04 04:35:31.755 radio[25451:1243868] [CDVTimer][TotalPluginStartup] 0.213981ms
+2015-03-04 04:35:31.880 radio[25451:1243868] Resetting plugins due to page load.
+2015-03-04 04:35:32.112 radio[25451:1243868] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/529AC2CD-D769-4F9C-A16F-A10A90C04B8E/radio.app/www/index.html
+2015-03-04 04:35:36.182 radio[25451:1243868] User Data [object Object]
+2015-03-04 04:35:39.230 radio[25451:1243868] data in shop [object Object]
+2015-03-04 04:35:39.841 radio[25451:1243868] clicked!
+2015-03-04 04:36:11.057 radio[25965:1245063] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:36:11.062 radio[25965:1245063] Unlimited access to network resources
+2015-03-04 04:36:11.245 radio[25965:1245063] [CDVTimer][keyboard] 0.055015ms
+2015-03-04 04:36:11.245 radio[25965:1245063] [CDVTimer][TotalPluginStartup] 0.209033ms
+2015-03-04 04:36:11.292 radio[25965:1245063] Resetting plugins due to page load.
+2015-03-04 04:36:11.504 radio[25965:1245063] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/26952A9A-91B7-4510-BA69-5711DB3C917C/radio.app/www/index.html
+2015-03-04 04:36:15.862 radio[25965:1245063] User Data [object Object]
+2015-03-04 04:36:18.948 radio[25965:1245063] data in shop [object Object]
+2015-03-04 04:36:19.802 radio[25965:1245063] clicked!
+2015-03-04 04:36:23.025 radio[25965:1245063] clicked!
+2015-03-04 04:36:32.089 radio[25965:1245063] clicked!
+2015-03-04 04:36:52.214 radio[25965:1245063] clicked!
+2015-03-04 04:36:54.574 radio[25965:1245063] clicked!
+2015-03-04 04:36:58.096 radio[25965:1245063] clicked!
+2015-03-04 04:37:04.829 radio[25965:1245063] clicked!
+2015-03-04 04:37:07.062 radio[25965:1245063] clicked!
+2015-03-04 04:41:12.958 radio[26481:1248759] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:41:12.963 radio[26481:1248759] Unlimited access to network resources
+2015-03-04 04:41:13.179 radio[26481:1248759] [CDVTimer][keyboard] 0.053048ms
+2015-03-04 04:41:13.179 radio[26481:1248759] [CDVTimer][TotalPluginStartup] 0.211000ms
+2015-03-04 04:41:13.286 radio[26481:1248759] Resetting plugins due to page load.
+2015-03-04 04:41:13.505 radio[26481:1248759] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/F6F98EDE-7EB8-4D31-890F-7BEDF931F31D/radio.app/www/index.html
+2015-03-04 04:41:17.826 radio[26481:1248759] User Data [object Object]
+2015-03-04 04:41:21.310 radio[26481:1248759] data in shop [object Object]
+2015-03-04 04:41:22.509 radio[26481:1248759] clicked!
+2015-03-04 04:41:24.958 radio[26481:1248759] clicked!
+2015-03-04 04:42:27.772 radio[26481:1248759] clicked!
+2015-03-04 04:42:35.502 radio[26481:1248759] clicked!
+2015-03-04 04:42:39.282 radio[26481:1248759] clicked!
+2015-03-04 04:42:41.023 radio[26481:1248759] clicked!
+2015-03-04 04:42:59.453 radio[26481:1248759] clicked!
+2015-03-04 04:43:01.790 radio[26481:1248759] clicked!
+2015-03-04 04:43:03.362 radio[26481:1248759] clicked!
+2015-03-04 04:43:05.225 radio[26481:1248759] clicked!
+2015-03-04 04:43:06.817 radio[26481:1248759] clicked!
+2015-03-04 04:43:08.835 radio[26481:1248759] clicked!
+2015-03-04 04:43:12.155 radio[26481:1248759] clicked!
+2015-03-04 04:43:16.252 radio[26481:1248759] clicked!
+2015-03-04 04:56:54.494 radio[27034:1257537] Multi-tasking -> Device: YES, App: YES
+2015-03-04 04:56:54.503 radio[27034:1257537] Unlimited access to network resources
+2015-03-04 04:56:54.754 radio[27034:1257537] [CDVTimer][keyboard] 0.079036ms
+2015-03-04 04:56:54.754 radio[27034:1257537] [CDVTimer][TotalPluginStartup] 0.321031ms
+2015-03-04 04:56:54.937 radio[27034:1257537] Resetting plugins due to page load.
+2015-03-04 04:56:55.173 radio[27034:1257537] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/443A5EA2-CEE2-4E99-B7FA-B4941CBE7C84/radio.app/www/index.html
+2015-03-04 04:56:59.967 radio[27034:1257537] User Data [object Object]
+2015-03-04 04:57:04.114 radio[27034:1257537] data in shop [object Object]
+2015-03-04 04:57:05.083 radio[27034:1257537] clicked!
+2015-03-04 04:57:07.329 radio[27034:1257537] clicked!
+2015-03-04 04:57:18.730 radio[27034:1257537] data in shop [object Object]
+2015-03-04 04:58:05.364 radio[27034:1257537] data in shop [object Object]
+2015-03-04 05:03:05.114 radio[27562:1262071] Multi-tasking -> Device: YES, App: YES
+2015-03-04 05:03:05.121 radio[27562:1262071] Unlimited access to network resources
+2015-03-04 05:03:05.352 radio[27562:1262071] [CDVTimer][keyboard] 0.059009ms
+2015-03-04 05:03:05.352 radio[27562:1262071] [CDVTimer][TotalPluginStartup] 0.222027ms
+2015-03-04 05:03:05.498 radio[27562:1262071] Resetting plugins due to page load.
+2015-03-04 05:03:05.748 radio[27562:1262071] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/12A5A10B-547B-4D8C-99F4-1F2545BD85C2/radio.app/www/index.html
+2015-03-04 05:03:10.425 radio[27562:1262071] User Data [object Object]
+2015-03-04 05:03:14.384 radio[27562:1262071] data in shop [object Object]
+2015-03-04 05:03:42.462 radio[27562:1262071] data in shop [object Object]
+2015-03-04 05:04:02.577 radio[27562:1262071] data in shop [object Object]
+2015-03-04 05:04:04.419 radio[27562:1262071] ChannelCtrl!
+2015-03-04 05:04:04.433 radio[27562:1262071] data in shop [object Object]
+2015-03-04 05:04:41.315 radio[27562:1262071] ChannelListUpdate
+2015-03-04 05:04:43.294 radio[27562:1262071] $location.absUrl(); file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/12A5A10B-547B-4D8C-99F4-1F2545BD85C2/radio.app/www/index.html#/tabs/detail-channel/2
+2015-03-04 05:04:43.294 radio[27562:1262071] state! [object Object]
+2015-03-04 05:04:43.316 radio[27562:1262071] response [object Object]
+2015-03-04 05:04:43.316 radio[27562:1262071] data detail-channel [object Object],[object Object]
+2015-03-04 05:14:26.138 radio[27562:1262071] data in shop [object Object]
+2015-03-04 05:14:27.828 radio[27562:1262071] data in shop [object Object]
+2015-03-04 05:14:28.279 radio[27562:1262071] clicked!
+2015-03-04 05:14:31.112 radio[27562:1262071] clicked!
+2015-03-04 05:14:39.375 radio[27562:1262071] clicked!
+2015-03-04 05:14:44.213 radio[27562:1262071] data in shop [object Object]
+2015-03-04 05:14:45.301 radio[27562:1262071] clicked!
+2015-03-04 05:14:47.953 radio[27562:1262071] clicked!
+2015-03-04 05:14:53.091 radio[27562:1262071] data in shop [object Object]
+2015-03-04 05:14:53.615 radio[27562:1262071] clicked!
+2015-03-04 05:14:56.441 radio[27562:1262071] clicked!
+2015-03-04 05:14:58.874 radio[27562:1262071] clicked!
+2015-03-04 05:15:00.345 radio[27562:1262071] data in shop [object Object]
+2015-03-04 05:15:02.382 radio[27562:1262071] data in shop [object Object]
+2015-03-04 05:15:04.140 radio[27562:1262071] clicked!
+2015-03-04 05:15:14.389 radio[27562:1262071] UserDataRefresh
+2015-03-04 19:06:25.217 radio[27562:1262071] THREAD WARNING: ['Keyboard'] took '10.328857' ms. Plugin should use a background thread.
+2015-03-04 19:06:30.282 radio[27562:1262071] data in shop [object Object]
+2015-03-04 19:06:30.851 radio[27562:1262071] clicked!
+2015-03-04 19:06:33.372 radio[27562:1262071] clicked!
+2015-03-04 19:06:57.934 radio[27562:1262071] clicked!
+2015-03-04 19:07:00.621 radio[27562:1262071] clicked!
+2015-03-04 19:07:06.887 radio[27562:1262071] clicked!
+2015-03-05 05:47:25.547 radio[33481:1616211] Multi-tasking -> Device: YES, App: YES
+2015-03-05 05:47:25.570 radio[33481:1616211] Unlimited access to network resources
+2015-03-05 05:47:25.945 radio[33481:1616211] [CDVTimer][keyboard] 0.052989ms
+2015-03-05 05:47:25.945 radio[33481:1616211] [CDVTimer][TotalPluginStartup] 0.213027ms
+2015-03-05 05:47:26.020 radio[33481:1616211] Resetting plugins due to page load.
+2015-03-05 05:47:26.374 radio[33481:1616211] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/08BCECB2-18B8-49F4-B03B-B6ABB3CD650E/radio.app/www/index.html
+2015-03-05 05:47:30.357 radio[33481:1616211] User Data [object Object]
+2015-03-05 05:47:40.112 radio[33481:1616211] asdfasdf
+2015-03-05 05:48:07.559 radio[33481:1616211] ChannelCtrl!
+2015-03-06 00:31:13.459 radio[37276:1703362] Multi-tasking -> Device: YES, App: YES
+2015-03-06 00:31:13.474 radio[37276:1703362] Unlimited access to network resources
+2015-03-06 00:31:13.799 radio[37276:1703362] [CDVTimer][keyboard] 0.074983ms
+2015-03-06 00:31:13.799 radio[37276:1703362] [CDVTimer][TotalPluginStartup] 0.229001ms
+2015-03-06 00:31:13.902 radio[37276:1703362] Resetting plugins due to page load.
+2015-03-06 00:31:14.247 radio[37276:1703362] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/0BEE45E9-C3EB-4CD8-A120-5960BC0FB4C2/radio.app/www/index.html
+2015-03-06 00:31:19.394 radio[37276:1703362] User Data [object Object]
+2015-03-06 00:31:24.526 radio[37276:1703362] ChannelCtrl!
+2015-03-06 00:31:40.212 radio[37276:1703362] $location.absUrl(); file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/0BEE45E9-C3EB-4CD8-A120-5960BC0FB4C2/radio.app/www/index.html#/tabs/detail-channel/1
+2015-03-06 00:31:40.213 radio[37276:1703362] state! [object Object]
+2015-03-06 00:31:40.227 radio[37276:1703362] response [object Object]
+2015-03-06 00:31:40.227 radio[37276:1703362] data detail-channel [object Object],[object Object]
+2015-03-06 06:52:39.097 radio[42540:1896090] Multi-tasking -> Device: YES, App: YES
+2015-03-06 06:52:39.117 radio[42540:1896090] Unlimited access to network resources
+2015-03-06 06:52:39.471 radio[42540:1896090] [CDVTimer][keyboard] 0.055015ms
+2015-03-06 06:52:39.471 radio[42540:1896090] [CDVTimer][TotalPluginStartup] 0.204980ms
+2015-03-06 06:52:39.652 radio[42540:1896090] Resetting plugins due to page load.
+2015-03-06 06:52:39.957 radio[42540:1896090] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/306076B4-A784-4A0D-9B8D-A9FB1677195E/radio.app/www/index.html
+2015-03-06 06:52:44.237 radio[42540:1896090] User Data [object Object]
+2015-03-06 06:53:11.449 radio[42540:1896090] ChannelCtrl!
+2015-03-06 06:59:55.429 radio[43081:1899508] Multi-tasking -> Device: YES, App: YES
+2015-03-06 06:59:55.438 radio[43081:1899508] Unlimited access to network resources
+2015-03-06 06:59:55.714 radio[43081:1899508] [CDVTimer][keyboard] 0.056982ms
+2015-03-06 06:59:55.715 radio[43081:1899508] [CDVTimer][TotalPluginStartup] 0.209987ms
+2015-03-06 06:59:55.875 radio[43081:1899508] Resetting plugins due to page load.
+2015-03-06 06:59:56.111 radio[43081:1899508] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/3EF9E846-151C-43A0-964E-513E1353E6CC/radio.app/www/index.html
+2015-03-06 07:00:00.153 radio[43081:1899508] User Data [object Object]
+2015-03-06 07:00:01.748 radio[43081:1899508] ChannelCtrl!
+2015-03-06 07:11:05.104 radio[43081:1899508] fadsfasdf
+2015-03-06 07:30:32.432 radio[43719:1914163] Multi-tasking -> Device: YES, App: YES
+2015-03-06 07:30:32.453 radio[43719:1914163] Unlimited access to network resources
+2015-03-06 07:30:32.736 radio[43719:1914163] [CDVTimer][keyboard] 0.306010ms
+2015-03-06 07:30:32.736 radio[43719:1914163] [CDVTimer][TotalPluginStartup] 0.463963ms
+2015-03-06 07:30:32.958 radio[43719:1914163] Resetting plugins due to page load.
+2015-03-06 07:30:33.225 radio[43719:1914163] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/B48A8BFB-2575-452D-B96C-C50614C34DEC/radio.app/www/index.html
+2015-03-06 07:30:37.448 radio[43719:1914163] User Data [object Object]
+2015-03-06 07:30:40.784 radio[43719:1914163] ChannelCtrl!
+2015-03-06 07:34:29.762 radio[44254:1916889] Multi-tasking -> Device: YES, App: YES
+2015-03-06 07:34:29.768 radio[44254:1916889] Unlimited access to network resources
+2015-03-06 07:34:30.048 radio[44254:1916889] [CDVTimer][keyboard] 0.055969ms
+2015-03-06 07:34:30.048 radio[44254:1916889] [CDVTimer][TotalPluginStartup] 0.207007ms
+2015-03-06 07:34:30.206 radio[44254:1916889] Resetting plugins due to page load.
+2015-03-06 07:34:30.477 radio[44254:1916889] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/581CA816-D113-4035-85A7-B65CB1A4078D/radio.app/www/index.html
+2015-03-06 07:34:34.990 radio[44254:1916889] User Data [object Object]
+2015-03-06 07:35:00.620 radio[44254:1916889] ChannelCtrl!
+2015-03-06 20:44:49.907 radio[44254:1916889] THREAD WARNING: ['Keyboard'] took '12.064941' ms. Plugin should use a background thread.
+2015-03-06 21:43:07.025 radio[44254:1916889] THREAD WARNING: ['Keyboard'] took '17.598877' ms. Plugin should use a background thread.
+2015-03-07 03:14:45.890 radio[46420:2123681] Multi-tasking -> Device: YES, App: YES
+2015-03-07 03:14:45.908 radio[46420:2123681] Unlimited access to network resources
+2015-03-07 03:14:46.280 radio[46420:2123681] [CDVTimer][keyboard] 0.060022ms
+2015-03-07 03:14:46.280 radio[46420:2123681] [CDVTimer][TotalPluginStartup] 0.216007ms
+2015-03-07 03:14:46.478 radio[46420:2123681] Resetting plugins due to page load.
+2015-03-07 03:14:46.820 radio[46420:2123681] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/D7F9670B-60F0-4E31-8B4A-C4EB4D6F7087/radio.app/www/index.html
+2015-03-07 03:14:53.786 radio[46420:2123681] ChannelCtrl!
+2015-03-07 03:15:02.898 radio[46420:2123681] list
+2015-03-07 03:27:49.235 radio[46988:2130188] Multi-tasking -> Device: YES, App: YES
+2015-03-07 03:27:49.256 radio[46988:2130188] Unlimited access to network resources
+2015-03-07 03:27:49.624 radio[46988:2130188] [CDVTimer][keyboard] 0.065982ms
+2015-03-07 03:27:49.625 radio[46988:2130188] [CDVTimer][TotalPluginStartup] 0.236988ms
+2015-03-07 03:27:49.886 radio[46988:2130188] Resetting plugins due to page load.
+2015-03-07 03:27:50.230 radio[46988:2130188] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/4E2757D8-A057-4884-83DB-0447CBA19975/radio.app/www/index.html
+2015-03-08 15:41:00.524 radio[49812:2404039] Multi-tasking -> Device: YES, App: YES
+2015-03-08 15:41:00.544 radio[49812:2404039] Unlimited access to network resources
+2015-03-08 15:41:00.951 radio[49812:2404039] [CDVTimer][keyboard] 0.063002ms
+2015-03-08 15:41:00.951 radio[49812:2404039] [CDVTimer][TotalPluginStartup] 0.213981ms
+2015-03-08 15:41:01.015 radio[49812:2404039] Resetting plugins due to page load.
+2015-03-08 15:41:01.354 radio[49812:2404039] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/EC1EA215-DB16-4CA5-923E-DE0658BE1468/radio.app/www/index.html
+2015-03-08 15:41:09.354 radio[49812:2404039] data [object Object],[object Object],[object Object],[object Object]
+2015-03-08 15:41:12.075 radio[49812:2404039] data [object Object],[object Object],[object Object],[object Object]
+2015-03-08 15:41:21.112 radio[49812:2404039] data [object Object],[object Object],[object Object],[object Object]
+2015-03-08 15:41:25.430 radio[49812:2404039] data [object Object],[object Object],[object Object],[object Object]
+2015-03-09 04:09:42.552 radio[51547:2615491] Multi-tasking -> Device: YES, App: YES
+2015-03-09 04:09:42.570 radio[51547:2615491] Unlimited access to network resources
+2015-03-09 04:09:42.953 radio[51547:2615491] [CDVTimer][keyboard] 0.082016ms
+2015-03-09 04:09:42.953 radio[51547:2615491] [CDVTimer][TotalPluginStartup] 0.296056ms
+2015-03-09 04:09:43.201 radio[51547:2615491] Resetting plugins due to page load.
+2015-03-09 04:09:43.540 radio[51547:2615491] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/48D6F981-F202-45A6-B96A-3976B3DCD0DF/radio.app/www/index.html
+2015-03-09 04:09:48.991 radio[51547:2615491] running;
+2015-03-09 04:09:48.991 radio[51547:2615491] $scope.shop_list.isInit true
+2015-03-09 04:09:48.991 radio[51547:2615491] $scope.shop_list.canLoadMore true
+2015-03-09 04:09:48.991 radio[51547:2615491] $scope.shop_list.selectedTag [object Object]
+2015-03-09 04:09:49.018 radio[51547:2615491] product data [object Object]
+2015-03-09 04:09:51.143 radio[51547:2615491] running;
+2015-03-09 04:09:51.143 radio[51547:2615491] $scope.shop_list.isInit true
+2015-03-09 04:09:51.143 radio[51547:2615491] $scope.shop_list.canLoadMore true
+2015-03-09 04:09:51.143 radio[51547:2615491] $scope.shop_list.selectedTag [object Object]
+2015-03-09 04:09:51.143 radio[51547:2615491] adf
+2015-03-09 04:09:51.157 radio[51547:2615491] product data [object Object]
+2015-03-09 04:09:55.534 radio[51547:2615491] running;
+2015-03-09 04:09:55.534 radio[51547:2615491] $scope.shop_list.isInit true
+2015-03-09 04:09:55.535 radio[51547:2615491] $scope.shop_list.canLoadMore true
+2015-03-09 04:09:55.535 radio[51547:2615491] $scope.shop_list.selectedTag [object Object]
+2015-03-09 04:09:55.535 radio[51547:2615491] adf
+2015-03-09 04:09:55.545 radio[51547:2615491] product data [object Object]
+2015-03-09 04:09:59.283 radio[51547:2615491] running;
+2015-03-09 04:09:59.283 radio[51547:2615491] $scope.shop_list.isInit true
+2015-03-09 04:09:59.283 radio[51547:2615491] $scope.shop_list.canLoadMore true
+2015-03-09 04:09:59.283 radio[51547:2615491] $scope.shop_list.selectedTag [object Object]
+2015-03-09 04:09:59.283 radio[51547:2615491] adf
+2015-03-09 04:09:59.298 radio[51547:2615491] product data [object Object]
+2015-03-09 04:10:00.753 radio[51547:2615491] running;
+2015-03-09 04:10:08.847 radio[51547:2615491] running;
+2015-03-09 04:10:08.847 radio[51547:2615491] $scope.shop_list.isInit true
+2015-03-09 04:10:08.847 radio[51547:2615491] $scope.shop_list.canLoadMore true
+2015-03-09 04:10:08.847 radio[51547:2615491] $scope.shop_list.selectedTag [object Object]
+2015-03-09 04:10:08.847 radio[51547:2615491] adf
+2015-03-09 04:10:08.856 radio[51547:2615491] product data [object Object]
+2015-03-09 04:10:10.259 radio[51547:2615491] running;
+2015-03-09 04:10:10.259 radio[51547:2615491] $scope.shop_list.isInit true
+2015-03-09 04:10:10.259 radio[51547:2615491] $scope.shop_list.canLoadMore true
+2015-03-09 04:10:10.259 radio[51547:2615491] $scope.shop_list.selectedTag [object Object]
+2015-03-09 04:10:10.259 radio[51547:2615491] adf
+2015-03-09 04:10:10.275 radio[51547:2615491] product data [object Object]
+2015-03-09 04:10:11.939 radio[51547:2615491] running;
+2015-03-09 04:10:11.939 radio[51547:2615491] $scope.shop_list.isInit true
+2015-03-09 04:10:11.940 radio[51547:2615491] $scope.shop_list.canLoadMore true
+2015-03-09 04:10:11.940 radio[51547:2615491] $scope.shop_list.selectedTag [object Object]
+2015-03-09 04:10:11.940 radio[51547:2615491] adf
+2015-03-09 04:10:11.952 radio[51547:2615491] product data [object Object]
+2015-03-09 04:10:33.740 radio[51547:2615491] running;
+2015-03-09 04:10:33.740 radio[51547:2615491] $scope.shop_list.isInit true
+2015-03-09 04:10:33.740 radio[51547:2615491] $scope.shop_list.canLoadMore true
+2015-03-09 04:10:33.740 radio[51547:2615491] $scope.shop_list.selectedTag [object Object]
+2015-03-09 04:10:33.767 radio[51547:2615491] product data [object Object]
+2015-03-10 00:52:42.171 radio[53808:2829276] Multi-tasking -> Device: YES, App: YES
+2015-03-10 00:52:42.188 radio[53808:2829276] Unlimited access to network resources
+2015-03-10 00:52:42.545 radio[53808:2829276] [CDVTimer][keyboard] 0.056028ms
+2015-03-10 00:52:42.545 radio[53808:2829276] [CDVTimer][TotalPluginStartup] 0.229001ms
+2015-03-10 00:52:42.794 radio[53808:2829276] Resetting plugins due to page load.
+2015-03-10 00:52:43.087 radio[53808:2829276] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/9EDBD42B-8A88-4AFD-9AB3-C8D0F36C8303/radio.app/www/index.html
+2015-03-10 00:53:37.621 radio[54341:2830724] Multi-tasking -> Device: YES, App: YES
+2015-03-10 00:53:37.626 radio[54341:2830724] Unlimited access to network resources
+2015-03-10 00:53:37.948 radio[54341:2830724] [CDVTimer][keyboard] 0.059009ms
+2015-03-10 00:53:37.948 radio[54341:2830724] [CDVTimer][TotalPluginStartup] 0.218987ms
+2015-03-10 00:53:38.082 radio[54341:2830724] Resetting plugins due to page load.
+2015-03-10 00:53:38.323 radio[54341:2830724] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/57B2B9A3-7760-4893-90C7-EC1D1DD4412C/radio.app/www/index.html
+2015-03-10 00:54:02.384 radio[54865:2831814] Multi-tasking -> Device: YES, App: YES
+2015-03-10 00:54:02.392 radio[54865:2831814] Unlimited access to network resources
+2015-03-10 00:54:02.713 radio[54865:2831814] [CDVTimer][keyboard] 0.091016ms
+2015-03-10 00:54:02.714 radio[54865:2831814] [CDVTimer][TotalPluginStartup] 0.343025ms
+2015-03-10 00:54:02.872 radio[54865:2831814] Resetting plugins due to page load.
+2015-03-10 00:54:03.125 radio[54865:2831814] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/0110B560-8D43-40BE-9048-9489461A0AE7/radio.app/www/index.html
+2015-03-11 19:15:56.424 radio[64236:3432956] Multi-tasking -> Device: YES, App: YES
+2015-03-11 19:15:56.449 radio[64236:3432956] Unlimited access to network resources
+2015-03-11 19:15:56.904 radio[64236:3432956] [CDVTimer][keyboard] 0.066042ms
+2015-03-11 19:15:56.904 radio[64236:3432956] [CDVTimer][TotalPluginStartup] 0.232995ms
+2015-03-11 19:15:57.061 radio[64236:3432956] Resetting plugins due to page load.
+2015-03-11 19:15:57.405 radio[64236:3432956] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/73CC86EA-6C05-4674-AE2F-7104552752C5/radio.app/www/index.html
+2015-03-11 23:55:41.183 radio[67055:3509476] Multi-tasking -> Device: YES, App: YES
+2015-03-11 23:55:41.205 radio[67055:3509476] Unlimited access to network resources
+2015-03-11 23:55:41.585 radio[67055:3509476] [CDVTimer][keyboard] 0.057995ms
+2015-03-11 23:55:41.585 radio[67055:3509476] [CDVTimer][TotalPluginStartup] 0.213981ms
+2015-03-11 23:55:41.747 radio[67055:3509476] Resetting plugins due to page load.
+2015-03-11 23:55:42.088 radio[67055:3509476] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/EE09DB5E-6052-4FCD-8120-CE95C649FA0A/data/Containers/Bundle/Application/1755154E-E852-4273-BB49-CFED9A1575F8/radio.app/www/index.html
+2015-03-11 23:55:46.193 radio[67055:3509476] UserData [object Object]

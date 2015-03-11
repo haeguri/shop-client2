@@ -1,0 +1,35 @@
+<ion-view>
+	<ion-nav-title>
+		<p style="font-weight:bold;" align="center;">{{cody_detail.cody.title}}</p>
+	</ion-nav-title>
+  <ion-content class="padding" id="detail-cody-content">
+  	<div class="col col-50" ng-repeat="item in cody_detail.cody.cody_items_of_cody">
+		<div class="item item-avatar">
+			<img class="detail-cody-designer" ng-src="{{cody_detail.mediaUrl + item.product.designer.image}}">
+			<div class="detail-cody-designer-info">
+				<span>{{item.product.designer.name}}</span>
+				<h4>{{item.product.name}}</h4>
+			</div>
+		</div>
+		<div class="item item-image">
+			<img class="detail-cody-item" ng-src="{{cody_detail.mediaUrl + item.product.image}}"  ng-click="cody_detail.openShopDetail(item.product.id)">
+		</div>
+	</div>
+	<div class="card" style="text-align:center; background-color:">
+		<button id="cody-follow-btn" class="button button-clear button-dark" ng-click="cody_detail.codyFollow()">
+		  <i class="fa fa-heart-o fa-2x"></i>
+		</button>
+		<span style="position:relative; top:40%">이 코디가 마음에 듭니다.</span>
+	</div>
+
+    <div class="card">
+		<div class="item item-avatar">
+	      <img ng-src="{{cody_detail.mediaUrl + cody_detail.channel.image}}" ng-click="cody_detail.openDetailChannel(channel.id)">
+	      <h2 class="channel-info">{{cody_detail.channel.name}}</h2>
+	      <div class="channel-follow">
+	        <button id="channel-follow-btn" class="button button-small button-outline button-dark channel-follow-true" ng-click="cody_detail.channelFollow()">팔로우하기    <i class="fa fa-plus"></i></button>
+	      </div>
+	    </div>
+  	</div>
+  </ion-content>
+</ion-view>

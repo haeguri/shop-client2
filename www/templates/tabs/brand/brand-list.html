@@ -1,0 +1,13 @@
+<ion-view view-title="브랜드">
+  <ion-content>
+    <div class="list" ng-repeat="brand in brand_list.brands">
+	    <div class="item item-avatar">
+			<img ng-src="{{brand_list.mediaUrl + brand.image}}">
+			<div class="channel-follow">
+				<button class="button button-small button-outline button-dark" ng-click="brand_list.brandFollow(brand.id)">팔로우하기    <i class="fa fa-plus"></i></button>
+			</div>
+	  		<h2 class="channel-info">{{brand.name}}</h2>
+	    </div>
+	</div>
+  </ion-content>
+</ion-view>

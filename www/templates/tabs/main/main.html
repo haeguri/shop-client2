@@ -1,0 +1,24 @@
+<ion-view view-title="">
+	<ion-nav-buttons side="left">
+	  	<button class="fa fa-bell-o fa-2x nav-btn" ng-click="main.openMainNotify()"></button>
+	</ion-nav-buttons>
+	<ion-nav-buttons side="right">	
+	<button class="fa fa-cog fa-2x nav-btn" ng-click="main.openMainEdit()"></button>
+	</ion-nav-buttons>
+	<ion-content class="padding" id="main-content">
+		<div class="col col-33" ng-repeat="channel in user.follow_channels">
+			<img class="main-image" ng-click="main.openCodyList(channel.id)" ng-src="{{main.mediaUrl + channel.image}}">
+			<span>{{channel.name}}</span>
+		</div>
+	  	<div ng-if="!user.follow_channels.length">
+	      	<div class="card">
+		        <div class="item item-divider" id="main-alert-header">
+		          <i class="fa fa-exclamation-circle fa-lg"></i>  구독하는 채널이 없습니다.
+		        </div>
+		        <div class="item item-text-wrap">
+		          <a id="main-move-channel" ng-click="main.moveChannelTab()">채널 둘러보러 가기    <i class="fa fa-hand-o-left fa-lg"></i></a>
+		        </div>
+	      	</div>
+       	</div>
+	</ion-content>
+</ion-view>

@@ -1,17 +1,19 @@
-<ion-view title="Login">
-    <ion-content padding="true" class="has-header">
-        <form>
-            <ion-list>
-                <label class="item item-input">
-                    <input type="text" placeholder="이름">
-                </label>
-                <label class="item item-input">
-                    <input type="password" placeholder="비밀번호">
-                </label>
-            </ion-list>
-            <div class="spacer" style="height: 40px;"></div>
-            <a href="#/tabs/tab1" class="button button-stable button-block">로그인</a>
-            <a href="#/signup" class="button button-positive button-clear button-block">회원가입</a>
-        </form>
-    </ion-content>
-</ion-view>
+<ion-view hide-nav-bar="true">
+    <ion-content scroll="false">
+    <h1 align="center" id="login-title">RADIO</h1>
+    <form ng-submit="requestLogin()" id="login-form">
+        <ion-list>
+            <label class="item item-input">
+                <input type="text" placeholder="아이디" ng-model="login.username" name="username">
+            </label>
+            <label class="item item-input">
+                <input type="password" placeholder="비밀번호" ng-model="login.password" name="password">
+            </label>
+        </ion-list>
+        <div class="spacer" style="height: 40px;"></div>
+        <input type="submit" class="button button-dark button-block" value="로그인">
+        <a href="" id="login-facebook-link" class="button button-block"><i class="fa fa-facebook-official fa-lg"></i>페이스북으로 로그인</a>
+        <a href="#/signup" class="button button-clear" id="login-signup-btn">회원가입 하기</a>
+    </form>
+</ion-content>
+</ion-view> 

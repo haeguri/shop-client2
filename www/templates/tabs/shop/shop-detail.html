@@ -1,0 +1,41 @@
+<ion-view>
+    <ion-nav-buttons side="right">
+      <button class="nav-btn" ng-click="shop_detail.goCart()">
+        <i class="fa fa-shopping-cart fa-2x"></i>
+      </button>
+    </ion-nav-buttons>
+    <ion-nav-title>
+      <p align="center" style="font-weight:bold;">{{shop_detail.product.name}}</p>
+    </ion-nav-title>
+    <ion-content class="padding">
+        <div class="item item-image">
+          <img ng-src="{{shop_detail.mediaUrl + shop_detail.product.image}}">
+        </div>
+        <div class="item item-avatar">
+          <img src="{{shop_detail.mediaUrl + shop_detail.product.designer.image}}">
+          <div id="shop-detail-desginer">
+            <h4>{{shop_detail.product.designer.name}}</h4>
+            <h2>{{shop_detail.product.name}}</h2>
+          </div>
+          <div id="shop-detail-like">
+            <i class="fa fa-heart fa-lg" name="radio-like-{{shop_detail.product.like}}" ng-click="shop_detail.toggleLike(shop_detail.product.id)"></i><span id="shop-detail-like-info">    {{shop_detail.product.likes_of_product.length}}명이 좋아합니다.</span>
+          </div>
+        </div>
+        <div class="list">
+            <label class="item item-input item-select">
+              <div class="input-label">색상</div>
+              <select ng-options="color for color in shop_detail.colors" ng-model="shop_detail.select_color"></select>
+            </label>
+            <label class="item item-input item-select">
+              <span class="input-label">사이즈</span>
+              <select ng-options="size for size in shop_detail.sizes" ng-model="shop_detail.select_size"></select>
+            </label>
+            <label class="item item-input item-select">
+              <span class="input-label">수량</span>
+              <select ng-options="quantity for quantity in shop_detail.quantities" ng-model="shop_detail.select_quantity"></select>
+            </label>
+        </div>
+        <button class="button button-assertive pull-right">즉시구매</button>
+        <button class="button button-positive pull-right" ng-click="shop_detail.addToCart()">장바구니 담기</button>
+    </ion-content>
+</ion-view>

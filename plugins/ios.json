@@ -34,6 +34,9 @@
         },
         "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.ionicframework.radio437126"
+        },
+        "org.crosswalk.engine": {
+            "PACKAGE_NAME": "com.ionicframework.radio437126"
         }
     },
     "dependent_plugins": {}
