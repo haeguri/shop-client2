@@ -2,6 +2,7 @@ dependencies: \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/CordovaLib/Classes/CDV.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/CordovaLib/Classes/CDVAvailability.h \
+  /Users/haegyun/Ionic/radio-0.2/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/CordovaLib/Classes/CDVPlugin.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/CordovaLib/Classes/CDVPluginResult.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h \

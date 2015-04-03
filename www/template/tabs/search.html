@@ -1,0 +1,32 @@
+<ion-modal-view ng-controller="SearchCtrl">
+  <ion-header-bar class="bar bar-header bar-light">
+    <h1 class="title">Search</h1>
+    <div class="buttons">
+      <i class="fa fa-times-circle fa-2x" ng-click="closeSearch()"></i>
+    </div>
+  </ion-header-bar>
+  <ion-content scroll="false" class="padding">
+      <div class="radio-input-wrap">
+        <label class="item item-input">
+          <i class="fa fa-search fa-lg placeholder-icon"></i>
+          <input type="search">
+        </label>
+      </div>
+      <ion-scroll direction="x" class="wide-as-needed" has-bouncing="false" style="margin-top:10px">
+        <button>Spring</button>
+        <button>Campus</button>
+        <button>Casual</button>
+        <button>Office</button>
+        <button>Date</button>
+        <button>Daily</button>
+        <button>Picnic</button>
+        <button>Official</button>
+        </button>
+      </ion-scroll>
+      <h5>Recommended Issue</h5>
+      <div class="cody-thumbnail" ng-repeat="cody in search.reco_codies">
+        <img ng-src="{{cody.image}}">
+        <h3>{{cody.title}}</h3>
+      </div>
+  </ion-content>
+</ion-modal-view>

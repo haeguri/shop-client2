@@ -1,0 +1,95 @@
+<ion-view>
+    <ion-nav-bar>
+      <ion-nav-back-button ng-click="product_detail.goBack()">
+      </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-nav-buttons side="right">
+      <a class="button button-icon fa fa-heart-o" ng-click="product_detail.productLike(product_detail.product.id)"></a>
+      <a class="button button-icon fa fa-share-square-o"></a>
+    </ion-nav-buttons>
+    <ion-nav-title>
+      <h4>{{product_detail.product.name}}</h4>
+    </ion-nav-title>
+    <ion-content has-bouncing="true">
+      <ion-slide-box on-slide-changed="slideHasChanged($index)" class="product-image-slides" has-bouncing="false">
+        <ion-slide ng-repeat="image_obj in product_detail.product.images" ng-init="product_detail.resizeSlides()">
+          <img ng-src="{{image_obj.image}}">
+        </ion-slide>
+      </ion-slide-box>
+      <div class="list">
+        <div class="item">
+          <h2>{{product_detail.product.name}}</h2>
+          <p>{{product_detail.product.price | number:0 }}</p>
+        </div>
+        <div class="item">
+          <div class="product-brand-info">
+            <img ng-src="{{product_detail.product.brand.image}}">
+            <span>{{product_detail.product.brand.name}}</span>
+            <a class="button button-icon fa fa-angle-double-right fa-2x"></a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="button-bar product-button-bar">
+            <a class="button" ng-click="product_detail.viewInfo(submenu)" ng-repeat="submenu in product_detail.submenu">{{submenu}}</a>
+          </div>
+          <div class='product-desc-wrap' ng-repeat="image_obj in product_detail.product.images" ng-if="product_detail.selectedMenu == 'Description'">
+            <img ng-src="{{image_obj.image}}">
+            <p>{{image_obj.description}}</p>
+          </div>
+          <p ng-if="product_detail.selectedMenu == 'Delivery'">All shipping services used by ssense.com provide a tracking number and full insurance. In the event that multiple orders are placed with the same shipping destination and on the same account, orders may be combined and the shipping fees will be adjusted unless otherwise requested.
+
+Days in the following table refer to business days.
+
+Please allow up to two business days (not including weekends or holidays) for us to process your order. Processing time is required so that we can review your order information and prepare it for shipping.
+
+Exact shipping options and transit times will be provided at checkout.</p>
+        </div>
+        <div class="item">
+          <h4 style="margin: 10px 0px 30px 0px">Related Products</h4>
+          <div class="product-thumbnail" ng-repeat="product in product_detail.products_of_brand">
+            <img ng-src="{{product.images[0].image}}">
+            <div>
+                <i class="fa fa-heart-o"></i>
+            </div>
+            <h5>{{product.name}}</h5>
+            <p>{{product.price  | number:0  }}</p>
+          </div>
+        </div>
+      </div>
+    </ion-content>
+    <ion-footer-bar>
+      <div class="title">
+        <button style="background:none; border:none;" ng-click="product_detail.addToCart()">Add to cart<i style="margin-left: 7px;" class="fa fa-shopping-cart fa-lg"></i></button>
+      </div>
+    </ion-footer-bar>
+</ion-view>
+
+
+<!--
+  <div class="item item-avatar">
+    <img src="{{shop_detail.product.brand.image}}">
+    <div id="shop-detail-desginer">
+      <h4>{{shop_detail.product.brand.name}}</h4>
+      <h2>{{shop_detail.product.name}}</h2>
+    </div>
+    <div id="shop-detail-like">
+      <i class="fa fa-heart fa-lg" data-like="{{shop_detail.product.like}}" ng-click="shop_detail.productLike(shop_detail.product.id)"></i><span>{{shop_detail.product.product_likes_of_product.length}}명이 좋아합니다.</span>
+    </div>
+  </div>
+  <div class="list">
+      <label class="item item-input item-select">
+        <div class="input-label">색상</div>
+        <select ng-options="color for color in shop_detail.colors" ng-model="shop_detail.select_color"></select>
+      </label>
+      <label class="item item-input item-select">
+        <span class="input-label">사이즈</span>
+        <select ng-options="size for size in shop_detail.sizes" ng-model="shop_detail.select_size"></select>
+      </label>
+      <label class="item item-input item-select">
+        <span class="input-label">수량</span>
+        <select ng-options="quantity for quantity in shop_detail.quantities" ng-model="shop_detail.select_quantity"></select>
+      </label>
+  </div>
+  <button class="button button-assertive pull-right">즉시구매</button>
+  <button class="button button-positive pull-right" ng-click="shop_detail.addToCart()">장바구니 담기</button>
+-->

@@ -1,0 +1,24 @@
+<ion-view>
+	<ion-nav-title>
+		<h1 class="title">April</h1>
+	</ion-nav-title>
+	<ion-nav-buttons side="left">
+		<i class="fa fa-bell-o fa-2x" ng-click="openNotify()"></i>
+	</ion-nav-buttons>
+ 	<ion-nav-buttons side="right">
+		<!-- openSearch in master.js -->
+ 		<i class="fa fa-search fa-2x" ng-click="openSearch()"></i>
+ 	</ion-nav-buttons>
+	<ion-content id="main-content" has-bouncing="false">
+	    <div class="cody-thumbnail" ng-repeat="cody in main.codies">
+	    	<img ng-src="{{cody.image}}">
+	    	<h3>{{cody.title}}</h3>
+		</div>
+		<!--
+		<div class="cody-thumbnail" collection-repeat="cody in main.codies">
+	    	<img ng-src="{{cody.image}}">
+	    	<h3>{{cody.title}}</h3>
+		</div>
+		-->
+	</ion-content>
+</ion-view>

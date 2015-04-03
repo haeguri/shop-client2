@@ -14,7 +14,12 @@
     "gulp-util": "^2.2.14",
     "shelljs": "^0.3.0"
   },
-  "cordovaPlugins": [
-    "./engine/cordova-crosswalk-engine-c0.6.1"
+  "cordovaPlugins": [],
+  "cordovaPlatforms": [
+    {
+      "platform": "ios",
+      "version": "Not installed",
+      "locator": "ios"
+    }
   ]
 }

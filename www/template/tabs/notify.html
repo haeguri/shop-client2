@@ -1,0 +1,27 @@
+<ion-modal-view ng-controller="NotifyCtrl">
+  <ion-header-bar class="bar bar-header bar-light">
+    <h1 class="title">Notify</h1>
+    <div class="buttons">
+      <i class="fa fa-times-circle fa-2x" ng-click="closeNotify()"></i>
+    </div>
+  </ion-header-bar>
+  	<ion-content id="main-notify-content">
+		<div class="list">
+		    <a class="item">
+		    	<img ng-src="http://127.0.0.1:8000/media/upload/brand/designer-3.jpg">
+	    		<p>yesterday</p>
+	    		<h4>New brand <strong>Achone</strong> was launched.</h4>
+		    </a>
+		    <a class="item">
+		    	<img ng-src="http://127.0.0.1:8000/media/upload/brand/designer-6.jpg">
+		    	<p>2 days ago</p>
+	    		<h4>Published a product of <strong>Optimus</strong></h4>
+		    </a>
+		    <a class="item">
+		    	<img ng-src="http://127.0.0.1:8000/media/upload/brand/designer-4.jpg">
+		    	<p>3 days ago</p>
+	    		<h4>Restocked a product of <strong>Gos-Sip</strong></h4>
+		    </a>
+		</div>
+	</ion-content>
+</ion-modal-view>

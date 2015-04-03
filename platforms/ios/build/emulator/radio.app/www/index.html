@@ -3,65 +3,87 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        
+    <link href='https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="css/gillsans/font.css" rel="stylesheet" type="text/css">
 
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <!--
+    <link href="http://code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+    -->
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/tabSlideBox.css">
+
+    <script src="lib/jquery/dist/jquery.js"></script>
     <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <!--
+    <script src="http://code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+    -->
 
     <script src="lib/angular-bootstrap/ui-bootstrap.js"></script>
     <script src="lib/angular-resource/angular-resource.js"></script>
     <script src="lib/angular-cookies/angular-cookies.js"></script>
     <script src="lib/angular-route/angular-route.js"></script>
+    
+    <script src="lib/tab-slide-box/tabSlideBox.js"></script>
 
-    <script src="lib/jquery/dist/jquery.js"></script>
     <script src="cordova.js"></script>
 
     <!-- services -->
-    <script src="services/app.js"></script>
-    <script src="services/services/auth.js"></script>
-    <script src="services/services/shop.js"></script>
-    <script src="services/services/validate.js"></script>
-    <script src="services/services/like.js"></script>
-    <script src="services/services/cart.js"></script>
-    <script src="services/services/variable.js"></script>
-    <script src="services/services/channel.js"></script>
-    <script src="services/services/brand.js"></script>
+    <script src="js/app.js"></script>
+
+
+    <script src="js/services/auth.js"></script>
+    <script src="js/services/shop.js"></script>
+    <script src="js/services/validate.js"></script>
+    <script src="js/services/like.js"></script>
+    <script src="js/services/cart.js"></script>
+    <script src="js/services/variable.js"></script>
+    <script src="js/services/channel.js"></script>
+    <script src="js/services/brand.js"></script>
+    <script src="js/services/follow.js"></script>
     <!-- controllers -->
-    <script src="templates/master.js"></script>
-    <script src="templates/signup.js"></script>
-    <script src="templates/login.js"></script>
+    <script src="template/master.js"></script>
+    <script src="template/signup.js"></script>
+    <script src="template/login.js"></script>
     <!-- tab's controllers -->
+    <script src="template/tabs/tabs.js"></script>
+    <script src="template/tabs/search.js"></script>
+    <script src="template/tabs/notify.js"></script>
     <!-- main controllers -->
-    <script src="templates/tabs/main/main.js"></script>
-    <script src="templates/tabs/main/notify.js"></script>
-    <script src="templates/tabs/main/edit.js"></script>
-    <!-- channel controllers -->
-    <script src="templates/tabs/channel/intro.js"></script>
-    <script src="templates/tabs/channel/channel-list.js"></script>
-    <script src="templates/tabs/channel/cody-list.js"></script>
-    <script src="templates/tabs/channel/cody-detail.js"></script>
+    <script src="template/tabs/main/main.js"></script>
+    <script src="template/tabs/main/my/my-brand.js"></script>
+    <script src="template/tabs/main/my/my-product.js"></script>
+    <script src="template/tabs/main/my/my-cody.js"></script>
     <!-- brand controllers -->
-    <script src="templates/tabs/brand/intro.js"></script>
-    <script src="templates/tabs/brand/brand-list.js"></script>
+    <script src="template/tabs/brand/intro.js"></script>
+    <script src="template/tabs/brand/brand-detail.js"></script>
+    <script src="template/tabs/brand/brand-sort.js"></script>
+
     <!-- shop controllers -->
-    <script src="templates/tabs/shop/intro.js"></script>
-    <script src="templates/tabs/shop/shop-list.js"></script>
-    <script src="templates/tabs/shop/shop-detail.js"></script>
+    <script src="template/tabs/shop/intro.js"></script>
+    <script src="template/tabs/shop/product-detail.js"></script>
+    <script src="template/tabs/shop/product-sort.js"></script>
     <!-- private controllers -->
-    <script src="templates/tabs/private/info.js"></script>
-    <script src="templates/tabs/private/cody.js"></script>
-    <script src="templates/tabs/private/channel.js"></script>
-    <script src="templates/tabs/private/brand.js"></script>
-    <script src="templates/tabs/private/product.js"></script>
+    <script src="template/tabs/private/info.js"></script>
+    <script src="template/tabs/private/cody.js"></script>
+    <script src="template/tabs/private/channel.js"></script>
+    <script src="template/tabs/private/brand.js"></script>
+    <script src="template/tabs/private/product.js"></script>
   </head>
   <body ng-controller="MasterCtrl" animation="slide-left-right-ios7" class="platform-ios platform-cordova platform-webview">
-      <ion-nav-bar class="nav-bar bar-stable" id="backBtn" ng-click="goBack()">
+    <ion-nav-bar>
         <ion-nav-back-button>
         </ion-nav-back-button>
-      </ion-nav-bar>
-      <ion-nav-view></ion-nav-view>
+    </ion-nav-bar>
+    <ion-nav-view></ion-nav-view>
+
   </body>
 </html>

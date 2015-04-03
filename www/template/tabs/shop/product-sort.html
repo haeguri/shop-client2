@@ -1,0 +1,15 @@
+<ion-modal-view ng-controller="ProductSortCtrl">
+  <ion-header-bar class="bar bar-header bar-light">
+    <h1 class="title">Sort</h1>
+    <div class="buttons">
+      <i class="fa fa-times-circle fa-2x" ng-click="shop_intro.closeProductSort()"></i>
+    </div>
+  </ion-header-bar>
+  <ion-content scroll="false">
+    <div class="list">
+      <div class="item" ng-repeat="sort in product_sort.sorts">
+        {{product_sort.type}}
+      </div>
+    </div>
+  </ion-content>
+</ion-modal-view>

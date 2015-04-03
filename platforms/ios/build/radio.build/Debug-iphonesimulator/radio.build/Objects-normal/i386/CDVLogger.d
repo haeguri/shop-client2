@@ -3,9 +3,10 @@ dependencies: \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/radio/Plugins/org.apache.cordova.console/CDVLogger.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/haegyun/Ionic/radio-0.2/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/haegyun/Ionic/radio-0.2/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
-  /Users/haegyun/Ionic/radio-0.2/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/build/emulator/include/Cordova/CDV.h \
   /Users/haegyun/Ionic/radio-0.2/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \

@@ -1,0 +1,10 @@
+<ion-view view-title="내 이슈">
+    <ion-content>
+      	<div class="cody-thumbnail" ng-click="my_cody.openCodyDetail(like_cody.cody.channel, like_cody.cody.id)" ng-repeat="like_cody in user.like_codies">
+	        <img ng-src="{{like_cody.cody.image}}">
+	        <div>
+	          <h2>{{like_cody.cody.title}}</h2>
+	        </div>
+      	</div>
+    </ion-content>
+</ion-view>

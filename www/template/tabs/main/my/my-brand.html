@@ -1,0 +1,22 @@
+<ion-view view-title="브랜드">
+    <ion-content id="brand-list-content">
+      <div class="list" ng-repeat="brand_follow in user.follow_brands">
+        <div class="follow-wrap">
+          <a>
+            <img ng-src="{{brand_follow.brand.image}}">
+          </a>
+            <span class="follow-info">{{brand_follow.brand.name}}</span>
+          <button class="button button-small button-outline button-dark" ng-click="my_brand.brandFollow(brand_follow.brand.id)">팔로우취소    <i class="fa fa-minus"></i></button>
+        </div>
+        <ion-scroll direction="x" class="wide-as-needed" overflow-scroll="true" scroll="true" scrollbar-="true" has-bouncing="false">
+          <div class="designer-product-wrap" ng-repeat="product in brand_follow.brand.products_of_brand">
+            <a ng-href="#/tabs/main/product/{{product.id}}">
+              <img ng-src="{{product.image}}">
+            </a>
+            <h5>{{product.name}}</h5>
+          <p>{{product.price}}</p>
+          </div>
+        </ion-scroll>
+      </div>
+    </ion-content>
+</ion-view>

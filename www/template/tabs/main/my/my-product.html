@@ -1,0 +1,20 @@
+<ion-view view-title="내 상품">
+    <ion-content class="padding" id="shop-list-content">
+        <div class="list card col col-50 product-list" ng-repeat="like_product in user.like_products">
+          <div class="item item-image">
+            <img class="shop-list-image" ng-click="my_product.openShopDetail(like_product.product)"ng-src="{{like_product.product.image}}">
+          </div>
+          <div class="item tabs tabs-secondary tabs-icon-left item-footer">
+            <a class="tab-item" ng-click="my_product.toggleLike(like_product.product.id)">
+              <i id="product-heart-{{like_product.product.id}}" name="radio-like-true" class="fa fa-heart fa-lg"></i>
+              <span id="product-count-{{like_product.product.id}}">{{like_product.product.likes_of_product.length}}</span>
+            </a>
+            <div class="tab-item">
+            </div>
+            <div class="tab-item">
+              <span>{{like_product.product.price |  number:0}}원</span>
+            </div>
+          </div>
+        </div>
+    </ion-content>
+</ion-view>
