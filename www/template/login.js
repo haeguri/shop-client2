@@ -16,4 +16,5 @@ angular.module('radio.controller')
 		}
 
 		$scope.login.window_width = $(window).width();
+		
 	});

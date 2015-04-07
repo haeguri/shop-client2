@@ -4865,3 +4865,141 @@ Exception Value: &#39;request&#39;
 2015-04-03 15:13:10.203 radio[2801:120567] data [object Object]
 2015-04-03 15:13:10.377 radio[2801:120567] shop product data [object Object]
 2015-04-03 15:13:10.377 radio[2801:120567] $scope.brand_detail.tags[tag_index].products [object Object],[object Object]
+2015-04-07 13:17:48.593 radio[6281:488381] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-07 13:17:48.596 radio[6281:488381] Multi-tasking -> Device: YES, App: YES
+2015-04-07 13:17:48.611 radio[6281:488381] Unlimited access to network resources
+2015-04-07 13:17:49.002 radio[6281:488381] [CDVTimer][keyboard] 0.060022ms
+2015-04-07 13:17:49.002 radio[6281:488381] [CDVTimer][TotalPluginStartup] 0.558972ms
+2015-04-07 13:17:49.259 radio[6281:488381] Resetting plugins due to page load.
+2015-04-07 13:17:49.614 radio[6281:488381] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/E4A365B1-A54C-436A-BF1A-5CCD3F6589B5/radio.app/www/index.html
+2015-04-07 13:18:00.679 radio[6281:488381] User Data [object Object]
+2015-04-07 13:18:06.067 radio[6281:488381] Brands [object Object],[object Object]
+2015-04-07 13:18:06.831 radio[6281:488381] shop product data [object Object]
+2015-04-07 13:18:20.123 radio[6281:488381] data [object Object]
+2015-04-07 13:18:20.620 radio[6281:488381] shop product data [object Object]
+2015-04-07 13:18:20.620 radio[6281:488381] $scope.brand_detail.tags[tag_index].products [object Object]
+2015-04-07 13:18:32.685 radio[6281:488381] data [object Object]
+2015-04-07 13:18:35.742 radio[6281:488381] shop product data [object Object]
+2015-04-07 13:18:35.742 radio[6281:488381] $scope.brand_detail.tags[tag_index].products [object Object]
+2015-04-07 13:18:45.228 radio[6281:488381] shop product data [object Object]
+2015-04-07 13:18:45.228 radio[6281:488381] $scope.brand_detail.tags[tag_index].products [object Object]
+2015-04-07 13:18:46.564 radio[6281:488381] shop product data [object Object]
+2015-04-07 13:18:46.564 radio[6281:488381] $scope.brand_detail.tags[tag_index].products [object Object]
+2015-04-07 13:18:49.728 radio[6281:488381] data [object Object]
+2015-04-07 13:18:49.965 radio[6281:488381] shop product data [object Object]
+2015-04-07 13:18:49.965 radio[6281:488381] $scope.brand_detail.tags[tag_index].products [object Object]
+2015-04-07 19:21:58.065 radio[8308:624197] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-07 19:21:58.067 radio[8308:624197] Multi-tasking -> Device: YES, App: YES
+2015-04-07 19:21:58.079 radio[8308:624197] Unlimited access to network resources
+2015-04-07 19:21:58.464 radio[8308:624197] [CDVTimer][keyboard] 0.059009ms
+2015-04-07 19:21:58.464 radio[8308:624197] [CDVTimer][TotalPluginStartup] 0.230014ms
+2015-04-07 19:21:58.773 radio[8308:624197] Resetting plugins due to page load.
+2015-04-07 19:21:59.302 radio[8308:624197] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/747D9B65-63AF-4077-9513-81AEF8C48696/radio.app/www/index.html
+2015-04-07 19:23:27.352 radio[8905:626502] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-07 19:23:27.353 radio[8905:626502] Multi-tasking -> Device: YES, App: YES
+2015-04-07 19:23:27.354 radio[8905:626502] Unlimited access to network resources
+2015-04-07 19:23:27.550 radio[8905:626502] [CDVTimer][keyboard] 0.055969ms
+2015-04-07 19:23:27.550 radio[8905:626502] [CDVTimer][TotalPluginStartup] 0.205040ms
+2015-04-07 19:23:27.663 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:23:28.021 radio[8905:626502] Finished load of: http://192.168.0.206:8100/
+2015-04-07 19:23:30.669 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:23:30.927 radio[8905:626502] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-07 19:23:34.223 radio[8905:626502] User Data [object Object]
+2015-04-07 19:23:35.286 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:23:35.531 radio[8905:626502] Finished load of: http://192.168.0.206:8100/#/tabs/main
+2015-04-07 19:23:38.878 radio[8905:626502] User Data [object Object]
+2015-04-07 19:23:58.384 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:23:58.515 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=112217
+2015-04-07 19:24:02.195 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:24:02.310 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=172092
+2015-04-07 19:24:03.530 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:24:03.652 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=595175
+2015-04-07 19:24:04.857 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:24:04.972 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=616589
+2015-04-07 19:24:05.456 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:24:05.566 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=452302
+2015-04-07 19:24:38.731 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:24:38.866 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=452302#/login
+2015-04-07 19:25:15.567 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:25:15.723 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=452302#/login
+2015-04-07 19:25:34.509 radio[8905:626502] Hello
+2015-04-07 19:25:34.518 radio[8905:626502] data [object Object]
+2015-04-07 19:25:34.519 radio[8905:626502] Login Deny [object Object]
+2015-04-07 19:25:41.330 radio[8905:626502] Hello
+2015-04-07 19:25:41.339 radio[8905:626502] data [object Object]
+2015-04-07 19:25:41.339 radio[8905:626502] Login Deny [object Object]
+2015-04-07 19:25:45.576 radio[8905:626502] Hello
+2015-04-07 19:25:45.585 radio[8905:626502] data [object Object]
+2015-04-07 19:25:45.585 radio[8905:626502] Login Deny [object Object]
+2015-04-07 19:25:46.335 radio[8905:626502] Hello
+2015-04-07 19:25:46.344 radio[8905:626502] data [object Object]
+2015-04-07 19:25:46.344 radio[8905:626502] Login Deny [object Object]
+2015-04-07 19:26:34.494 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:26:34.619 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=452302#/login
+2015-04-07 19:26:37.757 radio[8905:626502] Hello
+2015-04-07 19:26:38.460 radio[8905:626502] Hello
+2015-04-07 19:26:38.627 radio[8905:626502] Hello
+2015-04-07 19:26:39.948 radio[8905:626502] Hello
+2015-04-07 19:26:40.121 radio[8905:626502] Hello
+2015-04-07 19:26:40.283 radio[8905:626502] Hello
+2015-04-07 19:26:46.073 radio[8905:626502] User Data [object Object]
+2015-04-07 19:26:51.456 radio[8905:626502] Brands [object Object],[object Object]
+2015-04-07 19:26:52.678 radio[8905:626502] data [object Object]
+2015-04-07 19:26:52.798 radio[8905:626502] shop product data [object Object]
+2015-04-07 19:26:52.798 radio[8905:626502] $scope.brand_detail.tags[tag_index].products [object Object]
+2015-04-07 19:26:54.975 radio[8905:626502] shop product data [object Object]
+2015-04-07 19:26:56.666 radio[8905:626502] shop product data [object Object]
+2015-04-07 19:26:56.666 radio[8905:626502] $scope.brand_detail.tags[tag_index].products [object Object]
+2015-04-07 19:26:57.139 radio[8905:626502] shop product data [object Object]
+2015-04-07 19:26:57.139 radio[8905:626502] $scope.brand_detail.tags[tag_index].products [object Object]
+2015-04-07 19:28:17.786 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:28:17.917 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=845492
+2015-04-07 19:28:25.520 radio[8905:626502] User Data [object Object]
+2015-04-07 19:28:33.185 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:28:33.303 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=155771
+2015-04-07 19:28:41.350 radio[8905:626502] Resetting plugins due to page load.
+2015-04-07 19:28:41.468 radio[8905:626502] Finished load of: http://192.168.0.206:8100/?restart=581166
+2015-04-07 19:28:44.661 radio[8905:626502] Hello
+2015-04-07 19:28:44.892 radio[8905:626502] Hello
+2015-04-07 19:28:45.067 radio[8905:626502] Hello
+2015-04-07 19:28:45.227 radio[8905:626502] Hello
+2015-04-07 19:28:45.747 radio[8905:626502] Hello
+2015-04-07 19:28:48.570 radio[8905:626502] Hello
+2015-04-07 19:28:48.730 radio[8905:626502] Hello
+2015-04-07 19:28:49.532 radio[8905:626502] data [object Object]
+2015-04-07 19:28:49.532 radio[8905:626502] Login Deny [object Object]
+2015-04-07 19:28:52.616 radio[8905:626502] User Data [object Object]
+2015-04-07 19:29:11.457 radio[9477:630824] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-07 19:29:11.458 radio[9477:630824] Multi-tasking -> Device: YES, App: YES
+2015-04-07 19:29:11.459 radio[9477:630824] Unlimited access to network resources
+2015-04-07 19:29:11.709 radio[9477:630824] [CDVTimer][keyboard] 0.060976ms
+2015-04-07 19:29:11.709 radio[9477:630824] [CDVTimer][TotalPluginStartup] 0.233054ms
+2015-04-07 19:29:11.861 radio[9477:630824] Resetting plugins due to page load.
+2015-04-07 19:29:12.231 radio[9477:630824] Finished load of: http://192.168.0.206:8100/
+2015-04-07 19:29:14.354 radio[9477:630824] Hello
+2015-04-07 19:29:14.701 radio[9477:630824] Hello
+2015-04-07 19:29:21.212 radio[9477:630824] Resetting plugins due to page load.
+2015-04-07 19:29:21.320 radio[9477:630824] Finished load of: http://192.168.0.206:8100/?restart=775795
+2015-04-07 19:29:24.346 radio[9477:630824] Hello
+2015-04-07 19:29:24.696 radio[9477:630824] Hello
+2015-04-07 19:29:25.193 radio[9477:630824] Hello
+2015-04-07 19:29:33.805 radio[9477:630824] Resetting plugins due to page load.
+2015-04-07 19:29:33.919 radio[9477:630824] Finished load of: http://192.168.0.206:8100/?restart=775795#/login
+2015-04-07 19:29:40.433 radio[9477:630824] User Data [object Object]
+2015-04-07 19:29:43.752 radio[9477:630824] Resetting plugins due to page load.
+2015-04-07 19:29:43.883 radio[9477:630824] Finished load of: http://192.168.0.206:8100/?restart=775795#/tabs/main
+2015-04-07 19:29:50.498 radio[9477:630824] User Data [object Object]
+2015-04-07 19:29:51.921 radio[9477:630824] Brands [object Object],[object Object]
+2015-04-07 19:29:53.443 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:29:54.149 radio[9477:630824] product_id 7
+2015-04-07 19:30:06.261 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:30:10.007 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:31:33.024 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:31:34.954 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:31:36.342 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:31:37.116 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:31:37.636 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:31:40.011 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:31:43.666 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:31:45.629 radio[9477:630824] shop product data [object Object]
+2015-04-07 19:31:46.301 radio[9477:630824] product_id 8
