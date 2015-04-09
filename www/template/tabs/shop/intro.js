@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 	
-	.controller('ShopIntroCtrl', function(Shop, Like, RadioAuth, $scope, $timeout, $q,
+	.controller('ShopIntroCtrl', function(Shop, Like, RadioAuth, $scope, $timeout, $q, $rootScope,
 		$location, $ionicScrollDelegate, $route, $stateParams, $ionicModal, $ionicSlideBoxDelegate) {
 
 		$scope.shop_intro = {};
@@ -17,13 +17,20 @@ angular.module('radio.controller')
 
 		var deferred = $q.defer();
 
+		$scope.shop_intro.test = function() {
+			console.log("init!")
+		}
+
 		var slideOnceUpdated = false;
 
-		var slideBoxUpdate = function() {
+		$scope.shop_intro.slideBoxUpdate = function() {
 			if(slideOnceUpdated == false ) {
         		slideOnceUpdated = true;
-        		$ionicSlideBoxDelegate.update();
+        		$timeout(function() {
+        			$ionicSlideBoxDelegate.update();
+        		})
         	}
+        	console.log("Update!")
 		}
 
 		var resetCondition = function(tag_index) {
@@ -43,9 +50,19 @@ angular.module('radio.controller')
 			$scope.$broadcast('ngRepeatFinished');
 		}
 
+	    $scope.$on('$ionicView.beforeEnter', function() {
+			var shop_intro_pattern = /\/tabs\/shop\/intro/.exec($location.absUrl());
+	      	if(shop_intro_pattern != null) {
+
+	      		$ionicSlideBoxDelegate.update();
+	      		console.log("update")
+	      	}
+		});
+
 		Shop.getGenders().then(function(data) {
 			$scope.shop_intro.genders = data;
 			selectGenderTag(data[0], 0);
+			//$scope.shop_intro.slideBoxUpdate();
 		})
 
 		$scope.shop_intro.changeGender = function(gender) {
@@ -54,6 +71,7 @@ angular.module('radio.controller')
 				//$timeout(function() {
 				$scope.shop_intro.beCollpased = true;
 				slideOnceUpdated = false;
+				$scope.shop_intro.slideBoxUpdate();
 				//}, 300)
 			}
 		}		
@@ -75,7 +93,6 @@ angular.module('radio.controller')
 					'gender_id':$scope.shop_intro.selectedGender.id
 				}).then(function(data){
 					console.log("shop product data", data);
-					slideBoxUpdate();
 					if(data.next == null) {
 						$scope.shop_intro.canLoadMore = false;
 						loadMore(data, tag_index);

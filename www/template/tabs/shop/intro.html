@@ -28,17 +28,16 @@
             </div>
             <ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index); shop_intro.changeTag($index)">
                 <ion-slide ng-repeat="i in shop_intro.tags">
-                    <ion-content>
-                        <div class="product-thumbnail" ng-repeat="product in shop_intro.tags[$index].products" ng-click="shop_intro.openProductDetail(product.id)">
-                            <img ng-src="{{product.images[0].image}}">
-                            <div>
-                                <i class="fa fa-heart-o"></i>
-                            </div>
-                            <h4>{{product.brand.name}}</h4>
-                            <h5>{{product.name}}</h5>
-                            <p>{{product.price  | number:0  }}</p>
+                    <div class="product-thumbnail"  ng-repeat="product in shop_intro.tags[$index].products"
+                                                    ng-click="shop_intro.openProductDetail(product.id)">
+                        <img ng-src="{{product.images[0].image}}">
+                        <div>
+                            <i class="fa fa-heart-o"></i>
                         </div>
-                    </ion-content>
+                        <h4>{{product.brand.name}}</h4>
+                        <h5>{{product.name}}</h5>
+                        <p>{{product.price  | number:0  }}</p>
+                    </div>
                 </ion-slide>
             </ion-slide-box>
         </tab-slide-box>

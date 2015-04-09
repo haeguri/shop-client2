@@ -10,15 +10,16 @@
  		<i class="fa fa-search fa-2x" ng-click="openSearch()"></i>
  	</ion-nav-buttons>
 	<ion-content id="main-content" has-bouncing="false">
+		<!--
 	    <div class="cody-thumbnail" ng-repeat="cody in main.codies">
 	    	<img ng-src="{{cody.image}}">
 	    	<h3>{{cody.title}}</h3>
 		</div>
-		<!--
-		<div class="cody-thumbnail" collection-repeat="cody in main.codies">
+		-->
+		<div class="cody-thumbnail" collection-repeat="cody in main.codies" item-width="50%" item-height="221px">
 	    	<img ng-src="{{cody.image}}">
 	    	<h3>{{cody.title}}</h3>
 		</div>
-		-->
 	</ion-content>
 </ion-view>
+w

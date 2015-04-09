@@ -10,4 +10,4 @@ angular.module('radio.service')
 	//.constant('MediaUrl', 'http://172.30.1.1:8000/media/')
 	/* AWS */
 	//.constant('RootUrl', 'http://bunkerseoul.com:8000')
-	//.constant('MediaUrl', 'http://bunkerseoul.com:8000/media/')
+	//.constant('MediaUrl', 'http://bunkerseoul.com:8000/media/')p

@@ -22,3 +22,19 @@ angular.module('radio.controller')
             $location.url('/tabs/main/notify');
         }
 })
+    .directive('resettingImg', function() {
+      return {
+        restrict: 'A',
+        link: function(scope, element, attr) {
+
+          var currentElement = element;
+          attr.$observe('src', function(src) {
+            var newImg = element.clone(true);
+            newImg.attr('src', src);
+            currentElement.replaceWith(newImg);
+            currentElement = newImg;
+          });
+
+        }
+      };
+});

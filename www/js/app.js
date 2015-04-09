@@ -35,14 +35,6 @@ angular.module('radio', [
     if (RadioAuth.authenticated === false) {
       $location.url('/login');
     }
-
-    $rootScope.$on('loading:show', function() {
-      $ionicLoading.show({template: '<img src="css/ajax-loader.gif"></img>'});
-    });
-
-    $rootScope.$on('loading:hide', function() {
-      $ionicLoading.hide();
-    });
   });
 })
 

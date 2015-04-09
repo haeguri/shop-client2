@@ -23,17 +23,15 @@
             </div>
             <ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index); brand_detail.changeTag($index)">
                 <ion-slide ng-repeat="i in brand_detail.tags" ng-init="brand_detail.resizeSlides()">
-                    <ion-content has-bouncing="false">
-                        <div class="product-thumbnail" ng-repeat="product in brand_detail.tags[$index].products" ng-click="brand_detail.openProductDetail(product.id)">
-                            <img ng-src="{{product.images[0].image}}">
-                            <div>
-                                <i class="fa fa-heart-o"></i>
-                            </div>
-                            <h5>{{product.brand.name}}</h5>
-                            <h6>{{product.name}}</h6>
-                            <p>{{product.price  | number:0  }}</p>
+                    <div class="product-thumbnail" ng-repeat="product in brand_detail.tags[$index].products" ng-click="brand_detail.openProductDetail(product.id)">
+                        <img ng-src="{{product.images[0].image}}">
+                        <div>
+                            <i class="fa fa-heart-o"></i>
                         </div>
-                    </ion-content>
+                        <h5>{{product.brand.name}}</h5>
+                        <h6>{{product.name}}</h6>
+                        <p>{{product.price  | number:0  }}</p>
+                    </div>
                 </ion-slide>
             </ion-slide-box>
         </tab-slide-box>
