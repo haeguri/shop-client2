@@ -5,7 +5,7 @@ angular.module('radio.controller')
 
 		$scope.shop_intro = {};
 
-		$scope.shop_intro.beCollpased = true;
+		$scope.shop_intro.beCollapsed = true;
 
 		$scope.shop_intro.products = [];
 		$scope.shop_intro.canLoadMore = true;
@@ -24,13 +24,13 @@ angular.module('radio.controller')
 		var slideOnceUpdated = false;
 
 		$scope.shop_intro.slideBoxUpdate = function() {
-			if(slideOnceUpdated == false ) {
+			//if(slideOnceUpdated == false ) {
         		slideOnceUpdated = true;
         		$timeout(function() {
         			$ionicSlideBoxDelegate.update();
         		})
-        	}
-        	console.log("Update!")
+        	//}
+        	console.log("Update! slidebox")
 		}
 
 		var resetCondition = function(tag_index) {
@@ -38,6 +38,9 @@ angular.module('radio.controller')
 		}
 
 		var selectGenderTag = function(gender, tag_index) {
+			slideOnceUpdated = false;
+			$scope.shop_intro.slideBoxUpdate();
+			$rootScope.$broadcast('ngRepeatFinished');
 			$scope.shop_intro.selectedGender = gender;
 			$scope.shop_intro.tags = gender.tags_of_gender;
 			for(var i in $scope.shop_intro.tags) {
@@ -47,32 +50,25 @@ angular.module('radio.controller')
 			}
 			$scope.shop_intro.selectedTag = gender.tags_of_gender[0];
 			$scope.shop_intro.getProducts(tag_index);
-			$scope.$broadcast('ngRepeatFinished');
 		}
 
 	    $scope.$on('$ionicView.beforeEnter', function() {
 			var shop_intro_pattern = /\/tabs\/shop\/intro/.exec($location.absUrl());
 	      	if(shop_intro_pattern != null) {
-
 	      		$ionicSlideBoxDelegate.update();
-	      		console.log("update")
 	      	}
+	      	console.log("update!!")
 		});
 
 		Shop.getGenders().then(function(data) {
 			$scope.shop_intro.genders = data;
 			selectGenderTag(data[0], 0);
-			//$scope.shop_intro.slideBoxUpdate();
 		})
 
 		$scope.shop_intro.changeGender = function(gender) {
 			if (gender.id != $scope.shop_intro.selectedGender.id) {
 				selectGenderTag(gender, 0);
-				//$timeout(function() {
-				$scope.shop_intro.beCollpased = true;
-				slideOnceUpdated = false;
-				$scope.shop_intro.slideBoxUpdate();
-				//}, 300)
+				$scope.shop_intro.beCollapsed = true;
 			}
 		}		
 

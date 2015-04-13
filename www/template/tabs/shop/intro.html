@@ -1,6 +1,6 @@
 <ion-view> 
     <ion-nav-title>
-        <button class="button button-clear button-dark" ng-click="shop_intro.beCollpased = !shop_intro.beCollpased">
+        <button class="button button-clear button-dark" ng-click="shop_intro.beCollapsed = !shop_intro.beCollapsed">
           {{shop_intro.selectedGender.type}} <i class="fa fa-chevron-down"></i>
         </button>
         <hr>
@@ -9,7 +9,7 @@
         <button class="button button-clear button-stable" ng-click="shop_intro.openProductSort()">Sort</button>
     </ion-nav-buttons>
     <ion-content has-bouncing="false">
-        <div collapse="shop_intro.beCollpased">
+        <div collapse="shop_intro.beCollapsed">
             <div class="list">
                 <div class="item" ng-repeat="gender in shop_intro.genders">
                     <button class="button button-clear button-dark" ng-click="shop_intro.changeGender(gender)">
