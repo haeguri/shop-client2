@@ -1,30 +1,29 @@
 angular.module('radio.controller')
 
 	.controller('BrandDetailCtrl', function(Brand, Shop, $scope, $stateParams, 
-		$ionicSlideBoxDelegate, $location) {
+		$ionicSlideBoxDelegate, $location, $timeout, $rootScope) {
 
 		$scope.brand_detail = {};
 
 		$scope.brand_detail.products = [];
 		$scope.brand_detail.canLoadMore = true;
 
-		$scope.brand_detail.tags;
-		$scope.brand_detail.selectedTag;
+		$scope.brand_detail.tags = [];
+		$scope.brand_detail.selectedTag = {};
 
 		var gender_id = $location.search()['gender'];
 
 		var slideOnceUpdated = false;
 
-        $scope.brand_detail.resizeSlides = function () {
+        $scope.brand_detail.slideBoxUpdate = function () {
     	/* fix for slides-box bug */
-        	if(slideOnceUpdated == false ) {
-        		slideOnceUpdated = true;
+        	$timeout(function() {
         		$ionicSlideBoxDelegate.update();
-        	}
+        	})
         }
 
-        $scope.brand_detail.changeTag = function(tag_index) {
-			$scope.brand_detail.selectedTag = $scope.brand_detail.tags[tag_index];
+        var resetCondition = function(tag_index) {
+			$scope.brand_detail.tags[tag_index].products = [];
 		}
 
 		Brand.getBrand({
@@ -40,24 +39,21 @@ angular.module('radio.controller')
 					'brand_id':$scope.brand_detail.brand.id
 				}
 			}).then(function(data) {
+				$scope.brand_detail.slideBoxUpdate();
+				$rootScope.$broadcast('ngRepeatFinished');
 				$scope.brand_detail.tags = data;
-				$scope.brand_detail.selectedTag = data[0];
 				for(var i in $scope.brand_detail.tags) {
 					$scope.brand_detail.tags[i].isLoaded = false;
 					$scope.brand_detail.tags[i].lastLoadedPage = 0;
 					$scope.brand_detail.tags[i].products = [];
 				}
+				$scope.brand_detail.selectedTag = data[0];
 				$scope.brand_detail.getProducts(0);
 			})
 		})
 
-		var resetCondition = function(tag_index) {
-			$scope.brand_detail.tags[tag_index].products = [];
-		}
-
 		$scope.brand_detail.changeTag = function(tag_index) {
 			$scope.brand_detail.selectedTag = $scope.brand_detail.tags[tag_index];
-
 			$scope.brand_detail.getProducts(tag_index);
 		}
 
@@ -72,13 +68,11 @@ angular.module('radio.controller')
 					'tag_id':$scope.brand_detail.selectedTag.id,
 					'gender_id':gender_id
 				}).then(function(data){
-					console.log("shop product data", data);
+					console.log("brand detail product data", data);
 					if(data.next == null) {
 						$scope.brand_detail.canLoadMore = false;
 						loadMore(data, tag_index);
-						$scope.$broadcast('scroll.infiniteScrollComplete');
 					} else {
-						$ionicScrollDelegate.resize();
 						loadMore(data);
 					}
 				});

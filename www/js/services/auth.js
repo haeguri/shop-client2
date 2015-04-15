@@ -3,14 +3,13 @@ angular.module('radio.service', [])
 	.factory('RadioAuth', function(RootUrl, $http, $cookies, $rootScope, $location) {
 
 		var RadioAuth = {
-	        'API_URL': RootUrl,
 	        'authenticated': false,
 	        'request':function(args) {
 	            if($cookies.token){
 	                $http.defaults.headers.common.Authorization = 'Token ' + $cookies.token;
 	            }
 	            return $http({
-	                url : this.API_URL + args.url,
+	                url : RootUrl + args.url,
 	                method : args.method || {},
 	                params : args.params || {},
 	                data : args.data || {}

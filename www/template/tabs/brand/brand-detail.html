@@ -1,4 +1,4 @@
-<ion-view view-title="브랜드 디테일">
+<ion-view>
 	<ion-nav-title>	
 	  <h4>{{brand_detail.brand.name}}</h4>
 	</ion-nav-title>
@@ -6,7 +6,7 @@
       <a class="button button-icon fa fa-info-circle"></a>
       <a class="button button-icon fa fa-share-square-o"></a>
     </ion-nav-buttons>
-  	<ion-content class="padding">
+  	<ion-content>
   		<div class="product-brand-info">
 	    	<img ng-src="{{brand_detail.brand.image}}">
 		    <span>{{brand_detail.brand.name}}</span>
@@ -17,12 +17,12 @@
             <div class="tsb-icons">
                 <div class="tsb-ic-wrp">
                     <ion-scroll direction="x" class="tsb-hscroll" has-bouncing="false">
-                        <a ng-repeat="tag in brand_detail.tags track by $index" on-finish-render="test()">{{tag.type}}</a>
+                        <a ng-repeat="tag in brand_detail.tags track by $index" on-finish-render>{{tag.type}}</a>
                     </ion-scroll>
                 </div>
             </div>
             <ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index); brand_detail.changeTag($index)">
-                <ion-slide ng-repeat="i in brand_detail.tags" ng-init="brand_detail.resizeSlides()">
+                <ion-slide ng-repeat="i in brand_detail.tags">
                     <div class="product-thumbnail" ng-repeat="product in brand_detail.tags[$index].products" ng-click="brand_detail.openProductDetail(product.id)">
                         <img ng-src="{{product.images[0].image}}">
                         <div>

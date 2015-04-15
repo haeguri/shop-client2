@@ -7,7 +7,11 @@ angular.module('radio.controller')
 
 		$scope.private_info.menus = [
 			'Cart', 'Brand', 'Product', 'Issue'
-		]
+		];
+
+		$scope.private_info.test = function() {
+			console.log("slidebox init");
+		}
 
 		$scope.private_info.requestLogout = function() {
 			RadioAuth.logout().then(function() {

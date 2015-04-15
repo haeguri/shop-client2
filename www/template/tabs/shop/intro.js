@@ -10,27 +10,15 @@ angular.module('radio.controller')
 		$scope.shop_intro.products = [];
 		$scope.shop_intro.canLoadMore = true;
 
-		$scope.shop_intro.genders;
-		$scope.shop_intro.selectedGender;
-		$scope.shop_intro.tags;
-		$scope.shop_intro.selectedTag;
-
-		var deferred = $q.defer();
-
-		$scope.shop_intro.test = function() {
-			console.log("init!")
-		}
-
-		var slideOnceUpdated = false;
+		$scope.shop_intro.genders = {};
+		$scope.shop_intro.selectedGender = {};
+		$scope.shop_intro.selectedTag = {}; 
+		$scope.shop_intro.tags = [];
 
 		$scope.shop_intro.slideBoxUpdate = function() {
-			//if(slideOnceUpdated == false ) {
-        		slideOnceUpdated = true;
-        		$timeout(function() {
-        			$ionicSlideBoxDelegate.update();
-        		})
-        	//}
-        	console.log("Update! slidebox")
+    		$timeout(function() {
+    			$ionicSlideBoxDelegate.update();
+    		})
 		}
 
 		var resetCondition = function(tag_index) {
@@ -38,7 +26,6 @@ angular.module('radio.controller')
 		}
 
 		var selectGenderTag = function(gender, tag_index) {
-			slideOnceUpdated = false;
 			$scope.shop_intro.slideBoxUpdate();
 			$rootScope.$broadcast('ngRepeatFinished');
 			$scope.shop_intro.selectedGender = gender;
