@@ -1,0 +1,21 @@
+<ion-view>
+    <ion-content padding="true" scroll="false" class="signup-content">
+        <form ng-submit="requestSignup()" id="signup-form">
+            <ion-list>
+                <label class="item item-input">
+                    <input type="text" placeholder="이름" ng-model="signup.username">
+                </label>
+                <label class="item item-input">
+                    <input type="email" placeholder="이메일" ng-model="signup.email">
+                </label>
+                <label class="item item-input">
+                    <input type="password" placeholder="비밀번호" ng-model="signup.password1">
+                </label>
+                <label class="item item-input">
+                    <input type="password" placeholder="비밀번호 재확인" ng-model="signup.password2">
+                </label>
+            </ion-list>
+            <button type="submit" class="button button-dark button-block" id="signup-form-submit">가입하기</button>
+        </form>
+    </ion-content>
+</ion-view>

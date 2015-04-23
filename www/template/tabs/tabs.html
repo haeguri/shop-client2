@@ -1,20 +1,20 @@
 <ion-view>
-    <ion-tabs class="tabs-light tabs-bottom tabs-icon-top" id="radio-tabs">
+    <ion-tabs class="tabs-light tabs-bottom tabs-icon-only" id="radio-tabs">
 
-        <ion-tab title="Main" icon="fa fa-home" ui-sref="tabs.main">
+        <ion-tab icon="fa fa-home" ui-sref="tabs.main">
             <ion-nav-view name="tabs-main"></ion-nav-view>
         </ion-tab>
 
-        <ion-tab title="Brand" icon="fa fa-tags" ui-sref="tabs.brand">
-            <ion-nav-view name="tabs-brand"></ion-nav-view>
+        <ion-tab icon="fa fa fa-book" ui-sref="tabs.channel">
+            <ion-nav-view name="tabs-channel"></ion-nav-view>
         </ion-tab>
 
-        <ion-tab title="Shop" icon="fa fa-gift" ui-sref="tabs.shop">
-            <ion-nav-view name="tabs-shop"></ion-nav-view>
-        </ion-tab>
-
-        <ion-tab title="Private" icon="fa fa-user" ui-sref="tabs.private.info">
+        <ion-tab icon="fa fa fa-user" ui-sref="tabs.private">
             <ion-nav-view name="tabs-private"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab icon="fa fa-search" ui-sref="tabs.search">
+            <ion-nav-view name="tabs-search"></ion-nav-view>
         </ion-tab>
 
     </ion-tabs>

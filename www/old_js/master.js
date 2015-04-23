@@ -1,11 +1,11 @@
 angular.module('radio.controller', [])
 
-	.controller('MasterCtrl', function($scope, Cart, $ionicPopup,
+	.controller('MasterCtrl', function($scope, $rootScope, Cart, $ionicPopup,
 		$route, $timeout, $location, $ionicScrollDelegate, RadioAuth, 
 		$rootScope, $location, $ionicModal, $ionicSlideBoxDelegate) {
 
 		$scope.$on('UserLogin', function(event, data){
-			$scope.user = {
+			$rootScope.user = {
 				'id': data.id,
 				'name' : data.username,
 				'email' : data.email,

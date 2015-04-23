@@ -19,7 +19,8 @@ ion-header-bar div.buttons.buttons-right span a.button.button-icon:before{
 }
 
 h3 {
-  font-size: 21px !important; 
+  font-size: 19px !important; 
+  margin: 0px;
 }
 
 h4 {
@@ -27,7 +28,7 @@ h4 {
 }
 
 h5 {
-  font-size: 13px !important;
+  font-size: 14px !important;
 }
 
 p {
@@ -42,26 +43,20 @@ a:hover {
   font-family: '33535gillsansmt', sans-serif;
 }
 
+ion-header-bar h5 {
+  text-align: center;
+}
+
+ion-header-bar button {
+  margin-top: 0px !important;
+  font-weight: 700;
+}
+
+.has-subheader.more-height{
+  top:88px;
+}
+
 /* -------- nav bar --------- */ 
-
-.bar .title {
-  font-size :17px;
-  font-weight: 400;
-}
-
-
-ion-header-bar i {
-  font-size: 25px !important;
-  margin-top: 5px;
-}
-
-ion-header-bar div.buttons.buttons-left {
-  margin-left: 3%;
-}
-
-ion-header-bar div.buttons.buttons-right {
-  margin-right: 3%;
-}
 
 /* --------------------------- */
 
@@ -76,13 +71,6 @@ div.item {
 
 div.item p {
   white-space: pre-wrap;
-}
-.bar-subheader {
-  padding: 0px;
-  border: none;
-  border-bottom-color: transparent !important;
-  background-image: none;
-  border-bottom: none;
 }
 
 .bar-subheader div.list div.item {
@@ -138,139 +126,75 @@ ion-scroll.wide-as-needed button:last-child{
   margin-right: 10px;
 }
 
-/* ------ modal --------
----------------------------*/
-
-ion-modal-view div.buttons i {
-  margin-right: 5px;
-}
-
-/* notify modal */
-
-ion-modal-view[ng-controller="NotifyCtrl"] div.list img {
-  width: 85px;
-  height: 85px;
-  float: left;
-}
-
-ion-modal-view[ng-controller="NotifyCtrl"] div.list a.item {
-  padding: 10px;
-}
-
-ion-modal-view[ng-controller="NotifyCtrl"] div.list a.item p {
-  float: right;
-}
-
-ion-modal-view[ng-controller="NotifyCtrl"] div.list a.item h4 {
-  position: absolute;
-  left: 100px;
-  font-weight: 400;
-  top:40%;
-  white-space: normal;
-}
-
-
-/* search modal */
-
-ion-modal-view[ng-controller="SearchCtrl"] ion-content {
-  padding: 26px;
-}
-
-ion-modal-view[ng-controller="SearchCtrl"] .cody-thumbnail img {
-  height: 120px;
-}
-
-.item-input-wrapper {
-  background-color: #fff;
-  margin-bottom: 10px;
-}
-
-label.item-input {
-  width: 100%;
-}
-
-div.radio-input-wrap {
-  padding: 10px;
-}
-
-ion-modal-view label.item.item-input {
-  border-radius: 10px;
-}
-
-
 /* ------ main page ---------
 --------------------------*/
 
-div.cody-thumbnail {
-  max-width: 36.7%;
-  min-height: 220px;
-  margin-bottom: 5px;
+/* main nav */
+
+ion-header-bar.bar.bar-subheader.main-intro a {
+  color: #444;
+  font-size: 17px;
+  line-height: 32px;
 }
 
-div.cody-thumbnail > img {
-  border: solid 3px black;
-  border-radius: 50%;
-  width: 100%;
-  height: 138px;
-}
-
-div.cody-thumbnail:nth-of-type(2n+1) {
-  float: left;
-  margin-left: 6.6%;
-  margin-right: 6.6%;
-}
-
-div.cody-thumbnail:nth-of-type(2n) {
+ion-header-bar.bar.bar-subheader.main-intro button:last-child{
   float: right;
-  margin-left: 6.6%;
-  margin-right: 6.6%;
+  font-size: 14px;
 }
 
-div.cody-thumbnail h3 {
-  font-size: 21px;
-  margin-top:10px;
-  text-align: center;
-  font-weight: 400;
+
+ion-header-bar.bar.bar-subheader.hash-tag {
+  height: 100px;
 }
 
-/* ------- Brand Tab ----------
---------------------------- */
 
-div.brand-product-thumbnail { 
-  margin: 0px 10px 0px 0px;
-  display: inline-block;
-  text-align: center;
-}
 
-div.brand-product-thumbnail:last-child {
-  margin-right: 0px;
-}
 
-div.brand-product-thumbnail img { 
-  width:135px; 
-  height: 135px;
-  border: 2px solid #00002f;
-  border-radius: 8px;
-}
+/* issue-list */
 
-/* ------- Shop Tab ------- 
--------------------------------*/
-
-span.nav-bar-title button {
-  margin-top: 5px;
-  font-weight: 400 !important;
-}
-
-span.nav-bar-title button i {
-  font-size: 15px !important;
-}
-
-/* sort modal */
-
-div.modal-backdrop ion-modal-view[ng-controller="SortCtrl"] {
+div.issue-list {
   width: 100%;
-  top: 50%;
-  text-align: center;
+  height: 192px;
+  position: relative;
+}
+
+div.issue-list * {
+  position: absolute;
+  color: #fff;
+}
+
+div.issue-list img {
+  width: 100%;
+  height: 192px;
+}
+
+div.issue-list div.image-wrap {
+  width: 100%;
+  height: 192px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+div.issue-list img.profile {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  right: 10px;
+  top: 10px;
+}
+
+div.issue-list div.info{
+  position: absolute;
+  width: 100%;
+  top: 115px;
+  left: 15px;
+}
+
+div.issue-list div.info * {
+  position: relative;
+}
+
+div.issue-list div.info a{
+  margin-right: 5px;
 }
 
 
@@ -358,7 +282,6 @@ div.product-brand-info a {
 
 
 div.product-button-bar {
-  border: solid 2px #0081ff;
   border-radius: 5px;
 }
 
@@ -369,8 +292,9 @@ div.product-button-bar a, div.product-button-bar a:hover{
 }
 
 div.product-button-bar a.button.active{
-  background-color: #0081ff;
-  color: #fff;
+  background-color: #fff;
+  color: #0081ff;
+  border-bottom: 3px solid #0081ff;
 }
 
 div.product-desc-wrap {

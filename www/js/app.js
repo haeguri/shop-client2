@@ -55,7 +55,7 @@ angular.module('radio', [
       controller: 'SignupCtrl'
     })
 
-    /* "Radio 하단 탭 */
+    /* Radio 하단 탭 */
     .state('tabs', {
       url: '/tabs',
       abstract: true,
@@ -66,191 +66,106 @@ angular.module('radio', [
     /* "메인" 탭 */
     .state('tabs.main', {
       url: '/main',
+      /*
+      abstract: true,
+      templateUrl: 'template/tabs/main/intro.html',
+      controller: 'MainIntroCtrl'
+      */
       views: {
         'tabs-main': {
-          templateUrl: 'template/tabs/main/main.html',
-          controller: 'MainCtrl'
+          templateUrl: 'template/tabs/main/intro.html',
+          controller: 'MainIntroCtrl'
         }
       }
-    })
     
-    .state('tabs.main-my-cody', {
-      url: '/main/mycody',
+    })
+
+    .state('tabs.main.intro_issue', {
+      url: '/issues',
+      views: {
+        'tabs-main': {
+          templateUrl: 'template/tabs/main/intro_issue.html',
+          controller: 'MainIntroIssueCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main.intro_product', {
+      url: '/products',
+      views: {
+        'tabs-main': {
+          templateUrl: 'template/tabs/main/intro_product.html',
+          controller: 'MainIntroProductCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main-hashtag', {
+      url: '/main/channel/:channel_id/hashtag/:tag_id',
+      views: {
+        'tabs-main': {
+          templateUrl: 'template/hashtag/hashtag.html',
+          controller: 'HashTagCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main-hashtag-global', {
+      url: '/main/hashtag/:tag_id',
+      views: {
+        'tabs-main': {
+          templateUrl: 'template/hashtag/hashtag_global.html',
+          controller: 'HashTagCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main-issue_detail', {
+      url: '/main/issues/:issue_id',
       views: {
         'tabs-main':{
-          templateUrl: 'template/tabs/main/my/my-cody.html',
-          controller: 'MyCodyCtrl'
+          templateUrl: 'template/issue/issue_detail.html',
+          controller: 'IssueDetailCtrl'
         }
       }
     })
 
-    .state('tabs.main-my-brand', {
-      url: '/main/mybrand',
+    /* "채널" 탭 */
+    .state('tabs.channel', {
+      url: '/channel',
       views: {
-        'tabs-main':{
-          templateUrl: 'template/tabs/main/my/my-brand.html',
-          controller: 'MyBrandCtrl'
+        'tabs-channel': {
+          templateUrl: 'template/tabs/channel/intro.html',
+          controller: 'ChannelIntroCtrl'
         }
       }
     })
 
-    .state('tabs.main-my-product', {
-      url: '/main/myproduct',
-      views: {
-        'tabs-main':{
-          templateUrl: 'template/tabs/main/my/my-product.html',
-          controller: 'MyProductCtrl'
-        }
-      }
-    })
-
-    .state('tabs.main-channel-detail', {
-      url: '/main/channel/:channel_id',
-      views: {
-        'tabs-main':{
-          templateUrl:'template/tabs/channel/channel-detail.html',
-          controller:'ChannelDetailCtrl'
-        }
-      }
-    })
-
-    .state('tabs.main-shop-detail', {
-      url: '/main/genders/:gender_id/tags/:tag_id/products/:product_id',
-      views: {
-        'tabs-main':{
-          templateUrl: 'template/tabs/shop/product-detail.html',
-          controller: 'ProductDetailCtrl'
-        }
-      }
-    })
-
-    .state('tabs.main-cody-detail', {
-      url: '/main/channel/:channel_id/cody/:cody_id',
-      views: {
-        'tabs-main':{
-          templateUrl:'template/tabs/channel/cody-detail.html',
-          controller:'ChannelCodyDetailCtrl'
-        }
-      }
-    })
-    
-    /* "브랜드" 탭 */
-    .state('tabs.brand', {
-      url: '/brand',
-      views: {
-        'tabs-brand':{
-          templateUrl: 'template/tabs/brand/intro.html',
-          controller: 'BrandIntroCtrl'
-        }
-      }
-    })
-
-    .state('tabs.brand-detail', {
-      url: '/brand/:brand_id', 
-      views: {
-        'tabs-brand': {
-          templateUrl: 'template/tabs/brand/brand-detail.html',
-          controller: 'BrandDetailCtrl',
-        }
-      }
-    })
-
-    .state('tabs.brand-shop-detail', {
-      url: '/brand/genders/:gender_id/tags/:tag_id/products/:product_id',
-      views: {
-        'tabs-brand': {
-          templateUrl: 'template/tabs/shop/product-detail.html',
-          controller: 'ProductDetailCtrl'
-        }
-      }
-    })
-
-    /* "상점" 탭 */
-    .state('tabs.shop', {
-      url: '/shop/intro',
-      views: {
-        'tabs-shop':{
-          templateUrl: 'template/tabs/shop/intro.html',
-          controller: 'ShopIntroCtrl'
-        }
-      }
-    })
-
-    .state('tabs.product-detail', {
-      url: '/genders/:gender_id/tags/:tag_id/products/:product_id',
-      views:{
-        'tabs-shop': {
-          templateUrl: 'template/tabs/shop/product-detail.html',
-          controller: 'ProductDetailCtrl',
-        }
-      }
-    })
-
-    /* "내 정보" 탭 */
+    /* "마이 페이지" */
     .state('tabs.private', {
       url: '/private',
-      abstract: true,
       views: {
         'tabs-private': {
-          templateUrl: 'template/tabs/private/private.html',
+          templateUrl: 'template/tabs/private/following.html',
+          controller: 'PrivateFollowingCtrl'
         }
       }
     })
 
-    .state('tabs.private.info', {
-      url: '/info',
+    /* "검색" */
+    .state('tabs.search', {
+      url: '/search',
       views: {
-        'tabs-private':{
-          templateUrl: 'template/tabs/private/info.html',
-          controller: 'PrivateInfoCtrl'
-        }
+        'tabs-search': {
+          templateUrl: 'template/tabs/search/intro.html',
+          controller: 'SearchIntroCtrl'
+        }        
       }
     })
-
-    .state('tabs.private.cody', {
-      url: '/cody',
-      views: {
-        'tabs-private':{
-          templateUrl: 'template/tabs/private/cody.html',
-          controller: 'PrivateCodyCtrl'
-        }
-      }
-    })
-
-    .state('tabs.private.channel', {
-      url:'/channel',
-      views: {
-        'tabs-private':{
-          templateUrl: 'template/tabs/private/channel.html',
-          controller: 'PrivateChannelCtrl'
-        }
-      }
-    })
-
-    .state('tabs.private.brand', {
-      url:'/brand',
-      'views': {
-        'tabs-private':{
-          templateUrl: 'template/tabs/private/brand.html',
-          controller: 'PrivateBrandCtrl'
-        }
-      }
-    })
-
-    .state('tabs.private.product', {
-      url: '/product',
-      views: {
-        'tabs-private':{
-          templateUrl: 'template/tabs/private/product.html',
-          controller: 'PrivateProductCtrl'
-        }
-      }
-    });
+    
 
   $ionicConfigProvider.tabs.position('bottom');
   $ionicConfigProvider.backButton.text('').icon('fa fa-arrow-left fa-lg').previousTitleText(false);
-
-  $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|ftp|file|blob|content):|data:image\//);
 
   //$ionicConfigProvider.views.maxCache(0);
   

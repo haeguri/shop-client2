@@ -19,33 +19,23 @@ angular.module('radio.service')
 					console.log("error!!", response);
 				})
 			},
-			'getCodies':function(args) {
+			'getIssues':function(args) {
 				var Channel = this;
-				if(args != undefined) {
-					var params = args.params || {};
-				}
+				var params = args.params || {};
+				console.log("args", args);
 				return Channel.request({
 					'method':'GET',
-					'extra_url':'/codies',
+					'extra_url':'/issues',
 					'params':params
 				}).then(function(response) {
 					return response.data;
 				})
 			},
-			'getCodiesOfCategory':function(category_id){
+			'getIssue':function(issue_id) {
 				var Channel = this;
 				return Channel.request({
 					'method':'GET',
-					'extra_url':'/cody-categories/'+category_id+'/codies',
-				}).then(function(response){
-					return response.data;
-				})
-			},
-			'getCody':function(channel_id, cody_id) {
-				var Channel = this;
-				return Channel.request({
-					'method':'GET',
-					'extra_url':'/channels/' + channel_id + '/codies/' + cody_id
+					'extra_url': '/issues/' + issue_id
 				}).then(function(response){
 					return response.data;
 				})

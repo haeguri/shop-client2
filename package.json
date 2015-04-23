@@ -16,10 +16,6 @@
   },
   "cordovaPlugins": [],
   "cordovaPlatforms": [
-    {
-      "platform": "ios",
-      "version": "Not installed",
-      "locator": "ios"
-    }
+    "ios"
   ]
 }
