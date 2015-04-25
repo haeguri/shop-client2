@@ -1,20 +1,25 @@
 angular.module('radio.controller')
 
-	.controller('MainIntroCtrl', function($scope, $location, $state) {
+.controller('MainIntroCtrl', function($scope, $location, $state) {
 
-        $scope.main_intro = {};
-
-        $scope.main_intro.current_contents = 'issues';
+    $scope.main_intro = {};
 
 
-        $scope.main_intro.toggleContents = function() {
-                console.log("clicked")
-        	if ($scope.main_intro.current_contents=='issues') {
-        		$scope.main_intro.current_contents = 'products';
-        		//$location.url('/tabs/main/issues');
-        	} else {
-        		$scope.main_intro.current_contents = 'issues';
-        		//$location.url('/tabs/main/products');
-        	}
+    $scope.main_intro.filter = '추천';
+
+    $scope.main_intro.content = '이슈';
+
+    /*
+    $scope.main_intro.toggleFilter = function() {
+        if ($scope.main_intro.filter == '추천') {
+            $scope.main_intro.filter = '인기';
+            $location.url('/hot/issues');
+            //$location.url('/tabs/main/issues');
+        } else {
+            $scope.main_intro.filter = '추천';
+            $location.url('/rec/issues');
+            //$location.url('/tabs/main/products');
         }
+    }
+    */
 })

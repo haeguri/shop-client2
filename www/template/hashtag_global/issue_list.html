@@ -1,3 +1,4 @@
+<!-- 해쉬 태그 페이지에서 "라디오 전체 검색" 누르면 올 수 있는 페이지 -->
 <ion-view>
 	<ion-nav-title>
 		<h1 class="title">
@@ -9,14 +10,16 @@
 	     	<a ng-click="hash_tag.toggleInfo($event, menu)" class="button" ng-repeat="menu in hash_tag.menuList">{{menu}}</a>
       	</div>
     </ion-header-bar>
-    <ion-content class="has-subheader">
-		<div class="issue-list" ng-click="hash_tag.goIssueDetail(issue.id)" ng-repeat="issue in hash_tag.issues">
+    <ion-content class="has-subheader" has-bouncing="false">
+		<div class="radio-list" ng-click="hash_tag.goIssueDetail(issue.id)" collection-repeat="issue in hash_tag.issues"
+		 item-width="100%"
+		 item-height="192px">
 	        <img ng-src="{{issue.image}}">
 	        <div class="image-wrap"></div>
         	<img class="profile" ng-src="{{issue.channel.profile}}">
 	        <div class="info">
 	        	<h3>{{issue.title}}</h3>
-	        	<a ng-click="hash_tag.goHashTag(tag, issue.channel, $event)" ng-repeat="tag in issue.hash_tags" >#{{tag.name}}</a><br>
+	        	<a ng-click="hash_tag.goHashTagIssueList(tag, issue.channel, $event)" ng-repeat="tag in issue.hash_tags" >#{{tag.name}}</a><br>
 				<span><i class="fa fa-eye"></i> {{issue.view}}</span>
 	        	<span><i class="fa fa-heart"></i> {{issue.issue_likes_of_issue.length}}</span>
 	        </div>

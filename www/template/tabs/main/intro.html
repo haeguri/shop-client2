@@ -1,13 +1,63 @@
-<ion-view has-bouncing="false">
-  <ion-nav-bar>
-  </ion-nav-bar>
-	<ion-header-bar class="bar bar-subheader main-intro">
-      <button class="button button-clear button-dark">인기<i class="fa fa-pencil fa-chevron-down"></i></button>
-      <a ng-show="main_intro.current_contents=='issues'" href="#/tabs/main/products" nav-transition="none" ng-click="main_intro.toggleContents()">이슈<i class="fa fa-pencil fa-chevron-down"></i></a>
-      <a ng-show="main_intro.current_contents=='products'" href="#/tabs/main/issues" nav-transition="none" ng-click="main_intro.toggleContents()">상품<i class="fa fa-pencil fa-chevron-down"></i></a>
-      <button class="button button-clear button-dark">가격 높음<i class="fa fa-chevron-down"></i></button>
+<ion-view>
+    <ion-nav-bar>
+    </ion-nav-bar>
+    <ion-header-bar class="bar bar-subheader main-intro">
+        <a  ng-href="#/hot/issues" 
+            nav-transition="none" 
+            ng-click="main_intro.filter='인기'; main_intro.content='이슈'"; 
+            ng-show="main_intro.filter=='추천'">
+            {{main_intro.filter}}
+            <i class="fa fa-pencil fa-chevron-down"></i>
+        </a>
+        <a  ng-href="#/rec/issues"
+            nav-transition="none" 
+            ng-click="main_intro.filter='추천'; main_intro.content='이슈'"  
+            ng-show="main_intro.filter=='인기'">
+            {{main_intro.filter}}
+            <i class="fa fa-pencil fa-chevron-down"></i>
+        </a>
+
+
+        <a  ng-href="#/rec/channels" 
+            nav-transition="none" 
+            ng-click="main_intro.content='채널'"  
+            ng-show="main_intro.filter=='추천' && main_intro.content=='이슈'">
+            {{main_intro.content}}
+            <i class="fa fa-pencil fa-chevron-down"></i>
+        </a>
+
+        <a  ng-href="#/rec/issues" 
+            nav-transition="none" 
+            ng-click="main_intro.content='이슈'"  
+            ng-show="main_intro.filter=='추천' && main_intro.content=='채널'">
+            {{main_intro.content}}
+            <i class="fa fa-pencil fa-chevron-down"></i>
+        </a>
+
+
+        
+        <a ng-href="#/hot/products" 
+            nav-transition="none" 
+            ng-click="main_intro.content='상품'"  
+            ng-show="main_intro.filter=='인기' && main_intro.content=='이슈'">
+            {{main_intro.content}}<i class="fa fa-pencil fa-chevron-down"></i>
+        </a>
+
+        <a ng-href="#/hot/issues" 
+            nav-transition="none"
+            ng-click="main_intro.toggleContent(); main_intro.content='이슈'"  
+            ng-show="main_intro.filter=='인기' && main_intro.content=='상품'">
+            {{main_intro.content}}<i class="fa fa-pencil fa-chevron-down"></i>
+        </a>
+        
+        <!--
+        <button class="button button-clear button-dark">인기<i class="fa fa-pencil fa-chevron-down"></i></button>
+        <a ng-show="main_intro.current_contents=='issues'" href="#/main/products" nav-transition="none" ng-click="main_intro.toggleContents()">이슈<i class="fa fa-pencil fa-chevron-down"></i></a>
+        <a ng-show="main_intro.current_contents=='products'" href="#/main/issues" nav-transition="none" ng-click="main_intro.toggleContents()">상품<i class="fa fa-pencil fa-chevron-down"></i></a>
+        <button ng-if="main_intro.current_contents!='issues'" class="button button-clear button-dark">가격 높음<i class="fa fa-chevron-down"></i></button>
+        -->
     </ion-header-bar>
-    <ion-content class="has-subheader">
-		<ion-nav-view name="tabs-main"></ion-nav-view>
+    <ion-content class="has-subheader" has-bouncing="false">
+    	<ion-nav-view name="main"></ion-nav-view>
     </ion-content>
 </ion-view>

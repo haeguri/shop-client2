@@ -67,3 +67,936 @@
 2015-04-23 19:56:20.424 radio[75150:4027555] data [object Object]
 2015-04-23 19:56:26.332 radio[75150:4027555] args [object Object]
 2015-04-23 19:56:26.531 radio[75150:4027555] data [object Object]
+2015-04-23 21:25:58.884 radio[76566:4080473] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 21:25:58.888 radio[76566:4080473] Multi-tasking -> Device: YES, App: YES
+2015-04-23 21:25:58.912 radio[76566:4080473] Unlimited access to network resources
+2015-04-23 21:25:59.318 radio[76566:4080473] [CDVTimer][keyboard] 0.057042ms
+2015-04-23 21:25:59.319 radio[76566:4080473] [CDVTimer][TotalPluginStartup] 0.611007ms
+2015-04-23 21:25:59.633 radio[76566:4080473] Resetting plugins due to page load.
+2015-04-23 21:26:01.660 radio[76566:4080473] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/35C228D6-0B7A-4078-9335-1C4EAF65EB65/radio.app/www/index.html
+2015-04-23 21:26:05.885 radio[76566:4080473] rootScope User Data [object Object]
+2015-04-23 21:26:05.886 radio[76566:4080473] mainIntroIssue!!!
+2015-04-23 21:26:05.886 radio[76566:4080473] args [object Object]
+2015-04-23 21:26:07.091 radio[76566:4080473] issue_detail [object Object]
+2015-04-23 21:26:50.885 radio[77128:4081918] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 21:26:50.887 radio[77128:4081918] Multi-tasking -> Device: YES, App: YES
+2015-04-23 21:26:50.888 radio[77128:4081918] Unlimited access to network resources
+2015-04-23 21:26:51.071 radio[77128:4081918] [CDVTimer][keyboard] 0.059009ms
+2015-04-23 21:26:51.071 radio[77128:4081918] [CDVTimer][TotalPluginStartup] 0.235021ms
+2015-04-23 21:26:51.216 radio[77128:4081918] Resetting plugins due to page load.
+2015-04-23 21:26:52.410 radio[77128:4081918] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/E731FF1F-F56F-4936-8A1E-6E45A2E10E61/radio.app/www/index.html
+2015-04-23 21:26:55.912 radio[77128:4081918] rootScope User Data [object Object]
+2015-04-23 21:26:55.912 radio[77128:4081918] mainIntroIssue!!!
+2015-04-23 21:26:55.912 radio[77128:4081918] args [object Object]
+2015-04-23 21:26:57.125 radio[77128:4081918] issue_detail [object Object]
+2015-04-23 21:28:03.933 radio[77747:4084114] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 21:28:03.937 radio[77747:4084114] Multi-tasking -> Device: YES, App: YES
+2015-04-23 21:28:03.954 radio[77747:4084114] Unlimited access to network resources
+2015-04-23 21:28:04.342 radio[77747:4084114] [CDVTimer][keyboard] 0.055015ms
+2015-04-23 21:28:04.342 radio[77747:4084114] [CDVTimer][TotalPluginStartup] 0.569999ms
+2015-04-23 21:28:04.644 radio[77747:4084114] Resetting plugins due to page load.
+2015-04-23 21:28:06.700 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/
+2015-04-23 21:28:12.236 radio[77747:4084114] rootScope User Data [object Object]
+2015-04-23 21:28:12.238 radio[77747:4084114] mainIntroIssue!!!
+2015-04-23 21:28:12.238 radio[77747:4084114] args [object Object]
+2015-04-23 21:28:18.383 radio[77747:4084114] issue_detail [object Object]
+2015-04-23 21:30:04.281 radio[77747:4084114] Resetting plugins due to page load.
+2015-04-23 21:30:04.758 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/6
+2015-04-23 21:30:04.769 radio[77747:4084114] issue_detail [object Object]
+2015-04-23 21:30:10.710 radio[77747:4084114] Resetting plugins due to page load.
+2015-04-23 21:30:11.116 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 21:30:13.844 radio[77747:4084114] rootScope User Data [object Object]
+2015-04-23 21:30:13.845 radio[77747:4084114] mainIntroIssue!!!
+2015-04-23 21:30:13.845 radio[77747:4084114] args [object Object]
+2015-04-23 21:30:14.701 radio[77747:4084114] issue_detail [object Object]
+2015-04-23 21:31:02.236 radio[77747:4084114] Resetting plugins due to page load.
+2015-04-23 21:31:02.656 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/7
+2015-04-23 21:31:02.686 radio[77747:4084114] issue_detail [object Object]
+2015-04-23 21:31:40.035 radio[77747:4084114] Resetting plugins due to page load.
+2015-04-23 21:31:40.446 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 21:31:43.335 radio[77747:4084114] rootScope User Data [object Object]
+2015-04-23 21:31:43.335 radio[77747:4084114] mainIntroIssue!!!
+2015-04-23 21:31:43.335 radio[77747:4084114] args [object Object]
+2015-04-23 21:31:44.901 radio[77747:4084114] issue_detail [object Object]
+2015-04-23 21:31:59.151 radio[77747:4084114] Resetting plugins due to page load.
+2015-04-23 21:31:59.573 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/8
+2015-04-23 21:31:59.620 radio[77747:4084114] issue_detail [object Object]
+2015-04-23 21:32:02.452 radio[77747:4084114] rootScope User Data [object Object]
+2015-04-23 21:32:02.453 radio[77747:4084114] mainIntroIssue!!!
+2015-04-23 21:32:02.453 radio[77747:4084114] args [object Object]
+2015-04-23 21:32:03.243 radio[77747:4084114] issue_detail [object Object]
+2015-04-23 21:32:08.203 radio[77747:4084114] Resetting plugins due to page load.
+2015-04-23 21:32:08.676 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/5
+2015-04-23 21:32:08.723 radio[77747:4084114] issue_detail [object Object]
+2015-04-23 21:33:19.691 radio[77747:4084114] rootScope User Data [object Object]
+2015-04-23 21:33:19.693 radio[77747:4084114] mainIntroIssue!!!
+2015-04-23 21:33:19.693 radio[77747:4084114] args [object Object]
+2015-04-23 21:33:20.954 radio[77747:4084114] args [object Object]
+2015-04-23 21:33:21.508 radio[77747:4084114] data [object Object]
+2015-04-23 21:33:24.599 radio[77747:4084114] args [object Object]
+2015-04-23 21:33:25.198 radio[77747:4084114] data [object Object]
+2015-04-23 21:33:34.125 radio[77747:4084114] Resetting plugins due to page load.
+2015-04-23 21:33:34.139 radio[77747:4084114] Failed to load webpage with error: Could not connect to the server.
+2015-04-23 21:33:37.737 radio[77747:4084114] Resetting plugins due to page load.
+2015-04-23 21:33:37.740 radio[77747:4084114] Failed to load webpage with error: Could not connect to the server.
+2015-04-23 21:34:07.238 radio[78461:4089210] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 21:34:07.239 radio[78461:4089210] Multi-tasking -> Device: YES, App: YES
+2015-04-23 21:34:07.240 radio[78461:4089210] Unlimited access to network resources
+2015-04-23 21:34:07.491 radio[78461:4089210] [CDVTimer][keyboard] 0.059009ms
+2015-04-23 21:34:07.491 radio[78461:4089210] [CDVTimer][TotalPluginStartup] 0.226974ms
+2015-04-23 21:34:07.684 radio[78461:4089210] Resetting plugins due to page load.
+2015-04-23 21:34:09.550 radio[78461:4089210] Finished load of: http://192.168.0.206:8100/
+2015-04-23 21:34:13.323 radio[78461:4089210] rootScope User Data [object Object]
+2015-04-23 21:34:13.324 radio[78461:4089210] mainIntroIssue!!!
+2015-04-23 21:34:13.324 radio[78461:4089210] args [object Object]
+2015-04-23 21:34:14.599 radio[78461:4089210] args [object Object]
+2015-04-23 21:34:15.195 radio[78461:4089210] data [object Object]
+2015-04-23 21:44:17.366 radio[79538:4098651] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 21:44:17.368 radio[79538:4098651] Multi-tasking -> Device: YES, App: YES
+2015-04-23 21:44:17.369 radio[79538:4098651] Unlimited access to network resources
+2015-04-23 21:44:17.563 radio[79538:4098651] [CDVTimer][keyboard] 0.066996ms
+2015-04-23 21:44:17.564 radio[79538:4098651] [CDVTimer][TotalPluginStartup] 0.257969ms
+2015-04-23 21:44:17.668 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 21:44:19.498 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/
+2015-04-23 21:44:23.511 radio[79538:4098651] rootScope User Data [object Object]
+2015-04-23 21:44:23.511 radio[79538:4098651] mainIntroIssue!!!
+2015-04-23 21:44:23.512 radio[79538:4098651] args [object Object]
+2015-04-23 21:44:25.007 radio[79538:4098651] issue_detail [object Object]
+2015-04-23 21:45:12.056 radio[79538:4098651] args [object Object]
+2015-04-23 21:45:12.530 radio[79538:4098651] data [object Object]
+2015-04-23 21:45:14.380 radio[79538:4098651] issue_detail [object Object]
+2015-04-23 21:45:16.153 radio[79538:4098651] issue_detail [object Object]
+2015-04-23 21:45:30.117 radio[79538:4098651] issue_detail [object Object]
+2015-04-23 21:48:27.334 radio[79538:4098651] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-04-23 21:49:29.549 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 21:49:30.087 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/11
+2015-04-23 21:49:30.121 radio[79538:4098651] issue_detail [object Object]
+2015-04-23 21:49:40.104 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 21:49:40.589 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 21:50:06.672 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 21:50:07.072 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 21:50:35.600 radio[79538:4098651] rootScope User Data [object Object]
+2015-04-23 21:50:35.601 radio[79538:4098651] mainIntroIssue!!!
+2015-04-23 21:50:35.602 radio[79538:4098651] args [object Object]
+2015-04-23 21:50:38.229 radio[79538:4098651] issue_detail [object Object]
+2015-04-23 21:50:39.973 radio[79538:4098651] issue_detail [object Object]
+2015-04-23 21:50:53.401 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 21:50:53.853 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues
+2015-04-23 21:51:46.628 radio[79538:4098651] rootScope User Data [object Object]
+2015-04-23 21:51:48.327 radio[79538:4098651] issue_detail [object Object]
+2015-04-23 21:52:31.139 radio[79538:4098651] issue_detail [object Object]
+2015-04-23 21:54:36.859 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 21:54:37.435 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/4
+2015-04-23 21:54:37.548 radio[79538:4098651] issue_detail [object Object]
+2015-04-23 21:55:19.236 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 21:55:19.712 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 21:56:12.080 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 21:56:12.628 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 21:58:58.950 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 21:58:59.411 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:06:51.919 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:06:52.365 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:07:08.401 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:07:08.826 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:07:37.664 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:07:38.067 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:08:24.951 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:08:25.397 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:08:40.949 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:08:41.458 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:08:54.531 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:08:55.089 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:09:25.272 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:09:25.803 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:09:37.328 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:09:37.733 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:09:54.421 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:09:54.835 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:11:59.566 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:12:00.081 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:12:10.619 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:12:11.189 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:12:30.541 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:12:30.963 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:12:36.557 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:12:36.986 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:12:44.797 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:12:45.190 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:17:35.167 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:17:35.681 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:17:44.719 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:17:45.634 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:17:52.951 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:17:53.430 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:17:57.871 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:17:58.253 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:18:07.210 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:18:07.596 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:19:21.433 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:19:21.840 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:20:58.407 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:20:58.808 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:21:28.064 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:21:28.452 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:24:31.034 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:24:31.423 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:24:50.324 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:24:50.722 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:25:05.105 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:25:05.499 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:25:21.111 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:25:21.566 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:25:28.041 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:25:28.432 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:26:10.563 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:26:11.042 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:26:29.093 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:26:29.484 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:27:22.109 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:27:22.509 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:27:34.376 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:27:34.778 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:28:13.691 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:28:14.095 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:28:28.567 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:28:28.947 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:37:35.777 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:37:36.292 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:37:55.975 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:37:56.396 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:39:28.605 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:39:29.134 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:39:42.777 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:39:43.165 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:40:00.766 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:40:01.165 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:40:14.830 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:40:15.215 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:40:46.786 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:40:47.227 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:42:21.233 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:42:21.636 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:42:29.571 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:42:29.936 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:42:35.488 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:42:35.898 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:44:35.688 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:44:36.076 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:44:46.731 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:44:47.117 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:45:09.033 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:45:09.414 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:46:05.214 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:46:05.633 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 22:55:39.853 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 22:55:40.362 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 23:03:09.708 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 23:03:10.135 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 23:03:32.028 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 23:03:32.581 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 23:05:59.416 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 23:05:59.813 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 23:06:07.453 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 23:06:07.844 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 23:06:23.133 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 23:06:23.661 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-23 23:08:45.712 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-23 23:08:46.111 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:01:10.457 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:01:12.661 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:01:19.175 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:01:19.628 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:03:40.170 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:03:40.641 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:03:50.357 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:03:50.738 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:03:52.270 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:03:52.583 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:04:23.362 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:04:23.880 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:04:32.222 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:04:32.611 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:04:40.369 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:04:40.753 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:04:47.920 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:04:48.298 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:04:52.349 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:04:52.738 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:04:58.085 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:04:58.464 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:05:06.451 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:05:06.827 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:05:20.145 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:05:20.536 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:05:22.358 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:05:22.613 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:09:25.683 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:09:26.074 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:15:06.262 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:15:06.662 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:15:11.087 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:15:11.466 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:15:13.396 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:15:13.620 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:15:19.336 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:15:19.741 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:15:28.182 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:15:28.636 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:21:54.113 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:21:54.518 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:22:14.391 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:22:14.757 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:26:45.295 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:26:45.828 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:30:43.413 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:30:43.834 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:30:50.517 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:30:50.916 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:30:55.698 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:30:56.079 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:31:15.218 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:31:15.596 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:31:50.268 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:31:50.661 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:31:57.626 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:31:58.009 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:32:05.680 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:32:06.076 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:33:10.084 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:33:10.464 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:33:12.497 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:33:12.726 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:33:29.686 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:33:30.106 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:34:11.579 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:34:11.978 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:34:55.153 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:34:55.539 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:34:59.172 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:34:59.411 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:35:12.260 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:35:12.779 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:35:25.531 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:35:25.924 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:35:35.682 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:35:36.071 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:35:52.875 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:35:53.284 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:36:13.911 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:36:14.297 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:36:27.595 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:36:27.983 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:36:30.509 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:36:30.740 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:36:34.938 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:36:35.454 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:36:43.078 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:36:43.565 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:37:03.604 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:37:04.119 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:37:30.169 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:37:30.539 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:37:36.103 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:37:36.606 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:37:43.349 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:37:43.759 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:37:53.906 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:37:54.290 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:37:58.431 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:37:58.792 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:38:05.878 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:38:06.275 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:38:20.355 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:38:20.748 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:38:26.384 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:38:26.771 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:38:32.120 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:38:32.587 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:38:42.167 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:38:42.604 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:38:53.734 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:38:55.842 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:39:16.469 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:39:16.866 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:39:50.170 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:39:50.570 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:40:06.634 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:40:07.020 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:40:17.914 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:40:18.288 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:40:36.122 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:40:36.517 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:42:59.608 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:43:00.017 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:43:04.034 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:43:04.420 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:45:06.718 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:45:07.049 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 12:45:11.237 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 12:45:11.648 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:19:25.207 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:19:25.616 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:19:50.639 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:19:51.016 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:23:53.943 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:23:54.335 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:24:34.170 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:24:34.554 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:24:41.895 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:24:42.281 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:24:52.230 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:24:52.689 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:26:23.039 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:26:23.440 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:27:29.127 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:27:29.537 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:27:36.873 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:27:37.259 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:28:07.619 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:28:08.021 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:28:33.668 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:28:34.053 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:33:28.352 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:33:28.781 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:34:44.301 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:34:44.700 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:35:32.129 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:35:32.525 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:35:36.249 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:35:36.490 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:40:22.065 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:40:22.465 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:41:32.819 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:41:33.222 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
+2015-04-24 13:43:36.817 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 13:43:36.855 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:05:42.744 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:05:42.749 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:05:48.251 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:05:48.254 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:09:19.806 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:09:19.809 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:10:44.476 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:10:44.480 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:10:55.445 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:10:55.447 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:11:10.845 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:11:10.847 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:11:27.465 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:11:27.467 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:12:15.056 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:12:15.058 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:13:00.042 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:13:00.045 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:14:13.341 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:14:13.343 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:14:23.403 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:14:23.407 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:15:13.829 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:15:13.832 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:15:21.783 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:15:21.786 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:15:34.362 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:15:34.365 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:16:22.646 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:16:22.649 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:16:29.190 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:16:29.192 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:16:48.114 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:16:48.117 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:18:31.610 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:18:31.613 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:18:48.933 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:18:48.936 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:19:23.251 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:19:23.253 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:19:53.837 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:19:53.841 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:20:42.246 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:20:42.249 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:21:07.703 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:21:07.705 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:21:12.326 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:21:12.328 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:22:04.645 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:22:04.648 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:25:53.155 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:25:53.157 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:26:19.810 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:26:19.812 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:27:43.771 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:27:43.774 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:27:54.137 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:27:54.140 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:33:11.778 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:33:11.782 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:33:12.032 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:33:12.034 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:33:14.046 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:33:14.049 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:33:23.541 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:33:23.544 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:33:38.610 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:33:38.612 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:33:38.718 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:33:38.720 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:33:43.206 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:33:43.209 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:33:55.084 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:33:55.086 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:34:03.739 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:34:03.742 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:35:11.992 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:35:11.995 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:36:27.894 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:36:27.896 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:58:12.783 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:58:12.787 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 14:58:14.084 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 14:58:14.086 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:03:05.260 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:03:05.264 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:03:33.722 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:03:33.726 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:03:37.135 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:03:37.138 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:03:39.549 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:03:39.552 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:03:41.974 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:03:41.978 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:03:44.283 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:03:44.286 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:03:46.995 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:03:46.997 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:03:52.936 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:03:52.940 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:03:54.444 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:03:54.446 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:04:09.422 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:04:09.424 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:04:25.123 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:04:25.126 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:07:12.391 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:07:12.393 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:07:27.079 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:07:27.081 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:09:53.550 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:09:53.553 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:20:49.599 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:20:49.602 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:25:06.358 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:25:06.361 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 15:25:17.928 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 15:25:17.931 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:11:03.919 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:11:03.926 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:20:56.228 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:20:56.232 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:23:33.399 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:23:33.401 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:23:44.067 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:23:44.070 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:23:51.103 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:23:51.106 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:24:29.686 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:24:29.688 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:24:47.103 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:24:47.105 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:25:54.445 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:25:54.448 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:26:52.733 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:26:52.737 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:27:12.969 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:27:12.971 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:27:55.232 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:27:55.234 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:30:40.216 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:30:40.219 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:31:55.778 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:31:55.782 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:32:00.405 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:32:00.407 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:32:07.453 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:32:07.455 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:34:50.265 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:34:50.269 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:34:51.772 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:34:51.775 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:35:54.728 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:35:54.732 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:37:41.787 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:37:41.790 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:38:26.679 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:38:26.682 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:38:46.724 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:38:46.726 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:38:52.465 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:38:52.468 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:48:05.330 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:48:05.333 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:48:10.864 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:48:10.867 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:49:52.234 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:49:52.237 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:50:04.916 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:50:04.919 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:50:27.783 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:50:27.786 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:51:41.417 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:51:41.419 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:52:49.075 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:52:49.078 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:53:17.790 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:53:17.793 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:53:32.972 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:53:32.975 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:53:39.515 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:53:39.517 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:54:11.514 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:54:11.518 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:54:27.935 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:54:27.938 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:54:41.634 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:54:41.637 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:54:54.018 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:54:54.021 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:55:20.894 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:55:20.896 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:56:18.704 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:56:18.707 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:56:35.698 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:56:35.700 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:57:12.239 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:57:12.242 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 16:57:51.899 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 16:57:51.902 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:07:09.666 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:07:09.670 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:10:57.619 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:10:57.623 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:10:59.429 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:10:59.431 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:11:06.772 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:11:06.775 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:11:45.432 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:11:45.434 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:11:49.355 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:11:49.357 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:13:47.842 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:13:47.845 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:13:53.673 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:13:53.676 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:14:09.996 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:14:09.998 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:15:05.458 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:15:05.462 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:15:23.479 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:15:23.482 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:18:51.019 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:18:51.022 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:19:04.517 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:19:04.520 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:25:35.487 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:25:35.490 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:26:39.490 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:26:39.493 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:31:12.666 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:31:12.671 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:43:51.266 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:43:51.269 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:43:52.766 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:43:52.768 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:44:13.298 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:44:13.300 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:45:27.257 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:45:27.260 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:46:14.466 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:46:14.468 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:47:13.939 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:47:13.941 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:47:39.105 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:47:39.107 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:47:52.895 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:47:52.898 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:48:12.030 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:48:12.033 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:48:26.721 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:48:26.724 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:49:19.599 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:49:19.601 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:50:01.559 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:50:01.561 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:50:09.709 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:50:09.712 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:50:20.485 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:50:20.488 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:51:36.199 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:51:36.202 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:52:52.385 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:52:52.388 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:55:49.334 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:55:49.338 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:56:49.934 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:56:49.938 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:56:55.863 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:56:55.866 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:59:22.401 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:59:22.404 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:59:32.464 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:59:32.466 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:59:34.779 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:59:34.782 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 17:59:52.193 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 17:59:52.195 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:00:14.349 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:00:14.352 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:00:24.211 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:00:24.214 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:00:26.021 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:00:26.023 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:01:25.817 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:01:25.821 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:01:39.505 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:01:39.508 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:01:52.692 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:01:52.695 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:02:01.554 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:02:01.556 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:02:03.665 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:02:03.667 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:02:20.869 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:02:20.872 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:02:32.250 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:02:32.252 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:02:50.161 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:02:50.164 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:02:54.180 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:02:54.183 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:03:28.181 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:03:28.184 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:03:37.846 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:03:37.849 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:03:46.103 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:03:46.106 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:03:56.278 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:03:56.281 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:04:39.064 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:04:39.067 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:04:41.575 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:04:41.577 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:05:02.909 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:05:02.911 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:05:22.223 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:05:22.227 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:05:33.501 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:05:33.503 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:05:45.681 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:05:45.684 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:05:48.194 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:05:48.197 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:06:40.989 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:06:40.993 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:06:41.101 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:06:41.107 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:06:44.107 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:06:44.109 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:06:44.218 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:06:44.221 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:06:50.167 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:06:50.170 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:06:50.276 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:06:50.278 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:06:52.645 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:06:52.651 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:06:52.755 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:06:52.757 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:07:00.592 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:07:00.596 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:07:03.611 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:07:03.614 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:07:09.334 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:07:09.338 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:07:16.671 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:07:16.676 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:07:30.916 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:07:30.919 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:07:36.457 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:07:36.459 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:07:47.028 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:07:47.031 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:07:53.057 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:07:53.060 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:07:59.809 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:07:59.811 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:08:35.336 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:08:35.338 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:08:37.652 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:08:37.655 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:10:12.892 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:10:12.894 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:10:20.030 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:10:20.032 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:10:55.334 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:10:55.337 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:11:35.608 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:11:35.610 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:11:42.052 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:11:42.055 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:12:10.318 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:12:10.321 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:16:18.038 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:16:18.041 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:16:29.400 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:16:29.403 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:16:37.755 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:16:37.758 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:17:00.990 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:17:00.994 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:17:22.518 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:17:22.521 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:17:32.463 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:17:32.465 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:17:53.084 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:17:53.087 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:18:15.216 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:18:15.218 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:18:52.758 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:18:52.763 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:18:58.696 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:18:58.698 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:19:46.489 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:19:46.491 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:20:06.082 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:20:06.085 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:20:26.807 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:20:26.809 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:24:20.834 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:24:20.837 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:24:27.570 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:24:27.573 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:25:26.242 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:25:26.244 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:27:21.991 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:27:21.994 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:28:00.124 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:28:00.126 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:28:05.452 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:28:05.455 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:30:07.727 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:30:07.729 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:30:26.244 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:30:26.246 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:30:51.308 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:30:51.310 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:31:43.527 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:31:43.530 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:32:13.109 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:32:13.112 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:32:29.006 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:32:29.009 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:33:39.386 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:33:39.389 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:33:53.653 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:33:53.655 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:33:54.756 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:33:54.758 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:34:25.518 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:34:25.521 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:34:44.437 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:34:44.439 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:34:59.915 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:34:59.917 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:35:04.841 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:35:04.845 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:35:56.230 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:35:56.233 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:36:01.955 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:36:01.958 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:37:06.796 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:37:06.798 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:37:14.337 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:37:14.340 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:37:24.102 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:37:24.105 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:37:35.579 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:37:35.581 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:37:38.086 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:37:38.088 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:39:04.718 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:39:04.720 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:39:42.360 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:39:42.363 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:39:53.919 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:39:53.922 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:40:48.688 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:40:48.690 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:40:49.993 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:40:49.995 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:41:11.834 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:41:11.837 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:41:33.979 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:41:33.982 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:42:09.802 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:42:09.804 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:42:39.072 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:42:39.077 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:42:41.590 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:42:41.593 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:43:06.551 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:43:06.554 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:43:14.102 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:43:14.104 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:43:36.020 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:43:36.022 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:43:36.823 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:43:36.825 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:43:55.443 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:43:55.445 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:44:07.420 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:44:07.422 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:44:51.211 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:44:51.214 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:44:57.355 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:44:57.357 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:45:13.637 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:45:13.639 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:46:43.213 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:46:43.216 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:46:57.400 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:46:57.403 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:47:07.342 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:47:07.345 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:48:00.665 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:48:00.668 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:48:16.666 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:48:16.669 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:49:59.683 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:49:59.686 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:50:05.922 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:50:05.925 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:51:23.488 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:51:23.491 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:52:32.921 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:52:32.925 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:52:34.234 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:52:34.236 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:53:36.796 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:53:36.799 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:53:42.322 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:53:42.324 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:54:14.830 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:54:14.833 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:54:30.425 radio[79538:4098651] Resetting plugins due to page load.
+2015-04-24 18:54:30.428 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
+2015-04-24 18:56:15.278 radio[84748:4423789] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-24 18:56:15.282 radio[84748:4423789] Multi-tasking -> Device: YES, App: YES
+2015-04-24 18:56:15.297 radio[84748:4423789] Unlimited access to network resources
+2015-04-24 18:56:15.653 radio[84748:4423789] [CDVTimer][keyboard] 0.056028ms
+2015-04-24 18:56:15.654 radio[84748:4423789] [CDVTimer][TotalPluginStartup] 1.294971ms
+2015-04-24 18:56:15.888 radio[84748:4423789] Resetting plugins due to page load.
+2015-04-24 18:56:17.082 radio[84748:4423789] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/1A36CCD7-814C-4E6F-94DC-EEF06D362F38/radio.app/www/index.html
+2015-04-24 18:56:22.930 radio[84748:4423789] rootScope User Data [object Object]
+2015-04-24 18:56:22.934 radio[84748:4423789] mainIntroIssue!!!
+2015-04-24 18:56:27.017 radio[84748:4423789] mainIntroIssue!!!
+2015-04-24 18:56:29.209 radio[84748:4423789] MainIntroProduct!!!
+2015-04-24 18:56:37.100 radio[84748:4423789] MainIntroProduct!!!

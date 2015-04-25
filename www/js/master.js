@@ -16,7 +16,9 @@ angular.module('radio.controller', [])
 				'brands' : data.brand_follows_of_user
 			};
 			console.log("rootScope User Data", $rootScope.user);
-			$state.go('tabs.main.intro_issue');
+			//$state.go('tabs.main.intro_issue');
+			//$state.go('tabs.main.rec.issues');
+			$location.url('/rec/issues');
 		});
 
 		$scope.$on('UserLogout', function(event) {

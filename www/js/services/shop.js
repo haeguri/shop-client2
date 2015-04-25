@@ -41,7 +41,7 @@ angular.module('radio.service')
 				var params = args.params || {};
 				return Shop.request({
 					'method':'GET',
-					'extra_url': '/genders/' + args.gender_id + '/tags/' + args.tag_id + '/products',
+					'extra_url': '/products',
 					'params':params
 			}).then(function(response) {
 					return response.data;

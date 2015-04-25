@@ -26,7 +26,6 @@ angular.module('radio', [
 
     if(window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-      cordova.plugins.Keyboard.disableScroll(true);
     }
 
     //console.log("$cordovaStatusbar", $cordovaStatusbar);
@@ -57,33 +56,69 @@ angular.module('radio', [
 
     /* Radio 하단 탭 */
     .state('tabs', {
-      url: '/tabs',
       abstract: true,
       templateUrl: 'template/tabs/tabs.html',
       controller: 'TabsCtrl'
     })
 
     /* "메인" 탭 */
+
+
     .state('tabs.main', {
-      url: '/main',
-      /*
-      abstract: true,
-      templateUrl: 'template/tabs/main/intro.html',
-      controller: 'MainIntroCtrl'
-      */
       views: {
-        'tabs-main': {
+        'main': {
           templateUrl: 'template/tabs/main/intro.html',
           controller: 'MainIntroCtrl'
         }
       }
-    
     })
 
+    .state('tabs.main.rec_issues' ,{
+      url: '/rec/issues',
+      views: {
+        'main': {
+          templateUrl: 'template/tabs/main/issues.html',
+          controller: 'IssuesCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main.rec_channels' ,{
+      url: '/rec/channels',
+      views: {
+        'main': {
+          templateUrl: 'template/tabs/main/channels.html',
+          controller: 'ChannelsCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main.hot_issues', {
+      url: '/hot/issues',
+      views: {
+        'main': {
+          templateUrl: 'template/tabs/main/issues.html',
+          controller: 'IssuesCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main.hot_products', {
+      url: '/hot/products', 
+      views: {
+        'main': {
+          templateUrl: 'template/tabs/main/products.html',
+          controller: 'ProductsCtrl'
+        }
+      }
+    })
+
+
+/*
     .state('tabs.main.intro_issue', {
       url: '/issues',
       views: {
-        'tabs-main': {
+        'main': {
           templateUrl: 'template/tabs/main/intro_issue.html',
           controller: 'MainIntroIssueCtrl'
         }
@@ -93,37 +128,55 @@ angular.module('radio', [
     .state('tabs.main.intro_product', {
       url: '/products',
       views: {
-        'tabs-main': {
+        'main': {
           templateUrl: 'template/tabs/main/intro_product.html',
           controller: 'MainIntroProductCtrl'
         }
       }
     })
 
-    .state('tabs.main-hashtag', {
-      url: '/main/channel/:channel_id/hashtag/:tag_id',
+*/
+
+    .state('tabs.main_hashtag_issues', {
+      url: '/main/channel/:channel_id/hashtag/:tag_id/issues',
       views: {
-        'tabs-main': {
-          templateUrl: 'template/hashtag/hashtag.html',
-          controller: 'HashTagCtrl'
+        'main': {
+          templateUrl: 'template/hashtag/issue_list.html',
+          controller: 'HashTagIssueListCtrl'
         }
       }
     })
 
-    .state('tabs.main-hashtag-global', {
-      url: '/main/hashtag/:tag_id',
+    .state('tabs.main_hashtag_global_issues', {
+      url: '/main/hashtag/:tag_id/issues',
       views: {
-        'tabs-main': {
-          templateUrl: 'template/hashtag/hashtag_global.html',
-          controller: 'HashTagCtrl'
+        'main': {
+          templateUrl: 'template/hashtag_global/issue_list.html',
+          controller: 'HashTagIssueListCtrl'
         }
       }
     })
 
-    .state('tabs.main-issue_detail', {
+    .state('tabs.main_hashtag_products', {
+      url: '/main/hashtag/:tag_id/products',
+      views: {
+        'main': {
+          templateUrl: 'template/hashtag/product_list.html',
+          controller: 'HashTagProductListCtrl'
+        }
+      }
+    })
+
+    /*
+    .state('tabs.main_hashtag_global_proudcts', {
+      url: '/main/hashtag/:tag_id/products'
+    })
+    */
+
+    .state('tabs.main_issue_detail', {
       url: '/main/issues/:issue_id',
       views: {
-        'tabs-main':{
+        'main':{
           templateUrl: 'template/issue/issue_detail.html',
           controller: 'IssueDetailCtrl'
         }
@@ -134,7 +187,7 @@ angular.module('radio', [
     .state('tabs.channel', {
       url: '/channel',
       views: {
-        'tabs-channel': {
+        'channel': {
           templateUrl: 'template/tabs/channel/intro.html',
           controller: 'ChannelIntroCtrl'
         }
@@ -145,7 +198,7 @@ angular.module('radio', [
     .state('tabs.private', {
       url: '/private',
       views: {
-        'tabs-private': {
+        'private': {
           templateUrl: 'template/tabs/private/following.html',
           controller: 'PrivateFollowingCtrl'
         }
@@ -156,7 +209,7 @@ angular.module('radio', [
     .state('tabs.search', {
       url: '/search',
       views: {
-        'tabs-search': {
+        'search': {
           templateUrl: 'template/tabs/search/intro.html',
           controller: 'SearchIntroCtrl'
         }        
@@ -165,7 +218,7 @@ angular.module('radio', [
     
 
   $ionicConfigProvider.tabs.position('bottom');
-  $ionicConfigProvider.backButton.text('').icon('fa fa-arrow-left fa-lg').previousTitleText(false);
+  $ionicConfigProvider.backButton.text('').icon('fa fa-chevron-left').previousTitleText(false);
 
   //$ionicConfigProvider.views.maxCache(0);
   
@@ -184,12 +237,4 @@ angular.module('radio', [
   })
   */
 
-})
-.directive('backImg', function(){
-    return function(scope, element, attrs){
-        var url = attrs.backImg;
-        element.css({
-            'background': 'url(' + url +') no-repeat center center fixed'
-        })
-    }
 })

@@ -1,0 +1,22 @@
+<ion-view>
+	<ion-content has-bouncing="false">
+		<div class="channel-list" ng-repeat="channel in main_channels.channels | limitTo:1">
+			<img ng-src="{{channel.background}}">
+			<div class="image-wrap-black"></div>
+			<div class="profile">
+				<img ng-src="{{channel.profile}}">
+				<h3>{{channel.name}}</h3>
+				<p>{{channel.brief}}</p>	
+			</div>
+			<div class="follow">
+				<button><i class="fa fa-plus"></i>FOLLOW</button>
+			</div>
+			<div class="issue-wrap">
+				<div class="issue" ng-repeat="issue in channel.issues_of_channel | limitTo:2"> 
+					<img ng-src="{{issue.image}}">
+					<h4>{{issue.title}}</h4>
+				</div>
+			</div>	
+		</div>	
+	</ion-content>
+</ion-view>

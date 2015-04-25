@@ -47,22 +47,34 @@
     <script src="template/tabs/tabs.js"></script>
     <!-- main controllers -->
     <script src="template/tabs/main/intro.js"></script>
-    <script src="template/tabs/main/intro_issue.js"></script>
-    <script src="template/tabs/main/intro_product.js"></script>
-    <script src="template/issue/issue_detail.js"></script>
-    <script src="template/hashtag/hashtag.js"></script>
+    <script src="template/tabs/main/issues.js"></script>
+    <script src="template/tabs/main/products.js"></script>
+    <script src="template/tabs/main/channels.js"></script>
+
     <!-- channel controllers -->
     <script src="template/tabs/channel/intro.js"></script>
     <!-- private controllers -->
     <script src="template/tabs/private/following.js"></script>
     <!-- search controllers -->
     <script src="template/tabs/search/intro.js"></script>
+
+    <!-- issue detail controller -->
+    <script src="template/issue/issue_detail.js"></script>
+
+    <!-- specific hash tag controller -->
+    <script src="template/hashtag/issue_list.js"></script>
     
   </head>
   <body ng-controller="MasterCtrl" animation="slide-left-right-ios7" class="platform-ios platform-cordova platform-webview">
+    <!--
     <ion-nav-bar>
         <ion-nav-back-button>
         </ion-nav-back-button>
+    </ion-nav-bar>
+    -->
+    <ion-nav-bar class="bar-light">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
     </ion-nav-bar>
     <ion-nav-view></ion-nav-view>
 

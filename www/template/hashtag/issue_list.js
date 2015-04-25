@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('HashTagCtrl', function(Channel, $scope, $location, $stateParams) {
+	.controller('HashTagIssueListCtrl', function(Channel, $scope, $location, $stateParams) {
 
         $scope.hash_tag = {};
 
@@ -32,17 +32,17 @@ angular.module('radio.controller')
         	})
         	console.log("data",data);
         })
-        $scope.hash_tag.goHashTagGlobal = function(tag) {
-            $location.url('/tabs/main/hashtag/'+tag.id);
+        $scope.hash_tag.goHashTagGlobalIssueList = function(tag) {
+            $location.url('/main/hashtag/'+tag.id+'/issues');
         }
 
-        $scope.hash_tag.goHashTag = function(tag, channel, $event) {
+        $scope.hash_tag.goHashTagIssueList = function(tag, channel, $event) {
         	$event.stopPropagation();
-            $location.url('/tabs/main/channel/'+channel.id+'/hashtag/'+tag.id);
+            $location.url('/main/channel/'+channel.id+'/hashtag/'+tag.id+'/issues');
         }
 
         $scope.hash_tag.goIssueDetail = function(issue_id) {
-                $location.url('/tabs/main/issues/'+issue_id);
+                $location.url('/main/issues/'+issue_id);
         }
 
         $scope.hash_tag.toggleInfo = function($event, menu){

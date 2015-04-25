@@ -1,21 +1,8 @@
 ion-header-bar button.button.button-clear {
   color: #444; 
 }
-
-ion-header-bar button.button.button-clear i.fa.fa-arrow-left{
-  margin: 0px;
-}
-
-ion-header-bar div.buttons.buttons-right span a.button.button-icon {
-  padding: 0px;
-}
-
-ion-header-bar div.buttons.buttons-right span a.button.button-icon:nth-child(2) {
-  margin-left: 10px;
-}
-
-ion-header-bar div.buttons.buttons-right span a.button.button-icon:before{
-  font-size: 22px;
+h2 {
+  font-size: 21px !important;
 }
 
 h3 {
@@ -47,14 +34,40 @@ ion-header-bar h5 {
   text-align: center;
 }
 
-ion-header-bar button {
-  margin-top: 0px !important;
-  font-weight: 700;
-}
-
 .has-subheader.more-height{
   top:88px;
 }
+
+ion-header-bar.transparent-nav {
+  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1)) !important; /*Standard*/
+  border-bottom: none;
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
+}
+
+ion-header-bar.transparent-nav button.back-button {
+  color: #fff;
+}
+
+button.radio-block-button {
+  line-height: 26px;
+  width: 100%;
+  background: none;
+  border: 1px solid #DDD;
+
+}
+
+ion-header-bar div.buttons button{
+  background: none;
+  border: none;
+}
+
+.text-black * {
+  color: #000 !important;
+}
+
+
 
 /* -------- nav bar --------- */ 
 
@@ -97,35 +110,6 @@ div[collapse] button{
   font-size: 15px;
 }
 
-
-
-/*------horizontal scroll------
------------------------------*/
-
-.wide-as-needed {
-  overflow: scroll;
-  white-space: nowrap;
-}
-.wide-as-needed div.scroll-bar-indicator {
-  display: none;
-}
-
-ion-scroll.wide-as-needed button {
-  padding: 0px;
-  margin-right: 38px;
-  line-height: 40px;
-  background: none;
-  border: 0px;
-}
-
-ion-scroll.wide-as-needed button:first-child{
-  margin-left: 10px;
-}
-
-ion-scroll.wide-as-needed button:last-child{
-  margin-right: 10px;
-}
-
 /* ------ main page ---------
 --------------------------*/
 
@@ -149,32 +133,120 @@ ion-header-bar.bar.bar-subheader.hash-tag {
 
 
 
+/* channel list */
+
+div.channel-list {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+div.channel-list * {
+  vertical-align: bottom;
+}
+
+div.channel-list div.image-wrap-black {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  height: 212px;
+  width: 100%;
+  top: 0px;
+}
+
+div.channel-list img {
+  width: 100%;
+  height: 212px;
+}
+
+div.channel-list div.profile {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top:15%;
+}
+
+div.channel-list div.profile * {
+  color: #fff;
+  position: relative;
+}
+
+div.channel-list div.profile img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+div.channel-list div.follow {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 48%;
+  z-index: 5;
+}
+
+div.channel-list div.follow button {
+  position: relative;
+  border-radius: 15px;
+  border: 1px solid #000;
+  background-color: #fff;
+  width: 150px;
+  height: 36px;
+}
+
+div.channel-list div.issue-wrap {
+  position: absolute;
+  width: 100%;
+}
+
+div.channel-list div.issue-wrap * {
+  color: #000;
+}
+
+div.channel-list div.issue-wrap div.issue {
+  position: relative;
+  text-align: center;
+  max-width: 50%;
+  float: left;
+}
+
+div.channel-list div.issue-wrap div.issue h4 {
+  
+}
+
+
 
 /* issue-list */
 
-div.issue-list {
+div.radio-list {
   width: 100%;
   height: 192px;
   position: relative;
 }
 
-div.issue-list * {
+div.radio-list * {
   position: absolute;
   color: #fff;
 }
 
-div.issue-list img {
+div.radio-list img {
   width: 100%;
   height: 192px;
 }
 
-div.issue-list div.image-wrap {
+div.radio-list div.image-wrap-black {
   width: 100%;
   height: 192px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.5) !important;
 }
 
-div.issue-list img.profile {
+div.radio-list div.image-wrap-white {
+  width: 100%;
+  height: 192px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+div.radio-list img.profile {
   height: 35px;
   width: 35px;
   border-radius: 50%;
@@ -182,22 +254,112 @@ div.issue-list img.profile {
   top: 10px;
 }
 
-div.issue-list div.info{
-  position: absolute;
+div.radio-list div.info{
   width: 100%;
   top: 115px;
   left: 15px;
 }
 
-div.issue-list div.info * {
+div.radio-list div.info * {
   position: relative;
 }
 
-div.issue-list div.info a{
+div.radio-list div.info a{
   margin-right: 5px;
 }
 
+/* issue detail page */
 
+div.buttons.buttons-right button  {
+  margin: auto;
+  font-size: 18px;
+}
+
+div.buttons.buttons-right i.fa.fa-heart-o {
+  font-size: 25px;
+  position: relative;
+  margin-right: 100px;
+}
+
+/* issue detail */
+
+div.issue-detail {
+  position: relative;
+  text-align: center;
+  color: #fff !important;
+}
+
+div.issue-detail img {
+  height: 560px;
+  width: 100%;
+}
+
+div.issue-detail div.info {
+  position: absolute;
+  bottom: 0px;
+  top:50%;
+  width: 100%;
+  margin-right: auto;
+}
+
+div.issue-detail div.info *{
+  position: relative;
+  color: #fff !important;
+}
+
+div.issue-detail div.info h2 {
+  font-weight: 700;
+}
+
+div.issue-detail div.profile {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+div.issue-detail div.profile *{
+  position: relative;
+}
+
+div.issue-detail div.profile img {
+  height: 40px;
+  width: 40px; 
+  border-radius: 50%;
+}
+
+
+/* issue detail items */
+
+div.issue-detail-item img{
+  height: 560px;
+  width: 100%;
+}
+
+div.issue-detail-item-list {
+  width: 100%;
+}
+
+div.issue-detail-item-list h4 {
+  margin-top: 10px;
+  margin-left: 22px;
+}
+
+div.issue-detail-item-list div.item-thumbnail {
+  max-width: 33%;
+  float: left;
+}
+
+div.issue-detail-item-list div.item-thumbnail p {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+div.issue-detail-item-list div.item-thumbnail img {
+  width: 100%;
+  height: 125px;
+  border: 1px solid #DDD;
+}
 
 /* shop intro tab slide */
 

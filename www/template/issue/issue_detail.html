@@ -1,6 +1,37 @@
-<ion-view>
-	<ion-content>
-		<h1>Issue Detail!</h1>
-		<button ng-click="issue_detail.goIssueDetail()"></button>
+<ion-view class="has-transparent-nav">
+	<ion-nav-bar class="transparent-nav">
+		<ion-nav-back-button ng-click="issue_detail.goBack()">
+        </ion-nav-back-button>
+	</ion-nav-bar>
+	<ion-nav-buttons side="right">
+		<button ng-click="issue_detail.test()">
+			<i class="fa fa-heart-o nav-center-heart fa-2x"></i>
+		</button>
+		<button ng-click="issue_detail.test()">
+			Share
+		</button>
+	</ion-nav-buttons>
+	<ion-content has-bouncing="false">
+		<div class="issue-detail">
+			<img ng-src="{{issue_detail.issue.image}}">
+			<div class="info">
+				<h2>{{issue_detail.issue.title}}</h2>
+				<span ng-repeat="tag in issue_detail.issue.hash_tags"># {{tag.name}}</span><br>
+			</div>
+			<div class="profile">
+				<img ng-src="{{issue_detail.issue.channel.profile}}">
+				<p>{{issue_detail.issue.channel.name}}</p>
+			</div>
+		</div>
+		<div class="issue-detail-item" ng-repeat="item in issue_detail.issue.issue_items_of_issue">
+			<img ng-src="{{item.product.images[0].image}}">
+		</div>
+		<div class="issue-detail-item-list">
+			<h4>아이템</h4>
+			<div class="item-thumbnail" ng-repeat="item in issue_detail.issue.issue_items_of_issue">
+				<img ng-src="{{item.product.images[0].image}}">
+				<p>{{item.product.price | number:0 }} WON</p>
+			</div>
+		</div>
 	</ion-content>
 </ion-view>

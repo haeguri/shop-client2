@@ -19,10 +19,22 @@ angular.module('radio.service')
 					console.log("error!!", response);
 				})
 			},
+
+			'getChannels':function(args) {
+				var Channel = this;
+				var params = args.params || {};
+				return Channel.request({
+					'method':'GET',
+					'extra_url':'/channels',
+					'params':params
+				}).then(function(response){
+					return response.data;
+				})
+			},
+
 			'getIssues':function(args) {
 				var Channel = this;
 				var params = args.params || {};
-				console.log("args", args);
 				return Channel.request({
 					'method':'GET',
 					'extra_url':'/issues',
