@@ -1,6 +1,8 @@
-<ion-view>
+<ion-view view-title="Radio">
 	<ion-content has-bouncing="false">
-		<div class="channel-list" ng-repeat="channel in main_channels.channels | limitTo:1">
+		<div class="channel-list" collection-repeat="channel in main_channels.channels"
+		item-width="100%"
+		item-height="400px">
 			<img ng-src="{{channel.background}}">
 			<div class="image-wrap-black"></div>
 			<div class="profile">
@@ -14,6 +16,7 @@
 			<div class="issue-wrap">
 				<div class="issue" ng-repeat="issue in channel.issues_of_channel | limitTo:2"> 
 					<img ng-src="{{issue.image}}">
+					<div></div>
 					<h4>{{issue.title}}</h4>
 				</div>
 			</div>	

@@ -1,4 +1,4 @@
-<ion-view>
+<ion-view view-title="Radio">
     <ion-nav-bar>
     </ion-nav-bar>
     <ion-header-bar class="bar bar-subheader main-intro">
@@ -49,13 +49,6 @@
             ng-show="main_intro.filter=='인기' && main_intro.content=='상품'">
             {{main_intro.content}}<i class="fa fa-pencil fa-chevron-down"></i>
         </a>
-        
-        <!--
-        <button class="button button-clear button-dark">인기<i class="fa fa-pencil fa-chevron-down"></i></button>
-        <a ng-show="main_intro.current_contents=='issues'" href="#/main/products" nav-transition="none" ng-click="main_intro.toggleContents()">이슈<i class="fa fa-pencil fa-chevron-down"></i></a>
-        <a ng-show="main_intro.current_contents=='products'" href="#/main/issues" nav-transition="none" ng-click="main_intro.toggleContents()">상품<i class="fa fa-pencil fa-chevron-down"></i></a>
-        <button ng-if="main_intro.current_contents!='issues'" class="button button-clear button-dark">가격 높음<i class="fa fa-chevron-down"></i></button>
-        -->
     </ion-header-bar>
     <ion-content class="has-subheader" has-bouncing="false">
     	<ion-nav-view name="main"></ion-nav-view>

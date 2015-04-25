@@ -142,15 +142,7 @@ div.channel-list {
 }
 
 div.channel-list * {
-  vertical-align: bottom;
-}
-
-div.channel-list div.image-wrap-black {
-  background-color: rgba(0,0,0,0.5);
   position: absolute;
-  height: 212px;
-  width: 100%;
-  top: 0px;
 }
 
 div.channel-list img {
@@ -158,8 +150,13 @@ div.channel-list img {
   height: 212px;
 }
 
+div.channel-list div.image-wrap-black {
+  background-color: rgba(0,0,0,0.5);
+  height: 212px;
+  width: 100%;
+}
+
 div.channel-list div.profile {
-  position: absolute;
   text-align: center;
   width: 100%;
   top:15%;
@@ -170,6 +167,10 @@ div.channel-list div.profile * {
   position: relative;
 }
 
+div.channel-list div.profile h3 {
+  font-size: 18px !important;
+}
+
 div.channel-list div.profile img {
   width: 75px;
   height: 75px;
@@ -178,15 +179,21 @@ div.channel-list div.profile img {
 }
 
 div.channel-list div.follow {
-  position: absolute;
   text-align: center;
   width: 100%;
   top: 48%;
   z-index: 5;
 }
 
-div.channel-list div.follow button {
+div.channel-list div.follow * {
   position: relative;
+}
+
+div.channel-list div.follow i {
+  margin-right: 5px;
+}
+
+div.channel-list div.follow button {
   border-radius: 15px;
   border: 1px solid #000;
   background-color: #fff;
@@ -195,23 +202,40 @@ div.channel-list div.follow button {
 }
 
 div.channel-list div.issue-wrap {
-  position: absolute;
   width: 100%;
+  top: 212px;
 }
 
 div.channel-list div.issue-wrap * {
-  color: #000;
+  position: relative;
+  color: #fff;
 }
 
 div.channel-list div.issue-wrap div.issue {
-  position: relative;
-  text-align: center;
   max-width: 50%;
   float: left;
+  height: 187.5px;
+}
+
+div.channel-list div.issue-wrap div.issue * {
+  text-align: center;
+}
+
+div.channel-list div.issue-wrap div.issue img {
+  height: 100%;
+}
+
+div.channel-list div.issue-wrap div.issue div {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 187.5px;
+  top: 0px;
 }
 
 div.channel-list div.issue-wrap div.issue h4 {
-  
+  font-size: 16px !important;
+  bottom: 40%;
 }
 
 
