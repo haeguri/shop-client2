@@ -1,16 +1,11 @@
 <ion-view>
-    <ion-nav-bar>
-      <ion-nav-back-button ng-click="product_detail.goBack()">
-      </ion-nav-back-button>
-    </ion-nav-bar>
     <ion-nav-buttons side="right">
-      <a class="button button-icon fa fa-heart-o" ng-click="product_detail.productLike(product_detail.product.id)"></a>
+      <div>
+        <a class="button button-icon fa fa-heart-o" ng-click="product_detail.productLike(product_detail.product.id)"></a>
+      </div>
       <a class="button button-icon fa fa-share-square-o"></a>
     </ion-nav-buttons>
-    <ion-nav-title>
-      <h4>{{product_detail.product.name}}</h4>
-    </ion-nav-title>
-    <ion-content has-bouncing="true">
+    <ion-content has-bouncing="false">
       <ion-slide-box on-slide-changed="slideHasChanged($index)" class="product-image-slides" has-bouncing="false">
         <ion-slide ng-repeat="image_obj in product_detail.product.images" ng-init="product_detail.resizeSlides()">
           <img ng-src="{{image_obj.image}}">
@@ -44,22 +39,6 @@ Please allow up to two business days (not including weekends or holidays) for us
 
 Exact shipping options and transit times will be provided at checkout.</p>
         </div>
-        <div class="item">
-          <h4 style="margin: 10px 0px 30px 0px">Related Products</h4>
-          <div class="product-thumbnail" ng-repeat="product in product_detail.products_of_brand">
-            <img ng-src="{{product.images[0].image}}">
-            <div>
-                <i class="fa fa-heart-o"></i>
-            </div>
-            <h5>{{product.name}}</h5>
-            <p>{{product.price  | number:0  }}</p>
-          </div>
-        </div>
       </div>
     </ion-content>
-    <ion-footer-bar>
-      <div class="title">
-        <button style="background:none; border:none;" ng-click="product_detail.addToCart()">Add to cart<i style="margin-left: 7px;" class="fa fa-shopping-cart fa-lg"></i></button>
-      </div>
-    </ion-footer-bar>
 </ion-view>

@@ -9,6 +9,7 @@ angular.module('radio', [
   'ngResource',
   'ngCookies',
   'ngRoute',
+  'radio.directive',
   'ui.bootstrap',
   'radio.service',
   'radio.controller'
@@ -77,8 +78,8 @@ angular.module('radio', [
       url: '/rec/issues',
       views: {
         'main': {
-          templateUrl: 'template/tabs/main/issues.html',
-          controller: 'IssuesCtrl'
+          templateUrl: 'template/issue/issue_list.html',
+          controller: 'IssueListCtrl'
         }
       }
     })
@@ -87,8 +88,8 @@ angular.module('radio', [
       url: '/rec/channels',
       views: {
         'main': {
-          templateUrl: 'template/tabs/main/channels.html',
-          controller: 'ChannelsCtrl'
+          templateUrl: 'template/channel/channel_list.html',
+          controller: 'ChannelListCtrl'
         }
       }
     })
@@ -97,8 +98,8 @@ angular.module('radio', [
       url: '/hot/issues',
       views: {
         'main': {
-          templateUrl: 'template/tabs/main/issues.html',
-          controller: 'IssuesCtrl'
+          templateUrl: 'template/issue/issue_list.html',
+          controller: 'IssueListCtrl'
         }
       }
     })
@@ -107,14 +108,95 @@ angular.module('radio', [
       url: '/hot/products', 
       views: {
         'main': {
-          templateUrl: 'template/tabs/main/products.html',
-          controller: 'ProductsCtrl'
+          templateUrl: 'template/product/product_list.html',
+          controller: 'ProductListCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main_channel', {
+      url: '/main/channels/:channel_id',
+      views: {
+        'main': {
+          templateUrl: 'template/channel/channel_detail.html',
+          controller: 'ChannelDetailCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main_product', {
+      url: '/main/products/:product_id',
+      views: {
+        'main': {
+          templateUrl: 'template/product/product_detail.html',
+          controller: 'ProductDetailCtrl'
         }
       }
     })
 
 
-/*
+    .state('tabs.main_tag_global', {
+      url: '/main/hashtag',
+      views: {
+        'main': {
+          templateUrl: 'template/hashtag/global.html',
+          controller: 'HashTagGlobalCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main_tag_global.issues', {
+      url: '/issues?tag',
+      views: {
+        'main': {
+          templateUrl: 'template/issue/issue_list.html',
+          controller: 'IssueListCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main_tag_global.products', {
+      url: '/products?tag',
+      views: {
+        'main': {
+          templateUrl: 'template/product/product_list.html',
+          controller: 'ProductListCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main_tag_specific', {
+      url: '/main/specific/hashtag/',
+      views: {
+        'main': {
+          templateUrl: 'template/hashtag/specific.html',
+          controller: 'HashTagSpecificCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main_tag_specific.issues', {
+      url: '/issues?tag&channel',
+      views: {
+        'main': {
+          templateUrl: 'template/issue/issue_list.html',
+          controller: 'IssueListCtrl'
+        }
+      }
+    })
+
+    .state('tabs.main_tag_specific.products', {
+      url: '/products?tag&brand',
+      views: {
+        'main': {
+          templateUrl: 'template/product/product_list.html',
+          controller: 'ProductListCtrl'
+        }
+      }
+    })
+
+
+    /*
     .state('tabs.main.intro_issue', {
       url: '/issues',
       views: {
@@ -135,7 +217,18 @@ angular.module('radio', [
       }
     })
 
-*/
+    */
+/*
+    .state('tabs.main_hashtag_global_issues', {
+      url: '/main/hashtag/:tag_id/issues',
+      views: {
+        'main': {
+          templateUrl: 'template/hashtag_global/issue_list.html',
+          controller: 'HashTagIssueListCtrl'
+        }
+      }
+    })
+
 
     .state('tabs.main_hashtag_issues', {
       url: '/main/channel/:channel_id/hashtag/:tag_id/issues',
@@ -147,15 +240,6 @@ angular.module('radio', [
       }
     })
 
-    .state('tabs.main_hashtag_global_issues', {
-      url: '/main/hashtag/:tag_id/issues',
-      views: {
-        'main': {
-          templateUrl: 'template/hashtag_global/issue_list.html',
-          controller: 'HashTagIssueListCtrl'
-        }
-      }
-    })
 
     .state('tabs.main_hashtag_products', {
       url: '/main/hashtag/:tag_id/products',
@@ -167,13 +251,14 @@ angular.module('radio', [
       }
     })
 
+*/
     /*
     .state('tabs.main_hashtag_global_proudcts', {
       url: '/main/hashtag/:tag_id/products'
     })
     */
 
-    .state('tabs.main_issue_detail', {
+    .state('tabs.main_issue', {
       url: '/main/issues/:issue_id',
       views: {
         'main':{

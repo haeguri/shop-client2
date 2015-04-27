@@ -1,3 +1,26 @@
+/* tabs & nav */
+
+i[data-like="true"] {
+  color:#e60000 !important;
+}
+
+i[data-like="false"] {
+  color:#262626 !important;
+}
+
+div.tab-nav.tabs {
+  background: linear-gradient(#ffffff, #f0f6f6);
+}
+
+.tab-item .icon {
+  font-size: 28px;
+}
+
+
+.scroll{
+  height:100%;
+}
+
 ion-header-bar button.button.button-clear {
   color: #444; 
 }
@@ -113,6 +136,29 @@ div[collapse] button{
 /* ------ main page ---------
 --------------------------*/
 
+/* hash tag global */
+
+div.two-button-bar a.button {
+  width: 50%;
+  float: left;
+  background-color: #fff !important;
+  border: none;
+  font-size: 14px !important;
+  font-weight: 700;
+}
+
+div.two-button-bar a.button.activated {
+  background-color: #fff !important;
+  border: none;
+  box-shadow: none;
+}
+
+div.two-button-bar a.button.active {
+  border-bottom: solid 3px red;
+  box-shadow: none;
+}
+
+
 /* main nav */
 
 ion-header-bar.bar.bar-subheader.main-intro a {
@@ -175,7 +221,7 @@ div.channel-list div.profile img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 
 div.channel-list div.follow {
@@ -318,6 +364,14 @@ div.issue-detail img {
   width: 100%;
 }
 
+div.issue-detail > div:nth-of-type(1) {
+  height: 560px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top:0px;
+}
+
 div.issue-detail div.info {
   position: absolute;
   bottom: 0px;
@@ -349,6 +403,7 @@ div.issue-detail div.profile img {
   height: 40px;
   width: 40px; 
   border-radius: 50%;
+  border: 1px solid #fff;
 }
 
 
@@ -384,57 +439,6 @@ div.issue-detail-item-list div.item-thumbnail img {
   height: 125px;
   border: 1px solid #DDD;
 }
-
-/* shop intro tab slide */
-
-.slider-slide h3{
-  color:#000000;
-}
-.scroll{
-  height:100%;
-}
-
-.tabbed-slidebox .tsb-icons:after{
-  display:none;
-}
-
-div.product-thumbnail {
-  float: left;
-  max-width: 46.25%;
-  position: relative;
-  text-align: center;
-}
-
-div.product-thumbnail > div {
-  position: absolute;
-  display: inline-block;
-  padding: 2px 2px 0px 2px;
-  top:142px;
-  right: 5px;
-  border-radius: 8px;
-  background-color: rgba(255,255,255,0.8);
-}
-
-div.product-thumbnail > div i {
-  font-size: 20px;
-}
-
-div.product-thumbnail:nth-of-type(2n+1) {
-  margin-left: 2.5%;
-  margin-right: 1.25%;
-}
-div.product-thumbnail:nth-of-type(2n) {
-  margin-left: 1.25%;
-  margin-right: 2.5%;
-}
-
-div.product-thumbnail img {
-  width: 100%;
-  height: 168px;
-  border: 2px solid #00002f;
-  border-radius: 8px;
-}
-
 
 /* --------- product detail page ------------
 ----------------------------------------- */
@@ -493,31 +497,6 @@ div.product-desc-wrap img {
   width: 100%;
 }
 
-/* tabs & nav */
-
-
-i[data-like="true"] {
-  color:#e60000 !important;
-}
-
-i[data-like="false"] {
-  color:#262626 !important;
-}
-
-div.tab-nav.tabs {
-  background: linear-gradient(#ffffff, #f0f6f6);
-}
-
-.tab-item .icon {
-  padding-top: 5px;
-  font-size: 23px;
-  margin-bottom: -3px;
-}
-
-#radio-tabs span.tab-title{
-  font-size: 10px;
-}
-
 /* ------------------------------
 -----channel detail page -----*/
 
@@ -529,59 +508,114 @@ div.tab-nav.tabs {
   margin-top: -50px;
 }
 
+.transparent-nav .bar.bar-header.white-header h2.title{
+  color: #fff !important;
+}
 
 
-div.channel-profile {
-  display: inline-block;
+
+div.channel-detail {
+  width: 100%;
+  height: 285px;
   position: relative;
-  width: 100%;
 }
 
-div.channel-profile img {
-  width: 100%;
-  height: 280px;
-}
-
-div.channel-profile div{
+div.channel-detail * {
   position: absolute;
-  top:0px;
+  color: #fff;
+}
+
+div.channel-detail img {
   width: 100%;
-  height: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0)); /*Standard*/
-  background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.8),rgba(0,0,0,0)); /*Safari 5.1-6*/
-  text-align: center;
+  height: 285px;
 }
 
-div.channel-profile div img {
-  margin-top: 90px;
-  width: 25vw;
-  height: 25vw;
+div.channel-detail > div:nth-of-type(1) {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 285px;
+}
+
+div.channel-detail div.info {
+  width: 100%;
+  top: 50%;
+  left: 25px;
+  padding: 10% 0;
+}
+
+div.channel-detail div.info * {
+  position: relative;
+}
+
+div.channel-detail div.info img{
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  border:2px solid #aaaaaa;
+  border: 1px solid #fff;
 }
 
-div.channel-profile span {
-  padding-left: 10px;
+div.channel-detail div.info div.info-text {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+  height: 60px;
+  padding: 2% 0;
 }
 
-div.channel-profile h5 {
-  font-weight: 700;
+div.channel-detail h2 {
+  margin-bottom: 0px;
 }
 
-div.channel-profile h5, div.channel-profile p {
-  color: white;
-  padding: 0px;
-  margin: 5px;
+div.channel-detail p {
+  font-size: 14px !important;
 }
 
-div.channel-profile button {
-  margin-top: 0px;
+
+div.channel-detail-issues {
+  width: 100%;
+  height: 192px;
+}
+
+div.channel-detail-issues * {
+  position: absolute;
+  color: #fff;
+}
+
+div.channel-detail-issues img {
+  width: 100%;
+  height: 192px;
+}
+
+div.channel-detail-issues button.like-btn {
+  right: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
   background: none;
-  color: white;
-  border: 1px solid white;
-  padding: 5px;
-  font-size: 12px;
+  border: none;
 }
+
+div.channel-detail-issues button.like-btn * {
+  position: relative;
+  font-size: 21px;
+}
+
+div.channel-detail-issues > div:nth-of-type(1) {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 192px;
+}
+
+div.channel-detail-issues div.info {
+  width: 100%;
+  text-align: center;
+  padding: 25% 0;
+}
+
+div.channel-detail-issues div.info * {
+  position: relative;
+}
+
+
 
 /* shop */
 ion-view[view-title='상점'] > .bar-subheader{

@@ -52,22 +52,6 @@ angular.module('radio.service')
 					console.log("response", response);
 				});
 			}
-			/*,
-			'updateQuantity':function(args){
-				var Cart = this;
-				return Cart.request({
-					'user_id':args.user_id,
-					'method':'PUT',
-					'url':'item',
-					'data':args.data,
-				}).then(function(response){
-					console.log("success update item", response.data);
-					return response.data;
-				}, function(reason){
-					console.log("failed update item", reason);
-				})
-			}
-			*/
 		};
 
 		return Cart;

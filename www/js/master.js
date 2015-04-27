@@ -16,8 +16,6 @@ angular.module('radio.controller', [])
 				'brands' : data.brand_follows_of_user
 			};
 			console.log("rootScope User Data", $rootScope.user);
-			//$state.go('tabs.main.intro_issue');
-			//$state.go('tabs.main.rec.issues');
 			$location.url('/rec/issues');
 		});
 
@@ -68,17 +66,6 @@ angular.module('radio.controller', [])
 			console.log("beforeEnter");
 		});
 		*/
-
-
-        // Execute action on hide modal
-        $scope.$on('modal.hidden', function() {
-        // Execute action
-        });
-
-        // Execute action on remove modal
-        $scope.$on('modal.removed', function() {
-        // Execute action
-        });
 
 
 	});

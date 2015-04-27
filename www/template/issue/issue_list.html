@@ -1,6 +1,11 @@
-<ion-view view-title="Radio">
+<ion-view>
+	<ion-nav-title>
+		<h1 class="title" ng-if="issue_list.isTagView == true && issue_list.issues.length">
+			# {{issue_list.currentTag.name}} 이슈
+		</h1>
+	</ion-nav-title>
 	<ion-content has-bouncing="false">
-		<div class="radio-list" ng-click="main_issues.goIssueDetail(issue.id)" collection-repeat="issue in main_issues.issues"
+		<div class="radio-list" ng-click="issue_list.goIssueDetail(issue.id)" collection-repeat="issue in issue_list.issues"
 		  item-width="100%"
 		  item-height="192px">
 	        <img ng-src="{{issue.image}}">
@@ -8,7 +13,7 @@
         	<img class="profile" ng-src="{{issue.channel.profile}}">
 	        <div class="info">
 	        	<h3>{{issue.title}}</h3>
-	        	<a ng-click="main_issues.goHashTag(tag, issue.channel, $event)" ng-repeat="tag in issue.hash_tags" >#{{tag.name}}</a><br>
+	        	<a ng-click="issue_list.goHashTagGlobal(tag, $event)" ng-repeat="tag in issue.hash_tags" >#{{tag.name}}</a><br>
 				<span><i class="fa fa-eye"></i> {{issue.view}}</span>
 	        	<span><i class="fa fa-heart"></i> {{issue.issue_likes_of_issue.length}}</span>
 	        </div>

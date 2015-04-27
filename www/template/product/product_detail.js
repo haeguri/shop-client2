@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('ProductDetailCtrl', function(Shop, Cart, Brand, Like, $scope, $stateParams, 
+	.controller('ProductDetailCtrl', function(Product, Cart, Brand, Like, $scope, $stateParams, 
 		$location, $rootScope, $ionicSlideBoxDelegate, $ionicHistory) {
 
 		$scope.product_detail = {};
@@ -16,15 +16,9 @@ angular.module('radio.controller')
 
 		$scope.product_detail.submenu = ['Description', 'Delivery'];
 
-	 	$scope.myInterval = 5000;
-
 	 	$scope.product_detail.selectedMenu = 'Description';
 
 	 	var slideOnceUpdated = false;
-
-	 	$scope.product_detail.test = function($event) {
-	 		console.log("$event", $event);
-	 	}
 
         $scope.product_detail.resizeSlides = function () {
     	/* fix for slides-box bug */
@@ -34,24 +28,11 @@ angular.module('radio.controller')
         	}
         }
 
-		Shop.getProduct({
-			'gender_id':$stateParams.gender_id, 
-			'tag_id':$stateParams.tag_id,
+		Product.getProduct({
 			'product_id':$stateParams.product_id
 		}).then(function(data) {
 			$('div.product-button-bar a:first-child').addClass('active');
 			$scope.product_detail.product = data;
-			/* products of brand*/
-			Shop.getProducts({
-				'params':{
-					'filter':'brand',
-					'brand_id':$scope.product_detail.product.brand.id
-				},
-				'tag_id':$stateParams.tag_id,
-				'gender_id':$stateParams.gender_id
-				}).then(function(data) {
-					$scope.product_detail.products_of_brand = data;
-				})
 		});
 
 		$scope.product_detail.addToCart = function() {
@@ -93,11 +74,6 @@ angular.module('radio.controller')
 				$(event.target).addClass('active');
 				$(event.target).siblings().removeClass('active');
 			}
-		}
-
-		$scope.product_detail.goBack = function() {
-			$('#radio-tabs').removeClass('tabs-item-hide');
-			$ionicHistory.goBack();
 		}
 	});
 

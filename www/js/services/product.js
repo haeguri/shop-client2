@@ -1,7 +1,7 @@
 angular.module('radio.service')
-	.factory('Shop', function(RootUrl, $http){
+	.factory('Product', function(RootUrl, $http){
 
-		var Shop = {
+		var Product = {
 			'request' : function(args) {
 				var extra_url = args.extra_url || '';
 				var method = args.method || '';
@@ -17,8 +17,8 @@ angular.module('radio.service')
 				});
 			},
 			getGenders: function(){
-				var Shop = this;
-				return Shop.request({
+				var Product = this;
+				return Product.request({
 					'extra_url': '/genders',
 					'method':'GET'
 				}).then(function(response){
@@ -26,9 +26,9 @@ angular.module('radio.service')
 				})
 			},
 			'getTags' : function(args) {
-				var Shop = this;
+				var Product = this;
 				var params = args.params || {};
-				return Shop.request({
+				return Product.request({
 					'extra_url': '/genders/' + args.gender_id + '/tags',
 					'method': 'GET',
 					'params': params
@@ -37,29 +37,28 @@ angular.module('radio.service')
 				});
 			},
 			'getProducts' : function(args) {
-				var Shop = this;
-				var params = args.params || {};
-				return Shop.request({
+				var Product = this;
+				return Product.request({
 					'method':'GET',
+					'params':args.params,
 					'extra_url': '/products',
-					'params':params
 			}).then(function(response) {
 					return response.data;
 				});
 			},
 			'getProduct' : function(args) {
-				var Shop = this;
-				return Shop.request({
+				var Product = this;
+				return Product.request({
 					'method':'GET',
-					'extra_url': '/genders/' + args.gender_id + '/tags/' + args.tag_id + '/products/' + args.product_id
+					'extra_url': '/products/' + args.product_id
 				}).then(function(response) {
 					return response.data;
 				});
 			},
 
 			'getSorts' : function() {
-				var Shop = this;
-				return Shop.request({
+				var Product = this;
+				return Product.request({
 					'method':'GET',
 					'extra_url':'/product_sorts'
 				}).then(function(response) {
@@ -68,5 +67,5 @@ angular.module('radio.service')
 			}
 		}
 
-		return Shop;
+		return Product;
 	})

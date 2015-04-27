@@ -1,6 +1,6 @@
 <ion-view view-title="Radio">
 	<ion-content has-bouncing="false">
-		<div class="channel-list" collection-repeat="channel in main_channels.channels"
+		<div class="channel-list" ng-click="channel_list.goChannelDetail(channel.id)" collection-repeat="channel in channel_list.channels"
 		item-width="100%"
 		item-height="400px">
 			<img ng-src="{{channel.background}}">

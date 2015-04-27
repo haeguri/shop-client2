@@ -1,0 +1,15 @@
+<!-- 해쉬 태그 페이지에서 "라디오 전체 검색" 누르면 올 수 있는 페이지 -->
+<ion-view>
+	<ion-header-bar class="bar bar-subheader">
+		<div class="two-button-bar">
+			<!--
+	     	<a ng-click="tag_global.toggleInfo(menu)" class="button" ng-repeat="menu in tag_global.menuList" nav-transition="none">{{menu}}</a>
+	     	-->
+	     	<a class="button active" ng-href="/#/main/hashtag/issues?tag={{tag_global.queryTag}}" ng-click="tag_global.addUnderline()" nav-transition="none">이슈</a>
+	     	<a class="button" ng-href="/#/main/hashtag/products?tag={{tag_global.queryTag}}" ng-click="tag_global.addUnderline()" nav-transition="none">상품</a>
+      	</div>
+    </ion-header-bar>
+    <ion-content class="has-subheader" has-bouncing="false">
+		<ion-nav-view name="main"></ion-nav-view>
+    </ion-content>
+</ion-view>

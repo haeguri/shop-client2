@@ -1000,3 +1000,32 @@
 2015-04-24 18:56:27.017 radio[84748:4423789] mainIntroIssue!!!
 2015-04-24 18:56:29.209 radio[84748:4423789] MainIntroProduct!!!
 2015-04-24 18:56:37.100 radio[84748:4423789] MainIntroProduct!!!
+2015-04-25 17:42:24.578 radio[88030:4590154] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-25 17:42:24.580 radio[88030:4590154] Multi-tasking -> Device: YES, App: YES
+2015-04-25 17:42:24.599 radio[88030:4590154] Unlimited access to network resources
+2015-04-25 17:42:25.007 radio[88030:4590154] [CDVTimer][keyboard] 0.057042ms
+2015-04-25 17:42:25.007 radio[88030:4590154] [CDVTimer][TotalPluginStartup] 1.378000ms
+2015-04-25 17:42:25.284 radio[88030:4590154] Resetting plugins due to page load.
+2015-04-25 17:42:26.504 radio[88030:4590154] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/4A2C47EA-A861-4803-90B9-A94FA19DC62D/radio.app/www/index.html
+2015-04-25 17:42:30.193 radio[88030:4590154] rootScope User Data [object Object]
+2015-04-25 17:42:30.194 radio[88030:4590154] mainIntroIssue!!!
+2015-04-25 17:42:32.617 radio[88030:4590154] data [object Object]
+2015-04-25 17:42:33.623 radio[88030:4590154] issue_detail [object Object]
+2015-04-25 17:42:35.966 radio[88030:4590154] data [object Object]
+2015-04-25 17:42:38.522 radio[88030:4590154] data [object Object]
+2015-04-25 17:42:44.194 radio[88030:4590154] data [object Object],[object Object],[object Object]
+2015-04-25 17:42:47.432 radio[88030:4590154] data [object Object],[object Object],[object Object]
+2015-04-25 17:42:55.959 radio[88030:4590154] data [object Object],[object Object],[object Object]
+2015-04-25 17:42:55.959 radio[88030:4590154] mainIntroIssue!!!
+2015-04-25 17:43:06.311 radio[88030:4590154] data [object Object],[object Object],[object Object]
+2015-04-25 17:43:08.074 radio[88030:4590154] data [object Object],[object Object],[object Object]
+2015-04-25 17:43:09.298 radio[88030:4590154] data [object Object],[object Object],[object Object]
+2015-04-25 17:43:17.809 radio[88030:4590154] data [object Object],[object Object],[object Object]
+2015-04-25 17:43:19.427 radio[88030:4590154] data [object Object],[object Object],[object Object]
+2015-04-25 17:43:20.456 radio[88030:4590154] data [object Object],[object Object],[object Object]
+2015-04-25 17:43:25.287 radio[88030:4590154] mainIntroIssue!!!
+2015-04-25 17:43:27.386 radio[88030:4590154] mainIntroIssue!!!
+2015-04-25 17:43:28.582 radio[88030:4590154] mainIntroIssue!!!
+2015-04-25 17:43:30.098 radio[88030:4590154] MainIntroProduct!!!
+2015-04-25 17:43:31.918 radio[88030:4590154] mainIntroIssue!!!
+2015-04-25 17:43:37.254 radio[88030:4590154] data [object Object],[object Object],[object Object]

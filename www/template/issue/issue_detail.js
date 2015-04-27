@@ -16,4 +16,5 @@ angular.module('radio.controller')
         $scope.issue_detail.test = function() {
         	console.log("clicked");
         }
-})
+
+    });

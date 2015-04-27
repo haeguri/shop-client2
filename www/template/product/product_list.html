@@ -1,0 +1,25 @@
+<ion-view view-title="Radio">
+	<ion-nav-title>
+		<h1 class="title" ng-if="product_list.isTagView == true" >
+			# {{product_list.currentTag.name}} 상품
+		</h1>
+	</ion-nav-title>
+	<ion-content has-bouncing="false">
+		<div class="radio-list" ng-click="product_list.goProductDetail(product.id)" collection-repeat="product in product_list.products"
+		  item-width="100%"
+		  item-height="192px">
+	        <img ng-src="{{product.images[0].image}}">
+	        <div class="image-wrap-white"></div>
+	        <div class="info text-black">
+	        	<h3>{{product.name}}</h3>
+	        	<a ng-click="product_list.goHashTag(tag, $event)" ng-repeat="tag in product.hash_tags" >#{{tag.name}}</a><br>
+	        	<span><i class="fa fa-heart"></i> {{product.product_likes_of_product.length}}</span>
+	        </div>
+      	</div>
+		<div class="card" ng-if="!product_list.products.length">
+		  <div class="item item-text-wrap">
+		    죄송합니다. 보여드릴 수 있는 상품이 없습니다.
+		  </div>
+		</div>
+	</ion-content>
+</ion-view>

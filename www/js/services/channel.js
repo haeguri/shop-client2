@@ -32,6 +32,16 @@ angular.module('radio.service')
 				})
 			},
 
+			'getChannel':function(args) {
+				var Channel = this;
+				return Channel.request({
+					'method':'GET',
+					'extra_url':'/channels/'+args.channel_id
+				}).then(function(response){
+					return response.data;
+				})
+			},
+
 			'getIssues':function(args) {
 				var Channel = this;
 				var params = args.params || {};
