@@ -166,7 +166,7 @@ angular.module('radio', [
     })
 
     .state('tabs.main_tag_specific', {
-      url: '/main/specific/hashtag/',
+      url: '/main/specific/hashtag',
       views: {
         'main': {
           templateUrl: 'template/hashtag/specific.html',

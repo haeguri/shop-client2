@@ -68,6 +68,11 @@ angular.module('radio.controller')
 			$location.url('/tabs/private/info');
 		};
 
+		$scope.product_detail.goHashTagGlobal = function(tag) {
+			console.log("Test");
+			$location.url('/main/hashtag/products?tag='+tag.id);
+		}
+
 		$scope.product_detail.viewInfo = function(menu_name) {
 			if( $scope.product_detail.selectedMenu != menu_name) {
 				$scope.product_detail.selectedMenu = menu_name;	

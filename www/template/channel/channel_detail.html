@@ -33,7 +33,7 @@
 			<button class="like-btn"><i class="fa fa-heart-o nav-center-heart fa-2x"></i></button>
 			<div class="info">
 				<h2>{{issue.title}}</h2>
-				<span ng-repeat="tag in issue.hash_tags"> #{{tag.name}}</span>
+				<span ng-click="channel_detail.goHashTagSpecific($event, channel_detail.channel, tag)" ng-repeat="tag in issue.hash_tags"> #{{tag.name}}</span>
 			</div>
 		</div>
     </ion-content>

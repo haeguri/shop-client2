@@ -92,7 +92,13 @@ angular.module('radio.controller')
 				$scope.product_detail.selectedMenu = menu_name;	
 				$(event.target).addClass('active');
 				$(event.target).siblings().removeClass('active');
+				$('div.scroll-bar.scroll-bar-v div.scroll-bar-indicator').addClass('scroll-bar-fade-out');
 			}
+		}
+
+		$scope.product_detail.goHashTagGlobal = function(tag) {
+			console.log("Test");
+			$location.url('/main/hashtag/products?tag='+tag.id);
 		}
 
 		$scope.product_detail.goBack = function() {

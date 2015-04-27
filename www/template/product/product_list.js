@@ -38,7 +38,7 @@ angular.module('radio.controller')
 
         $scope.product_list.goHashTag = function(tag, $event) {
             $event.stopPropagation();
-            $location.url('/main/hashtag/issues?tag='+tag.id);
+            $location.url('/main/hashtag/products?tag='+tag.id);
         }
 
         $scope.product_list.goProductDetail = function(product_id) {

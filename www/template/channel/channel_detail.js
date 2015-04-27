@@ -20,4 +20,9 @@ angular.module('radio.controller')
         	$location.url('/main/issues/'+issue_id);
         }
 
+        $scope.channel_detail.goHashTagSpecific = function($event, channel, tag) {
+            $event.stopPropagation();
+            $location.url('/main/specific/hashtag/issues?tag='+tag.id+'&channel='+channel.id);
+        }
+
     })

@@ -11,34 +11,42 @@
           <img ng-src="{{image_obj.image}}">
         </ion-slide>
       </ion-slide-box>
-      <div class="list">
-        <div class="item">
-          <h2>{{product_detail.product.name}}</h2>
-          <p>{{product_detail.product.price | number:0 }}</p>
-        </div>
-        <div class="item">
-          <div class="product-brand-info">
-            <img ng-src="{{product_detail.product.brand.image}}">
-            <span>{{product_detail.product.brand.name}}</span>
-            <a class="button button-icon fa fa-angle-double-right fa-2x"></a>
-          </div>
-        </div>
-        <div class="item">
-          <div class="button-bar product-button-bar">
-            <a class="button" ng-click="product_detail.viewInfo(submenu)" ng-repeat="submenu in product_detail.submenu">{{submenu}}</a>
-          </div>
-          <div class='product-desc-wrap' ng-repeat="image_obj in product_detail.product.images" ng-if="product_detail.selectedMenu == 'Description'">
-            <img ng-src="{{image_obj.image}}">
-            <p>{{image_obj.description}}</p>
-          </div>
-          <p ng-if="product_detail.selectedMenu == 'Delivery'">All shipping services used by ssense.com provide a tracking number and full insurance. In the event that multiple orders are placed with the same shipping destination and on the same account, orders may be combined and the shipping fees will be adjusted unless otherwise requested.
+      <div class="product-detail">
+          <div class="list">
+            <div class="product-title">
+              <h2>{{product_detail.product.name}}</h2>
+              <p>{{product_detail.product.price | number:0 }} WON</p><br>
+              <span ng-click="product_detail.goHashTagGlobal(tag)" ng-repeat="tag in product_detail.product.hash_tags">
+                #{{tag.name}}
+              </span>
+            </div>
+            <div class="item">
+              <div class="button-bar product-button-bar">
+                <a class="button" ng-click="product_detail.viewInfo(submenu)" ng-repeat="submenu in product_detail.submenu">{{submenu}}</a>
+              </div>
+              <p  ng-if="product_detail.selectedMenu == 'Description'">
+                  {{product_detail.product.description}}
+              </p>
+              <p ng-if="product_detail.selectedMenu == 'Delivery'">All shipping services used by ssense.com provide a tracking number and full insurance. In the event that multiple orders are placed with the same shipping destination and on the same account, orders may be combined and the shipping fees will be adjusted unless otherwise requested.
 
-Days in the following table refer to business days.
+    Days in the following table refer to business days.
 
-Please allow up to two business days (not including weekends or holidays) for us to process your order. Processing time is required so that we can review your order information and prepare it for shipping.
+    Please allow up to two business days (not including weekends or holidays) for us to process your order. Processing time is required so that we can review your order information and prepare it for shipping.
 
-Exact shipping options and transit times will be provided at checkout.</p>
-        </div>
+    Exact shipping options and transit times will be provided at checkout.</p>
+            </div>
+            <div class="item">
+              <div class="product-brand-info">
+                <img ng-src="{{product_detail.product.brand.image}}">
+                <span>{{product_detail.product.brand.name}}</span>
+                <a class="button button-icon fa fa-angle-double-right fa-2x"></a>
+              </div>
+            </div>
+            <div class='product-desc-wrap' ng-repeat="image_obj in product_detail.product.images">
+                <img ng-src="{{image_obj.image}}">
+                <p>{{image_obj.description}}</p>
+              </div>
+          </div>
       </div>
     </ion-content>
 </ion-view>

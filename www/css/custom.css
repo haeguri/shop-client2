@@ -449,8 +449,21 @@ div.product-image-slides {
 
 div.product-image-slides img {
   width: 100%;
-  height: 368px;
+  height: 375px;
 }
+div.product-detail div.product-title{
+  width: 100%;
+  float: left;
+}
+
+div.product-detail div.product-title p {
+  float: right;
+}
+
+div.product-detail div.product-title * {
+  display: inline-block;
+}
+
 
 div.product-brand-info {
   text-align: inherit !important;

@@ -6,34 +6,26 @@ angular.module('radio.controller')
         $scope.issue_list.isTagView = false;
         $scope.issue_list.currentTag = {}
 
-        console.log("Main Issue List!!!");
+        var page = 1;
+        var tag = $location.search().tag || undefined;
+        var channel = $location.search().channel || undefined;
+        var params = {
+            'params': {
+                'page':page,
+                'tag':tag,
+                'channel':channel
+            }
+        };
 
-        var page = 0;
-        var hashtag = $location.search().tag
-        var params = {};
-
-        if (hashtag == undefined) {
-            params = {
-                'params': {
-                    'page':++page
-                }
-            };
-            $scope.issue_list.isTagView = false;
-        }else {
-            params = {
-                'params': {
-                    'page':++page,
-                    'tag':hashtag
-                }
-            };
-            $scope.issue_list.isTagView = true;
-        }
+        params.params.tag == undefined ? delete params.params.tag : undefined; 
+        params.params.channel == undefined ? delete params.params.channel : undefined;
 
         Channel.getIssues(params).then(function(data) {
             if (data.results.length) {
                 for(var i in data.results[0].hash_tags) {
-                    if (data.results[0].hash_tags[i].id == hashtag) {
+                    if (data.results[0].hash_tags[i].id == tag) {
                         $scope.issue_list.currentTag = data.results[0].hash_tags[i];
+                        console.log("$scope.issue_list.currentTag", $scope.issue_list.currentTag);
                     }
                 }
                 $scope.issue_list.issues = data.results;
