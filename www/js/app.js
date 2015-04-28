@@ -134,6 +134,16 @@ angular.module('radio', [
       }
     })
 
+    .state('tabs.main_brand', {
+      url: '/main/brands/:brand_id',
+      views: {
+        'main': {
+          templateUrl: 'template/brand/brand_detail.html',
+          controller: 'BrandDetailCtrl'
+        }
+      }
+    })
+
 
     .state('tabs.main_tag_global', {
       url: '/main/hashtag',

@@ -1,0 +1,45 @@
+<ion-view class="has-transparent-nav">
+	<ion-nav-bar class="transparent-nav">
+		<ion-nav-back-button ng-click="brand_detail.goBack()">
+        </ion-nav-back-button>
+	</ion-nav-bar>
+    <ion-content has-bouncing="false">
+    	<div class="brand-detail">
+    		<ion-slide-box on-slide-changed="slideHasChanged($index)" class="product-image-slides" has-bouncing="false">
+		        <ion-slide ng-repeat="interview_obj in brand_detail.brand.interviews" ng-init="brand_detail.resizeSlides()">
+		          <img ng-src="{{interview_obj.image}}">
+		        </ion-slide>
+      		</ion-slide-box>
+      		<div class="title">
+      			<img ng-src="{{brand_detail.brand.profile}}">
+      			<h2>{{brand_detail.brand.name}}</h2>
+      			<div class="follow brand">
+      				<button class="btn"><i class="fa fa-plus"></i>FOLLOW</button>
+      				<p ng-if="brand_detail.brand_follows_of_brand.length">팔로워 {{brand_detail.brand_follows_of_brand.length}}명</p>
+      			</div>
+      		</div>
+      		<p>{{brand_detail.brand.description}}</p>
+	       	<div class="two-button-bar another">
+      	      <a class="button" ng-click="brand_detail.viewInfo($event, submenu)" ng-repeat="submenu in brand_detail.submenu">{{submenu}}</a>
+         	</div>
+          <div ng-show="brand_detail.selectedMenu == 'FEED'" class="brand-feed" ng-repeat="feed in brand_detail.feeds">
+            <div class="title">
+              <span>{{feed.pub_date}}</span>
+            </div>
+            <img ng-src="{{feed.image}}">
+            <div class="body">
+              <p>{{feed.body}}</p>
+            </div>
+          </div>
+          <div ng-show="brand_detail.selectedMenu == 'ITEM'" class="radio-list" ng-click="brand_detail.goProductDetail(product.id)" ng-repeat="product in brand_detail.products">
+              <img ng-src="{{product.images[0].image}}">
+              <div class="image-wrap-white"></div>
+              <div class="info text-black">
+                <h3>{{product.name}}</h3>
+                <a ng-click="brand_detail.goHashTagSpecific(tag.id, $event)" ng-repeat="tag in product.hash_tags" >#{{tag.name}}</a><br>
+                <span><i class="fa fa-heart"></i> {{product.product_likes_of_product.length}}</span>
+              </div>
+          </div>
+      	</div>
+    </ion-content>
+</ion-view>

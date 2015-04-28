@@ -16,6 +16,7 @@ angular.module('radio.service')
 					console.log("error data", data);
 				});
 			},
+
 			'getBrands':function(gender_id) {
 				var Brand = this;
 				return Brand.request({
@@ -25,12 +26,25 @@ angular.module('radio.service')
 					return response.data;
 				});
 			},
+
 			'getBrand':function(args){
 				var Brand = this;
 				var params = args.params || {};
 				return Brand.request({
 					'method':'GET',
-					'extra_url':'/genders/'+args.gender_id+'/brands/' + args.brand_id,
+					'extra_url': '/brands/' + args.brand_id,
+					'params':params
+				}).then(function(response) {
+					return response.data;
+				})
+			},
+
+			'getFeeds':function(args){
+				var Brand = this;
+				var params = args.params || {};
+				return Brand.request({
+					'method':'GET',
+					'extra_url': '/brands/' + args.brand_id +'/feeds',
 					'params':params
 				}).then(function(response) {
 					return response.data;

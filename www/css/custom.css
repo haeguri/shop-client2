@@ -91,6 +91,27 @@ ion-header-bar div.buttons button{
 }
 
 
+/* brand component */
+
+
+div.follow.brand button.btn {
+  width: 99px;
+  height: 32.5px;
+  border-radius :10px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+div.follow.brand button.btn i{
+  margin-right: 5px;
+}
+
+div.follow.brand p {
+  text-align: center;
+  font-weight: 700;
+}
+
 
 /* -------- nav bar --------- */ 
 
@@ -138,6 +159,12 @@ div[collapse] button{
 
 /* hash tag global */
 
+div.two-button-bar {
+  display: inline-block;
+  width: 100%;
+}
+
+
 div.two-button-bar a.button {
   width: 50%;
   float: left;
@@ -158,6 +185,30 @@ div.two-button-bar a.button.active {
   box-shadow: none;
 }
 
+div.two-button-bar.another a.button{
+  height: 47px;
+  border: 1px solid #0080ff !important;
+  color: #0080ff;
+}
+
+
+div.two-button-bar.another a.button:nth-of-type(1){
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+div.two-button-bar.another a.button:nth-of-type(2) {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+div.two-button-bar.another a.button.active {
+  background-color: #0080ff !important;
+  border-bottom: inherit !important;
+  color: #fff;
+
+}
+
 
 /* main nav */
 
@@ -175,6 +226,28 @@ ion-header-bar.bar.bar-subheader.main-intro button:last-child{
 
 ion-header-bar.bar.bar-subheader.hash-tag {
   height: 100px;
+}
+
+
+ion-header-bar button.share  {
+  margin: auto;
+  font-size: 18px;
+}
+
+ion-header-bar a.fa-heart-o {
+  margin-top: 5px !important;
+  position: relative;
+  margin-right: 100px;
+}
+
+ion-header-bar button.cart {
+  background: #00b400 !important;
+  border: 1px solid #000 !important;
+  border-radius: 5px;
+}
+
+ion-header-bar button.cart a.button.button-icon.fa.fa-shopping-cart {
+  color: #000;
 }
 
 
@@ -338,19 +411,6 @@ div.radio-list div.info a{
   margin-right: 5px;
 }
 
-/* issue detail page */
-
-div.buttons.buttons-right button  {
-  margin: auto;
-  font-size: 18px;
-}
-
-div.buttons.buttons-right i.fa.fa-heart-o {
-  font-size: 25px;
-  position: relative;
-  margin-right: 100px;
-}
-
 /* issue detail */
 
 div.issue-detail {
@@ -454,59 +514,58 @@ div.product-image-slides img {
 div.product-detail div.product-title{
   width: 100%;
   float: left;
+  padding: 15px;
 }
 
-div.product-detail div.product-title p {
-  float: right;
-}
-
-div.product-detail div.product-title * {
+div.product-detail div.product-title h2 {
   display: inline-block;
 }
 
+div.product-detail div.product-title > p:nth-of-type(2) {
+  font-size: 15px !important;
+  margin-top: 30px;
+}
 
-div.product-brand-info {
+div.product-detail div.product-title > p:nth-of-type(1) {
+  display: inline-block;
+  float: right;
+  font-weight:  700;
+}
+
+div.product-detail div.product-title > span {
+  font-size: 15px !important;
+  font-weight: 700;
+}
+
+div.product-detail div.product-title div.two-button-bar {
+  margin-top: 25px;
+}
+
+div.product-detail div.brand-info {
   text-align: inherit !important;
+  margin: 5px;
 }
 
-div.product-brand-info img{
-  height: 50px;
-  width: 50px;
+div.product-detail div.brand-info img{
+  height: 40px;
+  width: 40px;
   vertical-align: middle !important;
-  border: 2px solid #00002f;
-  border-radius: 8px;
+  border-radius: 50%;
 }
 
 
-div.product-brand-info a {
+div.product-detail div.brand-info a {
   float: right !important;
-  padding-top: 5px !important;
+  padding: 1% 0 !important;
 }
 
-
-div.product-button-bar {
-  border-radius: 5px;
-}
-
-div.product-button-bar a, div.product-button-bar a:hover{
-  border: none;
-  background-color: #fff;
-  color: #0081ff;
-}
-
-div.product-button-bar a.button.active{
-  background-color: #fff;
-  color: #0081ff;
-  border-bottom: 3px solid #0081ff;
-}
-
-div.product-desc-wrap {
+div.product-detail div.desc-wrap {
   width: 100%;
   text-align: center;
   margin-top: 50px;
 }
 
-div.product-desc-wrap img {
+div.product-detail div.desc-wrap img {
   width: 100%;
 }
 
@@ -628,16 +687,64 @@ div.channel-detail-issues div.info * {
   position: relative;
 }
 
+/* brand detail page ! */
 
-
-/* shop */
-ion-view[view-title='상점'] > .bar-subheader{
-  height: 45px;
+div.brand-detail div.title {
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
 }
 
-ion-view[view-title='상점'] > ion-content > div{
-  margin-top: 0px;
+div.brand-detail div.title img {
+  border-radius: 50%;
+  height: 60px; 
+  width: 60px;
+  vertical-align: middle;
 }
+
+div.brand-detail div.title h2 {
+  display: inline;
+}
+
+div.brand-detail div.title div.follow {
+  float: right;
+  height: 100% !important;
+  padding: 4% 0;
+}
+
+div.brand-detail div.title div.follow p {
+  font-weight: 700;
+  text-align: center;
+}
+
+div.brand-feed:first-child {
+  background-color: red !importantx;
+}
+
+div.brand-feed {
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+div.brand-feed div.title {
+  padding: 10px;
+}
+
+div.brand-feed div.title span{
+  float: right;
+  font-size: 12px;
+}
+
+div.brand-feed img {
+  height: 320px;
+  width: 100%;
+}
+
+div.brand-feed div.body p {
+  padding: 10px;
+}
+
+
 
 /* shop-list gender toggle button */
 
