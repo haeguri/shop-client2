@@ -4,7 +4,12 @@ angular.module('radio.controller')
 
         $scope.channel_intro = {};
 
-        $scope.channel_intro.goIssueDetail = function() {
-        	$location.url('/tabs/main/issues/2')
-        }
-})
+        $scope.channel_intro.menus = [];
+
+        var currentMenu = 'New';
+
+		Channel.getPubDays().then(function(data){
+			$scope.channel_intro.pub_days = data;
+		});
+
+	});

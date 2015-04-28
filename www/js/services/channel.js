@@ -20,6 +20,16 @@ angular.module('radio.service')
 				})
 			},
 
+			'getPubDays':function() {
+				var Channel = this;
+				return Channel.request({
+					'method':'GET',
+					'extra_url':'/pubdays'
+				}).then(function(response) {
+					return response.data;
+				})
+			},
+
 			'getChannels':function(args) {
 				var Channel = this;
 				var params = args.params || {};
