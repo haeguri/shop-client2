@@ -19,21 +19,19 @@
     </ion-header-bar>
     <ion-content has-bouncing="false">
       <div class="my-issue" ng-show="private_like.currentView == '이슈'">
-        <div class="radio-list" collection-repeat="issue_obj in $root.user.issues"
-        item-width="100%"
-        item-height="192px">
+        <div class="radio-list" ng-repeat="issue_obj in $root.user.issues">
           <img ng-src="{{issue_obj.issue.image}}">
           <div class="image-wrap-black"></div>
-          <img class="profile" ng-src="{{issue_obj.issue.channel.profile}}">
+          <i class='fa fa-heart-o fa-lg {{issue_obj.issue.like}}'></i>
           <div class="info">
           <h3>{{issue_obj.issue.title}}</h3>
           </div>
         </div>
       </div>
-      <p>adsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadfadsfaldfjakldfjalsfjaklfjalfjaldsfjaklfaksfjadf</p>
       <div class="my-product" ng-show="private_like.currentView == '상품'">
         <div class="my-product-list" ng-repeat="product_obj in $root.user.products">
           <img ng-src="{{product_obj.product.images[0].image}}">
+          <i class='fa fa-heart-o fa-lg {{product_obj.product.like}}'></i>
           <h5>{{product_obj.product.name}}</h5>
           <h6>{{product_obj.product.price}}</h6>
         </div>

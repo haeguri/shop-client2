@@ -1,13 +1,5 @@
 /* tabs & nav */
 
-i[data-like="true"] {
-  color:#e60000 !important;
-}
-
-i[data-like="false"] {
-  color:#262626 !important;
-}
-
 div.tab-nav.tabs {
   background: linear-gradient(#ffffff, #f0f6f6);
 }
@@ -15,7 +7,6 @@ div.tab-nav.tabs {
 .tab-item .icon {
   font-size: 28px;
 }
-
 
 .scroll{
   height:100%;
@@ -116,48 +107,6 @@ div.follow.brand p {
   font-weight: 700;
 }
 
-
-/* -------- nav bar --------- */ 
-
-/* --------------------------- */
-
-div.space {
-  display: block;
-  height: 40px;
-}
-
-div.item {
-  padding: 10px;
-}
-
-div.item p {
-  white-space: pre-wrap;
-}
-
-.bar-subheader div.list div.item {
-  height: 34px;
-}
-.bar-subheader div.list div.item button {
-  font-size: 15px !important;
-}
-
-ion-content.has-subheader-collpase *{
-  color: red;
-}
-
-div[collapse] {
-  text-align: center;
-}
-
-div[collapse] div.item {
-  height: 50px;
-  padding: 0px;
-}
-
-div[collapse] button{
-  font-size: 15px;
-}
-
 /* ------ main page ---------
 --------------------------*/
 
@@ -246,6 +195,10 @@ ion-header-bar a.fa-heart-o {
   margin-top: 5px !important;
 }
 
+.fa-heart-o.true{
+  color: red !important;
+}
+
 ion-header-bar a.fa-heart {
   margin-top: 5px !important;
 }
@@ -316,10 +269,6 @@ div.channel-list div.follow {
 
 div.channel-list div.follow * {
   position: relative;
-}
-
-div.channel-list div.follow i {
-  margin-right: 5px;
 }
 
 div.channel-list div.follow button {
@@ -755,26 +704,6 @@ div.brand-feed div.body p {
 }
 
 
-
-/* shop-list gender toggle button */
-
-.toggle.toggle-assertive div.track {
-  background-color: #ff4d4d;
-  border-color: #ff4d4d;
-  width: 41px;
-  height: 20px;
-  margin-top: 8px;
-}
-.toggle.toggle-assertive input:checked + .track {
-  background-color: #43cee6;
-  border-color: #43cee6;
-}
-.toggle.toggle-assertive div.track div.handle {
-  width: 15px;
-  height: 16px;
-  margin-top: 8px;
-}
-
 /* ------private page--------
 -------------------------- */
 
@@ -808,8 +737,10 @@ div.my-channel-list:nth-of-type(3n+1) {
 }
 
 div.my-channel-list:nth-of-type() {
-  
+  /* 작성해야 함 */  
 }
+
+
 
 
 div.my-channel-list img{
@@ -820,6 +751,57 @@ div.my-channel-list img{
 
 div.my-channel-list h6 {
   margin: 0px;
+}
+
+
+
+div.my-issue h3 {
+  text-align: center;
+}
+
+div.my-issue div.info {
+  top: 91px;
+  left: 0px;
+}
+
+
+div.my-product-list i, div.my-issue div.radio-list i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 21px;
+}
+
+div.my-product-list {
+  margin-top: 10px;
+  display: inline-block !important;
+  width: 42.05%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+
+div.my-product-list:nth-of-type(2n+1){
+  margin-left: 5.3%;
+  margin-right: 2.65%;
+}
+
+div.my-product-list:nth-of-type(2n) {
+  margin-left: 2.65%;
+  margin-right: 5.3%;
+}
+
+div.my-product-list img {
+  width: 100%;
+}
+
+div.my-product-list h5 {
+  margin-bottom: 5px !important;
+}
+
+div.my-product-list h6 {
+  margin-top: 0px;
 }
 
 
@@ -852,26 +834,6 @@ div.cart-list div:last-child {
 div.cart-list div:last-child i {
   vertical-align: middle;
   margin-left: 10px;
-}
-
-
-/* my channel */
-
-.channel-unfollow {
-  float: right;
-  height: 100%;
-}
-
-#edit-channel-alert {
-  padding-top: 35px;
-}
-
-/* my brand */
-
-/* my product */
-
-#private-product-content div.col {
-  float: left;
 }
 
 

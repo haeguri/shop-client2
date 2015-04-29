@@ -1029,3 +1029,46 @@
 2015-04-25 17:43:30.098 radio[88030:4590154] MainIntroProduct!!!
 2015-04-25 17:43:31.918 radio[88030:4590154] mainIntroIssue!!!
 2015-04-25 17:43:37.254 radio[88030:4590154] data [object Object],[object Object],[object Object]
+2015-04-30 00:59:40.355 radio[88030:4590154] mainIntroIssue!!!
+2015-04-30 00:59:41.897 radio[88030:4590154] issue_detail [object Object]
+2015-04-30 01:00:27.550 radio[9147:5912191] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-30 01:00:27.552 radio[9147:5912191] Multi-tasking -> Device: YES, App: YES
+2015-04-30 01:00:27.569 radio[9147:5912191] Unlimited access to network resources
+2015-04-30 01:00:27.990 radio[9147:5912191] [CDVTimer][keyboard] 0.055969ms
+2015-04-30 01:00:27.990 radio[9147:5912191] [CDVTimer][TotalPluginStartup] 0.224948ms
+2015-04-30 01:00:28.237 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:00:29.489 radio[9147:5912191] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/068161CE-5340-4D92-9A9C-FE54BFB6E861/radio.app/www/index.html
+2015-04-30 01:00:36.375 radio[9147:5912191] issue_detail [object Object]
+2015-04-30 01:00:49.492 radio[9147:5912191] issue_detail [object Object]
+2015-04-30 01:00:54.433 radio[9147:5912191] issue_detail [object Object]
+2015-04-30 01:01:05.544 radio[9147:5912191] assigned initialIndex
+2015-04-30 01:01:05.544 radio[9147:5912191] initialindex
+2015-04-30 01:02:01.880 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
+2015-04-30 01:02:07.628 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
+2015-04-30 01:02:10.946 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
+2015-04-30 01:02:11.630 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:02:11.636 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
+2015-04-30 01:02:12.475 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:02:12.478 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
+2015-04-30 01:02:13.037 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:02:13.040 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
+2015-04-30 01:02:15.150 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
+2015-04-30 01:02:19.316 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
+2015-04-30 01:02:20.295 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:02:20.298 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
+2015-04-30 01:02:22.995 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
+2015-04-30 01:02:26.094 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
+2015-04-30 01:02:26.382 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:02:26.385 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
+2015-04-30 01:02:27.929 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:02:27.933 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
+2015-04-30 01:02:28.352 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:02:28.355 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
+2015-04-30 01:02:28.858 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:02:28.859 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
+2015-04-30 01:02:29.018 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:02:29.025 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
+2015-04-30 01:02:29.501 radio[9147:5912191] Resetting plugins due to page load.
+2015-04-30 01:02:29.504 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
+2015-04-30 01:03:19.752 radio[9147:5912191] clicked
+2015-04-30 01:03:20.693 radio[9147:5912191] clicked

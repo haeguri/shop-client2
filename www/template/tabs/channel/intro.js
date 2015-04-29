@@ -1,6 +1,7 @@
 angular.module('radio.controller')
 
-	.controller('ChannelIntroCtrl', function(Channel, $scope, $location) {
+	.controller('ChannelIntroCtrl', function(Channel, $scope, $location,
+		$ionicSlideBoxDelegate, $timeout) {
 
         $scope.channel_intro = {};
 
@@ -10,6 +11,9 @@ angular.module('radio.controller')
 
 		Channel.getPubDays().then(function(data){
 			$scope.channel_intro.pub_days = data;
+			$timeout(function() {
+				$ionicSlideBoxDelegate.update();
+			})
 		});
 
 	});

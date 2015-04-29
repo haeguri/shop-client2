@@ -16,8 +16,6 @@ angular.module('radio.controller')
 
 		$scope.product_detail.submenu = ['Description', 'Delivery'];
 
-	 	$scope.myInterval = 5000;
-
 	 	$scope.product_detail.selectedMenu = 'Description';
 
 	 	var slideOnceUpdated = false;

@@ -10,7 +10,7 @@ angular.module('radio.service')
 				var params = args.params || {};
 				var extra_url = args.extra_url || '';
 				return $http({
-					'url': RootUrl + '/users/' + RadioAuth.user.id + extra_url,
+					'url': RootUrl + '/cart' + extra_url,
 					'method':method,
 					'data':data,
 					'params':params,
@@ -27,7 +27,7 @@ angular.module('radio.service')
 				var Cart = this;
 				return Cart.request({
 					'method':'POST',
-					'extra_url':'/cart/items',
+					'extra_url':'/items',
 					'data':args.data,
 				}).then(function(response) {
 					console.log("success add to Cart", response.data);
@@ -36,16 +36,11 @@ angular.module('radio.service')
 					console.log("error reason for cart add", reason);
 				})
 			},
-			'delFromCart':function(data) {
+			'delFromCart':function(args) {
 				var Cart = this;
 				return Cart.request({
 					'method':'DELETE',
-					'params':{
-						'user_id':RadioAuth.user.id
-					},
-					'data':{
-						'del_list':data
-					}
+					'extra_url':'/items/' + args.item_id
 				}).then(function(response) {
 					return response.data;
 				},function(response) {

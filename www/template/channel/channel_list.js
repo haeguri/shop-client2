@@ -1,6 +1,7 @@
 angular.module('radio.controller')
 
-.controller('ChannelListCtrl', function(Channel, $scope, $location, $state) {
+.controller('ChannelListCtrl', function(Channel, Follow, $scope, 
+    $location, $state, $log) {
 
     $scope.channel_list = {};
 
@@ -18,4 +19,21 @@ angular.module('radio.controller')
     $scope.channel_list.goChannelDetail = function(channel_id) {
         $location.url('/main/channels/'+channel_id);
     };
+
+    $scope.channel_list.toggleChannelFollow = function(channel, index, event) {
+            event.stopPropagation();
+            method = channel.follow === false ? 'POST' : 'DELETE';
+            Follow.toggleChannelFollow({
+                    'method':method,
+                    'channel_id':channel.id
+            }).then(function(data) {
+                if (channel.follow === false) {
+                    $scope.channel_list.channels[index].follow= true;
+                    $log.log("brand follow");
+                } else {
+                    $scope.channel_list.channels[index].follow = false;
+                    $log.log("brand unfollow");
+                }
+            });
+        }
 })

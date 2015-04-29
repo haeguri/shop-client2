@@ -5,9 +5,7 @@ angular.module('radio.controller')
 
         $scope.private_intro = {};
 
-        RadioAuth.getUser($rootScope.user.id).then(function(data) {
-            //$rootScope.$broadcast('UserDataRefresh', data)
-        });
+        RadioAuth.getUser($rootScope.user.id);
 
         $scope.private_intro.goFollow = function() {
             $ionicHistory.nextViewOptions({

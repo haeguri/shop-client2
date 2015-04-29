@@ -1,6 +1,6 @@
 <ion-view view-title="Radio">
 	<ion-content has-bouncing="false">
-		<div class="channel-list" ng-click="channel_list.goChannelDetail(channel.id)" collection-repeat="channel in channel_list.channels"
+		<div class="channel-list" ng-click="channel_list.goChannelDetail(channel.id)" collection-repeat="channel in channel_list.channels track by $index"
 		item-width="100%"
 		item-height="400px">
 			<img ng-src="{{channel.background}}">
@@ -11,7 +11,10 @@
 				<p>{{channel.brief}}</p>	
 			</div>
 			<div class="follow">
-				<button><i class="fa fa-plus"></i>FOLLOW</button>
+				<button ng-click="channel_list.toggleChannelFollow(channel, $index, $event)">
+				<i class="fa fa-plus" ng-if="!channel.follow"></i>
+				<i class="fa fa-minus" ng-if="channel.follow"></i>FOLLOW
+				</button>
 			</div>
 			<div class="issue-wrap">
 				<div class="issue" ng-repeat="issue in channel.issues_of_channel | limitTo:2"> 

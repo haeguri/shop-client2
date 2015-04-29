@@ -30,7 +30,7 @@
     <!-- services -->
     <script src="js/app.js"></script>
     <script src="js/services/auth.js"></script>
-    <script src="js/services/shop.js"></script>
+    <script src="js/services/product.js"></script>
     <script src="js/services/validate.js"></script>
     <script src="js/services/like.js"></script>
     <script src="js/services/cart.js"></script>
@@ -40,6 +40,8 @@
     <script src="js/services/follow.js"></script>
     <!-- master controller -->
     <script src="js/master.js"></script>
+    <!-- directive -->
+    <script src="js/directive.js"></script>
     <!-- controllers -->
     <script src="template/signup.js"></script>
     <script src="template/login.js"></script>
@@ -47,35 +49,33 @@
     <script src="template/tabs/tabs.js"></script>
     <!-- main controllers -->
     <script src="template/tabs/main/intro.js"></script>
-    <script src="template/tabs/main/issues.js"></script>
-    <script src="template/tabs/main/products.js"></script>
-    <script src="template/tabs/main/channels.js"></script>
-
     <!-- channel controllers -->
     <script src="template/tabs/channel/intro.js"></script>
     <!-- private controllers -->
-    <script src="template/tabs/private/following.js"></script>
+    <script src="template/tabs/private/intro.js"></script>
+    <script src="template/tabs/private/follow.js"></script>
+    <script src="template/tabs/private/like.js"></script>
+    <script src="template/tabs/private/cart.js"></script>
     <!-- search controllers -->
     <script src="template/tabs/search/intro.js"></script>
 
     <!-- issue detail controller -->
     <script src="template/issue/issue_detail.js"></script>
-
-    <!-- specific hash tag controller -->
-    <script src="template/hashtag/issue_list.js"></script>
-
-
+    <script src="template/issue/issue_list.js"></script>
     <!-- product controller -->
     <script src="template/product/product_detail.js"></script>
+    <script src="template/product/product_list.js"></script>
+    <!-- channel controller -->
+    <script src="template/channel/channel_detail.js"></script>
+    <script src="template/channel/channel_list.js"></script>
+    <!-- brand controller -->
+    <script src="template/brand/brand_detail.js"></script>
+    <!-- hash tag -->
+    <script src="template/hashtag/global.js"></script>
+    <script src="template/hashtag/specific.js"></script>
     
   </head>
   <body ng-controller="MasterCtrl" animation="slide-left-right-ios7" class="platform-ios platform-cordova platform-webview">
-    <!--
-    <ion-nav-bar>
-        <ion-nav-back-button>
-        </ion-nav-back-button>
-    </ion-nav-bar>
-    -->
     <ion-nav-bar class="bar-light">
       <ion-nav-back-button>
       </ion-nav-back-button>

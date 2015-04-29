@@ -19,9 +19,10 @@ angular.module('radio.controller')
 	 	$scope.product_detail.selectedMenu = 'Description';
 
 	 	var slideOnceUpdated = false;
+	 	var method = '';
 
         $scope.product_detail.resizeSlides = function () {
-    	/* fix for slides-box bug */
+    		/* modal을 띄운 후 slide 박스의 넓이가 0이되는 이슈를 위한 코드*/
         	if(slideOnceUpdated == false ) {
         		slideOnceUpdated = true;
         		$ionicSlideBoxDelegate.update();
@@ -38,7 +39,7 @@ angular.module('radio.controller')
 		$scope.product_detail.addToCart = function() {
 			Cart.addToCart({
 				'data':{
-					'cart':$scope.user.cart.id,
+					'cart':$rootScope.user.cart.id,
 					'product':$scope.product_detail.product.id,
 					'color':$scope.product_detail.select_color,
 					'size':$scope.product_detail.select_size,
@@ -49,17 +50,27 @@ angular.module('radio.controller')
 			});
 		}
 
-		$scope.product_detail.productLike = function(product_id) {
+		$scope.product_detail.productLike = function($event) {
 			console.log("clicked");
+			/* 리팩토링 해야함 */
 			if ($scope.product_detail.product.like == false) {
-				Like.productLike(product_id, 'POST').then(function(response) {
+				method = 'POST';
+				Like.toggleProductLike({
+					'product_id': $scope.product_detail.product.id,
+					'method':method
+				}).then(function(response) {
 					$scope.product_detail.product.like = true;
-					$('#shop-detail-like').find('.fa.fa-heart.fa-lg').css('color', '#e60000');
+					$(event.target).addClass('true').removeClass('false');
 				})
 			} else {
-				Like.productLike(product_id, 'DELETE').then(function(responnse) {
+				method = 'DELETE';
+				Like.toggleProductLike({
+					'product_id': $scope.product_detail.product.id,
+					'method':method
+				}).then(function(responnse) {
 					$scope.product_detail.product.like = false;
-					$('#shop-detail-like').find('.fa.fa-heart.fa-lg').css('color', '#444444');
+					$(event.target).removeClass('true').addClass('false');
+					
 				})
 			}
 		}

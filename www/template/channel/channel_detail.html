@@ -9,8 +9,9 @@
 		</div>
 	</ion-nav-title>
 	<ion-nav-buttons side="right">
-		<button class="nav-channel-follow">
-			<i><i class="fa fa-plus"></i>팔로우</i>
+		<button class="nav-channel-follow" ng-click="channel_detail.toggleFollow($event)">
+			<i class="fa fa-plus" ng-if="!channel_detail.channel.follow"></i>
+			<i class="fa fa-minus" ng-if="channel_detail.channel.follow"></i>FOLLOW
 		</button>
 	</ion-nav-buttons>
     <ion-content has-bouncing="false">
@@ -30,7 +31,7 @@
 		item-height="192px">
 			<img src="{{issue.image}}">
 			<div></div>
-			<button class="like-btn"><i class="fa fa-heart-o nav-center-heart fa-2x"></i></button>
+			<button class="like-btn"><i class="fa fa-heart-o nav-center-heart fa-2x {{issue.like}}"></i></button>
 			<div class="info">
 				<h2>{{issue.title}}</h2>
 				<span ng-click="channel_detail.goHashTagSpecific($event, channel_detail.channel, tag)" ng-repeat="tag in issue.hash_tags"> #{{tag.name}}</span>

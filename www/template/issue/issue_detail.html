@@ -4,7 +4,7 @@
         </ion-nav-back-button>
 	</ion-nav-bar>
 	<ion-nav-title>
-		<a class="button button-icon fa fa-heart-o title"></a>
+		<a class="button button-icon fa fa-heart-o title {{issue_detail.issue.like}}" ng-click="issue_detail.toggleLike($event)"></a>
 	</ion-nav-title>
 	<ion-nav-buttons side="right">
 		<button class="share" ng-click="issue_detail.test()">

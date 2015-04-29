@@ -5,10 +5,10 @@
       </button>
     </ion-nav-buttons>
     <ion-nav-title>
-       <a class="button button-icon fa fa-heart-o title" ng-click="product_detail.productLike(product_detail.product.id)"></a>
+       <a class="button button-icon fa fa-heart-o title {{product_detail.product.like}}" ng-click="product_detail.productLike($event)"></a>
     </ion-nav-title>
     <ion-nav-buttons side="right">
-      <button class="cart">
+      <button class="cart" ng-click="product_detail.addToCart()">
         <a class="button button-icon fa fa-shopping-cart"></a>
       </button>
     </ion-nav-buttons>

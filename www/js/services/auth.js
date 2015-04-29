@@ -1,6 +1,7 @@
 angular.module('radio.service', [])
 
-	.factory('RadioAuth', function(RootUrl, $http, $cookies, $location, $rootScope, $location) {
+	.factory('RadioAuth', function(RootUrl, $http, $cookies, $location, $rootScope, 
+		$log, $location) {
 
 		var RadioAuth = {
 	        'authenticated': false,
@@ -75,16 +76,16 @@ angular.module('radio.service', [])
 	        			'url': '/users/' + id
 	        		}).then(function(response) {
 	        			$rootScope.user = {
-							'id': response.data.id,
-							'name' : response.data.username,
-							'email' : response.data.email,
-							'cart': response.data.cart,
-							'products' : response.data.product_likes_of_user,
-							'issues': response.data.issue_likes_of_user,
-							'channels' : response.data.channel_follows_of_user,
-							'brands' : response.data.brand_follows_of_user
-						};
-	        			return response.data;
+			                'id': response.data.id,
+			                'name' : response.data.username,
+			                'email' : response.data.email,
+			                'cart': response.data.cart,
+			                'products' : response.data.product_likes_of_user,
+			                'issues': response.data.issue_likes_of_user,
+			                'channels' : response.data.channel_follows_of_user,
+			                'brands' : response.data.brand_follows_of_user
+			            };
+			            $log.log("User Data", $rootScope.user);
 	        		});
         		}
 	        },

@@ -6,7 +6,7 @@
     margin-bottom: -50px;
 }
 .tabbed-slidebox .slider-slides {
-    width: 100%;
+    width: 100% !important;
 }
 
 .tabbed-slidebox .slider-slide {

@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('BrandDetailCtrl', function(Channel, Brand, Product, $scope, 
+	.controller('BrandDetailCtrl', function(Channel, Brand, Follow, Product, $scope, 
 		$stateParams, $log, $ionicSlideBoxDelegate, $ionicHistory, $location) {
 
         $scope.brand_detail = {};
@@ -10,6 +10,7 @@ angular.module('radio.controller')
         var feed_page = 1;
         var product_page = 1;
  		var slideOnceUpdated = false;
+        var method = '';
 
         Brand.getBrand({
         	'brand_id':$stateParams.brand_id
@@ -36,6 +37,23 @@ angular.module('radio.controller')
                 })
             })
     	})
+
+        $scope.brand_detail.toggleBrandFollow = function() {
+            method = $scope.brand_detail.brand.follow === false ? 'POST' : 'DELETE';
+            Follow.toggleBrandFollow({
+                    'method':method,
+                    'brand_id':$scope.brand_detail.brand.id
+            }).then(function(data) {
+                if ($scope.brand_detail.brand.follow === false) {
+                    $scope.brand_detail.brand.follow = true;
+                    //$(event.target).addClass('true').removeClass('false');
+                    $log.log("brand follow");
+                } else {
+                    $scope.brand_detail.brand.follow = false;
+                    $log.log("brand unfollow");
+                }
+            });
+        }
 
         $scope.brand_detail.resizeSlides = function () {
     	/* fix for slides-box bug */

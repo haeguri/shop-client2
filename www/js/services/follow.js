@@ -1,8 +1,8 @@
 angular.module('radio.service')
-	.factory('Follow', function(RootUrl, RadioAuth, $http) {
+	.factory('Follow', function(RootUrl, RadioAuth, $http, $rootScope) {
 		var Follow = {
 			'request':function(args) {
-				var API_URL = RootUrl + '/users/' + RadioAuth.user.id;
+				var API_URL = RootUrl + '/users/' + $rootScope.user.id;
 				var method = args.method;
 				var extra_url = args.extra_url || '';
 				var params = args.params || {};
@@ -17,29 +17,21 @@ angular.module('radio.service')
 					console.log("follow error", data);
 				});
 			},
-			'channelFollow':function(channel_id, method) {
+			'toggleChannelFollow':function(args) {
 				var Follow = this;
 				return Follow.request({
-					'method':method,
-					'extra_url':'/channels/' + channel_id + '/follow',
-					'data':{
-						'channel':channel_id,
-						'user':RadioAuth.user.id
-					}
+					'method':args.method,
+					'extra_url':'/channels/' + args.channel_id + '/follow'
 				}).then(function(response) {
 					console.log("response", response.data);
 					return response;
 				});
 			},
-			'brandFollow':function(brand_id, method) {
+			'toggleBrandFollow':function(args) {
 				var Follow = this;
 				return Follow.request({
-					'method':method,
-					'extra_url':'/brands/' + brand_id + '/follow',
-					'data':{
-						'brand':brand_id,
-						'user':RadioAuth.user.id
-					}
+					'method':args.method,
+					'extra_url':'/brands/' + args.brand_id + '/follow',
 				}).then(function(response){
 					return response;
 				})

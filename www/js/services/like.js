@@ -1,9 +1,9 @@
 angular.module('radio.service')
-	.factory('Like', function(RootUrl, RadioAuth, $http) {
+	.factory('Like', function(RootUrl, RadioAuth, $http, $rootScope) {
 
 		var Like = {
 			'request':function(args) {
-				var API_URL = RootUrl + '/users/' + RadioAuth.user.id;
+				var API_URL = RootUrl + '/users/' + $rootScope.user.id;
 				var method = args.method;
 				var extra_url = args.extra_url || '';
 				var params = args.params || {};
@@ -18,27 +18,19 @@ angular.module('radio.service')
 					console.log("add like error", data);
 				});
 			},
-			'productLike':function(product_id, method) {
+			'toggleProductLike':function(args) {
 				var Like = this;
 				return Like.request({
-					'method':method,
-					'extra_url':'/products/' + product_id + '/like',
-					'data':{
-						'product':product_id,
-						'user':RadioAuth.user.id
-					}
+					'method':args.method,
+					'extra_url':'/products/' + args.product_id + '/like'
 				}).then(function(response) {
 					return response;
 				});
 			},
-			'codyLike':function(cody_id, method) {
+			'toggleIssueLike':function(args) {
 				return Like.request({
-					'method':method,
-					'extra_url':'/codies/' + cody_id + '/like',
-					'data':{
-						'cody':cody_id,
-						'user':RadioAuth.user.id
-					}
+					'method':args.method,
+					'extra_url':'/issues/' + args.issue_id + '/like'
 				}).then(function(response){
 					return response;
 				})

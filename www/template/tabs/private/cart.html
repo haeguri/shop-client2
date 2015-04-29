@@ -10,6 +10,34 @@
       <a class="button button-icon fa fa-shopping-cart actived" ng-click="private_intro.goCart()"></a>
     </ion-nav-buttons>
     <ion-content has-bouncing="false">
-    	
+    	<div class="list" ng-if="$root.user.cart.cart_items_of_cart.length">
+          <div class="item cart-list" ng-repeat="item in user.cart.cart_items_of_cart">
+            <img ng-src="{{item.product.images[0].image}}">
+            <div>
+              <h4>{{item.product.name}}</h4>
+              <h5>{{item.product.price}}</h5>
+              <p>{{item.size}} | {{item.color}}</p>
+            </div>
+            <p class="quantity">QTY : {{item.quantity}}</p>
+            <div>
+              <span>EDIT</span>
+              <i class="fa fa-trash fa-2x" ng-click="private_cart.delFromCart(item.id)"></i>
+            </div>
+          </div>
+          <div class="padding">
+            <span style="float:left;">Total(including delivery):</span>
+            <span style="float:right; font-size:15px"><strong>999,999</strong></span>
+          </div>
+          <div class="padding">
+            <button sπtyle="margin-top:10px;" class="button button-block button-light">
+            Check Out
+            </button>
+          </div>
+        </div>
+        <div class="card" ng-if="!$root.user.cart.cart_items_of_cart.length">
+          <div class="item item-text-wrap">
+            카트에 상품이 담겨있지 않습니다.
+          </div>
+        </div>
     </ion-content>
 </ion-view>

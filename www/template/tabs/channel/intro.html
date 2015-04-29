@@ -4,21 +4,16 @@
             <div class="tsb-icons">
                 <div class="tsb-ic-wrp">
                     <ion-scroll direction="x" class="tsb-hscroll" has-bouncing="false">
-                        <a ng-repeat="tag in shop_intro.tags track by $index" on-finish-render>{{tag.type}}</a>
+                        <a ng-repeat="pub_day in channel_intro.pub_days track by $index" on-finish-render>{{pub_day.day}}</a>
                     </ion-scroll>
                 </div>
         	</div>
-      		<ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index); shop_intro.changeTag($index)">
-          		<ion-slide ng-repeat="i in shop_intro.tags">
-	                <div class="product-thumbnail"  ng-repeat="product in shop_intro.tags[$index].products" ng-click="shop_intro.openProductDetail(product.id)">
-	                    <img ng-src="{{product.images[0].image}}">
-	                    <div>
-	                        <i class="fa fa-heart-o"></i>
-	                    </div>
-	                    <h4>{{product.brand.name}}</h4>
-	                    <h5>{{product.name}}</h5>
-	                    <p>{{product.price  | number:0  }}</p>
-	                </div>
+            <!--
+      		<ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index); channel_intro.changeTag($index)">
+            -->
+            <ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index);">
+          		<ion-slide ng-repeat="i in channel_intro.pub_days">
+	                <h1>Test</h1>
             	</ion-slide>
         	</ion-slide-box>
         </tab-slide-box>
