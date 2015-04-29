@@ -156,6 +156,7 @@ angular.module('radio', [
     })
 
     .state('tabs.main_tag_global.issues', {
+      cache:false,
       url: '/issues?tag',
       views: {
         'main': {
@@ -166,6 +167,7 @@ angular.module('radio', [
     })
 
     .state('tabs.main_tag_global.products', {
+      cache:false,
       url: '/products?tag',
       views: {
         'main': {
@@ -205,69 +207,6 @@ angular.module('radio', [
       }
     })
 
-
-    /*
-    .state('tabs.main.intro_issue', {
-      url: '/issues',
-      views: {
-        'main': {
-          templateUrl: 'template/tabs/main/intro_issue.html',
-          controller: 'MainIntroIssueCtrl'
-        }
-      }
-    })
-
-    .state('tabs.main.intro_product', {
-      url: '/products',
-      views: {
-        'main': {
-          templateUrl: 'template/tabs/main/intro_product.html',
-          controller: 'MainIntroProductCtrl'
-        }
-      }
-    })
-
-    */
-/*
-    .state('tabs.main_hashtag_global_issues', {
-      url: '/main/hashtag/:tag_id/issues',
-      views: {
-        'main': {
-          templateUrl: 'template/hashtag_global/issue_list.html',
-          controller: 'HashTagIssueListCtrl'
-        }
-      }
-    })
-
-
-    .state('tabs.main_hashtag_issues', {
-      url: '/main/channel/:channel_id/hashtag/:tag_id/issues',
-      views: {
-        'main': {
-          templateUrl: 'template/hashtag/issue_list.html',
-          controller: 'HashTagIssueListCtrl'
-        }
-      }
-    })
-
-
-    .state('tabs.main_hashtag_products', {
-      url: '/main/hashtag/:tag_id/products',
-      views: {
-        'main': {
-          templateUrl: 'template/hashtag/product_list.html',
-          controller: 'HashTagProductListCtrl'
-        }
-      }
-    })
-
-*/
-    /*
-    .state('tabs.main_hashtag_global_proudcts', {
-      url: '/main/hashtag/:tag_id/products'
-    })
-    */
-
     .state('tabs.main_issue', {
       url: '/main/issues/:issue_id',
       views: {
@@ -294,8 +233,38 @@ angular.module('radio', [
       url: '/private',
       views: {
         'private': {
-          templateUrl: 'template/tabs/private/following.html',
-          controller: 'PrivateFollowingCtrl'
+          templateUrl: 'template/tabs/private/intro.html',
+          controller: 'PrivateIntroCtrl'
+        }
+      }
+    })
+
+    .state('tabs.private.follow', {
+      url: '/follow',
+      views: {
+        'private': {
+          templateUrl: 'template/tabs/private/follow.html',
+          controller: 'PrivateFollowCtrl'
+        }
+      }
+    })
+
+    .state('tabs.private.like', {
+      url: '/like',
+      views: {
+        'private': {
+          templateUrl: 'template/tabs/private/like.html',
+          controller: 'PrivateLikeCtrl'
+        }
+      }
+    })
+
+    .state('tabs.private.cart', {
+      url: '/cart',
+      views: {
+        'private': {
+          templateUrl: 'template/tabs/private/cart.html',
+          controller: 'PrivateCartCtrl'
         }
       }
     })

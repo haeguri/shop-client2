@@ -18,7 +18,9 @@
       				<p ng-if="brand_detail.brand_follows_of_brand.length">팔로워 {{brand_detail.brand_follows_of_brand.length}}명</p>
       			</div>
       		</div>
-      		<p>{{brand_detail.brand.description}}</p>
+          <div class="title">
+            <p>{{brand_detail.brand.description}}</p>
+          </div>
 	       	<div class="two-button-bar another">
       	      <a class="button" ng-click="brand_detail.viewInfo($event, submenu)" ng-repeat="submenu in brand_detail.submenu">{{submenu}}</a>
          	</div>

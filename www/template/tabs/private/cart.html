@@ -1,5 +1,15 @@
-<ion-view>
-    <ion-content>
-  		<h1>Private Cart</h1>  
+<ion-view hide-back-button="true">
+	<!-- 상단탭 -->
+	<ion-nav-buttons side="left">
+      <a class="button button-icon fa fa-plus-square" ng-click="private_intro.goFollow()"></a>
+    </ion-nav-buttons>
+    <ion-nav-title>
+       <a class="button button-icon fa fa-heart title" ng-click="private_intro.goLike()"></a>
+    </ion-nav-title>
+    <ion-nav-buttons side="right">
+      <a class="button button-icon fa fa-shopping-cart actived" ng-click="private_intro.goCart()"></a>
+    </ion-nav-buttons>
+    <ion-content has-bouncing="false">
+    	
     </ion-content>
 </ion-view>

@@ -41,6 +41,10 @@ h5 {
   font-size: 14px !important;
 }
 
+h6 {
+  font-size: 13px !important;
+}
+
 p {
   font-size: 12px !important;
 }
@@ -209,6 +213,10 @@ div.two-button-bar.another a.button.active {
 
 }
 
+div.two-button-bar.three a.button {
+  width: 33% !important;
+}
+
 
 /* main nav */
 
@@ -236,8 +244,10 @@ ion-header-bar button.share  {
 
 ion-header-bar a.fa-heart-o {
   margin-top: 5px !important;
-  position: relative;
-  margin-right: 100px;
+}
+
+ion-header-bar a.fa-heart {
+  margin-top: 5px !important;
 }
 
 ion-header-bar button.cart {
@@ -768,38 +778,50 @@ div.brand-feed div.body p {
 /* ------private page--------
 -------------------------- */
 
+ion-header-bar a.fa-plus-square.actived {
+  color: red !important;
+}
 
-/* my info */
+ion-header-bar a.fa.fa-heart.actived {
+  color: red !important;
+}
 
-div.user-profile img{
-  height: 70px;
-  width: 70px;
-  vertical-align: middle;
-  border: 2px solid #00002f;
+ion-header-bar a.fa.fa-shopping-cart.actived {
+  color: red !important;
+}
+
+a.button.actived {
+  color: red !important;
+}
+
+div.my-channel-list {
+  background-color: red;
+  width: 85px;
+  margin: 25px 17.5px 0px 17.5px;
+  text-align: center;
+  float: left;
+}
+
+div.my-channel-list:nth-of-type(3n+1) {
+  background-color: blue;
+  margin-left: 25px;
+}
+
+div.my-channel-list:nth-of-type() {
+  
+}
+
+
+div.my-channel-list img{
+  width: 100%;
+  height: 85px;
   border-radius: 50%;
 }
 
-div.user-profile span {
-  font-size: 30px !important;
-  margin-left: 20px;
+div.my-channel-list h6 {
+  margin: 0px;
 }
 
-div.user-profile a {
-  float: right;
-  top: 15px;
-}
-
-ion-scroll.private-menu-scroll {
-  width: 100% !important;
-}
-
-ion-scroll.private-menu-scroll a{
-  min-width: 50px;
-}
-
-ion-scroll.private-menu-scroll a:hover {
-  cursor: pointer;
-}
 
 div.cart-list {
   position: relative;

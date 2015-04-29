@@ -1,6 +1,6 @@
 angular.module('radio.service', [])
 
-	.factory('RadioAuth', function(RootUrl, $http, $cookies, $rootScope, $location) {
+	.factory('RadioAuth', function(RootUrl, $http, $cookies, $location, $rootScope, $location) {
 
 		var RadioAuth = {
 	        'authenticated': false,
@@ -32,9 +32,8 @@ angular.module('radio.service', [])
 	            	RadioAuth.authenticated = true;
 	                $http.defaults.headers.common.Authorization = 'Token ' + response.data.key;
 	                $cookies.token = response.data.key;
-	                RadioAuth.getUser(response.data.user).then(function(rsp) {
-	                	RadioAuth.user = rsp.data;
-	                	$rootScope.$broadcast('UserLogin', rsp.data);
+	                RadioAuth.getUser(response.data.user).then(function() {
+	                	$location.url('/rec/issues');
 	                });
 	            }, function(reason) {
 	            	console.log("Login Deny", reason);
@@ -73,13 +72,21 @@ angular.module('radio.service', [])
 	        	if(RadioAuth.authenticated === true) {
 	        		return RadioAuth.request({
 	        			'method':'GET',
-	        			'url': '/users/' + id ,
-	        		}).success(function(response) {
+	        			'url': '/users/' + id
+	        		}).then(function(response) {
+	        			$rootScope.user = {
+							'id': response.data.id,
+							'name' : response.data.username,
+							'email' : response.data.email,
+							'cart': response.data.cart,
+							'products' : response.data.product_likes_of_user,
+							'issues': response.data.issue_likes_of_user,
+							'channels' : response.data.channel_follows_of_user,
+							'brands' : response.data.brand_follows_of_user
+						};
 	        			return response.data;
-	        		}).error(function(response) {
-	        			console.log("error!", response);
-	        		})
-	        	}
+	        		});
+        		}
 	        },
 	        'user':{
 	        	/* empty space for user data */

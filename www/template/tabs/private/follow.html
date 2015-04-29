@@ -1,5 +1,39 @@
-<ion-view>
-    <ion-content>
-  		<h1>Private Following</h1>  
+<ion-view hide-back-button="true">
+    <ion-nav-buttons side="left">
+      <a class="button button-icon fa fa-plus-square actived" ng-click="private_intro.goFollow()"></a>
+    </ion-nav-buttons>
+    <ion-nav-title>
+       <a class="button button-icon fa fa-heart title" ng-click="private_intro.goLike()"></a>
+    </ion-nav-title>
+    <ion-nav-buttons side="right">
+      <a class="button button-icon fa fa-shopping-cart" ng-click="private_intro.goCart()"></a>
+    </ion-nav-buttons>
+    <ion-header-bar class="bar bar-header">
+      <div class="two-button-bar follow">
+        <!--
+        <a ng-click="tag_global.toggleInfo(menu)" class="button" ng-repeat="menu in tag_global.menuList" nav-transition="none">{{menu}}</a>
+        -->
+        <a class="button" ng-click="private_follow.toggleView('채널')">채널</a>
+        <a class="button" ng-click="private_follow.toggleView('브랜드')">브랜드</a>
+      </div>
+    </ion-header-bar>
+    <ion-content has-bouncing="false">
+      <div class="my-channel" ng-show="private_follow.currentView=='채널'">
+        <div class="my-channel-list" ng-repeat="channel_obj in $root.user.channels">
+          <img ng-src="{{channel_obj.channel.profile}}">
+          <h6>{{channel_obj.channel.name}}</h6>
+        </div>
+      </div>
+      <div class="my-brand" ng-show="private_follow.currentView=='브랜드'">
+        <div class="brand-feed" ng-repeat="feed in private_follow.feeds">
+          <div class="title">
+            <span>{{feed.pub_date}}</span>
+          </div>
+          <img ng-src="{{feed.image}}">
+          <div class="body">
+            <p>{{feed.body}}</p>
+          </div>
+        </div>
+      </div>
     </ion-content>
 </ion-view>

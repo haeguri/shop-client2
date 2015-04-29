@@ -4,21 +4,6 @@ angular.module('radio.controller', [])
 		$route, $timeout, $location, $ionicScrollDelegate, RadioAuth, 
 		$rootScope, $location, $ionicModal, $ionicSlideBoxDelegate, $state) {
 
-		$scope.$on('UserLogin', function(event, data){
-			$rootScope.user = {
-				'id': data.id,
-				'name' : data.username,
-				'email' : data.email,
-				'cart': data.cart,
-				'products' : data.product_likes_of_user,
-				'issues': data.issue_likes_of_user,
-				'channels' : data.channel_follows_of_user,
-				'brands' : data.brand_follows_of_user
-			};
-			console.log("rootScope User Data", $rootScope.user);
-			$location.url('/rec/issues');
-		});
-
 		$scope.$on('UserLogout', function(event) {
 			$route.reload();
 		});

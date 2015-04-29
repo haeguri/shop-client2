@@ -44,8 +44,8 @@ angular.module('radio.service')
 				var params = args.params || {};
 				return Brand.request({
 					'method':'GET',
-					'extra_url': '/brands/' + args.brand_id +'/feeds',
-					'params':params
+					'extra_url': '/feeds',
+					'params': params
 				}).then(function(response) {
 					return response.data;
 				})

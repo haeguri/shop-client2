@@ -18,8 +18,8 @@ angular.module('radio.controller')
     		$scope.brand_detail.brand = data;
 
             Brand.getFeeds({
-                'brand_id':$stateParams.brand_id,
                 'params': {
+                    'brand':$stateParams.brand_id,
                     'page':feed_page
                 }
             }).then(function(data) {
