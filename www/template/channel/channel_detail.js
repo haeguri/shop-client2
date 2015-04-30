@@ -4,25 +4,37 @@ angular.module('radio.controller')
     	$ionicHistory, $location, $log) {
 
         $scope.channel_detail = {};
+        $scope.channel_detail.channel = {};
+        var url_pattern = '';
 
         Channel.getChannel({
         	'channel_id':$stateParams.channel_id
         }).then(function(data) {
         	$scope.channel_detail.channel = data;
-        	console.log("data", data);
-        })
+        });
 
         $scope.channel_detail.goBack = function() {
         	$ionicHistory.goBack();
         }
 
-        $scope.channel_detail.goIssueDetail = function(issue_id) {
-        	$location.url('/main/issues/'+issue_id);
-        }
+        url_pattern = /\/\#\/main\/|\/\#\/channel\/|\/#\/private\/|\/#\/search\//.exec($location.absUrl())[0];
 
         $scope.channel_detail.goHashTagSpecific = function($event, channel, tag) {
             $event.stopPropagation();
-            $location.url('/main/specific/hashtag/issues?tag='+tag.id+'&channel='+channel.id);
+            switch(url_pattern) {
+                case '/#/main/':
+                    $location.url('/main/specific/hashtag/issues?tag='+tag.id+'&channel='+channel.id);
+                    break; 
+                case '/#/channel/':
+                    $location.url('/channel/specific/hashtag/issues?tag='+tag.id+'&channel='+channel.id);
+                    break;
+                case '/#/private/':
+                    $location.url('/private/specific/hashtag/issues?tag='+tag.id+'&channel='+channel.id);
+                    break;
+                case '/#/search/':
+                    $location.url('/search/specific/hashtag/issues?tag='+tag.id+'&channel='+channel.id);
+                    break;
+            }
         }
 
         $scope.channel_detail.toggleFollow = function(event) {
@@ -40,6 +52,23 @@ angular.module('radio.controller')
                     $log.log("channel unfollow");
                 }
             });
+        }
+
+        $scope.channel_detail.goIssueDetail = function(issue_id) {
+            switch(url_pattern) {
+                case '/#/main/':
+                    $location.url('/main/issues/'+issue_id);
+                    break; 
+                case '/#/channel/':
+                    $location.url('/channel/issues/'+issue_id);
+                    break;
+                case '/#/private/':
+                    $location.url('/private/issues/'+issue_id);
+                    break;
+                case '/#/search/':
+                    $location.url('/search/issues/'+issue_id);
+                    break;
+            }
         }
 
     })

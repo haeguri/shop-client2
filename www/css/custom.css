@@ -703,6 +703,40 @@ div.brand-feed div.body p {
   padding: 10px;
 }
 
+/* channel intro page */
+
+div.two-channel-list {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+div.two-channel-list h4 {
+  margin-bottom: 0px;
+}
+
+div.two-channel-list p {
+  color: gray;
+}
+
+div.two-channel-list p, div.two-channel-list h4{
+  text-align: center !important;
+}
+
+div.two-channel-list img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+div.two-channel-list:nth-of-type(2n+1) {
+  
+}
+
+div.two-channel-list:nth-of-type(2n) {
+}
+
 
 /* ------private page--------
 -------------------------- */
@@ -723,23 +757,21 @@ a.button.actived {
   color: red !important;
 }
 
+div.my-channel {
+  display: inline-block;
+  width: 100%;
+}
+
 div.my-channel-list {
-  background-color: red;
-  width: 85px;
-  margin: 25px 17.5px 0px 17.5px;
+  width: 33% !important;
   text-align: center;
   float: left;
 }
 
-div.my-channel-list:nth-of-type(3n+1) {
-  background-color: blue;
-  margin-left: 25px;
+div.my-channel-list img {
+  height: 85px;
+  width: 85px !important;
 }
-
-div.my-channel-list:nth-of-type() {
-  /* 작성해야 함 */  
-}
-
 
 
 

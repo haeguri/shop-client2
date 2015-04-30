@@ -45,7 +45,7 @@
               <div class="brand-info">
                 <img ng-src="{{product_detail.product.brand.profile}}">
                 <span>{{product_detail.product.brand.name}}</span>
-                <a ng-href="/#/main/brands/{{product_detail.product.brand.id}}" class="button button-icon fa fa-angle-double-right fa-2x"></a>
+                <a ng-click="product_detail.goBrandDetail(product_detail.product.brand.id)" class="button button-icon fa fa-angle-double-right fa-2x"></a>
               </div>
             </div>
             <div class='desc-wrap' ng-repeat="image_obj in product_detail.product.images">

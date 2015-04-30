@@ -2,14 +2,14 @@
     <ion-nav-bar>
     </ion-nav-bar>
     <ion-header-bar class="bar bar-subheader main-intro">
-        <a  ng-href="#/hot/issues" 
+        <a  ng-href="#/main/hot/issues" 
             nav-transition="none" 
             ng-click="main_intro.filter='인기'; main_intro.content='이슈'"; 
             ng-show="main_intro.filter=='추천'">
             {{main_intro.filter}}
             <i class="fa fa-pencil fa-chevron-down"></i>
         </a>
-        <a  ng-href="#/rec/issues"
+        <a  ng-href="#/main/rec/issues"
             nav-transition="none" 
             ng-click="main_intro.filter='추천'; main_intro.content='이슈'"  
             ng-show="main_intro.filter=='인기'">
@@ -18,7 +18,7 @@
         </a>
 
 
-        <a  ng-href="#/rec/channels" 
+        <a  ng-href="#/main/rec/channels" 
             nav-transition="none" 
             ng-click="main_intro.content='채널'"  
             ng-show="main_intro.filter=='추천' && main_intro.content=='이슈'">
@@ -26,7 +26,7 @@
             <i class="fa fa-pencil fa-chevron-down"></i>
         </a>
 
-        <a  ng-href="#/rec/issues" 
+        <a  ng-href="#/main/rec/issues" 
             nav-transition="none" 
             ng-click="main_intro.content='이슈'"  
             ng-show="main_intro.filter=='추천' && main_intro.content=='채널'">
@@ -36,14 +36,14 @@
 
 
         
-        <a ng-href="#/hot/products" 
+        <a ng-href="#/main/hot/products" 
             nav-transition="none" 
             ng-click="main_intro.content='상품'"  
             ng-show="main_intro.filter=='인기' && main_intro.content=='이슈'">
             {{main_intro.content}}<i class="fa fa-pencil fa-chevron-down"></i>
         </a>
 
-        <a ng-href="#/hot/issues" 
+        <a ng-href="#/main/hot/issues" 
             nav-transition="none"
             ng-click="main_intro.toggleContent(); main_intro.content='이슈'"  
             ng-show="main_intro.filter=='인기' && main_intro.content=='상품'">

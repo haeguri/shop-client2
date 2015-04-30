@@ -21,8 +21,8 @@
 			<div class="info">
 				<img ng-src="{{channel_detail.channel.profile}}">
 				<div class="info-text">
-					<h2>{{channel_detail.channel.name}}</h2>
-					<p>{{channel_detail.channel.which_day}} 발행</p>
+					<h2>{{channel_detail.channel.name}}</h2><br>
+					<span ng-repeat="pub_day in channel_detail.channel.pub_days">{{pub_day.day}} </span> 발행
 				</div>
 			</div>
     	</div>

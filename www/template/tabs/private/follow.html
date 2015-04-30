@@ -20,7 +20,7 @@
     <ion-content has-bouncing="false">
       <div class="my-channel" ng-show="private_follow.currentView=='채널'">
         <div class="my-channel-list" ng-repeat="channel_obj in $root.user.channels">
-          <img ng-src="{{channel_obj.channel.profile}}">
+          <img ng-src="{{channel_obj.channel.profile}}" ng-click="private_follow.goChannelDetail(channel_obj.channel.id)">
           <h6>{{channel_obj.channel.name}}</h6>
         </div>
       </div>
@@ -29,7 +29,7 @@
           <div class="title">
             <span>{{feed.pub_date}}</span>
           </div>
-          <img ng-src="{{feed.image}}">
+          <img ng-src="{{feed.image}}" ng-click="private_follow.goBrandDetail(feed.brand)">
           <div class="body">
             <p>{{feed.body}}</p>
           </div>

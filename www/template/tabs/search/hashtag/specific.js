@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('HashTagSpecificCtrl', function(Channel, $scope, $location) {
+	.controller('SearchHashTagSpecificCtrl', function(Channel, $scope, $location) {
 
         $scope.tag_specific = {};
 
@@ -9,11 +9,10 @@ angular.module('radio.controller')
         var tag = $location.search().tag;
  		
         if ($location.search().brand == undefined) {
-        	url = '/main/hashtag/issues?tag=' + tag;
+        	url = '/search/hashtag/issues?tag=' + tag;
         } else if ($location.search().channel == undefined)  {
-        	url = '/main/hashtag/products?tag=' + tag;
+        	url = '/search/hashtag/products?tag=' + tag;
         }
-
  		/*
         if ($location.search().brand == undefined) {
         	query_string = '?tag=' + tag + '&channel=' + $location.search().channel;

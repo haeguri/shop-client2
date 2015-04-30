@@ -17,9 +17,9 @@
 			<div></div>
 			<div class="info">
 				<h2>{{issue_detail.issue.title}}</h2>
-				<span ng-repeat="tag in issue_detail.issue.hash_tags"># {{tag.name}}</span><br>
+				<span ng-click="issue_detail.goHashTagGlobal(tag.id)" ng-repeat="tag in issue_detail.issue.hash_tags"># {{tag.name}}</span><br>
 			</div>
-			<div class="profile">
+			<div class="profile" ng-click="issue_detail.goChannelDetail(issue_detail.issue.channel.id)">
 				<img ng-src="{{issue_detail.issue.channel.profile}}">
 				<p>{{issue_detail.issue.channel.name}}</p>
 			</div>
@@ -30,7 +30,7 @@
 		<div class="issue-detail-item-list">
 			<h4>아이템</h4>
 			<div class="item-thumbnail" ng-repeat="item in issue_detail.issue.issue_items_of_issue">
-				<img ng-src="{{item.product.images[0].image}}">
+				<img ng-src="{{item.product.images[0].image}}" ng-click="issue_detail.goProductDetail(item.product.id)">
 				<p>{{item.product.price | number:0 }} WON</p>
 			</div>
 		</div>

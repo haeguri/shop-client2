@@ -20,6 +20,7 @@ angular.module('radio.controller')
 
 	 	var slideOnceUpdated = false;
 	 	var method = '';
+	 	var url_pattern = '';
 
         $scope.product_detail.resizeSlides = function () {
     		/* modal을 띄운 후 slide 박스의 넓이가 0이되는 이슈를 위한 코드*/
@@ -79,9 +80,40 @@ angular.module('radio.controller')
 			$location.url('/tabs/private/info');
 		};
 
+		url_pattern = /\/\#\/main\/|\/\#\/channel\/|\/#\/private\/|\/#\/search\//.exec($location.absUrl())[0];
+
 		$scope.product_detail.goHashTagGlobal = function(tag) {
-			console.log("Test");
-			$location.url('/main/hashtag/products?tag='+tag.id);
+			switch(url_pattern) {
+                case '/#/main/':
+                    $location.url('/main/hashtag/products?tag='+tag.id);
+                    break; 
+                case '/#/channel/':
+                    $location.url('/channel/hashtag/products?tag='+tag.id);
+                    break;
+                case '/#/private/':
+                    $location.url('/private/hashtag/products?tag='+tag.id);
+                    break;
+                case '/#/search/':
+                    $location.url('/search/hashtag/products?tag='+tag.id);
+                    break;
+            }
+		}
+
+		$scope.product_detail.goBrandDetail = function(brand_id) {
+			switch(url_pattern) {
+                case '/#/main/':
+                    $location.url('/main/brands/'+brand_id);
+                    break; 
+                case '/#/channel/':
+                    $location.url('/channel/brands/'+brand_id);
+                    break;
+                case '/#/private/':
+                    $location.url('/private/brands/'+brand_id);
+                    break;
+                case '/#/search/':
+                    $location.url('/search/brands/'+brand_id);
+                    break;
+            }
 		}
 
 		$scope.product_detail.viewInfo = function(menu_name) {

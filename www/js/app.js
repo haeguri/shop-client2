@@ -48,7 +48,6 @@ angular.module('radio', [
       templateUrl: 'template/login.html',
       controller: 'LoginCtrl'
     })
-    
     .state('signup', {
       url: '/signup',
       templateUrl: 'template/signup.html',
@@ -62,9 +61,7 @@ angular.module('radio', [
       controller: 'TabsCtrl'
     })
 
-    /* "메인" 탭 */
-
-
+    /* Main Tab */
     .state('tabs.main', {
       views: {
         'main': {
@@ -73,9 +70,8 @@ angular.module('radio', [
         }
       }
     })
-
     .state('tabs.main.rec_issues' ,{
-      url: '/rec/issues',
+      url: '/main/rec/issues',
       views: {
         'main': {
           templateUrl: 'template/issue/issue_list.html',
@@ -83,9 +79,8 @@ angular.module('radio', [
         }
       }
     })
-
     .state('tabs.main.rec_channels' ,{
-      url: '/rec/channels',
+      url: '/main/rec/channels',
       views: {
         'main': {
           templateUrl: 'template/channel/channel_list.html',
@@ -93,9 +88,8 @@ angular.module('radio', [
         }
       }
     })
-
     .state('tabs.main.hot_issues', {
-      url: '/hot/issues',
+      url: '/main/hot/issues',
       views: {
         'main': {
           templateUrl: 'template/issue/issue_list.html',
@@ -103,9 +97,8 @@ angular.module('radio', [
         }
       }
     })
-
     .state('tabs.main.hot_products', {
-      url: '/hot/products', 
+      url: '/main/hot/products', 
       views: {
         'main': {
           templateUrl: 'template/product/product_list.html',
@@ -113,8 +106,7 @@ angular.module('radio', [
         }
       }
     })
-
-    .state('tabs.main_channel', {
+    .state('tabs.main_channel_detail', {
       url: '/main/channels/:channel_id',
       views: {
         'main': {
@@ -123,8 +115,7 @@ angular.module('radio', [
         }
       }
     })
-
-    .state('tabs.main_product', {
+    .state('tabs.main_product_detail', {
       url: '/main/products/:product_id',
       views: {
         'main': {
@@ -133,8 +124,7 @@ angular.module('radio', [
         }
       }
     })
-
-    .state('tabs.main_brand', {
+    .state('tabs.main_brand_detail', {
       url: '/main/brands/:brand_id',
       views: {
         'main': {
@@ -143,20 +133,16 @@ angular.module('radio', [
         }
       }
     })
-
-
     .state('tabs.main_tag_global', {
       url: '/main/hashtag',
       views: {
         'main': {
-          templateUrl: 'template/hashtag/global.html',
-          controller: 'HashTagGlobalCtrl'
+          templateUrl: 'template/tabs/main/hashtag/global.html',
+          controller: 'MainHashTagGlobalCtrl'
         }
       }
     })
-
     .state('tabs.main_tag_global.issues', {
-      cache:false,
       url: '/issues?tag',
       views: {
         'main': {
@@ -165,9 +151,7 @@ angular.module('radio', [
         }
       }
     })
-
     .state('tabs.main_tag_global.products', {
-      cache:false,
       url: '/products?tag',
       views: {
         'main': {
@@ -176,17 +160,15 @@ angular.module('radio', [
         }
       }
     })
-
     .state('tabs.main_tag_specific', {
       url: '/main/specific/hashtag',
       views: {
         'main': {
-          templateUrl: 'template/hashtag/specific.html',
-          controller: 'HashTagSpecificCtrl'
+          templateUrl: 'template/tabs/main/hashtag/specific.html',
+          controller: 'MainHashTagSpecificCtrl'
         }
       }
     })
-
     .state('tabs.main_tag_specific.issues', {
       url: '/issues?tag&channel',
       views: {
@@ -196,7 +178,6 @@ angular.module('radio', [
         }
       }
     })
-
     .state('tabs.main_tag_specific.products', {
       url: '/products?tag&brand',
       views: {
@@ -206,8 +187,7 @@ angular.module('radio', [
         }
       }
     })
-
-    .state('tabs.main_issue', {
+    .state('tabs.main_issue_detail', {
       url: '/main/issues/:issue_id',
       views: {
         'main':{
@@ -217,13 +197,103 @@ angular.module('radio', [
       }
     })
 
-    /* "채널" 탭 */
+    /* Channel Tab */
     .state('tabs.channel', {
       url: '/channel',
       views: {
         'channel': {
           templateUrl: 'template/tabs/channel/intro.html',
           controller: 'ChannelIntroCtrl'
+        }
+      }
+    })
+    .state('tabs.channel_tag_global', {
+      url: '/channel/hashtag',
+      views: {
+        'channel': {
+          templateUrl: 'template/tabs/channel/hashtag/global.html',
+          controller: 'ChannelHashTagGlobalCtrl'
+        }
+      }
+    })
+    .state('tabs.channel_tag_global.issues', {
+      url: '/issues?tag',
+      views: {
+        'channel': {
+          templateUrl: 'template/issue/issue_list.html',
+          controller: 'IssueListCtrl'
+        }
+      }
+    })
+    .state('tabs.channel_tag_global.products', {
+      url: '/products?tag',
+      views: {
+        'channel': {
+          templateUrl: 'template/product/product_list.html',
+          controller: 'ProductListCtrl'
+        }
+      }
+    })
+    .state('tabs.channel_tag_specific', {
+      url: '/channel/specific/hashtag',
+      views: {
+        'channel': {
+          templateUrl: 'template/tabs/channel/hashtag/specific.html',
+          controller: 'ChannelHashTagSpecificCtrl'
+        }
+      }
+    })
+    .state('tabs.channel_tag_specific.issues', {
+      url: '/issues?tag&channel',
+      views: {
+        'channel': {
+          templateUrl: 'template/issue/issue_list.html',
+          controller: 'IssueListCtrl'
+        }
+      }
+    })
+    .state('tabs.channel_tag_specific.products', {
+      url: '/products?tag&brand',
+      views: {
+        'channel': {
+          templateUrl: 'template/product/product_list.html',
+          controller: 'ProductListCtrl'
+        }
+      }
+    })
+    .state('tabs.channel_channel_detail', {
+      url: '/channel/channels/:channel_id',
+      views: {
+        'channel': {
+          templateUrl: 'template/channel/channel_detail.html',
+          controller: 'ChannelDetailCtrl'
+        }
+      }
+    })
+    .state('tabs.channel_issue_detail', {
+      url: '/channel/issues/:issue_id',
+      views: {
+        'channel': {
+          templateUrl: 'template/issue/issue_detail.html',
+          controller: 'IssueDetailCtrl'
+        }
+      }
+    })
+    .state('tabs.channel_product_detail', {
+      url: '/channel/products/:product_id',
+      views: {
+        'channel': {
+          templateUrl: 'template/product/product_detail.html',
+          controller: 'ProductDetailCtrl'
+        }
+      }
+    })
+    .state('tabs.channel_brand_detail', {
+      url: '/channel/brands/:brand_id',
+      views: {
+        'channel': {
+          templateUrl: 'template/brand/brand_detail.html',
+          controller: 'BrandDetailCtrl'
         }
       }
     })
@@ -238,7 +308,6 @@ angular.module('radio', [
         }
       }
     })
-
     .state('tabs.private.follow', {
       url: '/follow',
       views: {
@@ -248,7 +317,6 @@ angular.module('radio', [
         }
       }
     })
-
     .state('tabs.private.like', {
       url: '/like',
       views: {
@@ -258,13 +326,102 @@ angular.module('radio', [
         }
       }
     })
-
     .state('tabs.private.cart', {
       url: '/cart',
       views: {
         'private': {
           templateUrl: 'template/tabs/private/cart.html',
           controller: 'PrivateCartCtrl'
+        }
+      }
+    })
+    .state('tabs.private_tag_global', {
+      url: '/private/hashtag',
+      views: {
+        'private': {
+          templateUrl: 'template/tabs/private/hashtag/global.html',
+          controller: 'PrivateHashTagGlobalCtrl'
+        }
+      }
+    })
+    .state('tabs.private_tag_global.issues', {
+      url: '/issues?tag',
+      views: {
+        'private': {
+          templateUrl: 'template/issue/issue_list.html',
+          controller: 'IssueListCtrl'
+        }
+      }
+    })
+    .state('tabs.private_tag_global.products', {
+      url: '/products?tag',
+      views: {
+        'private': {
+          templateUrl: 'template/product/product_list.html',
+          controller: 'ProductListCtrl'
+        }
+      }
+    })
+    .state('tabs.private_tag_specific', {
+      url: '/private/specific/hashtag',
+      views: {
+        'private': {
+          templateUrl: 'template/tabs/private/hashtag/specific.html',
+          controller: 'PrivateHashTagSpecificCtrl'
+        }
+      }
+    })
+    .state('tabs.private_tag_specific.issues', {
+      url: '/issues?tag&channel',
+      views: {
+        'private': {
+          templateUrl: 'template/issue/issue_list.html',
+          controller: 'IssueListCtrl'
+        }
+      }
+    })
+    .state('tabs.private_tag_specific.products', {
+      url: '/products?tag&brand',
+      views: {
+        'private': {
+          templateUrl: 'template/product/product_list.html',
+          controller: 'ProductListCtrl'
+        }
+      }
+    })
+    .state('tabs.private_channel_detail', {
+      url: '/private/channels/:channel_id',
+      views: {
+        'private': {
+          templateUrl: 'template/channel/channel_detail.html',
+          controller: 'ChannelDetailCtrl'
+        }
+      }
+    })
+    .state('tabs.private_issue_detail', {
+      url: '/private/issues/:issue_id',
+      views: {
+        'private': {
+          templateUrl: 'template/issue/issue_detail.html',
+          controller: 'IssueDetailCtrl'
+        }
+      }
+    })
+    .state('tabs.private_product_detail', {
+      url: '/private/products/:product_id',
+      views: {
+        'private': {
+          templateUrl: 'template/product/product_detail.html',
+          controller: 'ProductDetailCtrl'
+        }
+      }
+    })
+    .state('tabs.private_brand_detail', {
+      url: '/private/brands/:brand_id',
+      views: {
+        'private': {
+          templateUrl: 'template/brand/brand_detail.html',
+          controller: 'BrandDetailCtrl'
         }
       }
     })

@@ -1,4 +1,4 @@
-<ion-view>
+<ion-view view-title="채널">
     <ion-content has-bouncing="false">
     	<tab-slide-box>
             <div class="tsb-icons">
@@ -8,9 +8,13 @@
                     </ion-scroll>
                 </div>
         	</div>
-            <ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index);">
-          		<ion-slide ng-repeat="i in channel_intro.pub_days">
-	                <h1>Test</h1>
+            <ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index); channel_intro.changeDay($index)">
+          		<ion-slide ng-repeat="pub_day in channel_intro.pub_days">
+                    <div class="two-channel-list" ng-repeat="channel in pub_day.channels">
+                        <img ng-src="{{channel.profile}}" ng-click="channel_intro.goChannelDetail(channel.id)">
+                        <h4>{{channel.name}}</h4>
+                        <p>{{channel.brief}}</p>
+                    </div>
             	</ion-slide>
         	</ion-slide-box>
         </tab-slide-box>

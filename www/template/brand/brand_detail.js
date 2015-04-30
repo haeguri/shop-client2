@@ -11,6 +11,7 @@ angular.module('radio.controller')
         var product_page = 1;
  		var slideOnceUpdated = false;
         var method = '';
+        var url_pattern = '';
 
         Brand.getBrand({
         	'brand_id':$stateParams.brand_id
@@ -71,8 +72,23 @@ angular.module('radio.controller')
             }
         }
 
+        url_pattern = /\/\#\/main\/|\/\#\/channel\/|\/#\/private\/|\/#\/search\//.exec($location.absUrl())[0];
+
         $scope.brand_detail.goProductDetail = function(product_id) {
-            $location.url('/main/products/'+product_id);
+            switch(url_pattern) {
+                case '/#/main/':
+                    $location.url('/main/products/'+product_id);
+                    break; 
+                case '/#/channel/':
+                    $location.url('/channel/products/'+product_id);
+                    break;
+                case '/#/private/':
+                    $location.url('/private/products/'+product_id);
+                    break;
+                case '/#/search/':
+                    $location.url('/search/products/'+product_id);
+                    break;
+            }
         }
 
         $scope.brand_detail.goHashTagSpecific = function(tag_id, $event) {

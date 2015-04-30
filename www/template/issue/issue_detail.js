@@ -6,9 +6,9 @@ angular.module('radio.controller')
         $scope.issue_detail = {};
 
         var method = '';
+        var url_pattern = '';
 
         Channel.getIssue($stateParams.issue_id).then(function(data) {
-        	console.log("issue_detail", data);
         	$scope.issue_detail.issue = data;
         })
 
@@ -37,6 +37,60 @@ angular.module('radio.controller')
                 }
                 //$scope.issue_detail.issue.like === false ? $(event.target).addClass('true') : $(event.target).removeClass('true');
             });
+        }
+
+        url_pattern = /\/\#\/main\/|\/\#\/channel\/|\/#\/private\/|\/#\/search\//.exec($location.absUrl())[0];
+
+        $scope.issue_detail.goProductDetail = function(product_id) {
+            switch(url_pattern) {
+                case '/#/main/':
+                    $location.url('/main/products/'+product_id);
+                    break; 
+                case '/#/channel/':
+                    $location.url('/channel/products/'+product_id);
+                    break;
+                case '/#/private/':
+                    $location.url('/private/products/'+product_id);
+                    break;
+                case '/#/search/':
+                    $location.url('/search/products/'+product_id);
+                    break;
+            }
+        }
+
+        $scope.issue_detail.goChannelDetail = function(channel_id) {
+            $log.log("goChannelDetail", channel_id);
+            switch(url_pattern) {
+                case '/#/main/':
+                    $location.url('/main/channels/'+channel_id);
+                    break; 
+                case '/#/channel/':
+                    $location.url('/channel/channels/'+channel_id);
+                    break;
+                case '/#/private/':
+                    $location.url('/private/channels/'+channel_id);
+                    break;
+                case '/#/search/':
+                    $location.url('/search/channels/'+channel_id);
+                    break;
+            }
+        }
+
+        $scope.issue_detail.goHashTagGlobal = function(tag_id) {
+            switch(url_pattern) {
+                case '/#/main/':
+                    $location.url('/main/hashtag/issues?tag='+tag_id);
+                    break; 
+                case '/#/channel/':
+                    $location.url('/channel/hashtag/issues?tag='+tag_id);
+                    break;
+                case '/#/private/':
+                    $location.url('/private/hashtag/issues?tag='+tag_id);
+                    break;
+                case '/#/search/':
+                    $location.url('/search/hashtag/issues?tag='+tag_id);
+                    break;
+            }   
         }
 
     });

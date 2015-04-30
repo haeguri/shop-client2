@@ -1,19 +1,19 @@
 <ion-view>
     <ion-tabs class="tabs-light tabs-bottom tabs-icon-only" id="radio-tabs">
 
-        <ion-tab icon="fa fa-home" ui-sref="tabs.main">
+        <ion-tab icon="fa fa-home" ng-click="tabs.goTab('main.rec_issues')">
             <ion-nav-view name="main"></ion-nav-view>
         </ion-tab>
 
-        <ion-tab icon="fa fa fa-book" ui-sref="tabs.channel">
+        <ion-tab icon="fa fa fa-book" ng-click="tabs.goTab('channel')">
             <ion-nav-view name="channel"></ion-nav-view>
         </ion-tab>
 
-        <ion-tab icon="fa fa fa-user" ui-sref="tabs.private.follow">
+        <ion-tab icon="fa fa fa-user" ng-click="tabs.goTab('private.follow')">
             <ion-nav-view name="private"></ion-nav-view>
         </ion-tab>
 
-        <ion-tab icon="fa fa-search" ui-sref="tabs.search">
+        <ion-tab icon="fa fa-search" ng-click="tabs.goTab('search')">
             <ion-nav-view name="search"></ion-nav-view>
         </ion-tab>
 

@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('HashTagGlobalCtrl', function(Channel, $scope, $location, $log, 
+	.controller('ChannelHashTagGlobalCtrl', function(Channel, $scope, $location, $log, 
 		$ionicHistory) {
 
         $scope.tag_global = {};
