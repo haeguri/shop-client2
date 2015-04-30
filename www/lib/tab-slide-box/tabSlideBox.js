@@ -86,11 +86,15 @@ angular.module('tabSlideBox', [])
 					
 					var middle = iconsDiv[0].offsetWidth/2;
 					var curEl = angular.element(icons[index]);
+					var prvEl = angular.element(iconsDiv[0].querySelector(".active"));
 					if(curEl && curEl.length){
 					var curElWidth = curEl[0].offsetWidth, curElLeft = curEl[0].offsetLeft;
 
 					angular.element(iconsDiv[0].querySelector(".active")).removeClass("active");
 					curEl.addClass("active");
+
+					/* 슬라이드(요일) 넘길 때 스크롤 가장 위로 */
+					$ionicScrollDelegate.scrollTo(0, 0, true);
 					
 					var leftStr = (middle  - (curElLeft) -  curElWidth/2 + 5);
 					//If tabs are not scrollable
@@ -108,8 +112,9 @@ angular.module('tabSlideBox', [])
 							if(leftStr > 0){
 								leftStr = 0;
 							}
+							$ionicScrollDelegate.scrollTo(Math.abs(leftStr), 0, true);
 							//Use this scrollTo, so when scrolling tab manually will not flicker
-							
+							/*
 							try {
 							    $ionicScrollDelegate.scrollTo(Math.abs(leftStr), 0, true);
 							    console.log("execute scrollTo");
@@ -117,6 +122,7 @@ angular.module('tabSlideBox', [])
 							catch(TypeError) {
 							    cnosole.log("error!");
 							}
+							*/
 						}
 					}
 					}

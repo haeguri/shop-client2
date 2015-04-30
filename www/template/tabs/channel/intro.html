@@ -4,13 +4,10 @@
             <div class="tsb-icons">
                 <div class="tsb-ic-wrp">
                     <ion-scroll direction="x" class="tsb-hscroll" has-bouncing="false">
-                        <a ng-repeat="pub_day in channel_intro.pub_days track by $index" on-finish-render>{{pub_day.day}}</a>
+                        <a ng-repeat="pub_day in channel_intro.pub_days track by $index" on-finish-render="test()">{{pub_day.day}}</a>
                     </ion-scroll>
                 </div>
         	</div>
-            <!--
-      		<ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index); channel_intro.changeTag($index)">
-            -->
             <ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index);">
           		<ion-slide ng-repeat="i in channel_intro.pub_days">
 	                <h1>Test</h1>
