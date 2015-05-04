@@ -32,9 +32,9 @@ angular.module('radio.service')
 				return Follow.request({
 					'method':args.method,
 					'extra_url':'/brands/' + args.brand_id + '/follow',
-				}).then(function(response){
+				}).then(function(response) {
 					return response;
-				})
+				});
 			}
 		};
 

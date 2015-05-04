@@ -11,6 +11,7 @@
             <ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index); channel_intro.changeDay($index)">
           		<ion-slide ng-repeat="pub_day in channel_intro.pub_days">
                     <div class="two-channel-list" ng-repeat="channel in pub_day.channels">
+                        <h1>{{channel_intro.urlTest}}</h1>
                         <img ng-src="{{channel.profile}}" ng-click="channel_intro.goChannelDetail(channel.id)">
                         <h4>{{channel.name}}</h4>
                         <p>{{channel.brief}}</p>

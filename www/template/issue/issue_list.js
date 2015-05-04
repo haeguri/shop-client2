@@ -19,13 +19,10 @@ angular.module('radio.controller')
             }
         };
 
-        $log.log('Ionic History View !!!', $ionicHistory.viewHistory());
-
         params.params.tag == undefined ? delete params.params.tag : undefined; 
         params.params.channel == undefined ? delete params.params.channel : undefined;
 
         Channel.getIssues(params).then(function(data) {
-            $log.log("Issut List!!", data.results);
             if (data.results.length) {
                 for(var i in data.results[0].hash_tags) {
                     if (data.results[0].hash_tags[i].id == tag) {

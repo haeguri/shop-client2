@@ -426,7 +426,7 @@ angular.module('radio', [
       }
     })
 
-    /* "검색" */
+    /* SEARCH PAGE */
     .state('tabs.search', {
       url: '/search',
       views: {
@@ -434,6 +434,105 @@ angular.module('radio', [
           templateUrl: 'template/tabs/search/intro.html',
           controller: 'SearchIntroCtrl'
         }        
+      }
+    })
+    .state('tabs.search_input', {
+      url: '/search/input',
+      views: {
+        'search': {
+          templateUrl: 'template/tabs/search/input.html',
+          controller: 'SearchInputCtrl'
+        }        
+      }
+    })
+    .state('tabs.search_tag_global', {
+      url: '/search/hashtag',
+      views: {
+        'search': {
+          templateUrl: 'template/tabs/search/hashtag/global.html',
+          controller: 'SearchHashTagGlobalCtrl'
+        }
+      }
+    })
+    .state('tabs.search_tag_global.issues', {
+      url: '/issues?tag',
+      views: {
+        'search': {
+          templateUrl: 'template/issue/issue_list.html',
+          controller: 'IssueListCtrl'
+        }
+      }
+    })
+    .state('tabs.search_tag_global.products', {
+      url: '/products?tag',
+      views: {
+        'search': {
+          templateUrl: 'template/product/product_list.html',
+          controller: 'ProductListCtrl'
+        }
+      }
+    })
+    .state('tabs.search_tag_specific', {
+      url: '/search/specific/hashtag',
+      views: {
+        'search': {
+          templateUrl: 'template/tabs/search/hashtag/specific.html',
+          controller: 'SearchHashTagSpecificCtrl'
+        }
+      }
+    })
+    .state('tabs.search_tag_specific.issues', {
+      url: '/issues?tag&channel',
+      views: {
+        'search': {
+          templateUrl: 'template/issue/issue_list.html',
+          controller: 'IssueListCtrl'
+        }
+      }
+    })
+    .state('tabs.search_tag_specific.products', {
+      url: '/products?tag&brand',
+      views: {
+        'search': {
+          templateUrl: 'template/product/product_list.html',
+          controller: 'ProductListCtrl'
+        }
+      }
+    })
+    .state('tabs.search_channel_detail', {
+      url: '/search/channels/:channel_id',
+      views: {
+        'search': {
+          templateUrl: 'template/channel/channel_detail.html',
+          controller: 'ChannelDetailCtrl'
+        }
+      }
+    })
+    .state('tabs.search_issue_detail', {
+      url: '/search/issues/:issue_id',
+      views: {
+        'search': {
+          templateUrl: 'template/issue/issue_detail.html',
+          controller: 'IssueDetailCtrl'
+        }
+      }
+    })
+    .state('tabs.search_product_detail', {
+      url: '/search/products/:product_id',
+      views: {
+        'search': {
+          templateUrl: 'template/product/product_detail.html',
+          controller: 'ProductDetailCtrl'
+        }
+      }
+    })
+    .state('tabs.search_brand_detail', {
+      url: '/search/brands/:brand_id',
+      views: {
+        'search': {
+          templateUrl: 'template/brand/brand_detail.html',
+          controller: 'BrandDetailCtrl'
+        }
       }
     })
     

@@ -19,6 +19,19 @@ angular.module('radio.controller')
 			})
         }
 
+        Channel.getPubDays().then(function(data){
+            slideUpdate();
+            for (var i in data) {
+                data[i]['channels'] = [];
+                data[i]['last_page'] = 0;
+                data[i]['isLoaded'] = false;
+                $scope.channel_intro.pub_days.push(data[i])
+            }
+            getChannels(0);
+        });
+
+        $scope.channel_intro.urlTest = $location.absUrl();
+
         var getChannels = function(day_index) {
         	if($scope.channel_intro.pub_days[day_index]['is_loaded'] != true) {
         		$log.log("Start channel load");
@@ -43,16 +56,5 @@ angular.module('radio.controller')
         $scope.channel_intro.goChannelDetail = function(channel_id) {
         	$location.url('/channel/channels/'+channel_id);
         }
-
-		Channel.getPubDays().then(function(data){
-			slideUpdate();
-			for (var i in data) {
-				data[i]['channels'] = [];
-				data[i]['last_page'] = 0;
-				data[i]['isLoaded'] = false;
-				$scope.channel_intro.pub_days.push(data[i])
-			}
-			getChannels(0);
-		});
 
 	});

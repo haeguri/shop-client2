@@ -8,6 +8,7 @@ angular.module('radio.controller')
         $scope.tag_global.queryTag = $location.search().tag;
 
 		$scope.tag_global.addUnderline = function() {
+			$scope.tag_global.queryTag = $location.search().tag;
 			$(event.target).addClass('active');
 			$(event.target).siblings('a').removeClass('active');
 		}

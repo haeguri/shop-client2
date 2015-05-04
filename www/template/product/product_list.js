@@ -30,7 +30,7 @@ angular.module('radio.controller')
                 for(var i in data.results[0].hash_tags) {
                     if (data.results[0].hash_tags[i].id == tag) {
                         $scope.product_list.currentTag = data.results[0].hash_tags[i];
-                        console.log("$scope.product_list.currentTag ", $scope.product_list.currentTag );
+                        //console.log("$scope.product_list.currentTag ", $scope.product_list.currentTag );
                     }
                 }
                 $scope.product_list.products = data.results;

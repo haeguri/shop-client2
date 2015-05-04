@@ -23,7 +23,12 @@
     <script src="lib/angular-cookies/angular-cookies.js"></script>
     <script src="lib/angular-route/angular-route.js"></script>
     
+    
     <script src="lib/tab-slide-box/tabSlideBox.js"></script>
+
+    <!--
+    <script src="http://ionic-sarav.rhcloud.com/ionic/tabbedSlideBox/tabSlideBox.js"></script>
+    -->
 
     <script src="cordova.js"></script>
 
@@ -38,6 +43,8 @@
     <script src="js/services/channel.js"></script>
     <script src="js/services/brand.js"></script>
     <script src="js/services/follow.js"></script>
+    <script src="js/services/hash_tag.js"></script>
+    <script src="js/services/search.js"></script>
     <!-- master controller -->
     <script src="js/master.js"></script>
     <!-- directive -->
@@ -47,18 +54,26 @@
     <script src="template/login.js"></script>
     <!-- tab's controllers -->
     <script src="template/tabs/tabs.js"></script>
-    <!-- main controllers -->
+    <!-- MAIN TAB controllers -->
     <script src="template/tabs/main/intro.js"></script>
-    <!-- channel controllers -->
+    <script src="template/tabs/main/hashtag/global.js"></script>
+    <script src="template/tabs/main/hashtag/specific.js"></script>
+    <!-- CHANNEL TAB controllers -->
     <script src="template/tabs/channel/intro.js"></script>
-    <!-- private controllers -->
+    <script src="template/tabs/channel/hashtag/global.js"></script>
+    <script src="template/tabs/channel/hashtag/specific.js"></script>
+    <!-- PRIVATE TAB controllers -->
     <script src="template/tabs/private/intro.js"></script>
     <script src="template/tabs/private/follow.js"></script>
     <script src="template/tabs/private/like.js"></script>
     <script src="template/tabs/private/cart.js"></script>
-    <!-- search controllers -->
+    <script src="template/tabs/private/hashtag/global.js"></script>
+    <script src="template/tabs/private/hashtag/specific.js"></script>
+    <!-- SEARCH TAB controllers -->
     <script src="template/tabs/search/intro.js"></script>
-
+    <script src="template/tabs/search/input.js"></script>
+    <script src="template/tabs/search/hashtag/global.js"></script>
+    <script src="template/tabs/search/hashtag/specific.js"></script>
     <!-- issue detail controller -->
     <script src="template/issue/issue_detail.js"></script>
     <script src="template/issue/issue_list.js"></script>
@@ -70,9 +85,6 @@
     <script src="template/channel/channel_list.js"></script>
     <!-- brand controller -->
     <script src="template/brand/brand_detail.js"></script>
-    <!-- hash tag -->
-    <script src="template/hashtag/global.js"></script>
-    <script src="template/hashtag/specific.js"></script>
     
   </head>
   <body ng-controller="MasterCtrl" animation="slide-left-right-ios7" class="platform-ios platform-cordova platform-webview">

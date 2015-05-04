@@ -1072,3 +1072,330 @@
 2015-04-30 01:02:29.504 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
 2015-04-30 01:03:19.752 radio[9147:5912191] clicked
 2015-04-30 01:03:20.693 radio[9147:5912191] clicked
+2015-05-02 23:53:02.565 radio[31671:6760792] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-02 23:53:02.566 radio[31671:6760792] Multi-tasking -> Device: YES, App: YES
+2015-05-02 23:53:02.587 radio[31671:6760792] Unlimited access to network resources
+2015-05-02 23:53:02.977 radio[31671:6760792] [CDVTimer][keyboard] 0.051975ms
+2015-05-02 23:53:02.977 radio[31671:6760792] [CDVTimer][TotalPluginStartup] 0.564992ms
+2015-05-02 23:53:03.205 radio[31671:6760792] Resetting plugins due to page load.
+2015-05-02 23:53:05.223 radio[31671:6760792] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/07330DFF-D875-4245-BFCB-7AC4C3397C09/radio.app/www/index.html
+2015-05-02 23:53:08.609 radio[31671:6760792] data 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /rest-auth/login/</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>POST</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+      <td>http://bunkerseoul.com:8000/rest-auth/login/</td>
+      </tr>
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>second.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                ^api/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/cart/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^grappelli/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/rest-auth/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/rest-auth/registration/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^media/(?P&lt;path&gt;.*)$
+                
+            
+          </li>
+        
+      </ol>
+      <p>The current URL, <code>rest-auth/login/</code>, didn't match any of these.</p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+2015-05-02 23:53:08.610 radio[31671:6760792] Login Deny [object Object]
+2015-05-02 23:59:02.682 radio[32367:6765900] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-02 23:59:02.683 radio[32367:6765900] Multi-tasking -> Device: YES, App: YES
+2015-05-02 23:59:02.684 radio[32367:6765900] Unlimited access to network resources
+2015-05-02 23:59:02.879 radio[32367:6765900] [CDVTimer][keyboard] 0.059962ms
+2015-05-02 23:59:02.879 radio[32367:6765900] [CDVTimer][TotalPluginStartup] 0.232041ms
+2015-05-02 23:59:02.986 radio[32367:6765900] Resetting plugins due to page load.
+2015-05-02 23:59:04.848 radio[32367:6765900] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/3AC05628-6F18-4AA1-8404-5FABDE385C56/radio.app/www/index.html
+2015-05-02 23:59:14.153 radio[32367:6765900] assigned initialIndex
+2015-05-02 23:59:14.154 radio[32367:6765900] initialindex
+2015-05-02 23:59:14.162 radio[32367:6765900] assigned initialIndex
+2015-05-02 23:59:14.162 radio[32367:6765900] initialindex
+2015-05-02 23:59:14.240 radio[32367:6765900] assigned initialIndex
+2015-05-02 23:59:14.240 radio[32367:6765900] initialindex
+2015-05-04 12:09:42.135 radio[33558:6811171] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-04 12:09:42.139 radio[33558:6811171] Multi-tasking -> Device: YES, App: YES
+2015-05-04 12:09:42.154 radio[33558:6811171] Unlimited access to network resources
+2015-05-04 12:09:42.529 radio[33558:6811171] [CDVTimer][keyboard] 0.070989ms
+2015-05-04 12:09:42.529 radio[33558:6811171] [CDVTimer][TotalPluginStartup] 0.632048ms
+2015-05-04 12:09:42.821 radio[33558:6811171] Resetting plugins due to page load.
+2015-05-04 12:09:45.117 radio[33558:6811171] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/50954909-1609-4D12-922C-3B6F43D356CA/radio.app/www/index.html
+2015-05-04 12:10:02.620 radio[33558:6811171] Main Product List !!!
+2015-05-04 12:10:02.620 radio[33558:6811171] params [object Object]
+2015-05-04 12:10:03.665 radio[33558:6811171] assigned initialIndex
+2015-05-04 12:10:03.666 radio[33558:6811171] initialindex
+2015-05-04 12:10:03.675 radio[33558:6811171] assigned initialIndex
+2015-05-04 12:10:03.675 radio[33558:6811171] initialindex
+2015-05-04 12:10:16.094 radio[33558:6811171] assigned initialIndex
+2015-05-04 12:10:16.095 radio[33558:6811171] initialindex
+2015-05-04 14:41:04.379 radio[35327:6890563] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-04 14:41:04.384 radio[35327:6890563] Multi-tasking -> Device: YES, App: YES
+2015-05-04 14:41:04.398 radio[35327:6890563] Unlimited access to network resources
+2015-05-04 14:41:04.784 radio[35327:6890563] [CDVTimer][keyboard] 0.059962ms
+2015-05-04 14:41:04.784 radio[35327:6890563] [CDVTimer][TotalPluginStartup] 0.216007ms
+2015-05-04 14:41:05.071 radio[35327:6890563] Resetting plugins due to page load.
+2015-05-04 14:41:07.244 radio[35327:6890563] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/FA030567-7825-4440-97CF-9B9EB21B325E/radio.app/www/index.html
+2015-05-04 14:41:20.952 radio[35327:6890563] data [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-04 14:41:28.827 radio[35327:6890563] assigned initialIndex
+2015-05-04 14:41:28.828 radio[35327:6890563] initialindex
+2015-05-04 14:41:28.839 radio[35327:6890563] assigned initialIndex
+2015-05-04 14:41:28.839 radio[35327:6890563] initialindex
+2015-05-04 14:41:28.861 radio[35327:6890563] assigned initialIndex
+2015-05-04 14:41:28.862 radio[35327:6890563] initialindex
+2015-05-04 14:41:34.229 radio[35327:6890563] clicked
+2015-05-04 14:41:40.936 radio[35327:6890563] params 
+2015-05-04 14:41:50.347 radio[35327:6890563] params 
+2015-05-04 14:42:00.919 radio[35327:6890563] params 
+2015-05-04 14:42:03.285 radio[35327:6890563] clicked
+2015-05-04 14:42:05.981 radio[35327:6890563] params 
+2015-05-04 14:42:06.001 radio[35327:6890563] data 
+2015-05-04 14:42:10.697 radio[35327:6890563] params 
+2015-05-04 14:42:10.714 radio[35327:6890563] data 
+2015-05-04 14:42:12.673 radio[35327:6890563] params 
+2015-05-04 14:42:12.693 radio[35327:6890563] data 
+2015-05-04 14:42:17.665 radio[35327:6890563] params 
+2015-05-04 14:42:25.289 radio[35327:6890563] params 
+2015-05-04 14:43:17.958 radio[35327:6890563] Resetting plugins due to page load.
+2015-05-04 14:43:17.965 radio[35327:6890563] Failed to load webpage with error: Frame load interrupted
+2015-05-04 14:43:18.686 radio[35327:6890563] Resetting plugins due to page load.
+2015-05-04 14:43:18.689 radio[35327:6890563] Failed to load webpage with error: Frame load interrupted
+2015-05-04 14:43:19.607 radio[35327:6890563] Resetting plugins due to page load.
+2015-05-04 14:43:19.610 radio[35327:6890563] Failed to load webpage with error: Frame load interrupted
+2015-05-04 14:43:20.830 radio[35327:6890563] assigned initialIndex
+2015-05-04 14:43:20.830 radio[35327:6890563] initialindex
+2015-05-04 14:43:20.843 radio[35327:6890563] assigned initialIndex
+2015-05-04 14:43:20.843 radio[35327:6890563] initialindex
+2015-05-04 14:43:20.864 radio[35327:6890563] assigned initialIndex
+2015-05-04 14:43:20.864 radio[35327:6890563] initialindex
+2015-05-04 14:43:22.117 radio[35327:6890563] change day ! 1
+2015-05-04 14:43:27.399 radio[35327:6890563] change day ! 2
+2015-05-04 14:43:28.463 radio[35327:6890563] change day ! 1
+2015-05-04 14:44:38.678 radio[36011:6894065] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-04 14:44:38.680 radio[36011:6894065] Multi-tasking -> Device: YES, App: YES
+2015-05-04 14:44:38.693 radio[36011:6894065] Unlimited access to network resources
+2015-05-04 14:44:39.107 radio[36011:6894065] [CDVTimer][keyboard] 0.060022ms
+2015-05-04 14:44:39.108 radio[36011:6894065] [CDVTimer][TotalPluginStartup] 0.245988ms
+2015-05-04 14:44:39.399 radio[36011:6894065] Resetting plugins due to page load.
+2015-05-04 14:45:03.950 radio[36011:6894065] Finished load of: http://192.168.0.5:8100/
+2015-05-04 14:45:15.841 radio[36011:6894065] assigned initialIndex
+2015-05-04 14:45:15.842 radio[36011:6894065] initialindex
+2015-05-04 14:45:15.850 radio[36011:6894065] assigned initialIndex
+2015-05-04 14:45:15.851 radio[36011:6894065] initialindex
+2015-05-04 14:45:15.904 radio[36011:6894065] assigned initialIndex
+2015-05-04 14:45:15.904 radio[36011:6894065] initialindex
+2015-05-04 14:45:30.649 radio[36623:6895681] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-04 14:45:30.650 radio[36623:6895681] Multi-tasking -> Device: YES, App: YES
+2015-05-04 14:45:30.651 radio[36623:6895681] Unlimited access to network resources
+2015-05-04 14:45:30.852 radio[36623:6895681] [CDVTimer][keyboard] 0.055015ms
+2015-05-04 14:45:30.852 radio[36623:6895681] [CDVTimer][TotalPluginStartup] 0.222027ms
+2015-05-04 14:45:30.968 radio[36623:6895681] Resetting plugins due to page load.
+2015-05-04 14:45:32.215 radio[36623:6895681] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/BA257EE7-BD9F-4B81-81ED-E0B9271FB9E3/radio.app/www/index.html
+2015-05-04 14:45:41.014 radio[36623:6895681] data [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-04 14:45:47.058 radio[36623:6895681] assigned initialIndex
+2015-05-04 14:45:47.058 radio[36623:6895681] initialindex
+2015-05-04 14:45:47.068 radio[36623:6895681] assigned initialIndex
+2015-05-04 14:45:47.068 radio[36623:6895681] initialindex
+2015-05-04 14:45:47.173 radio[36623:6895681] assigned initialIndex
+2015-05-04 14:45:47.175 radio[36623:6895681] initialindex
+2015-05-04 14:50:33.719 radio[37859:6900924] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-04 14:50:33.720 radio[37859:6900924] Multi-tasking -> Device: YES, App: YES
+2015-05-04 14:50:33.721 radio[37859:6900924] Unlimited access to network resources
+2015-05-04 14:50:33.907 radio[37859:6900924] [CDVTimer][keyboard] 0.063002ms
+2015-05-04 14:50:33.907 radio[37859:6900924] [CDVTimer][TotalPluginStartup] 0.241995ms
+2015-05-04 14:50:33.998 radio[37859:6900924] Resetting plugins due to page load.
+2015-05-04 14:51:51.120 radio[37859:6900924] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/1C903197-5955-4757-B101-6E57D540E6A7/radio.app/www/index.html
+2015-05-04 14:52:01.597 radio[37859:6900924] data [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-04 14:56:17.919 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:56:17.920 radio[37859:6900924] initialindex
+2015-05-04 14:56:17.931 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:56:17.931 radio[37859:6900924] initialindex
+2015-05-04 14:56:17.964 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:56:17.964 radio[37859:6900924] initialindex
+2015-05-04 14:56:23.676 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:56:23.676 radio[37859:6900924] initialindex
+2015-05-04 14:56:23.688 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:56:23.688 radio[37859:6900924] initialindex
+2015-05-04 14:56:23.709 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:56:23.709 radio[37859:6900924] initialindex
+2015-05-04 14:56:29.245 radio[37859:6900924] clicked
+2015-05-04 14:56:33.427 radio[37859:6900924] params 
+2015-05-04 14:57:12.473 radio[37859:6900924] params 
+2015-05-04 14:57:12.520 radio[37859:6900924] data [object Object]
+2015-05-04 14:57:19.633 radio[37859:6900924] params 
+2015-05-04 14:57:21.582 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:21.583 radio[37859:6900924] initialindex
+2015-05-04 14:57:21.593 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:21.593 radio[37859:6900924] initialindex
+2015-05-04 14:57:21.617 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:21.617 radio[37859:6900924] initialindex
+2015-05-04 14:57:23.727 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:23.727 radio[37859:6900924] initialindex
+2015-05-04 14:57:23.736 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:23.736 radio[37859:6900924] initialindex
+2015-05-04 14:57:23.764 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:23.765 radio[37859:6900924] initialindex
+2015-05-04 14:57:25.199 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:25.199 radio[37859:6900924] initialindex
+2015-05-04 14:57:25.211 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:25.211 radio[37859:6900924] initialindex
+2015-05-04 14:57:25.232 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:25.232 radio[37859:6900924] initialindex
+2015-05-04 14:57:41.791 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:41.792 radio[37859:6900924] initialindex
+2015-05-04 14:57:41.802 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:41.802 radio[37859:6900924] initialindex
+2015-05-04 14:57:41.823 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:41.823 radio[37859:6900924] initialindex
+2015-05-04 14:57:52.051 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:52.051 radio[37859:6900924] initialindex
+2015-05-04 14:57:52.060 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:52.060 radio[37859:6900924] initialindex
+2015-05-04 14:57:52.081 radio[37859:6900924] assigned initialIndex
+2015-05-04 14:57:52.081 radio[37859:6900924] initialindex
+2015-05-04 15:00:02.176 radio[38632:6907631] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-04 15:00:02.178 radio[38632:6907631] Multi-tasking -> Device: YES, App: YES
+2015-05-04 15:00:02.194 radio[38632:6907631] Unlimited access to network resources
+2015-05-04 15:00:02.620 radio[38632:6907631] [CDVTimer][keyboard] 0.069976ms
+2015-05-04 15:00:02.620 radio[38632:6907631] [CDVTimer][TotalPluginStartup] 0.293970ms
+2015-05-04 15:00:02.935 radio[38632:6907631] Resetting plugins due to page load.
+2015-05-04 15:00:05.237 radio[38632:6907631] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/E7397E97-1F97-49E5-96A9-AD196585D520/radio.app/www/index.html
+2015-05-04 15:00:13.425 radio[38632:6907631] assigned initialIndex
+2015-05-04 15:00:13.427 radio[38632:6907631] initialindex
+2015-05-04 15:00:13.447 radio[38632:6907631] assigned initialIndex
+2015-05-04 15:00:13.447 radio[38632:6907631] initialindex
+2015-05-04 15:00:13.490 radio[38632:6907631] assigned initialIndex
+2015-05-04 15:00:13.490 radio[38632:6907631] initialindex
+2015-05-04 15:01:37.202 radio[39298:6909822] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-04 15:01:37.203 radio[39298:6909822] Multi-tasking -> Device: YES, App: YES
+2015-05-04 15:01:37.206 radio[39298:6909822] Unlimited access to network resources
+2015-05-04 15:01:37.445 radio[39298:6909822] [CDVTimer][keyboard] 0.053048ms
+2015-05-04 15:01:37.446 radio[39298:6909822] [CDVTimer][TotalPluginStartup] 0.207007ms
+2015-05-04 15:01:37.627 radio[39298:6909822] Resetting plugins due to page load.
+2015-05-04 15:01:52.148 radio[39298:6909822] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/7041F7BF-9355-4ED1-A198-4E683BE33782/radio.app/www/index.html
+2015-05-04 15:01:59.237 radio[39298:6909822] assigned initialIndex
+2015-05-04 15:01:59.237 radio[39298:6909822] initialindex
+2015-05-04 15:01:59.250 radio[39298:6909822] assigned initialIndex
+2015-05-04 15:01:59.251 radio[39298:6909822] initialindex
+2015-05-04 15:01:59.280 radio[39298:6909822] assigned initialIndex
+2015-05-04 15:01:59.280 radio[39298:6909822] initialindex
+2015-05-04 15:05:29.801 radio[39298:6909822] change day ! 1
+2015-05-04 15:09:31.754 radio[39298:6909822] assigned initialIndex
+2015-05-04 15:09:31.754 radio[39298:6909822] initialindex
+2015-05-04 15:09:31.764 radio[39298:6909822] assigned initialIndex
+2015-05-04 15:09:31.764 radio[39298:6909822] initialindex
+2015-05-04 15:09:31.791 radio[39298:6909822] assigned initialIndex
+2015-05-04 15:09:31.791 radio[39298:6909822] initialindex
+2015-05-04 15:09:34.159 radio[39298:6909822] change day ! 1
+2015-05-04 15:09:34.994 radio[39298:6909822] change day ! 2
+2015-05-04 15:09:41.403 radio[39298:6909822] Resetting plugins due to page load.
+2015-05-04 15:09:41.408 radio[39298:6909822] Failed to load webpage with error: Frame load interrupted
+2015-05-04 15:09:50.127 radio[39298:6909822] Resetting plugins due to page load.
+2015-05-04 15:09:50.130 radio[39298:6909822] Failed to load webpage with error: Frame load interrupted
+2015-05-04 15:09:51.287 radio[39298:6909822] Resetting plugins due to page load.
+2015-05-04 15:09:51.291 radio[39298:6909822] Failed to load webpage with error: Frame load interrupted
+2015-05-04 15:15:46.819 radio[40055:6919223] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-04 15:15:46.821 radio[40055:6919223] Multi-tasking -> Device: YES, App: YES
+2015-05-04 15:15:46.838 radio[40055:6919223] Unlimited access to network resources
+2015-05-04 15:15:47.270 radio[40055:6919223] [CDVTimer][keyboard] 0.076056ms
+2015-05-04 15:15:47.270 radio[40055:6919223] [CDVTimer][TotalPluginStartup] 0.343025ms
+2015-05-04 15:15:47.511 radio[40055:6919223] Resetting plugins due to page load.
+2015-05-04 15:15:49.563 radio[40055:6919223] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/75E84D1D-DB5C-44AF-9F00-DE67EA050D3B/radio.app/www/index.html
+2015-05-04 15:15:56.826 radio[40055:6919223] data [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-04 15:17:18.576 radio[40701:6921458] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-04 15:17:18.577 radio[40701:6921458] Multi-tasking -> Device: YES, App: YES
+2015-05-04 15:17:18.578 radio[40701:6921458] Unlimited access to network resources
+2015-05-04 15:17:18.889 radio[40701:6921458] [CDVTimer][keyboard] 0.124991ms
+2015-05-04 15:17:18.890 radio[40701:6921458] [CDVTimer][TotalPluginStartup] 1.001954ms
+2015-05-04 15:17:18.966 radio[40701:6921458] Resetting plugins due to page load.
+2015-05-04 15:17:22.754 radio[40701:6921458] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/7DA420CD-005A-4143-A57A-12A70CF7EC70/radio.app/www/index.html
+2015-05-04 15:17:29.591 radio[40701:6921458] data [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]

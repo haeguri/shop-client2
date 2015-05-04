@@ -1,5 +1,43 @@
 <ion-view>
-    <ion-content>
-		<h1>Search Intro</h1>    
+	<!--
+	<ion-header-bar class="bar bar-header">
+		<label class="item-input-wrapper">
+			<i class="icon ion-ios-search placeholder-icon"></i>
+			<input type="search" placeholder="Search">
+		</label>
+		<button class="button button-clear">
+		Cancel
+		</button>
+	</ion-header-bar>
+	-->
+	<ion-nav-title>
+		<div class="title search-intro-nav">
+			<button ng-click="search_intro.goSearchInput()"><i class="fa fa-search"></i>Search</button>
+		</div>
+	</ion-nav-title>
+    <ion-content has-bouncing="false">
+    	<div ng-if="!search_intro.isSearch">
+    		<div class="search-two-btn-wrap">
+	    		<div class="two-button-bar another">
+					<a class="button active" ng-click="search_intro.viewMenu('실시간')">실시간 해시태그</a>
+			     	<a class="button" ng-click="search_intro.viewMenu('추천')">추천 해시태그</a>
+		    	</div>
+	    	</div>
+    		<div class="realtime">
+				<ul class="list">
+				    <li class="item" ng-click="search_intro.goHashTagGlobal(tag)" ng-repeat="tag in search_intro.hash_tags">
+						<h4># {{tag.name}}</h4>
+				    </li>
+				</ul>
+	    	</div>
+    	</div>
+    	<div ng-if="search_intro.isSearch">
+    	</div>
+    	
+    	<!-- search input이 활성화 된다면 -->
+		 	<!--추천 해시 태그를 보여준다. -->
+    	<!-- search input이 비활성화 된다면 -->
+    		<!--사용자가 입력한 데이터와 유사한 데이터를 5개 뿌려준다. -->
+    		<!--검색 어떻게 할건가-->
     </ion-content>
 </ion-view>

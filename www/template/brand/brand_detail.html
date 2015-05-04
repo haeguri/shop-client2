@@ -15,8 +15,8 @@
       			<h2>{{brand_detail.brand.name}}</h2>
       			<div class="follow brand">
       				<button class="btn" ng-click="brand_detail.toggleBrandFollow()">
-                <i class="fa fa-plus" ng-if="brand_detail.brand.follow"></i>
-                <i class="fa fa-minus" ng-if="!brand_detail.brand.follow"></i>
+                <i class="fa fa-plus" ng-if="!brand_detail.brand.follow"></i>
+                <i class="fa fa-minus" ng-if="brand_detail.brand.follow"></i>
                 FOLLOW
               </button>
       				<p ng-if="brand_detail.brand_follows_of_brand.length">팔로워 {{brand_detail.brand_follows_of_brand.length}}명</p>
