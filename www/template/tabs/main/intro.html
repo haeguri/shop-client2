@@ -2,54 +2,68 @@
     <ion-nav-bar>
     </ion-nav-bar>
     <ion-header-bar class="bar bar-subheader main-intro">
-        <a  ng-href="#/main/hot/issues" 
-            nav-transition="none" 
-            ng-click="main_intro.filter='인기'; main_intro.content='이슈'"; 
-            ng-show="main_intro.filter=='추천'">
-            {{main_intro.filter}}
-            <i class="fa fa-pencil fa-chevron-down"></i>
-        </a>
-        
-        <a  ng-href="#/main/rec/issues"
-            nav-transition="none" 
-            ng-click="main_intro.filter='추천'; main_intro.content='이슈'"  
-            ng-show="main_intro.filter=='인기'">
-            {{main_intro.filter}}
-            <i class="fa fa-pencil fa-chevron-down"></i>
-        </a>
-
-        <a  ng-href="#/main/rec/channels" 
-            nav-transition="none" 
-            ng-click="main_intro.content='채널'"
-            ng-show="main_intro.filter=='추천' && main_intro.content=='이슈'">
-            {{main_intro.content}}
-            <i class="fa fa-pencil fa-chevron-down"></i>
-        </a>
-
-        <a  ng-href="#/main/rec/issues" 
-            nav-transition="none" 
-            ng-click="main_intro.content='이슈'"  
-            ng-show="main_intro.filter=='추천' && main_intro.content=='채널'">
-            {{main_intro.content}}
-            <i class="fa fa-pencil fa-chevron-down"></i>
-        </a>
-
-        <a ng-href="#/main/hot/products" 
-            nav-transition="none" 
-            ng-click="main_intro.content='상품'"  
-            ng-show="main_intro.filter=='인기' && main_intro.content=='이슈'">
-            {{main_intro.content}}<i class="fa fa-pencil fa-chevron-down"></i>
-        </a>
-
-        <a ng-href="#/main/hot/issues" 
-            nav-transition="none"
-            ng-click="main_intro.toggleContent(); main_intro.content='이슈'"  
-            ng-show="main_intro.filter=='인기' && main_intro.content=='상품'">
-            {{main_intro.content}}<i class="fa fa-pencil fa-chevron-down"></i>
-        </a>
+        <button ng-click="main_intro.changeFilter()">
+            <i class="fa fa-pencil fa-chevron-down">{{main_intro.selectedFilter}}</i>
+        </button>
+        <button ng-click="main_intro.changeItem()">
+            <i class="fa fa-pencil fa-chevron-down">{{main_intro.selectedItem}}</i>
+        </button>
     </ion-header-bar>
     <ion-content class="has-subheader" has-bouncing="false">
-        <h2>{{main_intro.filter}} & {{main_intro.content}} </h2>
-    	<ion-nav-view name="main"></ion-nav-view>
+        <!--
+        <h1>{{main_intro.clickTest}}</h1>
+        <p>{{main_intro.routeChangeError}}</p>
+        <p>{{main_intro.currentUrl}}</p>
+        -->
+        <div ng-if="main_intro.selectedItem == 'issue'" >
+            <h2>{{main_intro.clickTest}}</h2>
+            <div class="radio-list" ng-click="main_intro.goIssueDetail(issue.id)" ng-repeat="issue in main_intro.issues">
+                <img ng-src="{{issue.image}}">
+                <div class="image-wrap-black"></div>
+                <img class="profile" ng-src="{{issue.channel.profile}}">
+                <div class="info">
+                    <h3>{{issue.title}}</h3>
+                    <a ng-click="main_intro.goHashTagGlobal(tag, $event)" ng-repeat="tag in issue.hash_tags" >#{{tag.name}}</a><br>
+                    <span><i class="fa fa-eye"></i> {{issue.view}}</span>
+                    <span><i class="fa fa-heart"></i> {{issue.issue_likes_of_issue.length}}</span>
+                </div>
+            </div>
+        </div>
+        <div ng-if="main_intro.selectedItem == 'channel'">
+            <div class="channel-list" ng-click="main_intro.goChannelDetail(channel.id)" ng-repeat="channel in main_intro.channels track by $index">
+                <img ng-src="{{channel.background}}">
+                <div class="image-wrap-black"></div>
+                <div class="profile">
+                    <img ng-src="{{channel.profile}}">
+                    <h3>{{channel.name}}</h3>
+                    <p>{{channel.brief}}</p>    
+                </div>
+                <div class="follow">
+                    <button ng-click="main_intro.toggleChannelFollow(channel, $index, $event)">
+                    <i class="fa fa-plus" ng-if="!channel.follow"></i>
+                    <i class="fa fa-minus" ng-if="channel.follow"></i>FOLLOW
+                    </button>
+                </div>
+                <div class="issue-wrap">
+                    <div class="issue" ng-repeat="issue in channel.issues_of_channel | limitTo:2"> 
+                        <img ng-src="{{issue.image}}">
+                        <div></div>
+                        <h4>{{issue.title}}</h4>
+                    </div>
+                </div>  
+            </div>  
+        </div>
+        <div ng-if="main_intro.selectedItem == 'product'">
+            <div class="radio-list" ng-click="main_intro.goProductDetail(product.id)" ng-repeat="product in main_intro.products">
+                <img ng-src="{{product.images[0].image}}">
+                <div class="image-wrap-white"></div>
+                <div class="info text-black">
+                    <h3>{{product.name}}</h3>
+                    <a ng-repeat="tag in product.hash_tags" >#{{tag.name}}</a><br>
+                    <span><i class="fa fa-heart"></i> {{product.product_likes_of_product.length}}</span>
+                </div>
+            </div>
+        </div>
+
     </ion-content>
 </ion-view>

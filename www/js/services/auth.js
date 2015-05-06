@@ -34,7 +34,7 @@ angular.module('radio.service', [])
 	                $http.defaults.headers.common.Authorization = 'Token ' + response.data.key;
 	                $cookies.token = response.data.key;
 	                RadioAuth.getUser(response.data.user).then(function() {
-	                	$location.url('/main/rec/issues');
+	                	$location.url('/main');
 	                });
 	            }, function(reason) {
 	            	console.log("Login Deny", reason);

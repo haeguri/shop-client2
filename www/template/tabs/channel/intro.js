@@ -30,8 +30,6 @@ angular.module('radio.controller')
             getChannels(0);
         });
 
-        $scope.channel_intro.urlTest = $location.absUrl();
-
         var getChannels = function(day_index) {
         	if($scope.channel_intro.pub_days[day_index]['is_loaded'] != true) {
         		$log.log("Start channel load");

@@ -1,1401 +1,463 @@
-2015-04-23 01:34:53.718 radio[67960:3698187] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-23 01:34:53.722 radio[67960:3698187] Multi-tasking -> Device: YES, App: YES
-2015-04-23 01:34:53.737 radio[67960:3698187] Unlimited access to network resources
-2015-04-23 01:34:54.164 radio[67960:3698187] [CDVTimer][keyboard] 0.060976ms
-2015-04-23 01:34:54.164 radio[67960:3698187] [CDVTimer][TotalPluginStartup] 0.263989ms
-2015-04-23 01:34:54.557 radio[67960:3698187] Resetting plugins due to page load.
-2015-04-23 01:34:56.608 radio[67960:3698187] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/A4825377-B221-4C9B-89FD-0928F419EA2A/radio.app/www/index.html
-2015-04-23 01:35:01.330 radio[67960:3698187] rootScope User Data [object Object]
-2015-04-23 01:35:01.331 radio[67960:3698187] mainIntroIssue!!!
-2015-04-23 01:35:02.447 radio[67960:3698187] clicked
-2015-04-23 01:35:02.447 radio[67960:3698187] MainIntroProduct!!!
-2015-04-23 01:35:03.088 radio[67960:3698187] clicked
-2015-04-23 01:35:03.871 radio[67960:3698187] clicked
-2015-04-23 01:35:03.871 radio[67960:3698187] MainIntroProduct!!!
-2015-04-23 01:35:03.908 radio[67960:3698187] clicked
-2015-04-23 01:35:04.369 radio[67960:3698187] clicked
-2015-04-23 01:35:04.369 radio[67960:3698187] MainIntroProduct!!!
-2015-04-23 01:35:04.788 radio[67960:3698187] clicked
-2015-04-23 01:35:05.191 radio[67960:3698187] clicked
-2015-04-23 01:35:05.191 radio[67960:3698187] MainIntroProduct!!!
-2015-04-23 01:35:05.594 radio[67960:3698187] clicked
-2015-04-23 17:21:12.168 radio[72485:3942020] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-23 17:21:12.170 radio[72485:3942020] Multi-tasking -> Device: YES, App: YES
-2015-04-23 17:21:12.185 radio[72485:3942020] Unlimited access to network resources
-2015-04-23 17:21:12.560 radio[72485:3942020] [CDVTimer][keyboard] 0.055969ms
-2015-04-23 17:21:12.560 radio[72485:3942020] [CDVTimer][TotalPluginStartup] 1.670957ms
-2015-04-23 17:21:12.836 radio[72485:3942020] Resetting plugins due to page load.
-2015-04-23 17:21:13.262 radio[72485:3942020] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/02B15C04-6419-4256-A22A-796E5DD61A0E/radio.app/www/index.html
-2015-04-23 17:21:59.798 radio[73105:3944170] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-23 17:21:59.800 radio[73105:3944170] Multi-tasking -> Device: YES, App: YES
-2015-04-23 17:21:59.801 radio[73105:3944170] Unlimited access to network resources
-2015-04-23 17:22:00.011 radio[73105:3944170] [CDVTimer][keyboard] 0.057042ms
-2015-04-23 17:22:00.011 radio[73105:3944170] [CDVTimer][TotalPluginStartup] 0.214994ms
-2015-04-23 17:22:00.142 radio[73105:3944170] Resetting plugins due to page load.
-2015-04-23 17:22:03.643 radio[73105:3944170] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/4D697D59-1261-4FDA-8839-DC4BDB037374/radio.app/www/index.html
-2015-04-23 17:22:08.338 radio[73105:3944170] rootScope User Data [object Object]
-2015-04-23 17:22:08.339 radio[73105:3944170] mainIntroIssue!!!
-2015-04-23 17:22:12.796 radio[73105:3944170] data [object Object]
-2015-04-23 17:22:15.133 radio[73105:3944170] clicked
-2015-04-23 17:22:15.133 radio[73105:3944170] MainIntroProduct!!!
-2015-04-23 17:22:15.706 radio[73105:3944170] clicked
-2015-04-23 17:22:17.342 radio[73105:3944170] data [object Object]
-2015-04-23 17:22:20.937 radio[73105:3944170] data [object Object]
-2015-04-23 17:22:23.462 radio[73105:3944170] data [object Object]
-2015-04-23 19:56:01.372 radio[75150:4027555] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-23 19:56:01.373 radio[75150:4027555] Multi-tasking -> Device: YES, App: YES
-2015-04-23 19:56:01.385 radio[75150:4027555] Unlimited access to network resources
-2015-04-23 19:56:01.774 radio[75150:4027555] [CDVTimer][keyboard] 0.099957ms
-2015-04-23 19:56:01.774 radio[75150:4027555] [CDVTimer][TotalPluginStartup] 0.335991ms
-2015-04-23 19:56:02.005 radio[75150:4027555] Resetting plugins due to page load.
-2015-04-23 19:56:04.220 radio[75150:4027555] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/A585A48E-D6F3-4F7C-9659-57992168E69D/radio.app/www/index.html
-2015-04-23 19:56:08.752 radio[75150:4027555] rootScope User Data [object Object]
-2015-04-23 19:56:08.754 radio[75150:4027555] mainIntroIssue!!!
-2015-04-23 19:56:08.754 radio[75150:4027555] args [object Object]
-2015-04-23 19:56:10.232 radio[75150:4027555] clicked
-2015-04-23 19:56:10.232 radio[75150:4027555] MainIntroProduct!!!
-2015-04-23 19:56:11.856 radio[75150:4027555] clicked
-2015-04-23 19:56:13.023 radio[75150:4027555] args [object Object]
-2015-04-23 19:56:13.491 radio[75150:4027555] data [object Object]
-2015-04-23 19:56:14.478 radio[75150:4027555] args [object Object]
-2015-04-23 19:56:14.704 radio[75150:4027555] data [object Object]
-2015-04-23 19:56:18.240 radio[75150:4027555] args [object Object]
-2015-04-23 19:56:18.349 radio[75150:4027555] data [object Object]
-2015-04-23 19:56:18.998 radio[75150:4027555] args [object Object]
-2015-04-23 19:56:19.165 radio[75150:4027555] data [object Object]
-2015-04-23 19:56:20.249 radio[75150:4027555] args [object Object]
-2015-04-23 19:56:20.424 radio[75150:4027555] data [object Object]
-2015-04-23 19:56:26.332 radio[75150:4027555] args [object Object]
-2015-04-23 19:56:26.531 radio[75150:4027555] data [object Object]
-2015-04-23 21:25:58.884 radio[76566:4080473] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-23 21:25:58.888 radio[76566:4080473] Multi-tasking -> Device: YES, App: YES
-2015-04-23 21:25:58.912 radio[76566:4080473] Unlimited access to network resources
-2015-04-23 21:25:59.318 radio[76566:4080473] [CDVTimer][keyboard] 0.057042ms
-2015-04-23 21:25:59.319 radio[76566:4080473] [CDVTimer][TotalPluginStartup] 0.611007ms
-2015-04-23 21:25:59.633 radio[76566:4080473] Resetting plugins due to page load.
-2015-04-23 21:26:01.660 radio[76566:4080473] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/35C228D6-0B7A-4078-9335-1C4EAF65EB65/radio.app/www/index.html
-2015-04-23 21:26:05.885 radio[76566:4080473] rootScope User Data [object Object]
-2015-04-23 21:26:05.886 radio[76566:4080473] mainIntroIssue!!!
-2015-04-23 21:26:05.886 radio[76566:4080473] args [object Object]
-2015-04-23 21:26:07.091 radio[76566:4080473] issue_detail [object Object]
-2015-04-23 21:26:50.885 radio[77128:4081918] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-23 21:26:50.887 radio[77128:4081918] Multi-tasking -> Device: YES, App: YES
-2015-04-23 21:26:50.888 radio[77128:4081918] Unlimited access to network resources
-2015-04-23 21:26:51.071 radio[77128:4081918] [CDVTimer][keyboard] 0.059009ms
-2015-04-23 21:26:51.071 radio[77128:4081918] [CDVTimer][TotalPluginStartup] 0.235021ms
-2015-04-23 21:26:51.216 radio[77128:4081918] Resetting plugins due to page load.
-2015-04-23 21:26:52.410 radio[77128:4081918] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/E731FF1F-F56F-4936-8A1E-6E45A2E10E61/radio.app/www/index.html
-2015-04-23 21:26:55.912 radio[77128:4081918] rootScope User Data [object Object]
-2015-04-23 21:26:55.912 radio[77128:4081918] mainIntroIssue!!!
-2015-04-23 21:26:55.912 radio[77128:4081918] args [object Object]
-2015-04-23 21:26:57.125 radio[77128:4081918] issue_detail [object Object]
-2015-04-23 21:28:03.933 radio[77747:4084114] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-23 21:28:03.937 radio[77747:4084114] Multi-tasking -> Device: YES, App: YES
-2015-04-23 21:28:03.954 radio[77747:4084114] Unlimited access to network resources
-2015-04-23 21:28:04.342 radio[77747:4084114] [CDVTimer][keyboard] 0.055015ms
-2015-04-23 21:28:04.342 radio[77747:4084114] [CDVTimer][TotalPluginStartup] 0.569999ms
-2015-04-23 21:28:04.644 radio[77747:4084114] Resetting plugins due to page load.
-2015-04-23 21:28:06.700 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/
-2015-04-23 21:28:12.236 radio[77747:4084114] rootScope User Data [object Object]
-2015-04-23 21:28:12.238 radio[77747:4084114] mainIntroIssue!!!
-2015-04-23 21:28:12.238 radio[77747:4084114] args [object Object]
-2015-04-23 21:28:18.383 radio[77747:4084114] issue_detail [object Object]
-2015-04-23 21:30:04.281 radio[77747:4084114] Resetting plugins due to page load.
-2015-04-23 21:30:04.758 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/6
-2015-04-23 21:30:04.769 radio[77747:4084114] issue_detail [object Object]
-2015-04-23 21:30:10.710 radio[77747:4084114] Resetting plugins due to page load.
-2015-04-23 21:30:11.116 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 21:30:13.844 radio[77747:4084114] rootScope User Data [object Object]
-2015-04-23 21:30:13.845 radio[77747:4084114] mainIntroIssue!!!
-2015-04-23 21:30:13.845 radio[77747:4084114] args [object Object]
-2015-04-23 21:30:14.701 radio[77747:4084114] issue_detail [object Object]
-2015-04-23 21:31:02.236 radio[77747:4084114] Resetting plugins due to page load.
-2015-04-23 21:31:02.656 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/7
-2015-04-23 21:31:02.686 radio[77747:4084114] issue_detail [object Object]
-2015-04-23 21:31:40.035 radio[77747:4084114] Resetting plugins due to page load.
-2015-04-23 21:31:40.446 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 21:31:43.335 radio[77747:4084114] rootScope User Data [object Object]
-2015-04-23 21:31:43.335 radio[77747:4084114] mainIntroIssue!!!
-2015-04-23 21:31:43.335 radio[77747:4084114] args [object Object]
-2015-04-23 21:31:44.901 radio[77747:4084114] issue_detail [object Object]
-2015-04-23 21:31:59.151 radio[77747:4084114] Resetting plugins due to page load.
-2015-04-23 21:31:59.573 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/8
-2015-04-23 21:31:59.620 radio[77747:4084114] issue_detail [object Object]
-2015-04-23 21:32:02.452 radio[77747:4084114] rootScope User Data [object Object]
-2015-04-23 21:32:02.453 radio[77747:4084114] mainIntroIssue!!!
-2015-04-23 21:32:02.453 radio[77747:4084114] args [object Object]
-2015-04-23 21:32:03.243 radio[77747:4084114] issue_detail [object Object]
-2015-04-23 21:32:08.203 radio[77747:4084114] Resetting plugins due to page load.
-2015-04-23 21:32:08.676 radio[77747:4084114] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/5
-2015-04-23 21:32:08.723 radio[77747:4084114] issue_detail [object Object]
-2015-04-23 21:33:19.691 radio[77747:4084114] rootScope User Data [object Object]
-2015-04-23 21:33:19.693 radio[77747:4084114] mainIntroIssue!!!
-2015-04-23 21:33:19.693 radio[77747:4084114] args [object Object]
-2015-04-23 21:33:20.954 radio[77747:4084114] args [object Object]
-2015-04-23 21:33:21.508 radio[77747:4084114] data [object Object]
-2015-04-23 21:33:24.599 radio[77747:4084114] args [object Object]
-2015-04-23 21:33:25.198 radio[77747:4084114] data [object Object]
-2015-04-23 21:33:34.125 radio[77747:4084114] Resetting plugins due to page load.
-2015-04-23 21:33:34.139 radio[77747:4084114] Failed to load webpage with error: Could not connect to the server.
-2015-04-23 21:33:37.737 radio[77747:4084114] Resetting plugins due to page load.
-2015-04-23 21:33:37.740 radio[77747:4084114] Failed to load webpage with error: Could not connect to the server.
-2015-04-23 21:34:07.238 radio[78461:4089210] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-23 21:34:07.239 radio[78461:4089210] Multi-tasking -> Device: YES, App: YES
-2015-04-23 21:34:07.240 radio[78461:4089210] Unlimited access to network resources
-2015-04-23 21:34:07.491 radio[78461:4089210] [CDVTimer][keyboard] 0.059009ms
-2015-04-23 21:34:07.491 radio[78461:4089210] [CDVTimer][TotalPluginStartup] 0.226974ms
-2015-04-23 21:34:07.684 radio[78461:4089210] Resetting plugins due to page load.
-2015-04-23 21:34:09.550 radio[78461:4089210] Finished load of: http://192.168.0.206:8100/
-2015-04-23 21:34:13.323 radio[78461:4089210] rootScope User Data [object Object]
-2015-04-23 21:34:13.324 radio[78461:4089210] mainIntroIssue!!!
-2015-04-23 21:34:13.324 radio[78461:4089210] args [object Object]
-2015-04-23 21:34:14.599 radio[78461:4089210] args [object Object]
-2015-04-23 21:34:15.195 radio[78461:4089210] data [object Object]
-2015-04-23 21:44:17.366 radio[79538:4098651] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-23 21:44:17.368 radio[79538:4098651] Multi-tasking -> Device: YES, App: YES
-2015-04-23 21:44:17.369 radio[79538:4098651] Unlimited access to network resources
-2015-04-23 21:44:17.563 radio[79538:4098651] [CDVTimer][keyboard] 0.066996ms
-2015-04-23 21:44:17.564 radio[79538:4098651] [CDVTimer][TotalPluginStartup] 0.257969ms
-2015-04-23 21:44:17.668 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 21:44:19.498 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/
-2015-04-23 21:44:23.511 radio[79538:4098651] rootScope User Data [object Object]
-2015-04-23 21:44:23.511 radio[79538:4098651] mainIntroIssue!!!
-2015-04-23 21:44:23.512 radio[79538:4098651] args [object Object]
-2015-04-23 21:44:25.007 radio[79538:4098651] issue_detail [object Object]
-2015-04-23 21:45:12.056 radio[79538:4098651] args [object Object]
-2015-04-23 21:45:12.530 radio[79538:4098651] data [object Object]
-2015-04-23 21:45:14.380 radio[79538:4098651] issue_detail [object Object]
-2015-04-23 21:45:16.153 radio[79538:4098651] issue_detail [object Object]
-2015-04-23 21:45:30.117 radio[79538:4098651] issue_detail [object Object]
-2015-04-23 21:48:27.334 radio[79538:4098651] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
-2015-04-23 21:49:29.549 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 21:49:30.087 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/11
-2015-04-23 21:49:30.121 radio[79538:4098651] issue_detail [object Object]
-2015-04-23 21:49:40.104 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 21:49:40.589 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 21:50:06.672 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 21:50:07.072 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 21:50:35.600 radio[79538:4098651] rootScope User Data [object Object]
-2015-04-23 21:50:35.601 radio[79538:4098651] mainIntroIssue!!!
-2015-04-23 21:50:35.602 radio[79538:4098651] args [object Object]
-2015-04-23 21:50:38.229 radio[79538:4098651] issue_detail [object Object]
-2015-04-23 21:50:39.973 radio[79538:4098651] issue_detail [object Object]
-2015-04-23 21:50:53.401 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 21:50:53.853 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues
-2015-04-23 21:51:46.628 radio[79538:4098651] rootScope User Data [object Object]
-2015-04-23 21:51:48.327 radio[79538:4098651] issue_detail [object Object]
-2015-04-23 21:52:31.139 radio[79538:4098651] issue_detail [object Object]
-2015-04-23 21:54:36.859 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 21:54:37.435 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/tabs/main/issues/4
-2015-04-23 21:54:37.548 radio[79538:4098651] issue_detail [object Object]
-2015-04-23 21:55:19.236 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 21:55:19.712 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 21:56:12.080 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 21:56:12.628 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 21:58:58.950 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 21:58:59.411 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:06:51.919 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:06:52.365 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:07:08.401 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:07:08.826 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:07:37.664 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:07:38.067 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:08:24.951 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:08:25.397 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:08:40.949 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:08:41.458 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:08:54.531 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:08:55.089 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:09:25.272 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:09:25.803 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:09:37.328 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:09:37.733 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:09:54.421 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:09:54.835 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:11:59.566 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:12:00.081 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:12:10.619 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:12:11.189 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:12:30.541 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:12:30.963 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:12:36.557 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:12:36.986 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:12:44.797 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:12:45.190 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:17:35.167 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:17:35.681 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:17:44.719 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:17:45.634 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:17:52.951 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:17:53.430 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:17:57.871 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:17:58.253 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:18:07.210 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:18:07.596 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:19:21.433 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:19:21.840 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:20:58.407 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:20:58.808 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:21:28.064 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:21:28.452 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:24:31.034 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:24:31.423 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:24:50.324 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:24:50.722 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:25:05.105 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:25:05.499 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:25:21.111 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:25:21.566 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:25:28.041 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:25:28.432 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:26:10.563 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:26:11.042 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:26:29.093 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:26:29.484 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:27:22.109 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:27:22.509 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:27:34.376 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:27:34.778 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:28:13.691 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:28:14.095 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:28:28.567 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:28:28.947 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:37:35.777 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:37:36.292 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:37:55.975 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:37:56.396 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:39:28.605 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:39:29.134 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:39:42.777 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:39:43.165 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:40:00.766 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:40:01.165 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:40:14.830 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:40:15.215 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:40:46.786 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:40:47.227 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:42:21.233 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:42:21.636 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:42:29.571 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:42:29.936 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:42:35.488 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:42:35.898 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:44:35.688 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:44:36.076 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:44:46.731 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:44:47.117 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:45:09.033 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:45:09.414 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:46:05.214 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:46:05.633 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 22:55:39.853 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 22:55:40.362 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 23:03:09.708 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 23:03:10.135 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 23:03:32.028 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 23:03:32.581 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 23:05:59.416 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 23:05:59.813 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 23:06:07.453 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 23:06:07.844 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 23:06:23.133 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 23:06:23.661 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-23 23:08:45.712 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-23 23:08:46.111 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:01:10.457 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:01:12.661 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:01:19.175 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:01:19.628 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:03:40.170 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:03:40.641 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:03:50.357 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:03:50.738 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:03:52.270 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:03:52.583 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:04:23.362 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:04:23.880 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:04:32.222 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:04:32.611 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:04:40.369 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:04:40.753 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:04:47.920 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:04:48.298 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:04:52.349 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:04:52.738 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:04:58.085 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:04:58.464 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:05:06.451 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:05:06.827 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:05:20.145 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:05:20.536 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:05:22.358 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:05:22.613 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:09:25.683 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:09:26.074 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:15:06.262 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:15:06.662 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:15:11.087 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:15:11.466 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:15:13.396 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:15:13.620 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:15:19.336 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:15:19.741 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:15:28.182 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:15:28.636 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:21:54.113 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:21:54.518 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:22:14.391 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:22:14.757 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:26:45.295 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:26:45.828 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:30:43.413 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:30:43.834 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:30:50.517 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:30:50.916 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:30:55.698 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:30:56.079 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:31:15.218 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:31:15.596 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:31:50.268 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:31:50.661 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:31:57.626 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:31:58.009 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:32:05.680 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:32:06.076 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:33:10.084 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:33:10.464 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:33:12.497 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:33:12.726 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:33:29.686 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:33:30.106 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:34:11.579 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:34:11.978 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:34:55.153 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:34:55.539 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:34:59.172 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:34:59.411 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:35:12.260 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:35:12.779 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:35:25.531 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:35:25.924 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:35:35.682 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:35:36.071 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:35:52.875 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:35:53.284 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:36:13.911 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:36:14.297 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:36:27.595 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:36:27.983 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:36:30.509 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:36:30.740 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:36:34.938 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:36:35.454 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:36:43.078 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:36:43.565 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:37:03.604 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:37:04.119 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:37:30.169 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:37:30.539 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:37:36.103 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:37:36.606 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:37:43.349 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:37:43.759 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:37:53.906 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:37:54.290 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:37:58.431 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:37:58.792 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:38:05.878 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:38:06.275 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:38:20.355 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:38:20.748 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:38:26.384 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:38:26.771 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:38:32.120 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:38:32.587 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:38:42.167 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:38:42.604 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:38:53.734 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:38:55.842 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:39:16.469 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:39:16.866 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:39:50.170 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:39:50.570 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:40:06.634 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:40:07.020 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:40:17.914 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:40:18.288 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:40:36.122 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:40:36.517 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:42:59.608 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:43:00.017 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:43:04.034 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:43:04.420 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:45:06.718 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:45:07.049 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 12:45:11.237 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 12:45:11.648 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:19:25.207 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:19:25.616 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:19:50.639 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:19:51.016 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:23:53.943 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:23:54.335 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:24:34.170 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:24:34.554 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:24:41.895 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:24:42.281 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:24:52.230 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:24:52.689 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:26:23.039 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:26:23.440 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:27:29.127 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:27:29.537 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:27:36.873 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:27:37.259 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:28:07.619 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:28:08.021 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:28:33.668 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:28:34.053 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:33:28.352 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:33:28.781 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:34:44.301 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:34:44.700 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:35:32.129 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:35:32.525 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:35:36.249 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:35:36.490 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:40:22.065 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:40:22.465 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:41:32.819 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:41:33.222 radio[79538:4098651] Finished load of: http://192.168.0.206:8100/#/login
-2015-04-24 13:43:36.817 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 13:43:36.855 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:05:42.744 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:05:42.749 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:05:48.251 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:05:48.254 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:09:19.806 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:09:19.809 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:10:44.476 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:10:44.480 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:10:55.445 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:10:55.447 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:11:10.845 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:11:10.847 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:11:27.465 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:11:27.467 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:12:15.056 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:12:15.058 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:13:00.042 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:13:00.045 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:14:13.341 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:14:13.343 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:14:23.403 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:14:23.407 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:15:13.829 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:15:13.832 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:15:21.783 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:15:21.786 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:15:34.362 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:15:34.365 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:16:22.646 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:16:22.649 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:16:29.190 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:16:29.192 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:16:48.114 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:16:48.117 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:18:31.610 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:18:31.613 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:18:48.933 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:18:48.936 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:19:23.251 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:19:23.253 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:19:53.837 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:19:53.841 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:20:42.246 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:20:42.249 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:21:07.703 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:21:07.705 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:21:12.326 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:21:12.328 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:22:04.645 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:22:04.648 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:25:53.155 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:25:53.157 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:26:19.810 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:26:19.812 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:27:43.771 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:27:43.774 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:27:54.137 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:27:54.140 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:33:11.778 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:33:11.782 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:33:12.032 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:33:12.034 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:33:14.046 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:33:14.049 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:33:23.541 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:33:23.544 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:33:38.610 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:33:38.612 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:33:38.718 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:33:38.720 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:33:43.206 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:33:43.209 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:33:55.084 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:33:55.086 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:34:03.739 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:34:03.742 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:35:11.992 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:35:11.995 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:36:27.894 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:36:27.896 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:58:12.783 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:58:12.787 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 14:58:14.084 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 14:58:14.086 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:03:05.260 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:03:05.264 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:03:33.722 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:03:33.726 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:03:37.135 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:03:37.138 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:03:39.549 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:03:39.552 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:03:41.974 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:03:41.978 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:03:44.283 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:03:44.286 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:03:46.995 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:03:46.997 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:03:52.936 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:03:52.940 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:03:54.444 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:03:54.446 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:04:09.422 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:04:09.424 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:04:25.123 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:04:25.126 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:07:12.391 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:07:12.393 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:07:27.079 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:07:27.081 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:09:53.550 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:09:53.553 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:20:49.599 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:20:49.602 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:25:06.358 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:25:06.361 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 15:25:17.928 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 15:25:17.931 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:11:03.919 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:11:03.926 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:20:56.228 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:20:56.232 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:23:33.399 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:23:33.401 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:23:44.067 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:23:44.070 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:23:51.103 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:23:51.106 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:24:29.686 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:24:29.688 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:24:47.103 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:24:47.105 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:25:54.445 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:25:54.448 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:26:52.733 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:26:52.737 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:27:12.969 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:27:12.971 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:27:55.232 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:27:55.234 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:30:40.216 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:30:40.219 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:31:55.778 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:31:55.782 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:32:00.405 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:32:00.407 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:32:07.453 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:32:07.455 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:34:50.265 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:34:50.269 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:34:51.772 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:34:51.775 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:35:54.728 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:35:54.732 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:37:41.787 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:37:41.790 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:38:26.679 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:38:26.682 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:38:46.724 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:38:46.726 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:38:52.465 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:38:52.468 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:48:05.330 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:48:05.333 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:48:10.864 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:48:10.867 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:49:52.234 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:49:52.237 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:50:04.916 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:50:04.919 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:50:27.783 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:50:27.786 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:51:41.417 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:51:41.419 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:52:49.075 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:52:49.078 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:53:17.790 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:53:17.793 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:53:32.972 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:53:32.975 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:53:39.515 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:53:39.517 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:54:11.514 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:54:11.518 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:54:27.935 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:54:27.938 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:54:41.634 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:54:41.637 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:54:54.018 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:54:54.021 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:55:20.894 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:55:20.896 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:56:18.704 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:56:18.707 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:56:35.698 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:56:35.700 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:57:12.239 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:57:12.242 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 16:57:51.899 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 16:57:51.902 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:07:09.666 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:07:09.670 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:10:57.619 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:10:57.623 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:10:59.429 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:10:59.431 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:11:06.772 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:11:06.775 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:11:45.432 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:11:45.434 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:11:49.355 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:11:49.357 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:13:47.842 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:13:47.845 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:13:53.673 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:13:53.676 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:14:09.996 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:14:09.998 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:15:05.458 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:15:05.462 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:15:23.479 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:15:23.482 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:18:51.019 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:18:51.022 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:19:04.517 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:19:04.520 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:25:35.487 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:25:35.490 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:26:39.490 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:26:39.493 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:31:12.666 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:31:12.671 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:43:51.266 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:43:51.269 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:43:52.766 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:43:52.768 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:44:13.298 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:44:13.300 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:45:27.257 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:45:27.260 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:46:14.466 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:46:14.468 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:47:13.939 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:47:13.941 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:47:39.105 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:47:39.107 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:47:52.895 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:47:52.898 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:48:12.030 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:48:12.033 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:48:26.721 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:48:26.724 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:49:19.599 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:49:19.601 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:50:01.559 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:50:01.561 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:50:09.709 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:50:09.712 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:50:20.485 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:50:20.488 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:51:36.199 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:51:36.202 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:52:52.385 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:52:52.388 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:55:49.334 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:55:49.338 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:56:49.934 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:56:49.938 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:56:55.863 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:56:55.866 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:59:22.401 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:59:22.404 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:59:32.464 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:59:32.466 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:59:34.779 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:59:34.782 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 17:59:52.193 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 17:59:52.195 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:00:14.349 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:00:14.352 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:00:24.211 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:00:24.214 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:00:26.021 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:00:26.023 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:01:25.817 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:01:25.821 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:01:39.505 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:01:39.508 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:01:52.692 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:01:52.695 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:02:01.554 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:02:01.556 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:02:03.665 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:02:03.667 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:02:20.869 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:02:20.872 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:02:32.250 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:02:32.252 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:02:50.161 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:02:50.164 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:02:54.180 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:02:54.183 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:03:28.181 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:03:28.184 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:03:37.846 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:03:37.849 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:03:46.103 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:03:46.106 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:03:56.278 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:03:56.281 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:04:39.064 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:04:39.067 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:04:41.575 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:04:41.577 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:05:02.909 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:05:02.911 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:05:22.223 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:05:22.227 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:05:33.501 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:05:33.503 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:05:45.681 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:05:45.684 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:05:48.194 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:05:48.197 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:06:40.989 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:06:40.993 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:06:41.101 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:06:41.107 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:06:44.107 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:06:44.109 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:06:44.218 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:06:44.221 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:06:50.167 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:06:50.170 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:06:50.276 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:06:50.278 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:06:52.645 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:06:52.651 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:06:52.755 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:06:52.757 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:07:00.592 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:07:00.596 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:07:03.611 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:07:03.614 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:07:09.334 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:07:09.338 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:07:16.671 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:07:16.676 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:07:30.916 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:07:30.919 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:07:36.457 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:07:36.459 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:07:47.028 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:07:47.031 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:07:53.057 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:07:53.060 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:07:59.809 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:07:59.811 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:08:35.336 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:08:35.338 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:08:37.652 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:08:37.655 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:10:12.892 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:10:12.894 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:10:20.030 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:10:20.032 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:10:55.334 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:10:55.337 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:11:35.608 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:11:35.610 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:11:42.052 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:11:42.055 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:12:10.318 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:12:10.321 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:16:18.038 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:16:18.041 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:16:29.400 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:16:29.403 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:16:37.755 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:16:37.758 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:17:00.990 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:17:00.994 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:17:22.518 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:17:22.521 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:17:32.463 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:17:32.465 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:17:53.084 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:17:53.087 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:18:15.216 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:18:15.218 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:18:52.758 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:18:52.763 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:18:58.696 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:18:58.698 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:19:46.489 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:19:46.491 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:20:06.082 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:20:06.085 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:20:26.807 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:20:26.809 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:24:20.834 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:24:20.837 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:24:27.570 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:24:27.573 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:25:26.242 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:25:26.244 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:27:21.991 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:27:21.994 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:28:00.124 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:28:00.126 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:28:05.452 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:28:05.455 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:30:07.727 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:30:07.729 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:30:26.244 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:30:26.246 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:30:51.308 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:30:51.310 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:31:43.527 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:31:43.530 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:32:13.109 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:32:13.112 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:32:29.006 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:32:29.009 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:33:39.386 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:33:39.389 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:33:53.653 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:33:53.655 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:33:54.756 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:33:54.758 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:34:25.518 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:34:25.521 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:34:44.437 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:34:44.439 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:34:59.915 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:34:59.917 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:35:04.841 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:35:04.845 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:35:56.230 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:35:56.233 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:36:01.955 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:36:01.958 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:37:06.796 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:37:06.798 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:37:14.337 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:37:14.340 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:37:24.102 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:37:24.105 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:37:35.579 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:37:35.581 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:37:38.086 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:37:38.088 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:39:04.718 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:39:04.720 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:39:42.360 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:39:42.363 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:39:53.919 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:39:53.922 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:40:48.688 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:40:48.690 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:40:49.993 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:40:49.995 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:41:11.834 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:41:11.837 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:41:33.979 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:41:33.982 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:42:09.802 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:42:09.804 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:42:39.072 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:42:39.077 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:42:41.590 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:42:41.593 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:43:06.551 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:43:06.554 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:43:14.102 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:43:14.104 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:43:36.020 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:43:36.022 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:43:36.823 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:43:36.825 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:43:55.443 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:43:55.445 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:44:07.420 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:44:07.422 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:44:51.211 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:44:51.214 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:44:57.355 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:44:57.357 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:45:13.637 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:45:13.639 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:46:43.213 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:46:43.216 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:46:57.400 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:46:57.403 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:47:07.342 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:47:07.345 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:48:00.665 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:48:00.668 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:48:16.666 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:48:16.669 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:49:59.683 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:49:59.686 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:50:05.922 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:50:05.925 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:51:23.488 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:51:23.491 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:52:32.921 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:52:32.925 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:52:34.234 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:52:34.236 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:53:36.796 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:53:36.799 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:53:42.322 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:53:42.324 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:54:14.830 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:54:14.833 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:54:30.425 radio[79538:4098651] Resetting plugins due to page load.
-2015-04-24 18:54:30.428 radio[79538:4098651] Failed to load webpage with error: Could not connect to the server.
-2015-04-24 18:56:15.278 radio[84748:4423789] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-24 18:56:15.282 radio[84748:4423789] Multi-tasking -> Device: YES, App: YES
-2015-04-24 18:56:15.297 radio[84748:4423789] Unlimited access to network resources
-2015-04-24 18:56:15.653 radio[84748:4423789] [CDVTimer][keyboard] 0.056028ms
-2015-04-24 18:56:15.654 radio[84748:4423789] [CDVTimer][TotalPluginStartup] 1.294971ms
-2015-04-24 18:56:15.888 radio[84748:4423789] Resetting plugins due to page load.
-2015-04-24 18:56:17.082 radio[84748:4423789] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/1A36CCD7-814C-4E6F-94DC-EEF06D362F38/radio.app/www/index.html
-2015-04-24 18:56:22.930 radio[84748:4423789] rootScope User Data [object Object]
-2015-04-24 18:56:22.934 radio[84748:4423789] mainIntroIssue!!!
-2015-04-24 18:56:27.017 radio[84748:4423789] mainIntroIssue!!!
-2015-04-24 18:56:29.209 radio[84748:4423789] MainIntroProduct!!!
-2015-04-24 18:56:37.100 radio[84748:4423789] MainIntroProduct!!!
-2015-04-25 17:42:24.578 radio[88030:4590154] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-25 17:42:24.580 radio[88030:4590154] Multi-tasking -> Device: YES, App: YES
-2015-04-25 17:42:24.599 radio[88030:4590154] Unlimited access to network resources
-2015-04-25 17:42:25.007 radio[88030:4590154] [CDVTimer][keyboard] 0.057042ms
-2015-04-25 17:42:25.007 radio[88030:4590154] [CDVTimer][TotalPluginStartup] 1.378000ms
-2015-04-25 17:42:25.284 radio[88030:4590154] Resetting plugins due to page load.
-2015-04-25 17:42:26.504 radio[88030:4590154] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/4A2C47EA-A861-4803-90B9-A94FA19DC62D/radio.app/www/index.html
-2015-04-25 17:42:30.193 radio[88030:4590154] rootScope User Data [object Object]
-2015-04-25 17:42:30.194 radio[88030:4590154] mainIntroIssue!!!
-2015-04-25 17:42:32.617 radio[88030:4590154] data [object Object]
-2015-04-25 17:42:33.623 radio[88030:4590154] issue_detail [object Object]
-2015-04-25 17:42:35.966 radio[88030:4590154] data [object Object]
-2015-04-25 17:42:38.522 radio[88030:4590154] data [object Object]
-2015-04-25 17:42:44.194 radio[88030:4590154] data [object Object],[object Object],[object Object]
-2015-04-25 17:42:47.432 radio[88030:4590154] data [object Object],[object Object],[object Object]
-2015-04-25 17:42:55.959 radio[88030:4590154] data [object Object],[object Object],[object Object]
-2015-04-25 17:42:55.959 radio[88030:4590154] mainIntroIssue!!!
-2015-04-25 17:43:06.311 radio[88030:4590154] data [object Object],[object Object],[object Object]
-2015-04-25 17:43:08.074 radio[88030:4590154] data [object Object],[object Object],[object Object]
-2015-04-25 17:43:09.298 radio[88030:4590154] data [object Object],[object Object],[object Object]
-2015-04-25 17:43:17.809 radio[88030:4590154] data [object Object],[object Object],[object Object]
-2015-04-25 17:43:19.427 radio[88030:4590154] data [object Object],[object Object],[object Object]
-2015-04-25 17:43:20.456 radio[88030:4590154] data [object Object],[object Object],[object Object]
-2015-04-25 17:43:25.287 radio[88030:4590154] mainIntroIssue!!!
-2015-04-25 17:43:27.386 radio[88030:4590154] mainIntroIssue!!!
-2015-04-25 17:43:28.582 radio[88030:4590154] mainIntroIssue!!!
-2015-04-25 17:43:30.098 radio[88030:4590154] MainIntroProduct!!!
-2015-04-25 17:43:31.918 radio[88030:4590154] mainIntroIssue!!!
-2015-04-25 17:43:37.254 radio[88030:4590154] data [object Object],[object Object],[object Object]
-2015-04-30 00:59:40.355 radio[88030:4590154] mainIntroIssue!!!
-2015-04-30 00:59:41.897 radio[88030:4590154] issue_detail [object Object]
-2015-04-30 01:00:27.550 radio[9147:5912191] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-30 01:00:27.552 radio[9147:5912191] Multi-tasking -> Device: YES, App: YES
-2015-04-30 01:00:27.569 radio[9147:5912191] Unlimited access to network resources
-2015-04-30 01:00:27.990 radio[9147:5912191] [CDVTimer][keyboard] 0.055969ms
-2015-04-30 01:00:27.990 radio[9147:5912191] [CDVTimer][TotalPluginStartup] 0.224948ms
-2015-04-30 01:00:28.237 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:00:29.489 radio[9147:5912191] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/068161CE-5340-4D92-9A9C-FE54BFB6E861/radio.app/www/index.html
-2015-04-30 01:00:36.375 radio[9147:5912191] issue_detail [object Object]
-2015-04-30 01:00:49.492 radio[9147:5912191] issue_detail [object Object]
-2015-04-30 01:00:54.433 radio[9147:5912191] issue_detail [object Object]
-2015-04-30 01:01:05.544 radio[9147:5912191] assigned initialIndex
-2015-04-30 01:01:05.544 radio[9147:5912191] initialindex
-2015-04-30 01:02:01.880 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
-2015-04-30 01:02:07.628 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
-2015-04-30 01:02:10.946 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
-2015-04-30 01:02:11.630 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:02:11.636 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
-2015-04-30 01:02:12.475 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:02:12.478 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
-2015-04-30 01:02:13.037 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:02:13.040 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
-2015-04-30 01:02:15.150 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
-2015-04-30 01:02:19.316 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
-2015-04-30 01:02:20.295 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:02:20.298 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
-2015-04-30 01:02:22.995 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
-2015-04-30 01:02:26.094 radio[9147:5912191] $scope.issue_list.currentTag [object Object]
-2015-04-30 01:02:26.382 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:02:26.385 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
-2015-04-30 01:02:27.929 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:02:27.933 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
-2015-04-30 01:02:28.352 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:02:28.355 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
-2015-04-30 01:02:28.858 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:02:28.859 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
-2015-04-30 01:02:29.018 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:02:29.025 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
-2015-04-30 01:02:29.501 radio[9147:5912191] Resetting plugins due to page load.
-2015-04-30 01:02:29.504 radio[9147:5912191] Failed to load webpage with error: Frame load interrupted
-2015-04-30 01:03:19.752 radio[9147:5912191] clicked
-2015-04-30 01:03:20.693 radio[9147:5912191] clicked
-2015-05-02 23:53:02.565 radio[31671:6760792] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-02 23:53:02.566 radio[31671:6760792] Multi-tasking -> Device: YES, App: YES
-2015-05-02 23:53:02.587 radio[31671:6760792] Unlimited access to network resources
-2015-05-02 23:53:02.977 radio[31671:6760792] [CDVTimer][keyboard] 0.051975ms
-2015-05-02 23:53:02.977 radio[31671:6760792] [CDVTimer][TotalPluginStartup] 0.564992ms
-2015-05-02 23:53:03.205 radio[31671:6760792] Resetting plugins due to page load.
-2015-05-02 23:53:05.223 radio[31671:6760792] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/07330DFF-D875-4245-BFCB-7AC4C3397C09/radio.app/www/index.html
-2015-05-02 23:53:08.609 radio[31671:6760792] data 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Page not found at /rest-auth/login/</title>
-  <meta name="robots" content="NONE,NOARCHIVE">
-  <style type="text/css">
-    html * { padding:0; margin:0; }
-    body * { padding:10px 20px; }
-    body * * { padding:0; }
-    body { font:small sans-serif; background:#eee; }
-    body>div { border-bottom:1px solid #ddd; }
-    h1 { font-weight:normal; margin-bottom:.4em; }
-    h1 span { font-size:60%; color:#666; font-weight:normal; }
-    table { border:none; border-collapse: collapse; width:100%; }
-    td, th { vertical-align:top; padding:2px 3px; }
-    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
-    #info { background:#f6f6f6; }
-    #info ol { margin: 0.5em 4em; }
-    #info ol li { font-family: monospace; }
-    #summary { background: #ffc; }
-    #explanation { background:#eee; border-bottom: 0px none; }
-  </style>
-</head>
-<body>
-  <div id="summary">
-    <h1>Page not found <span>(404)</span></h1>
-    <table class="meta">
-      <tr>
-        <th>Request Method:</th>
-        <td>POST</td>
-      </tr>
-      <tr>
-        <th>Request URL:</th>
-      <td>http://bunkerseoul.com:8000/rest-auth/login/</td>
-      </tr>
-    </table>
-  </div>
-  <div id="info">
-    
-      <p>
-      Using the URLconf defined in <code>second.urls</code>,
-      Django tried these URL patterns, in this order:
-      </p>
-      <ol>
-        
-          <li>
-            
-                ^api/
-                
-            
-          </li>
-        
-          <li>
-            
-                ^api/cart/
-                
-            
-          </li>
-        
-          <li>
-            
-                ^grappelli/
-                
-            
-          </li>
-        
-          <li>
-            
-                ^admin/
-                
-            
-          </li>
-        
-          <li>
-            
-                ^api/rest-auth/
-                
-            
-          </li>
-        
-          <li>
-            
-                ^api/rest-auth/registration/
-                
-            
-          </li>
-        
-          <li>
-            
-                ^media/(?P&lt;path&gt;.*)$
-                
-            
-          </li>
-        
-      </ol>
-      <p>The current URL, <code>rest-auth/login/</code>, didn't match any of these.</p>
-    
-  </div>
-
-  <div id="explanation">
-    <p>
-      You're seeing this error because you have <code>DEBUG = True</code> in
-      your Django settings file. Change that to <code>False</code>, and Django
-      will display a standard 404 page.
-    </p>
-  </div>
-</body>
-</html>
-2015-05-02 23:53:08.610 radio[31671:6760792] Login Deny [object Object]
-2015-05-02 23:59:02.682 radio[32367:6765900] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-02 23:59:02.683 radio[32367:6765900] Multi-tasking -> Device: YES, App: YES
-2015-05-02 23:59:02.684 radio[32367:6765900] Unlimited access to network resources
-2015-05-02 23:59:02.879 radio[32367:6765900] [CDVTimer][keyboard] 0.059962ms
-2015-05-02 23:59:02.879 radio[32367:6765900] [CDVTimer][TotalPluginStartup] 0.232041ms
-2015-05-02 23:59:02.986 radio[32367:6765900] Resetting plugins due to page load.
-2015-05-02 23:59:04.848 radio[32367:6765900] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/3AC05628-6F18-4AA1-8404-5FABDE385C56/radio.app/www/index.html
-2015-05-02 23:59:14.153 radio[32367:6765900] assigned initialIndex
-2015-05-02 23:59:14.154 radio[32367:6765900] initialindex
-2015-05-02 23:59:14.162 radio[32367:6765900] assigned initialIndex
-2015-05-02 23:59:14.162 radio[32367:6765900] initialindex
-2015-05-02 23:59:14.240 radio[32367:6765900] assigned initialIndex
-2015-05-02 23:59:14.240 radio[32367:6765900] initialindex
-2015-05-04 12:09:42.135 radio[33558:6811171] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-04 12:09:42.139 radio[33558:6811171] Multi-tasking -> Device: YES, App: YES
-2015-05-04 12:09:42.154 radio[33558:6811171] Unlimited access to network resources
-2015-05-04 12:09:42.529 radio[33558:6811171] [CDVTimer][keyboard] 0.070989ms
-2015-05-04 12:09:42.529 radio[33558:6811171] [CDVTimer][TotalPluginStartup] 0.632048ms
-2015-05-04 12:09:42.821 radio[33558:6811171] Resetting plugins due to page load.
-2015-05-04 12:09:45.117 radio[33558:6811171] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/50954909-1609-4D12-922C-3B6F43D356CA/radio.app/www/index.html
-2015-05-04 12:10:02.620 radio[33558:6811171] Main Product List !!!
-2015-05-04 12:10:02.620 radio[33558:6811171] params [object Object]
-2015-05-04 12:10:03.665 radio[33558:6811171] assigned initialIndex
-2015-05-04 12:10:03.666 radio[33558:6811171] initialindex
-2015-05-04 12:10:03.675 radio[33558:6811171] assigned initialIndex
-2015-05-04 12:10:03.675 radio[33558:6811171] initialindex
-2015-05-04 12:10:16.094 radio[33558:6811171] assigned initialIndex
-2015-05-04 12:10:16.095 radio[33558:6811171] initialindex
-2015-05-04 14:41:04.379 radio[35327:6890563] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-04 14:41:04.384 radio[35327:6890563] Multi-tasking -> Device: YES, App: YES
-2015-05-04 14:41:04.398 radio[35327:6890563] Unlimited access to network resources
-2015-05-04 14:41:04.784 radio[35327:6890563] [CDVTimer][keyboard] 0.059962ms
-2015-05-04 14:41:04.784 radio[35327:6890563] [CDVTimer][TotalPluginStartup] 0.216007ms
-2015-05-04 14:41:05.071 radio[35327:6890563] Resetting plugins due to page load.
-2015-05-04 14:41:07.244 radio[35327:6890563] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/FA030567-7825-4440-97CF-9B9EB21B325E/radio.app/www/index.html
-2015-05-04 14:41:20.952 radio[35327:6890563] data [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2015-05-04 14:41:28.827 radio[35327:6890563] assigned initialIndex
-2015-05-04 14:41:28.828 radio[35327:6890563] initialindex
-2015-05-04 14:41:28.839 radio[35327:6890563] assigned initialIndex
-2015-05-04 14:41:28.839 radio[35327:6890563] initialindex
-2015-05-04 14:41:28.861 radio[35327:6890563] assigned initialIndex
-2015-05-04 14:41:28.862 radio[35327:6890563] initialindex
-2015-05-04 14:41:34.229 radio[35327:6890563] clicked
-2015-05-04 14:41:40.936 radio[35327:6890563] params 
-2015-05-04 14:41:50.347 radio[35327:6890563] params 
-2015-05-04 14:42:00.919 radio[35327:6890563] params 
-2015-05-04 14:42:03.285 radio[35327:6890563] clicked
-2015-05-04 14:42:05.981 radio[35327:6890563] params 
-2015-05-04 14:42:06.001 radio[35327:6890563] data 
-2015-05-04 14:42:10.697 radio[35327:6890563] params 
-2015-05-04 14:42:10.714 radio[35327:6890563] data 
-2015-05-04 14:42:12.673 radio[35327:6890563] params 
-2015-05-04 14:42:12.693 radio[35327:6890563] data 
-2015-05-04 14:42:17.665 radio[35327:6890563] params 
-2015-05-04 14:42:25.289 radio[35327:6890563] params 
-2015-05-04 14:43:17.958 radio[35327:6890563] Resetting plugins due to page load.
-2015-05-04 14:43:17.965 radio[35327:6890563] Failed to load webpage with error: Frame load interrupted
-2015-05-04 14:43:18.686 radio[35327:6890563] Resetting plugins due to page load.
-2015-05-04 14:43:18.689 radio[35327:6890563] Failed to load webpage with error: Frame load interrupted
-2015-05-04 14:43:19.607 radio[35327:6890563] Resetting plugins due to page load.
-2015-05-04 14:43:19.610 radio[35327:6890563] Failed to load webpage with error: Frame load interrupted
-2015-05-04 14:43:20.830 radio[35327:6890563] assigned initialIndex
-2015-05-04 14:43:20.830 radio[35327:6890563] initialindex
-2015-05-04 14:43:20.843 radio[35327:6890563] assigned initialIndex
-2015-05-04 14:43:20.843 radio[35327:6890563] initialindex
-2015-05-04 14:43:20.864 radio[35327:6890563] assigned initialIndex
-2015-05-04 14:43:20.864 radio[35327:6890563] initialindex
-2015-05-04 14:43:22.117 radio[35327:6890563] change day ! 1
-2015-05-04 14:43:27.399 radio[35327:6890563] change day ! 2
-2015-05-04 14:43:28.463 radio[35327:6890563] change day ! 1
-2015-05-04 14:44:38.678 radio[36011:6894065] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-04 14:44:38.680 radio[36011:6894065] Multi-tasking -> Device: YES, App: YES
-2015-05-04 14:44:38.693 radio[36011:6894065] Unlimited access to network resources
-2015-05-04 14:44:39.107 radio[36011:6894065] [CDVTimer][keyboard] 0.060022ms
-2015-05-04 14:44:39.108 radio[36011:6894065] [CDVTimer][TotalPluginStartup] 0.245988ms
-2015-05-04 14:44:39.399 radio[36011:6894065] Resetting plugins due to page load.
-2015-05-04 14:45:03.950 radio[36011:6894065] Finished load of: http://192.168.0.5:8100/
-2015-05-04 14:45:15.841 radio[36011:6894065] assigned initialIndex
-2015-05-04 14:45:15.842 radio[36011:6894065] initialindex
-2015-05-04 14:45:15.850 radio[36011:6894065] assigned initialIndex
-2015-05-04 14:45:15.851 radio[36011:6894065] initialindex
-2015-05-04 14:45:15.904 radio[36011:6894065] assigned initialIndex
-2015-05-04 14:45:15.904 radio[36011:6894065] initialindex
-2015-05-04 14:45:30.649 radio[36623:6895681] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-04 14:45:30.650 radio[36623:6895681] Multi-tasking -> Device: YES, App: YES
-2015-05-04 14:45:30.651 radio[36623:6895681] Unlimited access to network resources
-2015-05-04 14:45:30.852 radio[36623:6895681] [CDVTimer][keyboard] 0.055015ms
-2015-05-04 14:45:30.852 radio[36623:6895681] [CDVTimer][TotalPluginStartup] 0.222027ms
-2015-05-04 14:45:30.968 radio[36623:6895681] Resetting plugins due to page load.
-2015-05-04 14:45:32.215 radio[36623:6895681] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/BA257EE7-BD9F-4B81-81ED-E0B9271FB9E3/radio.app/www/index.html
-2015-05-04 14:45:41.014 radio[36623:6895681] data [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2015-05-04 14:45:47.058 radio[36623:6895681] assigned initialIndex
-2015-05-04 14:45:47.058 radio[36623:6895681] initialindex
-2015-05-04 14:45:47.068 radio[36623:6895681] assigned initialIndex
-2015-05-04 14:45:47.068 radio[36623:6895681] initialindex
-2015-05-04 14:45:47.173 radio[36623:6895681] assigned initialIndex
-2015-05-04 14:45:47.175 radio[36623:6895681] initialindex
-2015-05-04 14:50:33.719 radio[37859:6900924] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-04 14:50:33.720 radio[37859:6900924] Multi-tasking -> Device: YES, App: YES
-2015-05-04 14:50:33.721 radio[37859:6900924] Unlimited access to network resources
-2015-05-04 14:50:33.907 radio[37859:6900924] [CDVTimer][keyboard] 0.063002ms
-2015-05-04 14:50:33.907 radio[37859:6900924] [CDVTimer][TotalPluginStartup] 0.241995ms
-2015-05-04 14:50:33.998 radio[37859:6900924] Resetting plugins due to page load.
-2015-05-04 14:51:51.120 radio[37859:6900924] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/1C903197-5955-4757-B101-6E57D540E6A7/radio.app/www/index.html
-2015-05-04 14:52:01.597 radio[37859:6900924] data [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2015-05-04 14:56:17.919 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:56:17.920 radio[37859:6900924] initialindex
-2015-05-04 14:56:17.931 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:56:17.931 radio[37859:6900924] initialindex
-2015-05-04 14:56:17.964 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:56:17.964 radio[37859:6900924] initialindex
-2015-05-04 14:56:23.676 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:56:23.676 radio[37859:6900924] initialindex
-2015-05-04 14:56:23.688 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:56:23.688 radio[37859:6900924] initialindex
-2015-05-04 14:56:23.709 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:56:23.709 radio[37859:6900924] initialindex
-2015-05-04 14:56:29.245 radio[37859:6900924] clicked
-2015-05-04 14:56:33.427 radio[37859:6900924] params 
-2015-05-04 14:57:12.473 radio[37859:6900924] params 
-2015-05-04 14:57:12.520 radio[37859:6900924] data [object Object]
-2015-05-04 14:57:19.633 radio[37859:6900924] params 
-2015-05-04 14:57:21.582 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:21.583 radio[37859:6900924] initialindex
-2015-05-04 14:57:21.593 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:21.593 radio[37859:6900924] initialindex
-2015-05-04 14:57:21.617 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:21.617 radio[37859:6900924] initialindex
-2015-05-04 14:57:23.727 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:23.727 radio[37859:6900924] initialindex
-2015-05-04 14:57:23.736 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:23.736 radio[37859:6900924] initialindex
-2015-05-04 14:57:23.764 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:23.765 radio[37859:6900924] initialindex
-2015-05-04 14:57:25.199 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:25.199 radio[37859:6900924] initialindex
-2015-05-04 14:57:25.211 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:25.211 radio[37859:6900924] initialindex
-2015-05-04 14:57:25.232 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:25.232 radio[37859:6900924] initialindex
-2015-05-04 14:57:41.791 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:41.792 radio[37859:6900924] initialindex
-2015-05-04 14:57:41.802 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:41.802 radio[37859:6900924] initialindex
-2015-05-04 14:57:41.823 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:41.823 radio[37859:6900924] initialindex
-2015-05-04 14:57:52.051 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:52.051 radio[37859:6900924] initialindex
-2015-05-04 14:57:52.060 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:52.060 radio[37859:6900924] initialindex
-2015-05-04 14:57:52.081 radio[37859:6900924] assigned initialIndex
-2015-05-04 14:57:52.081 radio[37859:6900924] initialindex
-2015-05-04 15:00:02.176 radio[38632:6907631] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-04 15:00:02.178 radio[38632:6907631] Multi-tasking -> Device: YES, App: YES
-2015-05-04 15:00:02.194 radio[38632:6907631] Unlimited access to network resources
-2015-05-04 15:00:02.620 radio[38632:6907631] [CDVTimer][keyboard] 0.069976ms
-2015-05-04 15:00:02.620 radio[38632:6907631] [CDVTimer][TotalPluginStartup] 0.293970ms
-2015-05-04 15:00:02.935 radio[38632:6907631] Resetting plugins due to page load.
-2015-05-04 15:00:05.237 radio[38632:6907631] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/E7397E97-1F97-49E5-96A9-AD196585D520/radio.app/www/index.html
-2015-05-04 15:00:13.425 radio[38632:6907631] assigned initialIndex
-2015-05-04 15:00:13.427 radio[38632:6907631] initialindex
-2015-05-04 15:00:13.447 radio[38632:6907631] assigned initialIndex
-2015-05-04 15:00:13.447 radio[38632:6907631] initialindex
-2015-05-04 15:00:13.490 radio[38632:6907631] assigned initialIndex
-2015-05-04 15:00:13.490 radio[38632:6907631] initialindex
-2015-05-04 15:01:37.202 radio[39298:6909822] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-04 15:01:37.203 radio[39298:6909822] Multi-tasking -> Device: YES, App: YES
-2015-05-04 15:01:37.206 radio[39298:6909822] Unlimited access to network resources
-2015-05-04 15:01:37.445 radio[39298:6909822] [CDVTimer][keyboard] 0.053048ms
-2015-05-04 15:01:37.446 radio[39298:6909822] [CDVTimer][TotalPluginStartup] 0.207007ms
-2015-05-04 15:01:37.627 radio[39298:6909822] Resetting plugins due to page load.
-2015-05-04 15:01:52.148 radio[39298:6909822] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/7041F7BF-9355-4ED1-A198-4E683BE33782/radio.app/www/index.html
-2015-05-04 15:01:59.237 radio[39298:6909822] assigned initialIndex
-2015-05-04 15:01:59.237 radio[39298:6909822] initialindex
-2015-05-04 15:01:59.250 radio[39298:6909822] assigned initialIndex
-2015-05-04 15:01:59.251 radio[39298:6909822] initialindex
-2015-05-04 15:01:59.280 radio[39298:6909822] assigned initialIndex
-2015-05-04 15:01:59.280 radio[39298:6909822] initialindex
-2015-05-04 15:05:29.801 radio[39298:6909822] change day ! 1
-2015-05-04 15:09:31.754 radio[39298:6909822] assigned initialIndex
-2015-05-04 15:09:31.754 radio[39298:6909822] initialindex
-2015-05-04 15:09:31.764 radio[39298:6909822] assigned initialIndex
-2015-05-04 15:09:31.764 radio[39298:6909822] initialindex
-2015-05-04 15:09:31.791 radio[39298:6909822] assigned initialIndex
-2015-05-04 15:09:31.791 radio[39298:6909822] initialindex
-2015-05-04 15:09:34.159 radio[39298:6909822] change day ! 1
-2015-05-04 15:09:34.994 radio[39298:6909822] change day ! 2
-2015-05-04 15:09:41.403 radio[39298:6909822] Resetting plugins due to page load.
-2015-05-04 15:09:41.408 radio[39298:6909822] Failed to load webpage with error: Frame load interrupted
-2015-05-04 15:09:50.127 radio[39298:6909822] Resetting plugins due to page load.
-2015-05-04 15:09:50.130 radio[39298:6909822] Failed to load webpage with error: Frame load interrupted
-2015-05-04 15:09:51.287 radio[39298:6909822] Resetting plugins due to page load.
-2015-05-04 15:09:51.291 radio[39298:6909822] Failed to load webpage with error: Frame load interrupted
-2015-05-04 15:15:46.819 radio[40055:6919223] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-04 15:15:46.821 radio[40055:6919223] Multi-tasking -> Device: YES, App: YES
-2015-05-04 15:15:46.838 radio[40055:6919223] Unlimited access to network resources
-2015-05-04 15:15:47.270 radio[40055:6919223] [CDVTimer][keyboard] 0.076056ms
-2015-05-04 15:15:47.270 radio[40055:6919223] [CDVTimer][TotalPluginStartup] 0.343025ms
-2015-05-04 15:15:47.511 radio[40055:6919223] Resetting plugins due to page load.
-2015-05-04 15:15:49.563 radio[40055:6919223] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/75E84D1D-DB5C-44AF-9F00-DE67EA050D3B/radio.app/www/index.html
-2015-05-04 15:15:56.826 radio[40055:6919223] data [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
-2015-05-04 15:17:18.576 radio[40701:6921458] Apache Cordova native platform version 3.8.0 is starting.
-2015-05-04 15:17:18.577 radio[40701:6921458] Multi-tasking -> Device: YES, App: YES
-2015-05-04 15:17:18.578 radio[40701:6921458] Unlimited access to network resources
-2015-05-04 15:17:18.889 radio[40701:6921458] [CDVTimer][keyboard] 0.124991ms
-2015-05-04 15:17:18.890 radio[40701:6921458] [CDVTimer][TotalPluginStartup] 1.001954ms
-2015-05-04 15:17:18.966 radio[40701:6921458] Resetting plugins due to page load.
-2015-05-04 15:17:22.754 radio[40701:6921458] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/8736F204-E02F-42D8-B666-B4F7ED086340/data/Containers/Bundle/Application/7DA420CD-005A-4143-A57A-12A70CF7EC70/radio.app/www/index.html
-2015-05-04 15:17:29.591 radio[40701:6921458] data [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 15:52:01.178 radio[72186:7472294] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 15:52:01.179 radio[72186:7472294] Multi-tasking -> Device: YES, App: YES
+2015-05-06 15:52:01.181 radio[72186:7472294] Unlimited access to network resources
+2015-05-06 15:52:01.265 radio[72186:7472294] [CDVTimer][keyboard] 0.054002ms
+2015-05-06 15:52:01.265 radio[72186:7472294] [CDVTimer][TotalPluginStartup] 0.220001ms
+2015-05-06 15:52:01.365 radio[72186:7472294] Resetting plugins due to page load.
+2015-05-06 15:52:03.249 radio[72186:7472294] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/9B7E569F-21A0-480B-BE6C-932BABE5910D/radio.app/www/index.html
+2015-05-06 15:57:17.262 radio[72812:7476142] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 15:57:17.263 radio[72812:7476142] Multi-tasking -> Device: YES, App: YES
+2015-05-06 15:57:17.264 radio[72812:7476142] Unlimited access to network resources
+2015-05-06 15:57:17.336 radio[72812:7476142] [CDVTimer][keyboard] 0.056028ms
+2015-05-06 15:57:17.336 radio[72812:7476142] [CDVTimer][TotalPluginStartup] 0.220001ms
+2015-05-06 15:57:17.414 radio[72812:7476142] Resetting plugins due to page load.
+2015-05-06 15:57:18.429 radio[72812:7476142] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/01A130FC-696B-44B6-BD0D-D207E0C7834E/radio.app/www/index.html
+2015-05-06 15:59:55.580 radio[73439:7478650] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 15:59:55.581 radio[73439:7478650] Multi-tasking -> Device: YES, App: YES
+2015-05-06 15:59:55.583 radio[73439:7478650] Unlimited access to network resources
+2015-05-06 15:59:55.688 radio[73439:7478650] [CDVTimer][keyboard] 0.090957ms
+2015-05-06 15:59:55.689 radio[73439:7478650] [CDVTimer][TotalPluginStartup] 0.337958ms
+2015-05-06 15:59:55.800 radio[73439:7478650] Resetting plugins due to page load.
+2015-05-06 15:59:58.026 radio[73439:7478650] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/8045842F-AC10-44F7-85B6-C853881AA14A/radio.app/www/index.html
+2015-05-06 16:00:03.661 radio[73439:7478650] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:00:04.050 radio[73439:7478650] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:00:42.592 radio[74036:7480028] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:00:42.593 radio[74036:7480028] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:00:42.594 radio[74036:7480028] Unlimited access to network resources
+2015-05-06 16:00:42.670 radio[74036:7480028] [CDVTimer][keyboard] 0.057995ms
+2015-05-06 16:00:42.670 radio[74036:7480028] [CDVTimer][TotalPluginStartup] 0.222027ms
+2015-05-06 16:00:42.749 radio[74036:7480028] Resetting plugins due to page load.
+2015-05-06 16:00:47.788 radio[74036:7480028] Finished load of: http://192.168.0.206:8100/
+2015-05-06 16:00:52.132 radio[74036:7480028] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:00:52.498 radio[74036:7480028] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:01:14.353 radio[74634:7481267] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:01:14.354 radio[74634:7481267] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:01:14.355 radio[74634:7481267] Unlimited access to network resources
+2015-05-06 16:01:14.424 radio[74634:7481267] [CDVTimer][keyboard] 0.055015ms
+2015-05-06 16:01:14.424 radio[74634:7481267] [CDVTimer][TotalPluginStartup] 0.238001ms
+2015-05-06 16:01:14.488 radio[74634:7481267] Resetting plugins due to page load.
+2015-05-06 16:01:25.973 radio[74634:7481267] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/6F1587FB-2C2B-48A9-A049-DE4491C6FF33/radio.app/www/index.html
+2015-05-06 16:01:26.285 radio[74634:7481475] Terminating since there is no system app.
+2015-05-06 16:01:39.132 radio[75258:7482710] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:01:39.133 radio[75258:7482710] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:01:39.135 radio[75258:7482710] Unlimited access to network resources
+2015-05-06 16:01:39.209 radio[75258:7482710] [CDVTimer][keyboard] 0.054955ms
+2015-05-06 16:01:39.209 radio[75258:7482710] [CDVTimer][TotalPluginStartup] 0.221014ms
+2015-05-06 16:01:39.269 radio[75258:7482710] Resetting plugins due to page load.
+2015-05-06 16:01:46.884 radio[75258:7482710] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/AB89DCAF-ED50-455F-974B-8757D869C8F2/radio.app/www/index.html
+2015-05-06 16:01:54.307 radio[75258:7482710] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:01:54.702 radio[75258:7482710] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:04:08.929 radio[75904:7488830] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:04:08.930 radio[75904:7488830] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:04:08.932 radio[75904:7488830] Unlimited access to network resources
+2015-05-06 16:04:09.014 radio[75904:7488830] [CDVTimer][keyboard] 0.059009ms
+2015-05-06 16:04:09.014 radio[75904:7488830] [CDVTimer][TotalPluginStartup] 0.240028ms
+2015-05-06 16:04:09.123 radio[75904:7488830] Resetting plugins due to page load.
+2015-05-06 16:04:22.304 radio[75904:7488830] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/29898ED6-7AA8-4B70-9C46-77F0DA790C2F/radio.app/www/index.html
+2015-05-06 16:04:26.992 radio[75904:7488830] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:04:27.379 radio[75904:7488830] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:09:48.255 radio[75904:7492842] Communications error: <OS_xpc_error: <error: 0x2d7f5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d7f83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-05-06 16:12:19.893 radio[76601:7495945] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:12:19.895 radio[76601:7495945] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:12:19.914 radio[76601:7495945] Unlimited access to network resources
+2015-05-06 16:12:20.177 radio[76601:7495945] [CDVTimer][keyboard] 0.081003ms
+2015-05-06 16:12:20.178 radio[76601:7495945] [CDVTimer][TotalPluginStartup] 0.631034ms
+2015-05-06 16:12:20.455 radio[76601:7495945] Resetting plugins due to page load.
+2015-05-06 16:12:22.609 radio[76601:7495945] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/6A8F44F9-9296-45BE-B780-E2B7970270FF/radio.app/www/index.html
+2015-05-06 16:12:28.859 radio[76601:7495945] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:12:29.271 radio[76601:7495945] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:12:29.953 radio[76601:7495945] Resetting plugins due to page load.
+2015-05-06 16:12:29.957 radio[76601:7495945] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:12:30.756 radio[76601:7495945] Resetting plugins due to page load.
+2015-05-06 16:12:30.757 radio[76601:7495945] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:12:31.244 radio[76601:7495945] Resetting plugins due to page load.
+2015-05-06 16:12:31.245 radio[76601:7495945] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:12:31.435 radio[76601:7495945] Resetting plugins due to page load.
+2015-05-06 16:12:31.436 radio[76601:7495945] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:12:40.091 radio[76601:7495945] $location [object Object]
+2015-05-06 16:12:42.598 radio[76601:7495945] $location [object Object]
+2015-05-06 16:12:42.966 radio[76601:7495945] $location [object Object]
+2015-05-06 16:12:44.293 radio[76601:7495945] Resetting plugins due to page load.
+2015-05-06 16:12:44.293 radio[76601:7495945] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:13:03.992 radio[77211:7497586] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:13:03.993 radio[77211:7497586] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:13:03.994 radio[77211:7497586] Unlimited access to network resources
+2015-05-06 16:13:04.070 radio[77211:7497586] [CDVTimer][keyboard] 0.056982ms
+2015-05-06 16:13:04.070 radio[77211:7497586] [CDVTimer][TotalPluginStartup] 0.248969ms
+2015-05-06 16:13:04.165 radio[77211:7497586] Resetting plugins due to page load.
+2015-05-06 16:13:05.379 radio[77211:7497586] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/22FA769F-2721-4BF9-9EDE-FE38CAAFBD76/radio.app/www/index.html
+2015-05-06 16:13:10.506 radio[77211:7497586] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:13:10.883 radio[77211:7497586] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:13:11.097 radio[77211:7497586] Resetting plugins due to page load.
+2015-05-06 16:13:11.098 radio[77211:7497586] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:13:11.552 radio[77211:7497586] Resetting plugins due to page load.
+2015-05-06 16:13:11.553 radio[77211:7497586] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:13:11.678 radio[77211:7497586] Resetting plugins due to page load.
+2015-05-06 16:13:11.679 radio[77211:7497586] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:13:12.311 radio[77211:7497586] Resetting plugins due to page load.
+2015-05-06 16:13:12.312 radio[77211:7497586] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:13:15.221 radio[77211:7497586] Resetting plugins due to page load.
+2015-05-06 16:13:15.222 radio[77211:7497586] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:13:15.808 radio[77211:7497586] $location [object Object]
+2015-05-06 16:13:17.525 radio[77211:7497586] Resetting plugins due to page load.
+2015-05-06 16:13:17.526 radio[77211:7497586] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:14:13.642 radio[77211:7497586] $location [object Object]
+2015-05-06 16:14:16.790 radio[77819:7499461] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:14:16.791 radio[77819:7499461] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:14:16.793 radio[77819:7499461] Unlimited access to network resources
+2015-05-06 16:14:16.863 radio[77819:7499461] [CDVTimer][keyboard] 0.079036ms
+2015-05-06 16:14:16.863 radio[77819:7499461] [CDVTimer][TotalPluginStartup] 0.295997ms
+2015-05-06 16:14:16.927 radio[77819:7499461] Resetting plugins due to page load.
+2015-05-06 16:14:18.777 radio[77819:7499461] Finished load of: http://192.168.0.206:8100/
+2015-05-06 16:14:23.843 radio[77819:7499461] $locatino.absUrl() http://192.168.0.206:8100/#/main/rec/issues
+2015-05-06 16:14:24.076 radio[77819:7499461] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:14:24.467 radio[77819:7499461] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:14:27.299 radio[77819:7499461] $location [object Object]
+2015-05-06 16:14:28.210 radio[77819:7499461] $location [object Object]
+2015-05-06 16:14:28.657 radio[77819:7499461] $location [object Object]
+2015-05-06 16:14:29.312 radio[77819:7499461] $location [object Object]
+2015-05-06 16:14:30.371 radio[77819:7499461] $location [object Object]
+2015-05-06 16:14:31.280 radio[77819:7499461] $location [object Object]
+2015-05-06 16:14:34.030 radio[77819:7499461] $location [object Object]
+2015-05-06 16:14:37.701 radio[77819:7499461] assigned initialIndex
+2015-05-06 16:14:37.702 radio[77819:7499461] initialindex
+2015-05-06 16:14:37.715 radio[77819:7499461] assigned initialIndex
+2015-05-06 16:14:37.715 radio[77819:7499461] initialindex
+2015-05-06 16:14:37.763 radio[77819:7499461] assigned initialIndex
+2015-05-06 16:14:37.763 radio[77819:7499461] initialindex
+2015-05-06 16:14:38.300 radio[77819:7499461] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:14:38.570 radio[77819:7499461] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:14:39.702 radio[77819:7499461] $location [object Object]
+2015-05-06 16:14:40.036 radio[77819:7499461] assigned initialIndex
+2015-05-06 16:14:40.036 radio[77819:7499461] initialindex
+2015-05-06 16:14:40.043 radio[77819:7499461] assigned initialIndex
+2015-05-06 16:14:40.043 radio[77819:7499461] initialindex
+2015-05-06 16:14:40.059 radio[77819:7499461] assigned initialIndex
+2015-05-06 16:14:40.059 radio[77819:7499461] initialindex
+2015-05-06 16:14:41.493 radio[77819:7499461] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:14:41.499 radio[77819:7499461] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:14:41.683 radio[77819:7499461] assigned initialIndex
+2015-05-06 16:14:41.684 radio[77819:7499461] initialindex
+2015-05-06 16:14:41.693 radio[77819:7499461] assigned initialIndex
+2015-05-06 16:14:41.693 radio[77819:7499461] initialindex
+2015-05-06 16:14:41.708 radio[77819:7499461] assigned initialIndex
+2015-05-06 16:14:41.708 radio[77819:7499461] initialindex
+2015-05-06 16:14:45.213 radio[77819:7499461] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:14:45.474 radio[77819:7499461] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:16:02.953 radio[78440:7501504] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:16:02.954 radio[78440:7501504] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:16:02.956 radio[78440:7501504] Unlimited access to network resources
+2015-05-06 16:16:03.028 radio[78440:7501504] [CDVTimer][keyboard] 0.069022ms
+2015-05-06 16:16:03.028 radio[78440:7501504] [CDVTimer][TotalPluginStartup] 0.250995ms
+2015-05-06 16:16:03.086 radio[78440:7501504] Resetting plugins due to page load.
+2015-05-06 16:16:04.957 radio[78440:7501504] Finished load of: http://192.168.0.206:8100/
+2015-05-06 16:16:08.729 radio[78440:7501504] $locatino.absUrl() http://192.168.0.206:8100/#/main/rec/issues
+2015-05-06 16:16:08.952 radio[78440:7501504] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:16:09.321 radio[78440:7501504] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:16:19.902 radio[78440:7501504] $location [object Object]
+2015-05-06 16:16:20.171 radio[78440:7501920] Terminating since there is no system app.
+2015-05-06 16:16:20.172 radio[78440:7501893] Communications error: <OS_xpc_error: <error: 0x2d515f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d5183c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-05-06 16:17:34.924 radio[79094:7503834] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:17:34.926 radio[79094:7503834] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:17:34.938 radio[79094:7503834] Unlimited access to network resources
+2015-05-06 16:17:35.225 radio[79094:7503834] [CDVTimer][keyboard] 0.063002ms
+2015-05-06 16:17:35.225 radio[79094:7503834] [CDVTimer][TotalPluginStartup] 0.226974ms
+2015-05-06 16:17:35.442 radio[79094:7503834] Resetting plugins due to page load.
+2015-05-06 16:17:38.027 radio[79094:7503834] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/82766CBF-37D5-4853-858F-52C3CA141969/radio.app/www/index.html
+2015-05-06 16:17:42.313 radio[79094:7503834] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:17:42.741 radio[79094:7503834] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:18:29.365 radio[79094:7503834] $location [object Object]
+2015-05-06 16:18:31.922 radio[79094:7503834] $location [object Object]
+2015-05-06 16:18:32.368 radio[79094:7503834] $location [object Object]
+2015-05-06 16:18:32.951 radio[79094:7503834] $location [object Object]
+2015-05-06 16:19:30.478 radio[79711:7506214] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:19:30.479 radio[79711:7506214] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:19:30.481 radio[79711:7506214] Unlimited access to network resources
+2015-05-06 16:19:30.559 radio[79711:7506214] [CDVTimer][keyboard] 0.054955ms
+2015-05-06 16:19:30.559 radio[79711:7506214] [CDVTimer][TotalPluginStartup] 0.267029ms
+2015-05-06 16:19:30.644 radio[79711:7506214] Resetting plugins due to page load.
+2015-05-06 16:19:32.481 radio[79711:7506214] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/6C9C6D26-CB88-48B1-837E-6BD073629803/radio.app/www/index.html
+2015-05-06 16:19:37.431 radio[79711:7506214] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:19:37.791 radio[79711:7506214] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:19:39.051 radio[79711:7506214] $location [object Object]
+2015-05-06 16:19:40.974 radio[79711:7506214] $location [object Object]
+2015-05-06 16:19:41.823 radio[79711:7506214] $location [object Object]
+2015-05-06 16:19:42.514 radio[79711:7506214] Resetting plugins due to page load.
+2015-05-06 16:19:42.517 radio[79711:7506214] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:19:42.700 radio[79711:7506214] Resetting plugins due to page load.
+2015-05-06 16:19:42.701 radio[79711:7506214] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:19:58.818 radio[79711:7506214] assigned initialIndex
+2015-05-06 16:19:58.818 radio[79711:7506214] initialindex
+2015-05-06 16:19:58.827 radio[79711:7506214] assigned initialIndex
+2015-05-06 16:19:58.827 radio[79711:7506214] initialindex
+2015-05-06 16:19:58.848 radio[79711:7506214] assigned initialIndex
+2015-05-06 16:19:58.848 radio[79711:7506214] initialindex
+2015-05-06 16:20:02.180 radio[79711:7506214] change day ! 1
+2015-05-06 16:20:02.507 radio[79711:7506214] change day ! 2
+2015-05-06 16:20:05.926 radio[79711:7506214] clicked
+2015-05-06 16:20:15.590 radio[79711:7506214] params 
+2015-05-06 16:20:17.140 radio[79711:7506214] params 
+2015-05-06 16:20:19.484 radio[79711:7506214] params 
+2015-05-06 16:20:25.808 radio[79711:7506214] params 
+2015-05-06 16:20:27.872 radio[79711:7506214] params 
+2015-05-06 16:20:30.066 radio[79711:7506214] params 
+2015-05-06 16:20:33.333 radio[79711:7506214] params 
+2015-05-06 16:20:39.440 radio[79711:7506214] params 
+2015-05-06 16:20:58.180 radio[80375:7508330] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:20:58.181 radio[80375:7508330] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:20:58.182 radio[80375:7508330] Unlimited access to network resources
+2015-05-06 16:20:58.259 radio[80375:7508330] [CDVTimer][keyboard] 0.053048ms
+2015-05-06 16:20:58.259 radio[80375:7508330] [CDVTimer][TotalPluginStartup] 0.223994ms
+2015-05-06 16:20:58.344 radio[80375:7508330] Resetting plugins due to page load.
+2015-05-06 16:21:00.218 radio[80375:7508330] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/02D33519-FFCA-4EB2-9B9D-CF689BDA100F/radio.app/www/index.html
+2015-05-06 16:21:03.703 radio[80375:7508330] Simulator slow-motion animations are now on
+2015-05-06 16:27:12.609 radio[80375:7513223] Communications error: <OS_xpc_error: <error: 0x2d565f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d5683c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-05-06 16:31:43.286 radio[81759:7519019] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Data/Application/CD01813A-0902-4890-95A5-032EE0CC6DEB/Library/Cookies/Cookies.binarycookies
+2015-05-06 16:31:43.392 radio[81759:7519019] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:31:43.393 radio[81759:7519019] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:31:43.396 radio[81759:7519019] Unlimited access to network resources
+2015-05-06 16:31:43.486 radio[81759:7519019] [CDVTimer][keyboard] 0.091016ms
+2015-05-06 16:31:43.487 radio[81759:7519019] [CDVTimer][TotalPluginStartup] 0.335991ms
+2015-05-06 16:31:43.769 radio[81759:7519019] Resetting plugins due to page load.
+2015-05-06 16:31:45.030 radio[81759:7519019] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/7A3FA2EB-EAA9-4E3A-B34D-97DD5C268D9A/radio.app/www/index.html
+2015-05-06 16:31:49.880 radio[81759:7519019] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:31:50.255 radio[81759:7519019] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:31:50.824 radio[81759:7519019] Resetting plugins due to page load.
+2015-05-06 16:31:50.827 radio[81759:7519019] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:31:51.919 radio[81759:7519019] Resetting plugins due to page load.
+2015-05-06 16:31:51.920 radio[81759:7519019] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:31:52.276 radio[81759:7519019] $location [object Object]
+2015-05-06 16:31:53.325 radio[81759:7519019] Resetting plugins due to page load.
+2015-05-06 16:31:53.326 radio[81759:7519019] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:31:53.847 radio[81759:7519019] Resetting plugins due to page load.
+2015-05-06 16:31:53.848 radio[81759:7519019] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:31:57.310 radio[81759:7519019] $location [object Object]
+2015-05-06 16:32:00.402 radio[81759:7519019] assigned initialIndex
+2015-05-06 16:32:00.402 radio[81759:7519019] initialindex
+2015-05-06 16:32:00.413 radio[81759:7519019] assigned initialIndex
+2015-05-06 16:32:00.413 radio[81759:7519019] initialindex
+2015-05-06 16:32:00.437 radio[81759:7519019] assigned initialIndex
+2015-05-06 16:32:00.437 radio[81759:7519019] initialindex
+2015-05-06 16:32:01.338 radio[81759:7519019] change day ! 1
+2015-05-06 16:32:01.900 radio[81759:7519019] change day ! 2
+2015-05-06 16:32:02.221 radio[81759:7519019] change day ! 3
+2015-05-06 16:32:02.517 radio[81759:7519019] change day ! 4
+2015-05-06 16:32:03.852 radio[81759:7519019] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:32:04.107 radio[81759:7519019] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:34:53.355 radio[82443:7522493] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:34:53.356 radio[82443:7522493] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:34:53.357 radio[82443:7522493] Unlimited access to network resources
+2015-05-06 16:34:53.435 radio[82443:7522493] [CDVTimer][keyboard] 0.052989ms
+2015-05-06 16:34:53.435 radio[82443:7522493] [CDVTimer][TotalPluginStartup] 0.213981ms
+2015-05-06 16:34:53.533 radio[82443:7522493] Resetting plugins due to page load.
+2015-05-06 16:34:55.294 radio[82443:7522493] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/6E765ADA-7A96-4758-8851-3E4502D41B21/radio.app/www/index.html
+2015-05-06 16:36:43.818 radio[83118:7524960] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:36:43.819 radio[83118:7524960] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:36:43.821 radio[83118:7524960] Unlimited access to network resources
+2015-05-06 16:36:43.915 radio[83118:7524960] [CDVTimer][keyboard] 0.059009ms
+2015-05-06 16:36:43.915 radio[83118:7524960] [CDVTimer][TotalPluginStartup] 0.226974ms
+2015-05-06 16:36:44.013 radio[83118:7524960] Resetting plugins due to page load.
+2015-05-06 16:36:45.769 radio[83118:7524960] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/D0ACB2B2-938C-46F2-B65C-EFA19A050B06/radio.app/www/index.html
+2015-05-06 16:36:49.563 radio[83118:7524960] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:36:49.803 radio[83118:7524960] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:36:51.387 radio[83118:7524960] $location [object Object]
+2015-05-06 16:36:53.904 radio[83118:7524960] $location [object Object]
+2015-05-06 16:36:55.504 radio[83118:7524960] $location [object Object]
+2015-05-06 16:36:55.944 radio[83118:7524960] Resetting plugins due to page load.
+2015-05-06 16:36:55.947 radio[83118:7524960] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:36:57.101 radio[83118:7524960] Resetting plugins due to page load.
+2015-05-06 16:36:57.102 radio[83118:7524960] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:37:08.650 radio[83118:7524960] $location [object Object]
+2015-05-06 16:37:28.323 radio[83118:7524960] $location [object Object]
+2015-05-06 16:39:09.796 radio[83118:7524960] $location [object Object]
+2015-05-06 16:39:13.010 radio[83118:7524960] Resetting plugins due to page load.
+2015-05-06 16:39:13.011 radio[83118:7524960] Failed to load webpage with error: Frame load interrupted
+2015-05-06 16:39:17.714 radio[83118:7524960] $location [object Object]
+2015-05-06 16:39:20.623 radio[83118:7524960] $location [object Object]
+2015-05-06 16:39:20.808 radio[83118:7524960] $location [object Object]
+2015-05-06 16:39:20.983 radio[83118:7524960] $location [object Object]
+2015-05-06 16:39:21.150 radio[83118:7524960] $location [object Object]
+2015-05-06 16:39:21.295 radio[83118:7524960] $location [object Object]
+2015-05-06 16:39:21.471 radio[83118:7524960] $location [object Object]
+2015-05-06 16:39:26.604 radio[83118:7524960] assigned initialIndex
+2015-05-06 16:39:26.604 radio[83118:7524960] initialindex
+2015-05-06 16:39:26.617 radio[83118:7524960] assigned initialIndex
+2015-05-06 16:39:26.617 radio[83118:7524960] initialindex
+2015-05-06 16:39:26.642 radio[83118:7524960] assigned initialIndex
+2015-05-06 16:39:26.642 radio[83118:7524960] initialindex
+2015-05-06 16:39:42.936 radio[83118:7524960] clicked
+2015-05-06 16:39:47.909 radio[83118:7524960] clicked
+2015-05-06 16:43:53.020 radio[83795:7530262] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:43:53.021 radio[83795:7530262] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:43:53.023 radio[83795:7530262] Unlimited access to network resources
+2015-05-06 16:43:53.097 radio[83795:7530262] [CDVTimer][keyboard] 0.047982ms
+2015-05-06 16:43:53.098 radio[83795:7530262] [CDVTimer][TotalPluginStartup] 0.209987ms
+2015-05-06 16:43:53.200 radio[83795:7530262] Resetting plugins due to page load.
+2015-05-06 16:43:54.986 radio[83795:7530262] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/442A138B-EC11-4C30-B586-389124A66C20/radio.app/www/index.html
+2015-05-06 16:43:58.698 radio[83795:7530262] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:43:58.954 radio[83795:7530262] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:43:59.353 radio[83795:7530262] go Issue !!
+2015-05-06 16:44:00.087 radio[83795:7530262] go Issue !!
+2015-05-06 16:44:01.244 radio[83795:7530262] go Issue !!
+2015-05-06 16:44:02.969 radio[83795:7530262] go Issue !!
+2015-05-06 16:44:03.145 radio[83795:7530262] go Issue !!
+2015-05-06 16:44:05.311 radio[83795:7530262] go Issue !!
+2015-05-06 16:44:05.498 radio[83795:7530262] go Issue !!
+2015-05-06 16:44:58.926 radio[84400:7531864] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:44:58.927 radio[84400:7531864] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:44:58.929 radio[84400:7531864] Unlimited access to network resources
+2015-05-06 16:44:59.028 radio[84400:7531864] [CDVTimer][keyboard] 0.077963ms
+2015-05-06 16:44:59.028 radio[84400:7531864] [CDVTimer][TotalPluginStartup] 0.325024ms
+2015-05-06 16:44:59.109 radio[84400:7531864] Resetting plugins due to page load.
+2015-05-06 16:45:00.909 radio[84400:7531864] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/12897C91-199D-440B-B16F-A9B095F14514/radio.app/www/index.html
+2015-05-06 16:45:04.770 radio[84400:7531864] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:45:05.013 radio[84400:7531864] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:45:05.680 radio[84400:7531864] go Issue !!
+2015-05-06 16:45:05.680 radio[84400:7531864] assigned initialIndex
+2015-05-06 16:45:05.680 radio[84400:7531864] initialindex
+2015-05-06 16:45:05.692 radio[84400:7531864] assigned initialIndex
+2015-05-06 16:45:05.692 radio[84400:7531864] initialindex
+2015-05-06 16:45:05.715 radio[84400:7531864] assigned initialIndex
+2015-05-06 16:45:05.715 radio[84400:7531864] initialindex
+2015-05-06 16:50:44.048 radio[85560:7536866] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:50:44.049 radio[85560:7536866] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:50:44.050 radio[85560:7536866] Unlimited access to network resources
+2015-05-06 16:50:44.133 radio[85560:7536866] [CDVTimer][keyboard] 0.052989ms
+2015-05-06 16:50:44.134 radio[85560:7536866] [CDVTimer][TotalPluginStartup] 0.221968ms
+2015-05-06 16:50:44.228 radio[85560:7536866] Resetting plugins due to page load.
+2015-05-06 16:50:46.082 radio[85560:7536866] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/061F9E06-7653-47FD-8E98-7535DE5FC4B0/radio.app/www/index.html
+2015-05-06 16:51:16.438 radio[86164:7538543] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 16:51:16.439 radio[86164:7538543] Multi-tasking -> Device: YES, App: YES
+2015-05-06 16:51:16.442 radio[86164:7538543] Unlimited access to network resources
+2015-05-06 16:51:16.518 radio[86164:7538543] [CDVTimer][keyboard] 0.049949ms
+2015-05-06 16:51:16.518 radio[86164:7538543] [CDVTimer][TotalPluginStartup] 0.217021ms
+2015-05-06 16:51:16.611 radio[86164:7538543] Resetting plugins due to page load.
+2015-05-06 16:51:18.515 radio[86164:7538543] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/52162EC0-E5A1-46E6-A330-48F2958B7118/radio.app/www/index.html
+2015-05-06 16:51:23.435 radio[86164:7538543] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:51:23.689 radio[86164:7538543] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 16:51:24.149 radio[86164:7538543] go Issue !!
+2015-05-06 16:51:25.854 radio[86164:7538543] go Issue !!
+2015-05-06 16:51:26.021 radio[86164:7538543] go Issue !!
+2015-05-06 16:51:26.188 radio[86164:7538543] go Issue !!
+2015-05-06 16:51:28.290 radio[86164:7538543] go Issue !!
+2015-05-06 16:51:28.451 radio[86164:7538543] go Issue !!
+2015-05-06 16:51:33.258 radio[86164:7538543] go Issue !!
+2015-05-06 16:51:33.569 radio[86164:7538543] go Issue !!
+2015-05-06 16:51:33.809 radio[86164:7538543] go Issue !!
+2015-05-06 16:51:33.970 radio[86164:7538543] go Issue !!
+2015-05-06 16:51:34.236 radio[86164:7538543] Resetting plugins due to page load.
+2015-05-06 16:51:34.239 radio[86164:7538543] Failed to load webpage with error: Frame load interrupted
+2015-05-06 18:43:47.429 radio[86164:7585023] Communications error: <OS_xpc_error: <error: 0x2dff5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2dff83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-05-06 20:35:52.214 radio[88146:7631991] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 20:35:52.218 radio[88146:7631991] Multi-tasking -> Device: YES, App: YES
+2015-05-06 20:35:52.231 radio[88146:7631991] Unlimited access to network resources
+2015-05-06 20:35:52.490 radio[88146:7631991] [CDVTimer][keyboard] 0.096023ms
+2015-05-06 20:35:52.490 radio[88146:7631991] [CDVTimer][TotalPluginStartup] 0.678957ms
+2015-05-06 20:35:52.705 radio[88146:7631991] Resetting plugins due to page load.
+2015-05-06 20:35:54.612 radio[88146:7631991] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/47714878-ADF1-4D93-8C69-25722F6DB267/radio.app/www/index.html
+2015-05-06 20:35:59.091 radio[88146:7631991] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 20:35:59.480 radio[88146:7631991] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 20:36:00.020 radio[88146:7631991] go Issue !!
+2015-05-06 20:36:01.130 radio[88146:7631991] 2
+2015-05-06 20:36:01.739 radio[88146:7631991] 2
+2015-05-06 20:36:02.193 radio[88146:7631991] 1
+2015-05-06 20:36:02.680 radio[88146:7631991] 2
+2015-05-06 20:36:03.159 radio[88146:7631991] 2
+2015-05-06 20:36:03.791 radio[88146:7631991] 1
+2015-05-06 20:36:04.084 radio[88146:7631991] go Issue !!
+2015-05-06 20:36:04.654 radio[88146:7631991] go Issue !!
+2015-05-06 20:36:06.510 radio[88146:7631991] go Issue !!
+2015-05-06 20:36:07.031 radio[88146:7631991] go Issue !!
+2015-05-06 20:36:08.788 radio[88146:7631991] assigned initialIndex
+2015-05-06 20:36:08.788 radio[88146:7631991] initialindex
+2015-05-06 20:36:08.800 radio[88146:7631991] assigned initialIndex
+2015-05-06 20:36:08.801 radio[88146:7631991] initialindex
+2015-05-06 20:36:08.823 radio[88146:7631991] assigned initialIndex
+2015-05-06 20:36:08.823 radio[88146:7631991] initialindex
+2015-05-06 20:36:09.997 radio[88146:7631991] change day ! 1
+2015-05-06 20:36:10.617 radio[88146:7631991] change day ! 2
+2015-05-06 20:36:27.672 radio[88146:7631991] clicked
+2015-05-06 20:36:32.813 radio[88146:7631991] Resetting plugins due to page load.
+2015-05-06 20:36:32.816 radio[88146:7631991] Failed to load webpage with error: Frame load interrupted
+2015-05-06 20:36:33.313 radio[88146:7631991] Resetting plugins due to page load.
+2015-05-06 20:36:33.315 radio[88146:7631991] Failed to load webpage with error: Frame load interrupted
+2015-05-06 20:36:33.625 radio[88146:7631991] Resetting plugins due to page load.
+2015-05-06 20:36:33.627 radio[88146:7631991] Failed to load webpage with error: Frame load interrupted
+2015-05-06 20:38:26.418 radio[88146:7631991] clicked
+2015-05-06 20:38:28.454 radio[88146:7631991] assigned initialIndex
+2015-05-06 20:38:28.454 radio[88146:7631991] initialindex
+2015-05-06 20:38:28.464 radio[88146:7631991] assigned initialIndex
+2015-05-06 20:38:28.464 radio[88146:7631991] initialindex
+2015-05-06 20:38:28.486 radio[88146:7631991] assigned initialIndex
+2015-05-06 20:38:28.486 radio[88146:7631991] initialindex
+2015-05-06 20:46:46.690 radio[88777:7636937] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 20:46:46.691 radio[88777:7636937] Multi-tasking -> Device: YES, App: YES
+2015-05-06 20:46:46.692 radio[88777:7636937] Unlimited access to network resources
+2015-05-06 20:46:46.794 radio[88777:7636937] [CDVTimer][keyboard] 0.083983ms
+2015-05-06 20:46:46.795 radio[88777:7636937] [CDVTimer][TotalPluginStartup] 0.694990ms
+2015-05-06 20:46:46.882 radio[88777:7636937] Resetting plugins due to page load.
+2015-05-06 20:46:48.900 radio[88777:7636937] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/73A0E291-0FFD-4389-BA26-2FBFEA18A15E/radio.app/www/index.html
+2015-05-06 20:46:58.114 radio[88777:7636937] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 20:46:58.494 radio[88777:7636937] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 20:47:30.583 radio[89390:7638430] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 20:47:30.584 radio[89390:7638430] Multi-tasking -> Device: YES, App: YES
+2015-05-06 20:47:30.585 radio[89390:7638430] Unlimited access to network resources
+2015-05-06 20:47:30.660 radio[89390:7638430] [CDVTimer][keyboard] 0.063002ms
+2015-05-06 20:47:30.660 radio[89390:7638430] [CDVTimer][TotalPluginStartup] 0.239015ms
+2015-05-06 20:47:30.764 radio[89390:7638430] Resetting plugins due to page load.
+2015-05-06 20:47:32.829 radio[89390:7638430] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/283DD150-4C1F-4A64-8481-51535F10C889/radio.app/www/index.html
+2015-05-06 20:47:37.674 radio[89390:7638430] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 20:47:37.996 radio[89390:7638430] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 20:49:43.796 radio[89946:7640414] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 20:49:43.797 radio[89946:7640414] Multi-tasking -> Device: YES, App: YES
+2015-05-06 20:49:43.798 radio[89946:7640414] Unlimited access to network resources
+2015-05-06 20:49:43.871 radio[89946:7640414] [CDVTimer][keyboard] 0.056028ms
+2015-05-06 20:49:43.871 radio[89946:7640414] [CDVTimer][TotalPluginStartup] 0.223994ms
+2015-05-06 20:49:43.942 radio[89946:7640414] Resetting plugins due to page load.
+2015-05-06 20:49:45.807 radio[89946:7640414] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/6F697640-5F0B-4B27-AAFA-4B49757D4514/radio.app/www/index.html
+2015-05-06 20:49:50.505 radio[89946:7640414] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 20:49:50.836 radio[89946:7640414] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 20:54:44.313 radio[90523:7643691] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 20:54:44.314 radio[90523:7643691] Multi-tasking -> Device: YES, App: YES
+2015-05-06 20:54:44.316 radio[90523:7643691] Unlimited access to network resources
+2015-05-06 20:54:44.403 radio[90523:7643691] [CDVTimer][keyboard] 0.079989ms
+2015-05-06 20:54:44.403 radio[90523:7643691] [CDVTimer][TotalPluginStartup] 0.338018ms
+2015-05-06 20:54:44.479 radio[90523:7643691] Resetting plugins due to page load.
+2015-05-06 20:54:46.275 radio[90523:7643691] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/67DCF9D6-7DE1-4D09-88BA-424DAA105502/radio.app/www/index.html
+2015-05-06 20:54:55.271 radio[90523:7643691] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 20:54:55.603 radio[90523:7643691] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 20:54:58.979 radio[90523:7643691] DEBUG: $state.go
+2015-05-06 21:26:47.754 radio[91224:7657356] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 21:26:47.755 radio[91224:7657356] Multi-tasking -> Device: YES, App: YES
+2015-05-06 21:26:47.756 radio[91224:7657356] Unlimited access to network resources
+2015-05-06 21:26:47.863 radio[91224:7657356] [CDVTimer][keyboard] 0.057995ms
+2015-05-06 21:26:47.863 radio[91224:7657356] [CDVTimer][TotalPluginStartup] 0.224054ms
+2015-05-06 21:26:47.980 radio[91224:7657356] Resetting plugins due to page load.
+2015-05-06 21:26:49.756 radio[91224:7657356] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/8C0983A2-455C-4CBE-A6D7-DE00ED9E9219/radio.app/www/index.html
+2015-05-06 21:26:53.537 radio[91224:7657356] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 21:26:53.900 radio[91224:7657356] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 21:26:56.943 radio[91224:7657356] DEBUG: $state.go
+2015-05-06 21:26:57.512 radio[91224:7657356] DEBUG: $state.go
+2015-05-06 21:26:57.825 radio[91224:7657356] DEBUG: $state.go
+2015-05-06 21:26:59.244 radio[91224:7657356] DEBUG: $state.go
+2015-05-06 21:27:00.887 radio[91224:7657356] DEBUG: $state.go
+2015-05-06 21:31:09.593 radio[91806:7660797] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-06 21:31:09.595 radio[91806:7660797] Multi-tasking -> Device: YES, App: YES
+2015-05-06 21:31:09.597 radio[91806:7660797] Unlimited access to network resources
+2015-05-06 21:31:09.705 radio[91806:7660797] [CDVTimer][keyboard] 0.056028ms
+2015-05-06 21:31:09.705 radio[91806:7660797] [CDVTimer][TotalPluginStartup] 0.225008ms
+2015-05-06 21:31:09.803 radio[91806:7660797] Resetting plugins due to page load.
+2015-05-06 21:31:10.784 radio[91806:7660797] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/F2566F0B-2F77-4144-B258-11E0D6C1A95F/radio.app/www/index.html
+2015-05-06 21:31:15.030 radio[91806:7660797] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 21:31:15.365 radio[91806:7660797] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-06 21:31:37.358 radio[91806:7660797] DEBUG: $state.go
+2015-05-06 21:31:37.992 radio[91806:7660797] 2
+2015-05-06 21:31:38.612 radio[91806:7660797] 2

@@ -6,7 +6,6 @@
 angular.module('radio', [
   'ionic',
   'tabSlideBox',
-  'ngResource',
   'ngCookies',
   'ngRoute',
   'radio.directive',
@@ -48,6 +47,7 @@ angular.module('radio', [
       templateUrl: 'template/login.html',
       controller: 'LoginCtrl'
     })
+
     .state('signup', {
       url: '/signup',
       templateUrl: 'template/signup.html',
@@ -63,46 +63,11 @@ angular.module('radio', [
 
     /* Main Tab */
     .state('tabs.main', {
+      url: '/main',
       views: {
         'main': {
           templateUrl: 'template/tabs/main/intro.html',
           controller: 'MainIntroCtrl'
-        }
-      }
-    })
-    .state('tabs.main.rec_issues' ,{
-      url: '/main/rec/issues',
-      views: {
-        'main': {
-          templateUrl: 'template/issue/issue_list.html',
-          controller: 'IssueListCtrl'
-        }
-      }
-    })
-    .state('tabs.main.rec_channels' ,{
-      url: '/main/rec/channels',
-      views: {
-        'main': {
-          templateUrl: 'template/channel/channel_list.html',
-          controller: 'ChannelListCtrl'
-        }
-      }
-    })
-    .state('tabs.main.hot_issues', {
-      url: '/main/hot/issues',
-      views: {
-        'main': {
-          templateUrl: 'template/issue/issue_list.html',
-          controller: 'IssueListCtrl'
-        }
-      }
-    })
-    .state('tabs.main.hot_products', {
-      url: '/main/hot/products', 
-      views: {
-        'main': {
-          templateUrl: 'template/product/product_list.html',
-          controller: 'ProductListCtrl'
         }
       }
     })
@@ -112,6 +77,15 @@ angular.module('radio', [
         'main': {
           templateUrl: 'template/channel/channel_detail.html',
           controller: 'ChannelDetailCtrl'
+        }
+      }
+    })
+    .state('tabs.main_issue_detail', {
+      url: '/main/issues/:issue_id',
+      views: {
+        'main':{
+          templateUrl: 'template/issue/issue_detail.html',
+          controller: 'IssueDetailCtrl'
         }
       }
     })
@@ -184,15 +158,6 @@ angular.module('radio', [
         'main': {
           templateUrl: 'template/product/product_list.html',
           controller: 'ProductListCtrl'
-        }
-      }
-    })
-    .state('tabs.main_issue_detail', {
-      url: '/main/issues/:issue_id',
-      views: {
-        'main':{
-          templateUrl: 'template/issue/issue_detail.html',
-          controller: 'IssueDetailCtrl'
         }
       }
     })
@@ -540,7 +505,7 @@ angular.module('radio', [
   $ionicConfigProvider.tabs.position('bottom');
   $ionicConfigProvider.backButton.text('').icon('fa fa-chevron-left').previousTitleText(false);
 
-  //$ionicConfigProvider.views.maxCache(0);
+  $ionicConfigProvider.views.maxCache(0);
   
   /*
   $httpProvider.interceptors.push(function($rootScope) {

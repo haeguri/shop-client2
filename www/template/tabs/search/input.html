@@ -1,0 +1,20 @@
+<ion-view>
+	<ion-nav-title class="search-nav-input">
+ 		<label class="radio-input-wrapper">
+		    <i class="fa fa-search"></i>
+	      	<input type="text" placeholder="Search" ng-change="search_input.requestQuery()" ng-model="search_input.input">
+	  	</label>
+	</ion-nav-title>
+ 	<ion-nav-buttons side="right">
+ 		<button class="right-cancel" ng-click="search_input.clickTest()">Cancel</button>
+ 	</ion-nav-buttons>
+    <ion-content has-bouncing="false">
+    	<div class="search-input-content">
+    		<ul class="list">
+			    <li class="item" ng-click="search_input.goHashTagGlobal(item.id)" ng-repeat="item in search_input.received_query">
+			      <i class="fa fa-search"></i>{{item.name}}
+			    </li>
+			</ul>
+    	</div>
+    </ion-content>
+</ion-view>
