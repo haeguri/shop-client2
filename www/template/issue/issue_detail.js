@@ -1,7 +1,7 @@
 angular.module('radio.controller')
 
 	.controller('IssueDetailCtrl', function(Channel, Like, $scope, $location, $rootScope,
-        $stateParams, $ionicHistory, $log) {
+        $stateParams, $ionicHistory, $log, $state) {
 
         $scope.issue_detail = {};
 
@@ -39,58 +39,62 @@ angular.module('radio.controller')
             });
         }
 
-        url_pattern = /\/\#\/main\/|\/\#\/channel\/|\/#\/private\/|\/#\/search\//.exec($location.absUrl())[0];
+
+
+        
+        url_pattern = /main|channel|private|search/.exec($state.current.name)[0];
+
+        console.log("$state.current.name", $state.current.name);
+        console.log("Url Pattern!", url_pattern);
 
         $scope.issue_detail.goProductDetail = function(product_id) {
             switch(url_pattern) {
-                case '/#/main/':
-                    $location.url('/main/products/'+product_id);
+                case 'main':
+                    $state.go('tabs.main_product_detail', {'product_id':product_id})
                     break; 
-                case '/#/channel/':
-                    $location.url('/channel/products/'+product_id);
+                case 'channel':
+                    $state.go('tabs.channel_product_detail', {'product_id':product_id})
                     break;
-                case '/#/private/':
-                    $location.url('/private/products/'+product_id);
+                case 'private':
+                    $state.go('tabs.private_product_detail', {'product_id':product_id})
                     break;
-                case '/#/search/':
-                    $location.url('/search/products/'+product_id);
+                case 'search':
+                    $state.go('tabs.search_product_detail', {'product_id':product_id})
                     break;
             }
         }
 
         $scope.issue_detail.goChannelDetail = function(channel_id) {
-            $log.log("goChannelDetail", channel_id);
             switch(url_pattern) {
-                case '/#/main/':
-                    $location.url('/main/channels/'+channel_id);
+                case 'main':
+                    $state.go('tabs.main_channel_detail', {'channel_id':channel_id})
                     break; 
-                case '/#/channel/':
-                    $location.url('/channel/channels/'+channel_id);
+                case 'channel':
+                    $state.go('tabs.channel_channel_detail', {'channel_id':channel_id})
                     break;
-                case '/#/private/':
-                    $location.url('/private/channels/'+channel_id);
+                case 'private':
+                    $state.go('tabs.private_channel_detail', {'channel_id':channel_id})
                     break;
-                case '/#/search/':
-                    $location.url('/search/channels/'+channel_id);
+                case 'search':
+                    $state.go('tabs.search_channel_detail', {'channel_id':channel_id})
                     break;
             }
         }
 
-        $scope.issue_detail.goHashTagGlobal = function(tag_id) {
+        $scope.issue_detail.goHashTagGlobalIssues = function(tag_id) {
             switch(url_pattern) {
-                case '/#/main/':
-                    $location.url('/main/hashtag/issues?tag='+tag_id);
+                case 'main':
+                    $state.go('tabs.main_tag_global.issues', {'tag':tag_id})
                     break; 
-                case '/#/channel/':
-                    $location.url('/channel/hashtag/issues?tag='+tag_id);
+                case 'channel':
+                    $state.go('tabs.channel_tag_global.issues', {'tag':tag_id})
                     break;
-                case '/#/private/':
-                    $location.url('/private/hashtag/issues?tag='+tag_id);
+                case 'private':
+                    $state.go('tabs.private_tag_global.issues', {'tag':tag_id})
                     break;
-                case '/#/search/':
-                    $location.url('/search/hashtag/issues?tag='+tag_id);
+                case 'search':
+                    $state.go('tabs.search_tag_global.issues', {'tag':tag_id})
                     break;
             }   
         }
-
     });

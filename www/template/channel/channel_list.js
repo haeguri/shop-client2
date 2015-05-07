@@ -17,7 +17,7 @@ angular.module('radio.controller')
     });
 
     $scope.channel_list.goChannelDetail = function(channel_id) {
-        $location.url('/main/channels/'+channel_id);
+        $state.go('tabs.main_channel_detail', {'channel_id':channel_id});
     };
 
     $scope.channel_list.toggleChannelFollow = function(channel, index, event) {

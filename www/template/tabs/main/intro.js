@@ -1,7 +1,7 @@
 angular.module('radio.controller')
 
 .controller('MainIntroCtrl', function($scope, $location, $rootScope, 
-    $timeout, $state, Product, Channel) {
+    $timeout, $state, Product, Channel, Follow) {
 
     $scope.main_intro = {};
     $scope.main_intro.issues = [];
@@ -24,24 +24,18 @@ angular.module('radio.controller')
         }
     }
 
-    $rootScope.$on("$stateChangeError", function(event, toState, toParams, fromState, fromParams, error) {
-        $scope.main_intro.routeChangeError = error;
-      });
+    $scope.main_intro.goIssueDetail = function(issue_id) {
+        $state.go('tabs.main_issue_detail', {'issue_id':issue_id});
+    };
 
     $scope.main_intro.changeItem = function() {
-        if (current_item == items.length-1) {
+        if (current_item == items.length-1)  {
             current_item = 0;
-            console.log("1")
             $scope.main_intro.selectedItem = items[current_item];
         } else {
-            console.log("2")
             $scope.main_intro.selectedItem = items[++current_item];
         }
     }
-
-
-    //console.log("$locatino.absUrl()", $location.absUrl());
-    $scope.main_intro.currentUrl = $location.absUrl();
 
     Channel.getIssues({
         'params':{
@@ -67,25 +61,25 @@ angular.module('radio.controller')
         })
     });
 
-    $scope.main_intro.goChannelDetail = function(channel_id) {
-        $location.url('/main/channels/'+channel_id);
-        //$location.url('/search/input');
-        $scope.main_intro.clickTest = 'channel clicked';
-    };
-
-    $scope.main_intro.goIssueDetail = function(issue_id) {
-        $scope.main_intro.clickTest = issue_id;
-        //$state.go('tabs.main_issue_detail', {'issue_id':issue_id});
-        $timeout(function() {
-          console.log('DEBUG: $state.go');
-          $location.path('/main/issues/'+issue_id);
-        },3000);
+    $scope.main_intro.goChannelDetail = function(channel_id, $event) {
+        $event.stopPropagation();
+        $state.go('tabs.main_channel_detail', {'channel_id':channel_id});
     };
 
     $scope.main_intro.goProductDetail = function(product_id) {
-        $location.url('/main/products/'+product_id);
-        $scope.main_intro.clickTest = 'product clicked';
+        $state.go('tabs.main_product_detail', {'product_id':product_id});
     };
+
+    $scope.main_intro.goHashTagGlobalIssues = function(tag_id, $event) {
+        $event.stopPropagation();
+        // 'tag'는 쿼리 스트링. http://localhost/main/hashtag/issues?tag=<태그_ID> 로 요청을 보냄.
+        $state.go('tabs.main_tag_global.issues', {'tag':2});
+    }
+
+    $scope.main_intro.goHashTagGlobalProducts = function(tag_id, $event) {
+        $event.stopPropagation();
+        $state.go('tabs.main_tag_global.products', {'tag_id':tag_id});
+    }
 
     $scope.main_intro.toggleChannelFollow = function(channel, index, event) {
         event.stopPropagation();
@@ -96,16 +90,10 @@ angular.module('radio.controller')
         }).then(function(data) {
             if (channel.follow === false) {
                 $scope.main_intro.channels[index].follow= true;
-                $log.log("brand follow");
             } else {
                 $scope.main_intro.channels[index].follow = false;
-                $log.log("brand unfollow");
             }
         });
     }
 
-    $scope.main_intro.goHashTagGlobal = function(tag, $event) {
-        $event.stopPropagation();
-        $location.url('/main/hashtag/issues?tag='+tag.id);
-    }
 })

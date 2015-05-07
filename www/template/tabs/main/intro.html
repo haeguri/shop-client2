@@ -10,27 +10,22 @@
         </button>
     </ion-header-bar>
     <ion-content class="has-subheader" has-bouncing="false">
-        <!--
-        <h1>{{main_intro.clickTest}}</h1>
-        <p>{{main_intro.routeChangeError}}</p>
-        <p>{{main_intro.currentUrl}}</p>
-        -->
         <div ng-if="main_intro.selectedItem == 'issue'" >
             <h2>{{main_intro.clickTest}}</h2>
             <div class="radio-list" ng-click="main_intro.goIssueDetail(issue.id)" ng-repeat="issue in main_intro.issues">
                 <img ng-src="{{issue.image}}">
                 <div class="image-wrap-black"></div>
-                <img class="profile" ng-src="{{issue.channel.profile}}">
+                <img class="profile" ng-click="main_intro.goChannelDetail(issue.channel.id, $event)" ng-src="{{issue.channel.profile}}">
                 <div class="info">
                     <h3>{{issue.title}}</h3>
-                    <a ng-click="main_intro.goHashTagGlobal(tag, $event)" ng-repeat="tag in issue.hash_tags" >#{{tag.name}}</a><br>
+                    <a ng-click="main_intro.goHashTagGlobalIssues(tag.id, $event)" ng-repeat="tag in issue.hash_tags" >#{{tag.name}}</a><br>
                     <span><i class="fa fa-eye"></i> {{issue.view}}</span>
                     <span><i class="fa fa-heart"></i> {{issue.issue_likes_of_issue.length}}</span>
                 </div>
             </div>
         </div>
         <div ng-if="main_intro.selectedItem == 'channel'">
-            <div class="channel-list" ng-click="main_intro.goChannelDetail(channel.id)" ng-repeat="channel in main_intro.channels track by $index">
+            <div class="channel-list" ng-click="main_intro.goChannelDetail(channel.id, $event)" ng-repeat="channel in main_intro.channels track by $index">
                 <img ng-src="{{channel.background}}">
                 <div class="image-wrap-black"></div>
                 <div class="profile">
@@ -59,7 +54,7 @@
                 <div class="image-wrap-white"></div>
                 <div class="info text-black">
                     <h3>{{product.name}}</h3>
-                    <a ng-repeat="tag in product.hash_tags" >#{{tag.name}}</a><br>
+                    <a ng-click="main_intro.goHashTagGlobalProducts(tag.id, $event)" ng-repeat="tag in product.hash_tags" >#{{tag.name}}</a><br>
                     <span><i class="fa fa-heart"></i> {{product.product_likes_of_product.length}}</span>
                 </div>
             </div>

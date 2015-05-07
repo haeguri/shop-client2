@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('ProductListCtrl', function(Product, $scope, $location) {
+	.controller('ProductListCtrl', function(Product, $scope, $state, $location) {
 
         $scope.product_list = {};
         $scope.product_list.isTagView = false;
@@ -37,39 +37,39 @@ angular.module('radio.controller')
             }
         })
 
-        url_pattern = /\/\#\/main\/|\/\#\/channel\/|\/#\/private\/|\/#\/search\//.exec($location.absUrl())[0];
+        url_pattern = /main|channel|private|search/.exec($state.current.name)[0];
 
         $scope.product_list.goProductDetail = function(product_id) {
             switch(url_pattern) {
-                case '/#/main/':
-                    $location.url('/main/products/'+product_id);
+                case 'main':
+                    $state.go('tabs.main_product_detail', {'product_id':product_id});
                     break; 
-                case '/#/channel/':
-                    $location.url('/channel/products/'+product_id);
+                case 'channel':
+                    $state.go('tabs.channel_product_detail', {'product_id':product_id});
                     break;
-                case '/#/private/':
-                    $location.url('/private/products/'+product_id);
+                case 'private':
+                    $state.go('tabs.private_product_detail', {'product_id':product_id});
                     break;
-                case '/#/search/':
-                    $location.url('/search/products/'+product_id);
+                case 'search':
+                    $state.go('tabs.search_product_detail', {'product_id':product_id});
                     break;
             }
         }
 
-        $scope.product_list.goHashTag = function(tag, $event) {
+        $scope.product_list.goHashTagGlobalProducts = function(tag_id, $event) {
             $event.stopPropagation();
             switch(url_pattern) {
-                case '/#/main/':
-                    $location.url('/main/hashtag/products?tag='+tag.id);
+                case 'main':
+                    $state.go('tabs.main_tag_global.products', {'tag':tag_id});
                     break; 
-                case '/#/channel/':
-                    $location.url('/channel/hashtag/products?tag='+tag.id);
+                case 'channel':
+                    $state.go('tabs.channel_tag_global.products', {'tag':tag_id});
                     break;
-                case '/#/private/':
-                    $location.url('/private/hashtag/products?tag='+tag.id);
+                case 'private':
+                    $state.go('tabs.private_tag_global.products', {'tag':tag_id});
                     break;
-                case '/#/search/':
-                    $location.url('/search/hashtag/products?tag='+tag.id);
+                case 'search':
+                    $state.go('tabs.search_tag_global.products', {'tag':tag_id});
                     break;
             }
         }

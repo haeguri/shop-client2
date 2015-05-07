@@ -72,28 +72,41 @@ angular.module('radio.controller')
             }
         }
 
-        url_pattern = /\/\#\/main\/|\/\#\/channel\/|\/#\/private\/|\/#\/search\//.exec($location.absUrl())[0];
+        url_pattern = /main|channel|private|search/.exec($state.current.name)[0];
 
         $scope.brand_detail.goProductDetail = function(product_id) {
             switch(url_pattern) {
-                case '/#/main/':
-                    $location.url('/main/products/'+product_id);
+                case 'main':
+                    $state.go('tabs.main_product_detail', {'product_id':product_id});
                     break; 
-                case '/#/channel/':
-                    $location.url('/channel/products/'+product_id);
+                case 'channel':
+                    $state.go('tabs.channel_product_detail', {'product_id':product_id});
                     break;
-                case '/#/private/':
-                    $location.url('/private/products/'+product_id);
+                case 'private':
+                    $state.go('tabs.private_product_detail', {'product_id':product_id});
                     break;
-                case '/#/search/':
-                    $location.url('/search/products/'+product_id);
+                case 'search':
+                    $state.go('tabs.search_product_detail', {'product_id':product_id});
                     break;
             }
         }
 
-        $scope.brand_detail.goHashTagSpecific = function(tag_id, $event) {
+        $scope.brand_detail.goHashTagSpecificProducts = function($event, brand_id, tag_id) {
             $event.stopPropagation();
-            $location.url('/main/specific/hashtag/products?tag='+tag_id+'&brand='+$scope.brand_detail.brand.id);
+            switch(url_pattern) {
+                case 'main':
+                    $state.go('tabs.main_tag_specific.products', {'tag':tag_id, 'brand':brand_id, 'tag':tag_id});
+                    break; 
+                case 'channel':
+                    $state.go('tabs.channel_tag_specific.products', {'tag':tag_id, 'brand':brand_id, 'tag':tag_id});
+                    break;
+                case 'private':
+                    $state.go('tabs.private_tag_specific.products', {'tag':tag_id, 'brand':brand_id, 'tag':tag_id});
+                    break;
+                case 'search':
+                    $state.go('tabs.search_tag_specific.products', {'tag':tag_id, 'brand':brand_id, 'tag':tag_id});
+                    break;
+            }
         }
 
         $scope.brand_detail.goBack = function() {

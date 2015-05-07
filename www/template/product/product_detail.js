@@ -1,7 +1,7 @@
 angular.module('radio.controller')
 
 	.controller('ProductDetailCtrl', function(Product, Cart, Brand, Like, $scope, $stateParams, 
-		$location, $rootScope, $ionicSlideBoxDelegate, $ionicHistory) {
+		$location, $rootScope, $ionicSlideBoxDelegate, $ionicHistory, $state) {
 
 		$scope.product_detail = {};
 
@@ -76,11 +76,7 @@ angular.module('radio.controller')
 			}
 		}
 
-		$scope.product_detail.goCart = function() {
-			$location.url('/tabs/private/info');
-		};
-
-		url_pattern = /\/\#\/main\/|\/\#\/channel\/|\/#\/private\/|\/#\/search\//.exec($location.absUrl())[0];
+		url_pattern = /main|channel|private|search/.exec($state.current.name)[0];
 
 		$scope.product_detail.goHashTagGlobal = function(tag) {
 			switch(url_pattern) {
@@ -101,17 +97,17 @@ angular.module('radio.controller')
 
 		$scope.product_detail.goBrandDetail = function(brand_id) {
 			switch(url_pattern) {
-                case '/#/main/':
-                    $location.url('/main/brands/'+brand_id);
+                case 'main':
+                    $state.go('tabs.main_brand_detail', {'brand_id':brand_id})
                     break; 
-                case '/#/channel/':
-                    $location.url('/channel/brands/'+brand_id);
+                case 'channel':
+                    $state.go('tabs.channel_brand_detail', {'brand_id':brand_id})
                     break;
-                case '/#/private/':
-                    $location.url('/private/brands/'+brand_id);
+                case 'private':
+                    $state.go('tabs.private_brand_detail', {'brand_id':brand_id})
                     break;
-                case '/#/search/':
-                    $location.url('/search/brands/'+brand_id);
+                case 'search':
+                    $state.go('tabs.search_brand_detail', {'brand_id':brand_id})
                     break;
             }
 		}

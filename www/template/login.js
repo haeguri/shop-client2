@@ -21,4 +21,8 @@ angular.module('radio.controller')
 			$location.url('/main/issues/'+issue_id);
 		}
 		
+
+		$scope.login.goRadio = function() {
+			$location.url('/radio');
+		}
 	});

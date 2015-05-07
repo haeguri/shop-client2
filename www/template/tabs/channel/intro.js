@@ -1,7 +1,7 @@
 angular.module('radio.controller')
 
 	.controller('ChannelIntroCtrl', function(Channel, $scope, $location,
-		$ionicSlideBoxDelegate, $timeout, $log) {
+		$ionicSlideBoxDelegate, $timeout, $state) {
 
         $scope.channel_intro = {};
 
@@ -32,7 +32,6 @@ angular.module('radio.controller')
 
         var getChannels = function(day_index) {
         	if($scope.channel_intro.pub_days[day_index]['is_loaded'] != true) {
-        		$log.log("Start channel load");
         		Channel.getChannels({
 	        		'params': {
 	        			'page': ++$scope.channel_intro.pub_days[day_index]['last_page'],
@@ -52,7 +51,7 @@ angular.module('radio.controller')
         } 
 
         $scope.channel_intro.goChannelDetail = function(channel_id) {
-        	$location.url('/channel/channels/'+channel_id);
+            $state.go('tabs.channel_channel_detail', {'channel_id':channel_id});
         }
 
 	});

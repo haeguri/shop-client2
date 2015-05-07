@@ -33,39 +33,57 @@ angular.module('radio.controller')
             }
         })
         
-        url_pattern = /\/\#\/main\/|\/\#\/channel\/|\/#\/private\/|\/#\/search\//.exec($location.absUrl())[0];
+        url_pattern = /main|channel|private|search/.exec($state.current.name)[0];
 
         $scope.issue_list.goIssueDetail = function(issue_id) {
             switch(url_pattern) {
-                case '/#/main/':
-                    $location.url('/main/issues/'+issue_id);
+                case 'main':
+                    $state.go('tabs.main_issue_detail', {'issue_id':issue_id});
                     break; 
-                case '/#/channel/':
-                    $location.url('/channel/issues/'+issue_id);
+                case 'channel':
+                    $state.go('tabs.channel_issue_detail', {'issue_id':issue_id});
                     break;
-                case '/#/private/':
-                    $location.url('/private/issues/'+issue_id);
+                case 'private':
+                    $state.go('tabs.private_issue_detail', {'issue_id':issue_id});
                     break;
-                case '/#/search/':
-                    $location.url('/search/issues/'+issue_id);
+                case 'search':
+                    $state.go('tabs.search_issue_detail', {'issue_id':issue_id});
                     break;
             }
         }
 
-        $scope.issue_list.goHashTagGlobal = function(tag, $event) {
+        $scope.issue_list.goChannelDetail = function(channel_id, $event) {
             $event.stopPropagation();
             switch(url_pattern) {
-                case '/#/main/':
-                    $location.url('/main/hashtag/issues?tag='+tag.id);
+                case 'main':
+                    $state.go('tabs.main_channel_detail', {'channel_id':channel_id});
                     break; 
-                case '/#/channel/':
-                    $location.url('/channel/hashtag/issues?tag='+tag.id);
+                case 'channel':
+                    $state.go('tabs.channel_channel_detail', {'channel_id':channel_id});
                     break;
-                case '/#/private/':
-                    $location.url('/private/hashtag/issues?tag='+tag.id);
+                case 'private':
+                    $state.go('tabs.private_channel_detail', {'channel_id':channel_id});
                     break;
-                case '/#/search/':
-                    $location.url('/search/hashtag/issues?tag='+tag.id);
+                case 'search':
+                    $state.go('tabs.search_channel_detail', {'channel_id':channel_id});
+                    break;
+            }
+        }
+
+        $scope.issue_list.goHashTagGlobalIssues = function(tag_id, $event) {
+            $event.stopPropagation();
+            switch(url_pattern) {
+                case 'main':
+                    $state.go('tabs.main_tag_global.issues', {'tag':tag_id});
+                    break; 
+                case 'channel':
+                    $state.go('tabs.channel_tag_global.issues', {'tag':tag_id});
+                    break;
+                case 'private':
+                    $state.go('tabs.private_tag_global.issues', {'tag':tag_id});
+                    break;
+                case 'search':
+                    $state.go('tabs.search_tag_global.issues', {'tag':tag_id});
                     break;
             }
         }

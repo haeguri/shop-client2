@@ -29,12 +29,12 @@
 		<div class="channel-detail-issues" ng-click="channel_detail.goIssueDetail(issue.id)"collection-repeat="issue in channel_detail.channel.issues_of_channel"
 		item-width="100%"
 		item-height="192px">
-			<img src="{{issue.image}}">
+			<img ng-src="{{issue.image}}">
 			<div></div>
 			<button class="like-btn"><i class="fa fa-heart-o nav-center-heart fa-2x {{issue.like}}"></i></button>
 			<div class="info">
 				<h2>{{issue.title}}</h2>
-				<span ng-click="channel_detail.goHashTagSpecific($event, channel_detail.channel, tag)" ng-repeat="tag in issue.hash_tags"> #{{tag.name}}</span>
+				<span ng-click="channel_detail.goHashTagSpecificIssues($event, channel_detail.channel.id, tag.id)" ng-repeat="tag in issue.hash_tags"> #{{tag.name}}</span>
 			</div>
 		</div>
     </ion-content>

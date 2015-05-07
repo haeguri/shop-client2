@@ -17,7 +17,7 @@
 			<div></div>
 			<div class="info">
 				<h2>{{issue_detail.issue.title}}</h2>
-				<span ng-click="issue_detail.goHashTagGlobal(tag.id)" ng-repeat="tag in issue_detail.issue.hash_tags"># {{tag.name}}</span><br>
+				<span ng-click="issue_detail.goHashTagGlobalIssues(tag.id)" ng-repeat="tag in issue_detail.issue.hash_tags"># {{tag.name}}</span><br>
 			</div>
 			<div class="profile" ng-click="issue_detail.goChannelDetail(issue_detail.issue.channel.id)">
 				<img ng-src="{{issue_detail.issue.channel.profile}}">

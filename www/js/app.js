@@ -41,7 +41,7 @@ angular.module('radio', [
   $httpProvider, $compileProvider) {
 
   $stateProvider
-    
+  
     .state('login', {
       url: '/login',
       templateUrl: 'template/login.html',
@@ -60,8 +60,8 @@ angular.module('radio', [
       templateUrl: 'template/tabs/tabs.html',
       controller: 'TabsCtrl'
     })
-
-    /* Main Tab */
+    
+    /* MAIN PAGE */
     .state('tabs.main', {
       url: '/main',
       views: {
@@ -505,7 +505,7 @@ angular.module('radio', [
   $ionicConfigProvider.tabs.position('bottom');
   $ionicConfigProvider.backButton.text('').icon('fa fa-chevron-left').previousTitleText(false);
 
-  $ionicConfigProvider.views.maxCache(0);
+  //$ionicConfigProvider.views.maxCache(0);
   
   /*
   $httpProvider.interceptors.push(function($rootScope) {
