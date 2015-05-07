@@ -9,7 +9,7 @@ angular.module('radio.controller')
         var tag = $location.search().tag;
  		
         if ($location.search().brand == undefined) {
-        	url = '/channel/hashtag/issues?tag=' + tag;
+                url = '/channel/hashtag/issues?tag=' + tag;
         } else if ($location.search().channel == undefined)  {
         	url = '/channel/hashtag/products?tag=' + tag;
         }
@@ -29,4 +29,4 @@ angular.module('radio.controller')
         	$location.url(url);
         }
 
-})
+    });

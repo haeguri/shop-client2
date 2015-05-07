@@ -20,9 +20,4 @@ angular.module('radio.controller')
 		$scope.login.goIssueDetail = function(issue_id) {
 			$location.url('/main/issues/'+issue_id);
 		}
-		
-
-		$scope.login.goRadio = function() {
-			$location.url('/radio');
-		}
 	});

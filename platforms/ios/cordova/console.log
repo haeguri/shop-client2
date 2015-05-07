@@ -1762,3 +1762,569 @@
 2015-05-07 15:16:30.293 radio[9731:7868661] Failed to load webpage with error: Frame load interrupted
 2015-05-07 15:16:30.555 radio[9731:7868661] Resetting plugins due to page load.
 2015-05-07 15:16:30.557 radio[9731:7868661] Failed to load webpage with error: Frame load interrupted
+2015-05-07 17:54:21.144 radio[11840:7942927] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-07 17:54:21.147 radio[11840:7942927] Multi-tasking -> Device: YES, App: YES
+2015-05-07 17:54:21.160 radio[11840:7942927] Unlimited access to network resources
+2015-05-07 17:54:21.461 radio[11840:7942927] [CDVTimer][keyboard] 0.061989ms
+2015-05-07 17:54:21.462 radio[11840:7942927] [CDVTimer][TotalPluginStartup] 0.233054ms
+2015-05-07 17:54:21.694 radio[11840:7942927] Resetting plugins due to page load.
+2015-05-07 17:54:23.697 radio[11840:7942927] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/D7B7FA38-0AC6-4BAC-AB2D-BD6473D5076F/radio.app/www/index.html
+2015-05-07 17:54:28.605 radio[11840:7942927] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 17:54:29.016 radio[11840:7942927] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 17:54:29.786 radio[11840:7942927] 고 이슈
+2015-05-07 17:54:29.786 radio[11840:7942927] $location.search().tag 2
+2015-05-07 17:54:29.787 radio[11840:7942927] $location.search().view issues
+2015-05-07 17:54:29.996 radio[11840:7942927] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 17:54:36.279 radio[11840:7942927] $location.search().tag 21,21
+2015-05-07 17:54:36.279 radio[11840:7942927] $location.search().view issues
+2015-05-07 17:54:36.440 radio[11840:7942927] issues!!! on main 
+2015-05-07 17:54:38.901 radio[11840:7942927] $location.search().tag 15,15
+2015-05-07 17:54:38.901 radio[11840:7942927] $location.search().view issues
+2015-05-07 17:54:39.124 radio[11840:7942927] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 17:54:54.542 radio[11840:7942927] $location.search().tag 27,27
+2015-05-07 17:54:54.542 radio[11840:7942927] $location.search().view issues
+2015-05-07 17:54:54.872 radio[11840:7942927] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 17:54:56.351 radio[11840:7942927] $state.current.name tabs.main_issue_detail
+2015-05-07 17:54:56.351 radio[11840:7942927] Url Pattern! main
+2015-05-07 17:54:58.943 radio[11840:7942927] $location.search().tag 1,1
+2015-05-07 17:54:58.943 radio[11840:7942927] $location.search().view issues
+2015-05-07 17:54:59.106 radio[11840:7942927] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 17:55:00.082 radio[11840:7942927] $state.current.name tabs.main_issue_detail
+2015-05-07 17:55:00.083 radio[11840:7942927] Url Pattern! main
+2015-05-07 17:55:02.568 radio[11840:7942927] $location.search().tag 14,14
+2015-05-07 17:55:02.569 radio[11840:7942927] $location.search().view issues
+2015-05-07 17:55:02.733 radio[11840:7942927] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:05:32.253 radio[11840:7942927] $state.current.name tabs.main_issue_detail
+2015-05-07 18:05:32.256 radio[11840:7942927] Url Pattern! main
+2015-05-07 18:05:35.386 radio[11840:7942927] assigned initialIndex
+2015-05-07 18:05:35.386 radio[11840:7942927] initialindex
+2015-05-07 18:05:35.400 radio[11840:7942927] assigned initialIndex
+2015-05-07 18:05:35.400 radio[11840:7942927] initialindex
+2015-05-07 18:05:35.420 radio[11840:7942927] assigned initialIndex
+2015-05-07 18:05:35.420 radio[11840:7942927] initialindex
+2015-05-07 18:05:41.924 radio[11840:7942927] response 
+2015-05-07 18:05:42.313 radio[11840:7942927] response 
+2015-05-07 18:05:46.024 radio[11840:7942927] $state.current.name tabs.channel_issue_detail
+2015-05-07 18:05:46.024 radio[11840:7942927] Url Pattern! channel
+2015-05-07 18:26:23.418 radio[12607:7957895] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-07 18:26:23.419 radio[12607:7957895] Multi-tasking -> Device: YES, App: YES
+2015-05-07 18:26:23.420 radio[12607:7957895] Unlimited access to network resources
+2015-05-07 18:26:23.521 radio[12607:7957895] [CDVTimer][keyboard] 0.059009ms
+2015-05-07 18:26:23.521 radio[12607:7957895] [CDVTimer][TotalPluginStartup] 0.216961ms
+2015-05-07 18:26:23.635 radio[12607:7957895] Resetting plugins due to page load.
+2015-05-07 18:26:25.160 radio[12607:7957895] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/9C8C4D82-AD20-4FC8-85F7-C578002A206F/radio.app/www/index.html
+2015-05-07 18:26:58.273 radio[12607:7957895] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:26:58.598 radio[12607:7957895] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:27:00.025 radio[12607:7957895] 고 이슈
+2015-05-07 18:27:00.025 radio[12607:7957895] $location.search().tag 2
+2015-05-07 18:27:00.025 radio[12607:7957895] $location.search().view issues
+2015-05-07 18:27:00.459 radio[12607:7957895] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:27:03.136 radio[12607:7957895] $location.search().tag 1,1
+2015-05-07 18:27:03.136 radio[12607:7957895] $location.search().view issues
+2015-05-07 18:27:03.513 radio[12607:7957895] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:27:04.945 radio[12607:7957895] $state.current.name tabs.main_issue_detail
+2015-05-07 18:27:04.945 radio[12607:7957895] Url Pattern! main
+2015-05-07 18:27:34.917 radio[13150:7959669] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-07 18:27:34.918 radio[13150:7959669] Multi-tasking -> Device: YES, App: YES
+2015-05-07 18:27:34.920 radio[13150:7959669] Unlimited access to network resources
+2015-05-07 18:27:35.023 radio[13150:7959669] [CDVTimer][keyboard] 0.061989ms
+2015-05-07 18:27:35.023 radio[13150:7959669] [CDVTimer][TotalPluginStartup] 0.235021ms
+2015-05-07 18:27:35.122 radio[13150:7959669] Resetting plugins due to page load.
+2015-05-07 18:27:37.025 radio[13150:7959669] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/AFAB9DB7-8948-4D21-B7D7-647B1BBF69A3/radio.app/www/index.html
+2015-05-07 18:27:40.682 radio[13150:7959669] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:27:40.990 radio[13150:7959669] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:27:41.953 radio[13150:7959669] 고 이슈
+2015-05-07 18:27:41.980 radio[13150:7959669] $location.search().tag 2
+2015-05-07 18:27:41.981 radio[13150:7959669] $location.search().view issues
+2015-05-07 18:27:42.333 radio[13150:7959669] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:28:47.299 radio[13697:7961281] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-07 18:28:47.300 radio[13697:7961281] Multi-tasking -> Device: YES, App: YES
+2015-05-07 18:28:47.302 radio[13697:7961281] Unlimited access to network resources
+2015-05-07 18:28:47.394 radio[13697:7961281] [CDVTimer][keyboard] 0.087023ms
+2015-05-07 18:28:47.394 radio[13697:7961281] [CDVTimer][TotalPluginStartup] 0.353038ms
+2015-05-07 18:28:47.476 radio[13697:7961281] Resetting plugins due to page load.
+2015-05-07 18:28:49.254 radio[13697:7961281] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/E35C9668-18ED-4021-8690-C35D93B0645D/radio.app/www/index.html
+2015-05-07 18:28:58.840 radio[14223:7962187] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-07 18:28:58.841 radio[14223:7962187] Multi-tasking -> Device: YES, App: YES
+2015-05-07 18:28:58.843 radio[14223:7962187] Unlimited access to network resources
+2015-05-07 18:28:58.933 radio[14223:7962187] [CDVTimer][keyboard] 0.056982ms
+2015-05-07 18:28:58.933 radio[14223:7962187] [CDVTimer][TotalPluginStartup] 0.214040ms
+2015-05-07 18:28:58.992 radio[14223:7962187] Resetting plugins due to page load.
+2015-05-07 18:29:00.886 radio[14223:7962187] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/81E9BB2D-C234-43F8-8465-8D20426EE9F5/radio.app/www/index.html
+2015-05-07 18:29:05.043 radio[14223:7962187] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:29:05.596 radio[14223:7962187] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:29:12.290 radio[14223:7962187] $state.current.name tabs.main_issue_detail
+2015-05-07 18:29:12.290 radio[14223:7962187] Url Pattern! main
+2015-05-07 18:29:15.550 radio[14223:7962187] 고 이슈
+2015-05-07 18:29:15.550 radio[14223:7962187] $location.search().tag 2
+2015-05-07 18:29:15.550 radio[14223:7962187] $location.search().view issues
+2015-05-07 18:29:15.731 radio[14223:7962187] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:29:25.786 radio[14223:7962187] 고 이슈
+2015-05-07 18:29:25.787 radio[14223:7962187] $location.search().tag 2
+2015-05-07 18:29:25.787 radio[14223:7962187] $location.search().view issues
+2015-05-07 18:29:26.259 radio[14223:7962187] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:32:28.825 radio[14797:7965444] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-07 18:32:28.826 radio[14797:7965444] Multi-tasking -> Device: YES, App: YES
+2015-05-07 18:32:28.828 radio[14797:7965444] Unlimited access to network resources
+2015-05-07 18:32:28.936 radio[14797:7965444] [CDVTimer][keyboard] 0.082016ms
+2015-05-07 18:32:28.937 radio[14797:7965444] [CDVTimer][TotalPluginStartup] 0.322998ms
+2015-05-07 18:32:29.036 radio[14797:7965444] Resetting plugins due to page load.
+2015-05-07 18:32:30.641 radio[14797:7965444] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/041FA8D4-9AF1-4A1D-AD72-CF787CCCBE12/radio.app/www/index.html
+2015-05-07 18:32:40.908 radio[14797:7965444] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:32:41.222 radio[14797:7965444] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:32:41.857 radio[14797:7965444] 고 이슈
+2015-05-07 18:32:41.857 radio[14797:7965444] $location.search().tag 2
+2015-05-07 18:32:41.857 radio[14797:7965444] $location.search().view issues
+2015-05-07 18:32:42.044 radio[14797:7965444] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:33:01.551 radio[14797:7965444] $state.current.name tabs.main_issue_detail
+2015-05-07 18:33:01.551 radio[14797:7965444] Url Pattern! main
+2015-05-07 18:33:05.286 radio[15331:7966662] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-07 18:33:05.287 radio[15331:7966662] Multi-tasking -> Device: YES, App: YES
+2015-05-07 18:33:05.289 radio[15331:7966662] Unlimited access to network resources
+2015-05-07 18:33:05.409 radio[15331:7966662] [CDVTimer][keyboard] 0.079989ms
+2015-05-07 18:33:05.409 radio[15331:7966662] [CDVTimer][TotalPluginStartup] 0.328004ms
+2015-05-07 18:33:05.482 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:33:07.478 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/
+2015-05-07 18:33:11.928 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:33:12.391 radio[15331:7966662] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:33:12.931 radio[15331:7966662] 고 이슈
+2015-05-07 18:33:12.931 radio[15331:7966662] $location.search().tag 2
+2015-05-07 18:33:12.932 radio[15331:7966662] $location.search().view issues
+2015-05-07 18:33:13.287 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:33:16.659 radio[15331:7966662] $state.current.name tabs.main_issue_detail
+2015-05-07 18:33:16.659 radio[15331:7966662] Url Pattern! main
+2015-05-07 18:44:55.095 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:44:55.712 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/main/hashtag?tag=2&view=issues
+2015-05-07 18:44:56.012 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:44:59.984 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:45:00.580 radio[15331:7966662] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:45:04.928 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:45:05.474 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/main
+2015-05-07 18:45:05.654 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:45:05.932 radio[15331:7966662] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:45:52.270 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:45:52.742 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/main
+2015-05-07 18:45:52.910 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:45:53.238 radio[15331:7966662] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:46:01.783 radio[15331:7966662] 고 이슈
+2015-05-07 18:46:01.783 radio[15331:7966662] $location.search().tag 2
+2015-05-07 18:46:01.783 radio[15331:7966662] $location.search().view issues
+2015-05-07 18:46:02.412 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:47:53.414 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:47:53.996 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/main
+2015-05-07 18:47:54.161 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:47:54.548 radio[15331:7966662] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 18:48:44.306 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:48:44.793 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:48:52.444 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:48:52.849 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:49:28.950 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:49:29.396 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:49:33.174 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:49:33.764 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:50:59.818 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:51:00.302 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:51:03.626 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:51:03.918 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:51:04.335 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:51:04.609 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:51:09.567 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:51:10.014 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:52:18.092 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:52:18.535 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:53:00.571 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:53:00.987 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:53:38.943 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:53:39.367 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:53:48.300 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:53:48.759 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:54:03.675 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:54:04.339 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:55:41.578 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:55:43.068 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:55:43.990 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:55:44.684 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:55:44.796 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:55:45.065 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:55:46.400 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:55:46.682 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:56:14.661 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:56:15.110 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:56:52.174 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:56:52.813 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:56:59.503 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:56:59.932 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:57:42.561 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:57:42.977 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 18:57:46.076 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 18:57:46.347 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:00:08.532 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:00:08.956 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:00:10.340 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:00:10.593 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:00:32.672 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:00:33.135 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:00:58.913 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:00:59.420 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:01:31.285 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:01:31.686 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:02:02.453 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:02:02.916 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:03:04.704 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:03:05.112 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:03:15.451 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:03:16.047 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:03:28.320 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:03:28.792 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:04:13.850 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:04:14.413 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:04:18.267 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:04:18.830 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:04:56.603 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:04:57.065 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:05:02.228 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:05:02.623 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:05:17.038 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:05:17.490 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:05:44.029 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:05:44.463 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:06:08.984 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:06:09.410 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:06:19.548 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:06:20.073 radio[15331:7966662] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:06:20.466 radio[15331:7966662] 고 이슈
+2015-05-07 19:06:20.813 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:06:30.620 radio[15331:7966662] 고 이슈
+2015-05-07 19:06:31.071 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:06:33.121 radio[15331:7966662] issues!!! on main 
+2015-05-07 19:06:38.703 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:07:31.025 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:07:31.609 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/main/hashtag?tag=2&view=issues
+2015-05-07 19:07:31.863 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:10:18.451 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:10:18.914 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:11:20.150 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:11:20.596 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:12:06.258 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:12:06.677 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:14:36.785 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:14:38.403 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:15:28.115 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:15:28.552 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:15:34.543 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:15:34.955 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:17:22.935 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:17:23.504 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:17:41.740 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:17:42.163 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:18:13.308 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:18:13.706 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:18:21.169 radio[15331:7966662] Resetting plugins due to page load.
+2015-05-07 19:18:21.574 radio[15331:7966662] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:18:49.432 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:18:49.889 radio[15331:7966662] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:18:50.438 radio[15331:7966662] 고 이슈
+2015-05-07 19:18:50.771 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:18:53.516 radio[15331:7966662] issues!!! on main 
+2015-05-07 19:18:56.581 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:18:58.560 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:00.831 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:02.903 radio[15331:7966662] issues!!! on main 
+2015-05-07 19:19:05.991 radio[15331:7966662] assigned initialIndex
+2015-05-07 19:19:05.991 radio[15331:7966662] initialindex
+2015-05-07 19:19:06.006 radio[15331:7966662] assigned initialIndex
+2015-05-07 19:19:06.007 radio[15331:7966662] initialindex
+2015-05-07 19:19:06.050 radio[15331:7966662] assigned initialIndex
+2015-05-07 19:19:06.050 radio[15331:7966662] initialindex
+2015-05-07 19:19:07.865 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:08.202 radio[15331:7966662] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:09.345 radio[15331:7966662] 고 이슈
+2015-05-07 19:19:09.714 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:11.306 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:14.751 radio[15331:7966662] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:33.084 radio[15331:7966662] $state.current.name tabs.main_issue_detail
+2015-05-07 19:19:33.084 radio[15331:7966662] Url Pattern! main
+2015-05-07 19:19:38.372 radio[16496:7995467] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-07 19:19:38.372 radio[16496:7995467] Multi-tasking -> Device: YES, App: YES
+2015-05-07 19:19:38.374 radio[16496:7995467] Unlimited access to network resources
+2015-05-07 19:19:38.452 radio[16496:7995467] [CDVTimer][keyboard] 0.055015ms
+2015-05-07 19:19:38.452 radio[16496:7995467] [CDVTimer][TotalPluginStartup] 0.202000ms
+2015-05-07 19:19:38.540 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:19:39.637 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/
+2015-05-07 19:19:43.656 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:44.122 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:47.921 radio[16496:7995467] 고 이슈
+2015-05-07 19:19:48.666 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:51.998 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:54.572 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:19:56.589 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:20:02.117 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:20:08.950 radio[16496:7995467] $state.current.name tabs.main_issue_detail
+2015-05-07 19:20:08.950 radio[16496:7995467] Url Pattern! main
+2015-05-07 19:21:09.005 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:21:11.278 radio[16496:7995467] issues!!! on main 
+2015-05-07 19:21:15.022 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:21:17.069 radio[16496:7995467] issues!!! on main [object Object]
+2015-05-07 19:21:18.827 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:21:21.337 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:23:11.370 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:23:11.999 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/main/hashtag/products?tag=14&tag=14&view=issues
+2015-05-07 19:23:21.519 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:23:22.071 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:23:38.922 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:23:39.342 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:23:44.448 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:23:44.872 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:23:50.306 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:23:50.644 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:23:51.323 radio[16496:7995467] 고 이슈
+2015-05-07 19:23:51.520 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:23:52.931 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:23:54.188 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:23:56.742 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:27:19.197 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:27:19.823 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/main/products/7
+2015-05-07 19:27:41.832 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:27:42.359 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:27:48.271 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:27:48.754 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:27:53.705 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:27:55.596 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:27:57.629 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:27:57.985 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:28:22.801 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:28:23.265 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:28:33.050 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:28:33.478 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:29:21.571 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:29:22.022 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:29:37.376 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:29:37.804 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:29:50.255 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:29:50.727 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:30:18.939 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:30:19.363 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:30:33.073 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:33.653 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:34.127 radio[16496:7995467] 고 이슈
+2015-05-07 19:30:34.447 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:34.447 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:37.923 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:37.923 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:40.250 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:40.250 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:42.386 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:42.386 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:50.656 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:50.656 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:56.322 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:56.322 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:57.676 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:30:57.676 radio[16496:7995467] result_tags [object Object],[object Object],[object Object]
+2015-05-07 19:30:58.753 radio[16496:7995467] $state.current.name tabs.main_issue_detail
+2015-05-07 19:30:58.753 radio[16496:7995467] Url Pattern! main
+2015-05-07 19:31:13.200 radio[16496:7995467] 고 이슈
+2015-05-07 19:31:13.387 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:13.387 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:15.341 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:15.342 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:17.435 radio[16496:7995467] issues!!! on main [object Object]
+2015-05-07 19:31:17.435 radio[16496:7995467] result_tags [object Object],[object Object],[object Object]
+2015-05-07 19:31:18.947 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:18.947 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:20.746 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:20.746 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:22.753 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:22.753 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:40.001 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:31:40.463 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/main/hashtag/issues?tag=2&tag=2&view=issues
+2015-05-07 19:31:40.640 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:31:40.641 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:32:05.618 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:32:05.948 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:32:06.804 radio[16496:7995467] 고 이슈
+2015-05-07 19:32:07.209 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:32:07.209 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:32:08.408 radio[16496:7995467] $state.current.name tabs.main_issue_detail
+2015-05-07 19:32:08.408 radio[16496:7995467] Url Pattern! main
+2015-05-07 19:32:18.583 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:32:19.058 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/main/channels/2
+2015-05-07 19:32:22.062 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:32:22.352 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:33:05.350 radio[16496:7995467] clicked
+2015-05-07 19:33:07.902 radio[16496:7995467] assigned initialIndex
+2015-05-07 19:33:07.902 radio[16496:7995467] initialindex
+2015-05-07 19:33:07.912 radio[16496:7995467] assigned initialIndex
+2015-05-07 19:33:07.912 radio[16496:7995467] initialindex
+2015-05-07 19:33:07.950 radio[16496:7995467] assigned initialIndex
+2015-05-07 19:33:07.950 radio[16496:7995467] initialindex
+2015-05-07 19:33:08.770 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:33:09.142 radio[16496:7995467] assigned initialIndex
+2015-05-07 19:33:09.142 radio[16496:7995467] initialindex
+2015-05-07 19:33:09.155 radio[16496:7995467] assigned initialIndex
+2015-05-07 19:33:09.155 radio[16496:7995467] initialindex
+2015-05-07 19:33:09.166 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:33:09.169 radio[16496:7995467] assigned initialIndex
+2015-05-07 19:33:09.169 radio[16496:7995467] initialindex
+2015-05-07 19:33:11.746 radio[16496:7995467] $state.current.name tabs.channel_issue_detail
+2015-05-07 19:33:11.746 radio[16496:7995467] Url Pattern! channel
+2015-05-07 19:33:18.013 radio[16496:7995467] Main Product List !!!
+2015-05-07 19:33:18.013 radio[16496:7995467] params [object Object]
+2015-05-07 19:33:22.491 radio[16496:7995467] $state.current.name tabs.channel_issue_detail
+2015-05-07 19:33:22.491 radio[16496:7995467] Url Pattern! channel
+2015-05-07 19:34:50.493 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:34:50.992 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/channel
+2015-05-07 19:34:51.008 radio[16496:7995467] assigned initialIndex
+2015-05-07 19:34:51.009 radio[16496:7995467] initialindex
+2015-05-07 19:35:04.967 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:35:05.372 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:35:18.959 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:35:19.370 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:35:56.297 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:35:56.699 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:36:34.809 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:36:35.203 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:36:42.554 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:36:42.946 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:36:45.665 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:36:45.897 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:36:51.991 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:36:52.370 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:37:52.400 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:37:52.962 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:40:00.461 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:40:00.819 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:40:01.287 radio[16496:7995467] $state.current.name tabs.main_issue_detail
+2015-05-07 19:40:01.288 radio[16496:7995467] Url Pattern! main
+2015-05-07 19:40:06.552 radio[16496:7995467] Specific Ctrl!
+2015-05-07 19:40:08.728 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:40:08.728 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:40:37.213 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:40:37.702 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/main/hashtag?tag=1&view=issues
+2015-05-07 19:40:37.862 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:40:37.863 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:40:45.260 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:40:45.604 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:40:46.171 radio[16496:7995467] 고 이슈
+2015-05-07 19:40:46.483 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:40:46.483 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:42:08.948 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:42:09.403 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/main
+2015-05-07 19:42:10.000 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:42:10.023 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:42:26.720 radio[16496:7995467] 고 이슈
+2015-05-07 19:42:26.901 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:42:26.901 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:42:28.177 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:42:28.177 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:42:40.613 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:42:41.102 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/main
+2015-05-07 19:42:41.283 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:42:41.711 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:43:34.428 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:43:34.840 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:43:49.203 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:43:49.624 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:44:02.361 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:44:02.853 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:44:16.043 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:44:16.458 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:44:35.748 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:44:36.133 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:45:32.622 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:45:33.021 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:45:58.469 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:45:58.914 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:46:17.483 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:46:18.895 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:46:29.046 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:46:29.447 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:46:49.663 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:46:50.049 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:50:15.928 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:50:16.328 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:50:32.732 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:50:33.128 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:50:42.791 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:50:43.201 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:53:47.630 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:53:48.039 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:53:49.936 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:53:51.627 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:54:35.370 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:54:35.820 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:54:37.825 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:54:37.825 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:54:39.816 radio[16496:7995467] issues!!! on main [object Object]
+2015-05-07 19:54:39.816 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:54:41.331 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:54:41.331 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:54:43.368 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:54:43.369 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:54:45.143 radio[16496:7995467] issues!!! on main 
+2015-05-07 19:55:02.083 radio[16496:7995467] Resetting plugins due to page load.
+2015-05-07 19:55:02.550 radio[16496:7995467] Finished load of: http://192.168.0.206:8100/#/search/hashtag?tag=10&view=issues
+2015-05-07 19:55:02.649 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:55:02.649 radio[16496:7995467] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:55:05.797 radio[16496:7995467] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:55:06.121 radio[16496:7995467] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:55:09.053 radio[16496:7995467] data [object Object]
+2015-05-07 19:55:09.053 radio[16496:7995467] Login Deny [object Object]
+2015-05-07 19:55:45.889 radio[17651:8019434] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-07 19:55:45.892 radio[17651:8019434] Multi-tasking -> Device: YES, App: YES
+2015-05-07 19:55:45.905 radio[17651:8019434] Unlimited access to network resources
+2015-05-07 19:55:46.044 radio[17651:8019434] [CDVTimer][keyboard] 0.091016ms
+2015-05-07 19:55:46.045 radio[17651:8019434] [CDVTimer][TotalPluginStartup] 0.642002ms
+2015-05-07 19:55:46.193 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:55:50.360 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/
+2015-05-07 19:55:54.651 radio[17651:8019434] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:55:55.222 radio[17651:8019434] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:55:57.653 radio[17651:8019434] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:55:57.991 radio[17651:8019434] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:55:59.270 radio[17651:8019434] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:55:59.270 radio[17651:8019434] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:56:01.680 radio[17651:8019434] issues!!! on main 
+2015-05-07 19:56:04.313 radio[17651:8019434] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:56:04.313 radio[17651:8019434] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:56:06.853 radio[17651:8019434] issues!!! on main 
+2015-05-07 19:56:10.323 radio[17651:8019434] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:56:10.323 radio[17651:8019434] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:56:13.561 radio[17651:8019434] issues!!! on main 
+2015-05-07 19:56:16.020 radio[17651:8019434] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:56:16.020 radio[17651:8019434] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-07 19:56:17.892 radio[17651:8019434] issues!!! on main 
+2015-05-07 19:56:52.537 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:56:53.025 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/search/hashtag?tag=17&view=products
+2015-05-07 19:56:53.030 radio[17651:8019434] issues!!! on main 
+2015-05-07 19:56:55.589 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:56:55.974 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:57:09.481 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:57:09.911 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:57:18.307 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:57:22.012 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:57:26.606 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:57:27.029 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:57:38.573 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:57:38.987 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:58:03.436 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:58:03.867 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:58:14.902 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:58:15.439 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:58:41.850 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:58:42.286 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:58:52.915 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:58:53.353 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:58:55.029 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:58:55.286 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:59:23.182 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:59:24.036 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 19:59:45.911 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 19:59:46.459 radio[17651:8019434] Finished load of: http://192.168.0.206:8100/#/login
+2015-05-07 20:01:38.223 radio[17651:8019434] Resetting plugins due to page load.
+2015-05-07 20:02:28.419 radio[18281:8024534] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-07 20:02:28.420 radio[18281:8024534] Multi-tasking -> Device: YES, App: YES
+2015-05-07 20:02:28.422 radio[18281:8024534] Unlimited access to network resources
+2015-05-07 20:02:28.530 radio[18281:8024534] [CDVTimer][keyboard] 0.057995ms
+2015-05-07 20:02:28.530 radio[18281:8024534] [CDVTimer][TotalPluginStartup] 0.215054ms
+2015-05-07 20:02:28.641 radio[18281:8024534] Resetting plugins due to page load.
+2015-05-07 20:03:44.241 radio[18281:8024534] Finished load of: http://192.168.0.206:8100/

@@ -6,18 +6,20 @@
 	<ion-nav-title>
 		<a class="button button-icon fa fa-heart-o title {{issue_detail.issue.like}}" ng-click="issue_detail.toggleLike($event)"></a>
 	</ion-nav-title>
+	<!--
 	<ion-nav-buttons side="right">
 		<button class="share" ng-click="issue_detail.test()">
 			Share
 		</button>
 	</ion-nav-buttons>
+	-->
 	<ion-content has-bouncing="false">
 		<div class="issue-detail">
 			<img ng-src="{{issue_detail.issue.image}}">
 			<div></div>
 			<div class="info">
 				<h2>{{issue_detail.issue.title}}</h2>
-				<span ng-click="issue_detail.goHashTagGlobalIssues(tag.id)" ng-repeat="tag in issue_detail.issue.hash_tags"># {{tag.name}}</span><br>
+				<span ng-click="issue_detail.goTagGlobalIssues(tag.id)" ng-repeat="tag in issue_detail.issue.hash_tags"># {{tag.name}}</span><br>
 			</div>
 			<div class="profile" ng-click="issue_detail.goChannelDetail(issue_detail.issue.channel.id)">
 				<img ng-src="{{issue_detail.issue.channel.profile}}">

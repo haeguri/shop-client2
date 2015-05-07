@@ -1,9 +1,11 @@
 <ion-view>
+<!--
     <ion-nav-buttons side="left">
       <button class="share" ng-click="issue_detail.test()">
         Share
       </button>
     </ion-nav-buttons>
+    -->
     <ion-nav-title>
        <a class="button button-icon fa fa-heart-o title {{product_detail.product.like}}" ng-click="product_detail.productLike($event)"></a>
     </ion-nav-title>
@@ -23,7 +25,7 @@
             <div class="product-title">
               <h2>{{product_detail.product.name}}</h2>
               <p>{{product_detail.product.price | number:0 }} WON</p><br>
-              <span ng-click="product_detail.goHashTagGlobal(tag)" ng-repeat="tag in product_detail.product.hash_tags">
+              <span ng-click="product_detail.goHashTagGlobal(tag.id)" ng-repeat="tag in product_detail.product.hash_tags">
                 #{{tag.name}}
               </span>
               <div class="two-button-bar another">

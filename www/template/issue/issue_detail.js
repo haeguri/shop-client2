@@ -16,10 +16,6 @@ angular.module('radio.controller')
         	$ionicHistory.goBack();
         }
 
-        $scope.issue_detail.test = function() {
-        	console.log("clicked");
-        }
-
         $scope.issue_detail.toggleLike = function(event) {
             method = $scope.issue_detail.issue.like === false ? 'POST' : 'DELETE';
             Like.toggleIssueLike({
@@ -81,7 +77,7 @@ angular.module('radio.controller')
             }
         }
 
-        $scope.issue_detail.goHashTagGlobalIssues = function(tag_id) {
+        $scope.issue_detail.goTagGlobalIssues = function(tag_id) {
             switch(url_pattern) {
                 case 'main':
                     $state.go('tabs.main_tag_global.issues', {'tag':tag_id})

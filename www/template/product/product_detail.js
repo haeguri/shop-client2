@@ -78,19 +78,19 @@ angular.module('radio.controller')
 
 		url_pattern = /main|channel|private|search/.exec($state.current.name)[0];
 
-		$scope.product_detail.goHashTagGlobal = function(tag) {
+		$scope.product_detail.goTagGlobalProducts = function(tag_id) {
 			switch(url_pattern) {
-                case '/#/main/':
-                    $location.url('/main/hashtag/products?tag='+tag.id);
+                case 'main':
+                    $state.go('tabs.main_tag_global', {'tag':tag_id,'view':'products'})
                     break; 
-                case '/#/channel/':
-                    $location.url('/channel/hashtag/products?tag='+tag.id);
+                case 'channel':
+                    $state.go('tabs.channel_tag_global', {'tag':tag_id,'view':'products'})
                     break;
-                case '/#/private/':
-                    $location.url('/private/hashtag/products?tag='+tag.id);
+                case 'private':
+                    $state.go('tabs.private_tag_global', {'tag':tag_id,'view':'products'})
                     break;
-                case '/#/search/':
-                    $location.url('/search/hashtag/products?tag='+tag.id);
+                case 'search':
+                    $state.go('tabs.search_tag_global', {'tag':tag_id,'view':'products'})
                     break;
             }
 		}

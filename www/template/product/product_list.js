@@ -56,7 +56,7 @@ angular.module('radio.controller')
             }
         }
 
-        $scope.product_list.goHashTagGlobalProducts = function(tag_id, $event) {
+        $scope.product_list.goTagGlobalProducts = function(tag_id, $event) {
             $event.stopPropagation();
             switch(url_pattern) {
                 case 'main':

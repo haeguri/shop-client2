@@ -70,20 +70,20 @@ angular.module('radio.controller')
             }
         }
 
-        $scope.issue_list.goHashTagGlobalIssues = function(tag_id, $event) {
+        $scope.issue_list.goTagGlobalIssues = function(tag_id, $event) {
             $event.stopPropagation();
             switch(url_pattern) {
                 case 'main':
-                    $state.go('tabs.main_tag_global.issues', {'tag':tag_id});
+                    $state.go('tabs.main_tag_global', {'tag':tag_id, 'view':'issues'});
                     break; 
                 case 'channel':
-                    $state.go('tabs.channel_tag_global.issues', {'tag':tag_id});
+                    $state.go('tabs.channel_tag_global', {'tag':tag_id, 'view':'issues'});
                     break;
                 case 'private':
-                    $state.go('tabs.private_tag_global.issues', {'tag':tag_id});
+                    $state.go('tabs.private_tag_global', {'tag':tag_id, 'view':'issues'});
                     break;
                 case 'search':
-                    $state.go('tabs.search_tag_global.issues', {'tag':tag_id});
+                    $state.go('tabs.search_tag_global.', {'tag':tag_id, 'view':'issues'});
                     break;
             }
         }

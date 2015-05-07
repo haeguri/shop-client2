@@ -1,5 +1,19 @@
 /* tabs & nav */
 
+.bar.bar-header {
+  position: relative;
+  width: 100%;
+}
+
+.bar.bar-header .radio-title{
+  margin: auto;
+  line-height: 0px;
+}
+
+.bar.bar-header.white-header .radio-title {
+  color: #fff;
+}
+
 div.tab-nav.tabs {
   background: linear-gradient(#ffffff, #f0f6f6);
 }
@@ -987,11 +1001,13 @@ div.search-input-content i {
   text-align: center;
 }
 
+/*
 #login-content a:nth-of-type(1) {
   background: #3b5a95;
   border: none;
   color: #fff;
 }
+*/
 
 #login-content a:nth-of-type(1) i{
   margin-right: 5px;

@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('SearchIntroCtrl', function(HashTag, $scope, $location) {
+	.controller('SearchIntroCtrl', function(HashTag, $scope, $location, $state) {
 
         $scope.search_intro = {};
 
@@ -27,8 +27,8 @@ angular.module('radio.controller')
             $location.url('/search/input');
         }
 
-        $scope.search_intro.goHashTagGlobal = function(tag) {
-        	$location.url('/search/hashtag/issues?tag='+tag.id);
+        $scope.search_intro.goTagGlobalIssues = function(tag_id) {
+        	$state.go('tabs.search_tag_global', {'tag':tag_id, 'view':'issues'});
         }
 
 

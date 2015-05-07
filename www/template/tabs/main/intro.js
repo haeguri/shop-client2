@@ -1,7 +1,7 @@
 angular.module('radio.controller')
 
 .controller('MainIntroCtrl', function($scope, $location, $rootScope, 
-    $timeout, $state, Product, Channel, Follow) {
+    $timeout, $state, Product, Channel, Follow, $ionicNavBarDelegate) {
 
     $scope.main_intro = {};
     $scope.main_intro.issues = [];
@@ -23,10 +23,6 @@ angular.module('radio.controller')
             }
         }
     }
-
-    $scope.main_intro.goIssueDetail = function(issue_id) {
-        $state.go('tabs.main_issue_detail', {'issue_id':issue_id});
-    };
 
     $scope.main_intro.changeItem = function() {
         if (current_item == items.length-1)  {
@@ -61,6 +57,10 @@ angular.module('radio.controller')
         })
     });
 
+    $scope.main_intro.goIssueDetail = function(issue_id) {
+        $state.go('tabs.main_issue_detail', {'issue_id':issue_id});
+    };
+
     $scope.main_intro.goChannelDetail = function(channel_id, $event) {
         $event.stopPropagation();
         $state.go('tabs.main_channel_detail', {'channel_id':channel_id});
@@ -73,13 +73,15 @@ angular.module('radio.controller')
     $scope.main_intro.goHashTagGlobalIssues = function(tag_id, $event) {
         $event.stopPropagation();
         // 'tag'는 쿼리 스트링. http://localhost/main/hashtag/issues?tag=<태그_ID> 로 요청을 보냄.
-        $state.go('tabs.main_tag_global.issues', {'tag':2});
-    }
+        console.log("고 이슈");
+        $state.go('tabs.main_tag_global', {'tag':2, 'view':'issues'});
+    };
 
     $scope.main_intro.goHashTagGlobalProducts = function(tag_id, $event) {
         $event.stopPropagation();
-        $state.go('tabs.main_tag_global.products', {'tag_id':tag_id});
-    }
+        console.log("고 프로덕");
+        $state.go('tabs.main_tag_global', {'tag_id':tag_id, 'view':'products'});
+    };
 
     $scope.main_intro.toggleChannelFollow = function(channel, index, event) {
         event.stopPropagation();
@@ -94,6 +96,6 @@ angular.module('radio.controller')
                 $scope.main_intro.channels[index].follow = false;
             }
         });
-    }
+    };
 
 })

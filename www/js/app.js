@@ -108,29 +108,11 @@ angular.module('radio', [
       }
     })
     .state('tabs.main_tag_global', {
-      url: '/main/hashtag',
+      url: '/main/tag?tag&view',
       views: {
         'main': {
-          templateUrl: 'template/tabs/main/hashtag/global.html',
-          controller: 'MainHashTagGlobalCtrl'
-        }
-      }
-    })
-    .state('tabs.main_tag_global.issues', {
-      url: '/issues?tag',
-      views: {
-        'main': {
-          templateUrl: 'template/issue/issue_list.html',
-          controller: 'IssueListCtrl'
-        }
-      }
-    })
-    .state('tabs.main_tag_global.products', {
-      url: '/products?tag',
-      views: {
-        'main': {
-          templateUrl: 'template/product/product_list.html',
-          controller: 'ProductListCtrl'
+          templateUrl: 'template/tabs/tag_global.html',
+          controller: 'TagGlobalCtrl'
         }
       }
     })
@@ -173,29 +155,11 @@ angular.module('radio', [
       }
     })
     .state('tabs.channel_tag_global', {
-      url: '/channel/hashtag',
+      url: '/channel/tag?tag&view',
       views: {
         'channel': {
-          templateUrl: 'template/tabs/channel/hashtag/global.html',
-          controller: 'ChannelHashTagGlobalCtrl'
-        }
-      }
-    })
-    .state('tabs.channel_tag_global.issues', {
-      url: '/issues?tag',
-      views: {
-        'channel': {
-          templateUrl: 'template/issue/issue_list.html',
-          controller: 'IssueListCtrl'
-        }
-      }
-    })
-    .state('tabs.channel_tag_global.products', {
-      url: '/products?tag',
-      views: {
-        'channel': {
-          templateUrl: 'template/product/product_list.html',
-          controller: 'ProductListCtrl'
+          templateUrl: 'template/tabs/tag_global.html',
+          controller: 'TagGlobalCtrl'
         }
       }
     })
@@ -301,29 +265,11 @@ angular.module('radio', [
       }
     })
     .state('tabs.private_tag_global', {
-      url: '/private/hashtag',
+      url: '/private/tag?tag&view',
       views: {
         'private': {
-          templateUrl: 'template/tabs/private/hashtag/global.html',
-          controller: 'PrivateHashTagGlobalCtrl'
-        }
-      }
-    })
-    .state('tabs.private_tag_global.issues', {
-      url: '/issues?tag',
-      views: {
-        'private': {
-          templateUrl: 'template/issue/issue_list.html',
-          controller: 'IssueListCtrl'
-        }
-      }
-    })
-    .state('tabs.private_tag_global.products', {
-      url: '/products?tag',
-      views: {
-        'private': {
-          templateUrl: 'template/product/product_list.html',
-          controller: 'ProductListCtrl'
+          templateUrl: 'template/tabs/tag_global.html',
+          controller: 'TagGlobalCtrl'
         }
       }
     })
@@ -411,29 +357,11 @@ angular.module('radio', [
       }
     })
     .state('tabs.search_tag_global', {
-      url: '/search/hashtag',
+      url: '/search/tag?tag&view',
       views: {
         'search': {
-          templateUrl: 'template/tabs/search/hashtag/global.html',
-          controller: 'SearchHashTagGlobalCtrl'
-        }
-      }
-    })
-    .state('tabs.search_tag_global.issues', {
-      url: '/issues?tag',
-      views: {
-        'search': {
-          templateUrl: 'template/issue/issue_list.html',
-          controller: 'IssueListCtrl'
-        }
-      }
-    })
-    .state('tabs.search_tag_global.products', {
-      url: '/products?tag',
-      views: {
-        'search': {
-          templateUrl: 'template/product/product_list.html',
-          controller: 'ProductListCtrl'
+          templateUrl: 'template/tabs/tag_global.html',
+          controller: 'TagGlobalCtrl'
         }
       }
     })
@@ -505,7 +433,7 @@ angular.module('radio', [
   $ionicConfigProvider.tabs.position('bottom');
   $ionicConfigProvider.backButton.text('').icon('fa fa-chevron-left').previousTitleText(false);
 
-  //$ionicConfigProvider.views.maxCache(0);
+  $ionicConfigProvider.views.maxCache(0);
   
   /*
   $httpProvider.interceptors.push(function($rootScope) {
