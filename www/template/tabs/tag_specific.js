@@ -72,7 +72,7 @@ angular.module('radio.controller')
 
             }
 
-            $scope.product_list.goProductDetail = function(product_id) {
+            $scope.tag_specific.goProductDetail = function(product_id) {
                 switch(url_pattern) {
                     case 'main':
                         $state.go('tabs.main_product_detail', {'product_id':product_id});
