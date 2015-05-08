@@ -2328,3 +2328,52 @@
 2015-05-07 20:02:28.530 radio[18281:8024534] [CDVTimer][TotalPluginStartup] 0.215054ms
 2015-05-07 20:02:28.641 radio[18281:8024534] Resetting plugins due to page load.
 2015-05-07 20:03:44.241 radio[18281:8024534] Finished load of: http://192.168.0.206:8100/
+2015-05-08 13:24:25.792 radio[20391:8092381] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-08 13:24:25.794 radio[20391:8092381] Multi-tasking -> Device: YES, App: YES
+2015-05-08 13:24:25.810 radio[20391:8092381] Unlimited access to network resources
+2015-05-08 13:24:26.076 radio[20391:8092381] [CDVTimer][keyboard] 0.068009ms
+2015-05-08 13:24:26.076 radio[20391:8092381] [CDVTimer][TotalPluginStartup] 0.248969ms
+2015-05-08 13:24:26.302 radio[20391:8092381] Resetting plugins due to page load.
+2015-05-08 13:24:26.640 radio[20391:8092381] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/D90D80A0-F720-4A63-A282-7DDA56C6457D/data/Containers/Bundle/Application/636F599B-BDD6-4442-8F1B-10A461E596A3/radio.app/www/index.html
+2015-05-08 13:24:54.965 radio[21002:8094095] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-08 13:24:54.966 radio[21002:8094095] Multi-tasking -> Device: YES, App: YES
+2015-05-08 13:24:54.967 radio[21002:8094095] Unlimited access to network resources
+2015-05-08 13:24:55.046 radio[21002:8094095] [CDVTimer][keyboard] 0.052035ms
+2015-05-08 13:24:55.046 radio[21002:8094095] [CDVTimer][TotalPluginStartup] 0.217021ms
+2015-05-08 13:24:55.090 radio[21002:8094095] Resetting plugins due to page load.
+2015-05-08 13:24:55.315 radio[21002:8094095] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/EE10EA89-0503-45CD-93FB-A8A0F4157CA4/radio.app/www/index.html
+2015-05-08 13:25:01.092 radio[21002:8094095] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:25:01.450 radio[21002:8094095] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:25:13.949 radio[21002:8094095] $state.current.name tabs.main_issue_detail
+2015-05-08 13:25:13.949 radio[21002:8094095] Url Pattern! main
+2015-05-08 13:25:17.227 radio[21002:8094095] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:25:17.599 radio[21002:8094095] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:25:24.259 radio[21002:8094095] $state.current.name tabs.main_issue_detail
+2015-05-08 13:25:24.259 radio[21002:8094095] Url Pattern! main
+2015-05-08 13:25:32.127 radio[21002:8094095] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:25:32.128 radio[21002:8094095] result_tags [object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:25:53.431 radio[21002:8094095] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:25:53.690 radio[21002:8094095] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:25:54.572 radio[21002:8094095] $state.current.name tabs.main_issue_detail
+2015-05-08 13:25:54.572 radio[21002:8094095] Url Pattern! main
+2015-05-08 13:26:07.069 radio[21002:8094095] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:26:07.446 radio[21002:8094095] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:26:12.200 radio[21002:8094095] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:26:12.565 radio[21002:8094095] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:26:18.114 radio[21002:8094095] $state.current.name tabs.main_issue_detail
+2015-05-08 13:26:18.114 radio[21002:8094095] Url Pattern! main
+2015-05-08 13:26:40.334 radio[21002:8094095] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:26:40.686 radio[21002:8094095] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 13:26:51.644 radio[21002:8094095] $state.current.name tabs.main_issue_detail
+2015-05-08 13:26:51.644 radio[21002:8094095] Url Pattern! main
+2015-05-08 14:37:53.148 radio[21002:8094095] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 14:37:53.530 radio[21002:8094095] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 15:30:26.740 radio[22383:8136365] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-08 15:30:26.741 radio[22383:8136365] Multi-tasking -> Device: YES, App: YES
+2015-05-08 15:30:26.756 radio[22383:8136365] Unlimited access to network resources
+2015-05-08 15:30:26.916 radio[22383:8136365] [CDVTimer][keyboard] 0.277996ms
+2015-05-08 15:30:26.916 radio[22383:8136365] [CDVTimer][TotalPluginStartup] 1.157999ms
+2015-05-08 15:30:27.104 radio[22383:8136365] Resetting plugins due to page load.
+2015-05-08 15:30:27.432 radio[22383:8136365] Finished load of: file:///Users/haegyun/Library/Developer/CoreSimulator/Devices/658FCA2E-CA68-42EC-A519-C535E50DF588/data/Containers/Bundle/Application/3F1C2591-F074-49E2-A717-F88B08DB6846/radio.app/www/index.html
+2015-05-08 15:30:32.140 radio[22383:8136365] issues!!! on main [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2015-05-08 15:30:32.440 radio[22383:8136365] Channel List!! [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]

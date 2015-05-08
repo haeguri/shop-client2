@@ -16,20 +16,18 @@ angular.module('radio.controller')
 
      	$scope.search_intro.viewMenu = function(menu_name) {
         	if( $scope.search_intro.selectedMenu != menu_name) {
-				$scope.search_intro.selectedMenu = menu_name;	
+				$scope.search_intro.selectedMenu = menu_name;
 				$(event.target).addClass('active');
 				$(event.target).siblings().removeClass('active');
 			}
         }
 
         $scope.search_intro.goSearchInput = function() {
-            console.log("clicked")
-            $location.url('/search/input');
+            $state.go('tabs.search_input');
         }
 
         $scope.search_intro.goTagGlobalIssues = function(tag_id) {
         	$state.go('tabs.search_tag_global', {'tag':tag_id, 'view':'issues'});
         }
 
-
-})
+    })

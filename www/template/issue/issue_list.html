@@ -6,8 +6,8 @@
 	</ion-nav-title>
 	<ion-content has-bouncing="false">
 		<div class="radio-list" ng-click="issue_list.goIssueDetail(issue.id)" collection-repeat="issue in issue_list.issues"
-		  item-width="100%"
-		  item-height="192px">
+		  collection-item-width="100%"
+		  collection-item-height="192px">
 	        <img ng-src="{{issue.image}}">
 	        <div class="image-wrap-black"></div>
         	<img class="profile" ng-click="issue_list.goChannelDetail(issue.channel.id)" ng-src="{{issue.channel.profile}}">

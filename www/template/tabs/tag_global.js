@@ -9,6 +9,7 @@ angular.module('radio.controller')
 
         $scope.tag_global.currentTag =  $stateParams.tag;
         $scope.tag_global.currentTagName = '';
+        $scope.tag_global.currentView = $stateParams.view || '상품';
         $scope.tag_global.currentView = $stateParams.view == 'issues' ? '이슈' : '상품';
 
  		if ($scope.tag_global.currentView == '이슈') {
@@ -21,17 +22,11 @@ angular.module('radio.controller')
  			})
  		}    
 
- 		function setTitle(tag, view) {
- 			var title_text = tag + '관련 ' + view;
-			$ionicNavBarDelegate.title(title_text);
- 		}
-
         function setCurrentTagName(result_tags) {
             console.log("result_tags", result_tags)
             for(var i in result_tags) {
                 if (result_tags[i].id == $scope.tag_global.currentTag) {
                     $scope.tag_global.currentTagName = result_tags[i].name;
-                    setTitle($scope.tag_global.currentTagName, $scope.tag_global.currentView);
                     break;
                 }
             }
@@ -60,7 +55,6 @@ angular.module('radio.controller')
 
         $scope.tag_global.changeView = function(view) {
         	$scope.tag_global.currentView = view == 'issues' ? '이슈' : '상품';
-        	setTitle($scope.tag_global.currentTagName, $scope.tag_global.currentView);
         	$(event.target).addClass('active');
 			$(event.target).siblings('a').removeClass('active');
         }

@@ -4,9 +4,14 @@
         </ion-nav-back-button>
 	</ion-nav-bar>
 	<ion-nav-title>
+	<!--
 		<div class="bar bar-header white-header">
 		  <h2 class="radio-title">{{channel_detail.channel.name}}</h2>
 		</div>
+		-->
+		<h1 class="title white-header">
+			{{channel_detail.channel.name}}
+		</h1>
 	</ion-nav-title>
 	<ion-nav-buttons side="right">
 		<button class="nav-channel-follow" ng-click="channel_detail.toggleFollow($event)">
@@ -21,12 +26,12 @@
 			<div class="info">
 				<img ng-src="{{channel_detail.channel.profile}}">
 				<div class="info-text">
-					<h2>{{channel_detail.channel.name}}</h2><br>
+					<h2>{{channel_detail.channel.name}}</h2>
 					<span ng-repeat="pub_day in channel_detail.channel.pub_days">{{pub_day.day}} </span> 발행
 				</div>
 			</div>
     	</div>
-		<div class="channel-detail-issues" ng-click="channel_detail.goIssueDetail(issue.id)"collection-repeat="issue in channel_detail.channel.issues_of_channel"
+		<div class="channel-detail-issues" ng-click="channel_detail.goIssueDetail(issue.id)" ng-repeat="issue in channel_detail.channel.issues_of_channel"
 		item-width="100%"
 		item-height="192px">
 			<img ng-src="{{issue.image}}">
@@ -34,7 +39,7 @@
 			<button class="like-btn"><i class="fa fa-heart-o nav-center-heart fa-2x {{issue.like}}"></i></button>
 			<div class="info">
 				<h2>{{issue.title}}</h2>
-				<span ng-click="channel_detail.goHashTagSpecificIssues($event, channel_detail.channel.id, tag.id)" ng-repeat="tag in issue.hash_tags"> #{{tag.name}}</span>
+				<span ng-click="channel_detail.goTagSpecificIssues($event, channel_detail.channel.id, tag.id)" ng-repeat="tag in issue.hash_tags"> #{{tag.name}}</span>
 			</div>
 		</div>
     </ion-content>

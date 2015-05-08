@@ -117,29 +117,11 @@ angular.module('radio', [
       }
     })
     .state('tabs.main_tag_specific', {
-      url: '/main/specific/hashtag',
+      url: '/main/tag/specific?tag&owner&owner_id',
       views: {
         'main': {
-          templateUrl: 'template/tabs/main/hashtag/specific.html',
-          controller: 'MainHashTagSpecificCtrl'
-        }
-      }
-    })
-    .state('tabs.main_tag_specific.issues', {
-      url: '/issues?tag&channel',
-      views: {
-        'main': {
-          templateUrl: 'template/issue/issue_list.html',
-          controller: 'IssueListCtrl'
-        }
-      }
-    })
-    .state('tabs.main_tag_specific.products', {
-      url: '/products?tag&brand',
-      views: {
-        'main': {
-          templateUrl: 'template/product/product_list.html',
-          controller: 'ProductListCtrl'
+          templateUrl: 'template/tabs/tag_specific.html',
+          controller: 'TagSpecificCtrl'
         }
       }
     })
@@ -164,29 +146,11 @@ angular.module('radio', [
       }
     })
     .state('tabs.channel_tag_specific', {
-      url: '/channel/specific/hashtag',
+      url: '/channel/tag/specific/tag?tag&owner&owner_id',
       views: {
         'channel': {
-          templateUrl: 'template/tabs/channel/hashtag/specific.html',
-          controller: 'ChannelHashTagSpecificCtrl'
-        }
-      }
-    })
-    .state('tabs.channel_tag_specific.issues', {
-      url: '/issues?tag&channel',
-      views: {
-        'channel': {
-          templateUrl: 'template/issue/issue_list.html',
-          controller: 'IssueListCtrl'
-        }
-      }
-    })
-    .state('tabs.channel_tag_specific.products', {
-      url: '/products?tag&brand',
-      views: {
-        'channel': {
-          templateUrl: 'template/product/product_list.html',
-          controller: 'ProductListCtrl'
+          templateUrl: 'template/tabs/tag_specific.html',
+          controller: 'TagSpecificCtrl'
         }
       }
     })
@@ -274,29 +238,11 @@ angular.module('radio', [
       }
     })
     .state('tabs.private_tag_specific', {
-      url: '/private/specific/hashtag',
+      url: '/private/tag/specific/tag?tag&owner&owner_id',
       views: {
         'private': {
-          templateUrl: 'template/tabs/private/hashtag/specific.html',
-          controller: 'PrivateHashTagSpecificCtrl'
-        }
-      }
-    })
-    .state('tabs.private_tag_specific.issues', {
-      url: '/issues?tag&channel',
-      views: {
-        'private': {
-          templateUrl: 'template/issue/issue_list.html',
-          controller: 'IssueListCtrl'
-        }
-      }
-    })
-    .state('tabs.private_tag_specific.products', {
-      url: '/products?tag&brand',
-      views: {
-        'private': {
-          templateUrl: 'template/product/product_list.html',
-          controller: 'ProductListCtrl'
+          templateUrl: 'template/tabs/tag_specific.html',
+          controller: 'TagSpecificCtrl'
         }
       }
     })
@@ -366,29 +312,11 @@ angular.module('radio', [
       }
     })
     .state('tabs.search_tag_specific', {
-      url: '/search/specific/hashtag',
+      url: '/search/specific/tag?tag&owner&owner_id',
       views: {
         'search': {
-          templateUrl: 'template/tabs/search/hashtag/specific.html',
-          controller: 'SearchHashTagSpecificCtrl'
-        }
-      }
-    })
-    .state('tabs.search_tag_specific.issues', {
-      url: '/issues?tag&channel',
-      views: {
-        'search': {
-          templateUrl: 'template/issue/issue_list.html',
-          controller: 'IssueListCtrl'
-        }
-      }
-    })
-    .state('tabs.search_tag_specific.products', {
-      url: '/products?tag&brand',
-      views: {
-        'search': {
-          templateUrl: 'template/product/product_list.html',
-          controller: 'ProductListCtrl'
+          templateUrl: 'template/tabs/tag_specific.html',
+          controller: 'TagSpecificCtrl'
         }
       }
     })

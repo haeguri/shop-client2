@@ -35,23 +35,22 @@ angular.module('radio.controller')
             });
         }
 
-
         url_pattern = /main|channel|private|search/.exec($state.current.name)[0];
 
-        $scope.channel_detail.goHashTagSpecificIssues = function($event, channel_id, tag_id) {
+        $scope.channel_detail.goTagSpecificIssues = function($event, channel_id, tag_id) {
             $event.stopPropagation();
             switch(url_pattern) {
                 case 'main':
-                    $state.go('tabs.main_tag_specific.issues', {'tag':tag_id, 'channel':channel_id});
+                    $state.go('tabs.main_tag_specific', {'tag':tag_id, 'owner':'channel', 'channel':channel_id});
                     break; 
                 case 'channel':
-                    $state.go('tabs.channel_tag_specific.issues', {'tag':tag_id, 'channel':channel_id});
+                    $state.go('tabs.channel_tag_specific', {'tag':tag_id, 'owner':'channel', 'channel':channel_id});
                     break;
                 case 'private':
-                    $state.go('tabs.private_tag_specific.issues', {'tag':tag_id, 'channel':channel_id});
+                    $state.go('tabs.private_tag_specific', {'tag':tag_id, 'owner':'channel', 'channel':channel_id});
                     break;
                 case 'search':
-                    $state.go('tabs.search_tag_specific.issues', {'tag':tag_id, 'channel':channel_id});
+                    $state.go('tabs.search_tag_specific', {'tag':tag_id, 'owner':'channel', 'channel':channel_id});
                     break;
             }   
         }

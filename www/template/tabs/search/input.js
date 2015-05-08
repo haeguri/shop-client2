@@ -1,6 +1,7 @@
 angular.module('radio.controller')
 
-	.controller('SearchInputCtrl', function(HashTag, Search, $scope, $timeout, $location) {
+	.controller('SearchInputCtrl', function(HashTag, Search, $scope, $timeout, $location,
+        $state) {
 
         $scope.search_input = {};
         $scope.search_input.input = '';
@@ -45,8 +46,9 @@ angular.module('radio.controller')
 			}
         }
 
-        $scope.search_input.goHashTagGlobal = function(item_id) {
-        	$location.url('/search/hashtag/issues?tag='+item_id);
+        $scope.search_input.goHashTagGlobal = function(tag_id) {
+            $state.go('tabs.search_tag_global', {'tag':tag_id})
+        	//$location.url('/search/hashtag/issues?tag='+item_id);
         }
 
         $scope.search_input.clickTest = function() {

@@ -1,7 +1,7 @@
 angular.module('radio.controller')
 
 	.controller('BrandDetailCtrl', function(Channel, Brand, Follow, Product, $scope, 
-		$stateParams, $log, $ionicSlideBoxDelegate, $ionicHistory, $location) {
+		$stateParams, $log, $ionicSlideBoxDelegate, $ionicHistory, $location, $state) {
 
         $scope.brand_detail = {};
  		$scope.brand_detail.submenu = ['FEED', 'ITEM'];
@@ -91,20 +91,20 @@ angular.module('radio.controller')
             }
         }
 
-        $scope.brand_detail.goHashTagSpecificProducts = function($event, brand_id, tag_id) {
+        $scope.brand_detail.goTagSpecificProducts = function($event, brand_id, tag_id) {
             $event.stopPropagation();
             switch(url_pattern) {
                 case 'main':
-                    $state.go('tabs.main_tag_specific.products', {'tag':tag_id, 'brand':brand_id, 'tag':tag_id});
+                    $state.go('tabs.main_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
                     break; 
                 case 'channel':
-                    $state.go('tabs.channel_tag_specific.products', {'tag':tag_id, 'brand':brand_id, 'tag':tag_id});
+                    $state.go('tabs.channel_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
                     break;
                 case 'private':
-                    $state.go('tabs.private_tag_specific.products', {'tag':tag_id, 'brand':brand_id, 'tag':tag_id});
+                    $state.go('tabs.private_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
                     break;
                 case 'search':
-                    $state.go('tabs.search_tag_specific.products', {'tag':tag_id, 'brand':brand_id, 'tag':tag_id});
+                    $state.go('tabs.search_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
                     break;
             }
         }

@@ -42,7 +42,7 @@
               <div class="image-wrap-white"></div>
               <div class="info text-black">
                 <h3>{{product.name}}</h3>
-                <a ng-click="brand_detail.goHashTagSpecificProducts($event, brand_detail.brand.id, tag.id)" ng-repeat="tag in product.hash_tags" >#{{tag.name}}</a><br>
+                <a ng-click="brand_detail.goTagSpecificProducts($event, brand_detail.brand.id, tag.id)" ng-repeat="tag in product.hash_tags" >#{{tag.name}}</a><br>
                 <span><i class="fa fa-heart"></i> {{product.product_likes_of_product.length}}</span>
               </div>
           </div>

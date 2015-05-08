@@ -80,16 +80,16 @@ angular.module('radio.controller')
         $scope.issue_detail.goTagGlobalIssues = function(tag_id) {
             switch(url_pattern) {
                 case 'main':
-                    $state.go('tabs.main_tag_global.issues', {'tag':tag_id})
+                    $state.go('tabs.main_tag_global', {'tag':tag_id, 'view':''})
                     break; 
                 case 'channel':
-                    $state.go('tabs.channel_tag_global.issues', {'tag':tag_id})
+                    $state.go('tabs.channel_tag_global', {'tag':tag_id, 'view':''})
                     break;
                 case 'private':
-                    $state.go('tabs.private_tag_global.issues', {'tag':tag_id})
+                    $state.go('tabs.private_tag_global', {'tag':tag_id, 'view':''})
                     break;
                 case 'search':
-                    $state.go('tabs.search_tag_global.issues', {'tag':tag_id})
+                    $state.go('tabs.search_tag_global', {'tag':tag_id, 'view':''})
                     break;
             }   
         }
