@@ -219,32 +219,30 @@ div.two-button-bar.another a.button.active {
   background-color: #0080ff !important;
   border-bottom: inherit !important;
   color: #fff;
-
 }
 
 div.two-button-bar.three a.button {
   width: 33% !important;
 }
 
-
 /* main nav */
 
-ion-header-bar.bar.bar-subheader.main-intro a {
-  color: #444;
-  font-size: 17px;
-  line-height: 32px;
+ion-header-bar.bar.bar-subheader button {
+  background: none;
+  border:none;
+  font-size: 16px;
+} 
+
+ion-header-bar.bar.bar-subheader > button > i {
+  margin-right: 3px;
 }
 
-ion-header-bar.bar.bar-subheader.main-intro button:last-child{
-  float: right;
-  font-size: 14px;
-}
+
 
 
 ion-header-bar.bar.bar-subheader.hash-tag {
   height: 100px;
 }
-
 
 ion-header-bar button.share  {
   margin: auto;
@@ -272,8 +270,6 @@ ion-header-bar button.cart {
 ion-header-bar button.cart a.button.button-icon.fa.fa-shopping-cart {
   color: #000;
 }
-
-
 
 /* channel list */
 

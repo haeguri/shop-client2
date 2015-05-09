@@ -1,10 +1,15 @@
-<ion-view view-title="RADIO">
+<ion-view>
+    <ion-nav-title>
+        <h3 class="title">
+            LADIO
+        </h3>
+    </ion-nav-title>
     <ion-header-bar class="bar bar-subheader main-intro">
         <button ng-click="main_intro.changeFilter()">
-            <i class="fa fa-pencil fa-chevron-down">{{main_intro.selectedFilter}}</i>
+            <i class="fa fa-chevron-down"></i>{{main_intro.selectedFilter}}
         </button>
         <button ng-click="main_intro.changeItem()">
-            <i class="fa fa-pencil fa-chevron-down">{{main_intro.selectedItem}}</i>
+            <i class="fa fa-chevron-down"></i>{{main_intro.selectedItem}}
         </button>
     </ion-header-bar>
     <ion-content class="has-subheader" has-bouncing="false">

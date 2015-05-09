@@ -1,7 +1,7 @@
 angular.module('radio.controller', [])
 
 	.controller('MasterCtrl', function($scope, $rootScope, Cart, $ionicPopup,
-		$route, $timeout, $location, $ionicScrollDelegate, RadioAuth, 
+		$route, $timeout, $location, $ionicScrollDelegate, RadioAuth, $ionicLoading,
 		$rootScope, $location, $ionicModal, $ionicSlideBoxDelegate, $state) {
 
 		$scope.$on('UserLogout', function(event) {
@@ -12,14 +12,6 @@ angular.module('radio.controller', [])
 			$scope.showAlert();
 			$rootScope.$broadcast('loading:hide');
 		});
-
-	    $rootScope.$on('loading:show', function() {
-	      $ionicLoading.show({template: '<img src="css/ajax-loader.gif"></img>'});
-	    });
-
-	    $rootScope.$on('loading:hide', function() {
-	      $ionicLoading.hide();
-	    });
 
 	    /*
 	    $scope.cody_detail.openShopDetail = function(product) {

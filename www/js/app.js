@@ -5,17 +5,18 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('radio', [
   'ionic',
-  'tabSlideBox',
+  'ngCordova',
   'ngCookies',
   'ngRoute',
-  'radio.directive',
+  'tabSlideBox',
   'ui.bootstrap',
+  'radio.directive',
   'radio.service',
   'radio.controller'
   ])
 
 .run(function($ionicPlatform, RadioAuth, $location, $http, $cookies, 
-    $rootScope, $ionicLoading) {
+    $rootScope, $ionicLoading, $cordovaSplashscreen, $timeout) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs).
@@ -28,12 +29,26 @@ angular.module('radio', [
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
 
-    //console.log("$cordovaStatusbar", $cordovaStatusbar);
-    //console.log("$cordovaStatusbar.hide()", $cordovaStatusbar.hide())
-
     if (RadioAuth.authenticated === false) {
       $location.url('/login');
     }
+
+    $rootScope.$on('loading:show', function() {
+      $ionicLoading.show({template: 'Loading'});
+    })
+
+    $rootScope.$on('loading:hide', function() {
+      $ionicLoading.hide();
+    })
+
+    $timeout(function() {
+      try {
+        //$cordovaSplashscreen.hide();
+      }
+      catch(e){
+        /* 실행환경이 에뮬레이터 혹은 실 디바이스가 아닐 경우..*/
+      }
+    }, 3000);
   });
 })
 
@@ -356,26 +371,24 @@ angular.module('radio', [
         }
       }
     })
-    
 
-  $ionicConfigProvider.tabs.position('bottom');
-  $ionicConfigProvider.backButton.text('').icon('fa fa-chevron-left').previousTitleText(false);
+    $ionicConfigProvider.tabs.position('bottom');
+    $ionicConfigProvider.backButton.text('').icon('fa fa-chevron-left').previousTitleText(false);
 
-  $ionicConfigProvider.views.maxCache(0);
-  
-  /*
-  $httpProvider.interceptors.push(function($rootScope) {
-    return {
-      request: function(config) {
-        $rootScope.$broadcast('loading:show');
-        return config;
-      },
-      response: function(response) {
-        $rootScope.$broadcast('loading:hide');
-        return response;
-      }
-    }
-  })
-  */
+    $ionicConfigProvider.views.maxCache(0);
+
+    $httpProvider.interceptors.push(function($rootScope) {
+      return {
+        request: function(config) {
+          $rootScope.$broadcast('loading:show');
+          return config;
+        },
+        response: function(response) {
+
+         $rootScope.$broadcast('loading:hide');
+         return response;
+       }
+     }
+    });
 
 })
