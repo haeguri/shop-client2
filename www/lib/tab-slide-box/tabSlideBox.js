@@ -58,7 +58,6 @@ angular.module('tabSlideBox', [])
 					angular.forEach(icons, function(value, key){
 					     var a = angular.element(value);
 					     a.on('click', function(){
-					     	console.log("clicked & key = ", key);
 					    	 $ionicSlideBoxDelegate.slide(key);
 					     });
 					});
@@ -67,13 +66,11 @@ angular.module('tabSlideBox', [])
 					//Initializing the middle tab
 					if(typeof attrs.tab === 'undefined' || (totalTabs <= initialIndex) || initialIndex < 0){
 						initialIndex = 0;
-						console.log("assigned initialIndex");
 					}
 					
 					//If initial element is 0, set position of the tab to 0th tab 
 					if(initialIndex == 0){
 						setPosition(0);
-						console.log("initialindex");
 					}
 					
 					$timeout(function() {

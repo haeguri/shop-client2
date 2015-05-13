@@ -262,9 +262,8 @@ ion-header-bar a.fa-heart {
 }
 
 ion-header-bar button.cart {
-  background: #00b400 !important;
-  border: 1px solid #000 !important;
-  border-radius: 5px;
+  background: none;
+  border:none;
 }
 
 ion-header-bar button.cart a.button.button-icon.fa.fa-shopping-cart {

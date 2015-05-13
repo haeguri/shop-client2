@@ -43,7 +43,7 @@ angular.module('radio', [
 
     $timeout(function() {
       try {
-        //$cordovaSplashscreen.hide();
+        $cordovaSplashscreen.hide();
       }
       catch(e){
         /* 실행환경이 에뮬레이터 혹은 실 디바이스가 아닐 경우..*/

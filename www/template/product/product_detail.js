@@ -1,7 +1,8 @@
 angular.module('radio.controller')
 
 	.controller('ProductDetailCtrl', function(Product, Cart, Brand, Like, $scope, $stateParams, 
-		$location, $rootScope, $ionicSlideBoxDelegate, $ionicHistory, $state) {
+		$location, $rootScope, $ionicSlideBoxDelegate, $ionicHistory, $ionicScrollDelegate, 
+		$state) {
 
 		$scope.product_detail = {};
 
@@ -114,9 +115,10 @@ angular.module('radio.controller')
 
 		$scope.product_detail.viewInfo = function(menu_name) {
 			if( $scope.product_detail.selectedMenu != menu_name) {
-				$scope.product_detail.selectedMenu = menu_name;	
+				$scope.product_detail.selectedMenu = menu_name;
 				$(event.target).addClass('active');
 				$(event.target).siblings().removeClass('active');
+				$ionicScrollDelegate.resize();
 			}
 		}
 	});

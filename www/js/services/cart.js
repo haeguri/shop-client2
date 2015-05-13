@@ -10,7 +10,7 @@ angular.module('radio.service')
 				var params = args.params || {};
 				var extra_url = args.extra_url || '';
 				return $http({
-					'url': RootUrl + '/cart' + extra_url,
+					'url': RootUrl + extra_url,
 					'method':method,
 					'data':data,
 					'params':params,
@@ -27,7 +27,7 @@ angular.module('radio.service')
 				var Cart = this;
 				return Cart.request({
 					'method':'POST',
-					'extra_url':'/items',
+					'extra_url':'/cart/items',
 					'data':args.data,
 				}).then(function(response) {
 					console.log("success add to Cart", response.data);
@@ -40,12 +40,25 @@ angular.module('radio.service')
 				var Cart = this;
 				return Cart.request({
 					'method':'DELETE',
-					'extra_url':'/items/' + args.item_id
+					'extra_url':'/cart/items/' + args.item_id
 				}).then(function(response) {
 					return response.data;
 				},function(response) {
 					console.log("response", response);
 				});
+			},
+			'requestOrder':function(args) {
+				var Cart = this;
+				return Cart.request({
+					'method':'POST',
+					'extra_url':'/order',
+					'data':args.data
+				}).then(function(response) {
+					console.log("Order request is successfully processes.", response.data);
+					return response.data;
+				}, function(reason) {
+					console.log("error reason for cart add", reason);
+				})
 			}
 		};
 

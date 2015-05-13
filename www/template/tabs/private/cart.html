@@ -9,8 +9,15 @@
     <ion-nav-buttons side="right">
       <a class="button button-icon fa fa-shopping-cart actived" ng-click="private_intro.goCart()"></a>
     </ion-nav-buttons>
+    <ion-header-bar class="bar bar-header">
+      <div class="two-button-bar follow">
+        <a class="button" ng-click="private_cart.toggleView('장바구니')">장바구니</a>
+        <a class="button" ng-click="private_cart.toggleView('구매이력')">구매이력</a>
+      </div>
+    </ion-header-bar>
     <ion-content has-bouncing="false">
-    	<div class="list" ng-if="$root.user.cart.cart_items_of_cart.length">
+      <div ng-if="private_cart.currentView == '장바구니'">
+        <div class="list" ng-if="$root.user.cart.cart_items_of_cart.length">
           <div class="item cart-list" ng-repeat="item in user.cart.cart_items_of_cart">
             <img ng-src="{{item.product.images[0].image}}">
             <div>
@@ -25,19 +32,53 @@
             </div>
           </div>
           <div class="padding">
-            <span style="float:left;">Total(including delivery):</span>
-            <span style="float:right; font-size:15px"><strong>999,999</strong></span>
+            <span style="float:left;">구매금액</span>
+            <span style="float:right; font-size:15px">{{private_cart.sum_price | number:0}} WON</span>
           </div>
           <div class="padding">
-            <button sπtyle="margin-top:10px;" class="button button-block button-light">
-            Check Out
-            </button>
+            <span style="float:left;">배송료</span>
+            <span style="float:right; font-size:15px">{{private_cart.shipping | number:0}} WON</span>
           </div>
+          <div class="padding">
+            <span style="float:left;"><strong>합계</strong></span>
+            <span style="float:right; font-size:15px"><strong>{{private_cart.total_price | number:0}} WON</strong></span>
+          </div>
+          <hr>
+          <h4 class="padding" style="margin-top:20px">배송정보 입력</h4>
+          <div class="list">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">수령인</span>
+              <input type="text" ng-model="private_cart.recipient" maxlength="10">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">휴대폰</span>
+              <input type="tel" ng-model="private_cart.mobile_no" maxlength="15">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">주소</span>
+              <input type="text" ng-model="private_cart.addr1" maxlength="100">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">상세주소</span>
+              <input type="text" ng-model="private_cart.addr2" maxlength="100">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">배송메세지</span>
+              <textarea style="width:100%" rows="5" ng-model="private_cart.ship_msg" maxlength="500"></textarea>
+            </label>
+          </div>
+          <button style="margin-top:50px;" class="button button-block button-dark" ng-click="private_cart.requestOrder()">
+            주문하기
+          </button>
         </div>
         <div class="card" ng-if="!$root.user.cart.cart_items_of_cart.length">
           <div class="item item-text-wrap">
             카트에 상품이 담겨있지 않습니다.
           </div>
         </div>
+      </div>
+      <div ng-if="private_cart.currentView == '구매이력'">
+        <h1>구매이력!</h1>
+      </div>
     </ion-content>
 </ion-view>
