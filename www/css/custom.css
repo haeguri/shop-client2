@@ -249,16 +249,16 @@ ion-header-bar button.share  {
   font-size: 18px;
 }
 
-ion-header-bar a.fa-heart-o {
-  margin-top: 5px !important;
-}
-
 .fa-heart-o.true{
   color: red !important;
 }
 
 ion-header-bar a.fa-heart {
-  margin-top: 5px !important;
+  margin-top: 10px !important;
+}
+
+ion-header-bar span.right-buttons a.fa-heart {
+  margin-top: 0px !important;
 }
 
 ion-header-bar button.cart {

@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('PrivateLikeCtrl', function($scope, Product, $log, $rootScope) {
+	.controller('PrivateLikeCtrl', function($scope, Product, $log, $rootScope, $state) {
 
         $scope.private_like = {};
 
@@ -14,5 +14,13 @@ angular.module('radio.controller')
 	    	$(event.target).addClass('actived');
 			$(event.target).siblings('a').removeClass('actived');
 			$scope.private_like.currentView = new_view;
+        }
+
+        $scope.private_like.goIssueDetail = function(issue_id) {
+            $state.go('tabs.private_issue_detail', {'issue_id':issue_id});
+        }
+
+        $scope.private_like.goProductDetail = function(product_id) {
+            $state.go('tabs.private_product_detail', {'product_id':product_id}); 
         }
 	});

@@ -2,11 +2,16 @@
     <ion-nav-buttons side="left">
       <a class="button button-icon fa fa-plus-square" ng-click="private_intro.goFollow()"></a>
     </ion-nav-buttons>
+    <!--
     <ion-nav-title>
        <a class="button button-icon fa fa-heart title actived" ng-click="private_intro.goLike()"></a>
     </ion-nav-title>
     <ion-nav-buttons side="right">
       <a class="button button-icon fa fa-shopping-cart" ng-click="private_intro.goCart()"></a>
+    </ion-nav-buttons>
+    -->
+    <ion-nav-buttons side="right">
+       <a class="button button-icon fa fa-heart actived" ng-click="private_intro.goLike()"></a>
     </ion-nav-buttons>
     <ion-header-bar class="bar bar-header">
       <div class="two-button-bar like">
@@ -19,7 +24,7 @@
     </ion-header-bar>
     <ion-content has-bouncing="false">
       <div class="my-issue" ng-show="private_like.currentView == '이슈'">
-        <div class="radio-list" ng-repeat="issue_obj in $root.user.issues">
+        <div class="radio-list" ng-repeat="issue_obj in $root.user.issues" ng-click="private_like.goIssueDetail(issue_obj.issue.id)">
           <img ng-src="{{issue_obj.issue.image}}">
           <div class="image-wrap-black"></div>
           <i class='fa fa-heart-o fa-lg {{issue_obj.issue.like}}'></i>
@@ -29,7 +34,7 @@
         </div>
       </div>
       <div class="my-product" ng-show="private_like.currentView == '상품'">
-        <div class="my-product-list" ng-repeat="product_obj in $root.user.products">
+        <div class="my-product-list" ng-repeat="product_obj in $root.user.products" ng-click="private_like.goProductDetail(product_obj.product.id)">
           <img ng-src="{{product_obj.product.images[0].image}}">
           <i class='fa fa-heart-o fa-lg {{product_obj.product.like}}'></i>
           <h5>{{product_obj.product.name}}</h5>

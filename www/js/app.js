@@ -234,6 +234,7 @@ angular.module('radio', [
         }
       }
     })
+    /*
     .state('tabs.private.cart', {
       url: '/cart',
       views: {
@@ -243,6 +244,7 @@ angular.module('radio', [
         }
       }
     })
+    */
     .state('tabs.private_tag_global', {
       url: '/private/tag?tag&view',
       views: {
@@ -375,7 +377,7 @@ angular.module('radio', [
     $ionicConfigProvider.tabs.position('bottom');
     $ionicConfigProvider.backButton.text('').icon('fa fa-chevron-left').previousTitleText(false);
 
-    $ionicConfigProvider.views.maxCache(0);
+    //$ionicConfigProvider.views.maxCache(0);
 
     $httpProvider.interceptors.push(function($rootScope) {
       return {
