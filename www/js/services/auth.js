@@ -17,7 +17,7 @@ angular.module('radio.service', [])
 	            }).success(function(data, status, headers, config){
 
 	            }).error(function(data, status, headers, config){
-	                console.log("data", data);
+	                
 	            });
 	        },
 	        'login': function(username, password) {
@@ -36,9 +36,8 @@ angular.module('radio.service', [])
 	                RadioAuth.getUser(response.data.user).then(function() {
 	                	$location.url('/main');
 	                });
-	            }, function(reason) {
-	            	console.log("Login Deny", reason);
-	            	$rootScope.$broadcast('LoginDeny', data);
+	            }, function(response) {
+	            	$rootScope.$broadcast('LoginDeny', response.data);
 	            })
 	        },
 	        'logout': function() {

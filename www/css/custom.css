@@ -985,11 +985,13 @@ div.search-input-content i {
 -------------------------------*/
 
 #login-content {
-  padding: 100px 50px 0px 50px;
+  padding: 20px
 }
 
-#login-content h1 {
+#login-content h2 {
   text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
 }
 
 #login-content form {
@@ -1008,9 +1010,32 @@ div.search-input-content i {
   margin-right: 5px;
 }
 
+#login-content label.item.item-input {
+  border-radius: 10px;
+}
+
+#login-content label.item.item-input:nth-of-type(2) {
+  margin-top: 10px;
+}
+
+#login-content p {
+  height: 40px;
+  margin: 0px;
+  color: red;
+  line-height: 40px;
+}
+
+#login-content input[type="submit"] {
+  position: relative;
+  border-radius: 10px;
+  border: none;
+  margin:0px; 
+  font-weight: 700;
+  background-color: black;
+}
+
 /* -----signup page------
 ---------------------- */
-
 
 #signup-form {
   margin-top: 90px;

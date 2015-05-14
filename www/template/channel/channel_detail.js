@@ -11,6 +11,7 @@ angular.module('radio.controller')
         	'channel_id':$stateParams.channel_id
         }).then(function(data) {
         	$scope.channel_detail.channel = data;
+            console.log("ChannelDetail data!", data);
         });
 
         $scope.channel_detail.goBack = function() {

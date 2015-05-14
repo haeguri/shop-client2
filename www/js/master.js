@@ -8,11 +8,6 @@ angular.module('radio.controller', [])
 			$route.reload();
 		});
 
-		$scope.$on('LoginDeny', function(event, data) {
-			$scope.showAlert();
-			$rootScope.$broadcast('loading:hide');
-		});
-
 	    /*
 	    $scope.cody_detail.openShopDetail = function(product) {
 
