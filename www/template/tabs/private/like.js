@@ -8,8 +8,6 @@ angular.module('radio.controller')
 
         $scope.private_like.currentView = '이슈';
 
-        $log.log('root user data', $rootScope.user);
-
        	$scope.private_like.toggleView = function(new_view) {
 	    	$(event.target).addClass('actived');
 			$(event.target).siblings('a').removeClass('actived');

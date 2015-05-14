@@ -1,7 +1,7 @@
 angular.module('radio.controller')
 
 	.controller('PrivateIntroCtrl', function($state, $scope, $log, 
-		$ionicHistory, RadioAuth, $rootScope) {
+		$ionicHistory, RadioAuth, $rootScope, $route, $ionicPopup) {
 
         $scope.private_intro = {};
 
@@ -26,6 +26,29 @@ angular.module('radio.controller')
               disableAnimate: true
             });
             $state.go('tabs.private.cart');
+        }
+
+        $scope.private_intro.openLogout = function() {
+            var confirmPopup = $ionicPopup.confirm({
+                title: 'LADIO',
+                template: '로그아웃 하시겠습니까?',
+                cancelText: '취소',
+                okText: '로그아웃',
+                okType: 'button-dark'
+            });
+
+            confirmPopup.then(function(res) {
+                if(res) {
+                    RadioAuth.logout().then(function() {
+                        //$ionicHistory.clearCache();
+                        //$state.go('login', {},  {reload: true});
+                        //$rootScope.$broadcast('Logout');
+                        window.location.reload(true);    
+                    });
+                } else {
+                    console.log('You are not sure');
+                }
+            });
         }
 
     });

@@ -4,9 +4,9 @@ angular.module('radio.controller', [])
 		$route, $timeout, $location, $ionicScrollDelegate, RadioAuth, $ionicLoading,
 		$rootScope, $location, $ionicModal, $ionicSlideBoxDelegate, $state) {
 
-		$scope.$on('UserLogout', function(event) {
+		$scope.$on('Logout', function() {
 			$route.reload();
-		});
+		})
 
 	    /*
 	    $scope.cody_detail.openShopDetail = function(product) {

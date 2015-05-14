@@ -254,7 +254,7 @@ ion-header-bar button.share  {
 }
 
 ion-header-bar a.fa-heart {
-  margin-top: 10px !important;
+  margin-top: 5px !important;
 }
 
 ion-header-bar span.right-buttons a.fa-heart {
@@ -984,10 +984,6 @@ div.search-input-content i {
 /* ---------login page -----------
 -------------------------------*/
 
-#login-content {
-  padding: 20px
-}
-
 #login-content h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -1012,17 +1008,15 @@ div.search-input-content i {
 
 #login-content label.item.item-input {
   border-radius: 10px;
-}
-
-#login-content label.item.item-input:nth-of-type(2) {
   margin-top: 10px;
 }
 
-#login-content p {
+p.auth-warnning{
   height: 40px;
   margin: 0px;
   color: red;
   line-height: 40px;
+  text-align: center;
 }
 
 #login-content input[type="submit"] {
@@ -1031,18 +1025,17 @@ div.search-input-content i {
   border: none;
   margin:0px; 
   font-weight: 700;
-  background-color: black;
 }
 
 /* -----signup page------
 ---------------------- */
 
-#signup-form {
-  margin-top: 90px;
-  margin-right: 50px;
-  margin-left: 50px;
+#signup-form label.item.item-input {
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 #signup-form-submit {
-  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
 }

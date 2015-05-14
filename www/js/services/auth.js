@@ -65,6 +65,8 @@ angular.module('radio.service', [])
 	                }
 	            }).then(function(data) {
 	                console.log("success signup!!!");
+	            }, function(response) {
+	            	$rootScope.$broadcast('SignUpDeny', response.data);
 	            });
 	        },
 	        'getUser':function(id) {

@@ -1,9 +1,14 @@
 <ion-view>
+    <ion-nav-title>
+        <h3 class="title">
+            회원가입
+        </h3>
+    </ion-nav-title>
     <ion-content padding="true" has-bouncing="false" class="signup-content">
-        <form ng-submit="requestSignup()" id="signup-form">
+        <form ng-submit="signup.requestSignUp()" id="signup-form">
             <ion-list>
                 <label class="item item-input">
-                    <input type="text" placeholder="이름" ng-model="signup.username">
+                    <input type="text" placeholder="한글 혹은 영문 아이디" ng-model="signup.username">
                 </label>
                 <label class="item item-input">
                     <input type="email" placeholder="이메일" ng-model="signup.email">
@@ -15,6 +20,13 @@
                     <input type="password" placeholder="비밀번호 재확인" ng-model="signup.password2">
                 </label>
             </ion-list>
+            <p class="auth-warnning">
+                <span ng-repeat="msg in signup.warnning">
+                    {{msg}}
+                    <span ng-if="!$last">, </span>
+                    <span ng-if="$last"> 입니다.</span>
+                </span>
+            </p>
             <button type="submit" class="button button-dark button-block" id="signup-form-submit">가입하기</button>
         </form>
     </ion-content>
