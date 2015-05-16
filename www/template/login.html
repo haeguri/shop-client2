@@ -14,13 +14,10 @@
                     <input type="password" placeholder="비밀번호를 입력하세요." ng-model="login.password" name="password">
                 </label>
             </ion-list>
-            <p class="auth-warnning">{{login.warnning}}</p>
+            <p ng-if="!login.info_msg" class="alert-msg">{{login.alert_msg}}</p>
+            <p ng-if="login.info_msg" class="info-msg">{{login.info_msg}}</p>
             <input type="submit" class="button button-dark button-block" value="로그인">
-            <!--
-            <a href="" class="button button-block"><i class="fa fa-facebook-official fa-lg"></i>Login with facebook</a>
-            -->
             <a href="#/signup" class="button button-clear button-dark">이메일로 가입하기</a>
-            <!--<p>{{login.window_width}}</p>-->
         </form>
     </ion-content>
 </ion-view> 

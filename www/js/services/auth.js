@@ -63,8 +63,8 @@ angular.module('radio.service', [])
 	                    'password1':password1,
 	                    'password2':password2,
 	                }
-	            }).then(function(data) {
-	                console.log("success signup!!!");
+	            }).then(function(response) {
+	                $rootScope.$broadcast('SignUpAllowed', response.data);
 	            }, function(response) {
 	            	$rootScope.$broadcast('SignUpDeny', response.data);
 	            });

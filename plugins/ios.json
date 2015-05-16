@@ -41,22 +41,22 @@
     },
     "installed_plugins": {
         "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.radio437126"
-        },
-        "org.apache.cordova.console": {
-            "PACKAGE_NAME": "com.ionicframework.radio437126"
-        },
-        "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.ionicframework.radio437126"
+            "PACKAGE_NAME": "com.bunkerseoul.ladio"
         },
         "cordova-plugin-crosswalk-webview": {
-            "PACKAGE_NAME": "com.ionicframework.radio437126"
-        },
-        "org.apache.cordova.splashscreen": {
-            "PACKAGE_NAME": "com.ionicframework.radio437126"
+            "PACKAGE_NAME": "com.bunkerseoul.ladio"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ionicframework.radio437126"
+            "PACKAGE_NAME": "com.bunkerseoul.ladio"
+        },
+        "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.bunkerseoul.ladio"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.bunkerseoul.ladio"
+        },
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "com.bunkerseoul.ladio"
         }
     },
     "dependent_plugins": {}

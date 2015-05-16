@@ -1011,10 +1011,18 @@ div.search-input-content i {
   margin-top: 10px;
 }
 
-p.auth-warnning{
+p.alert-msg{
   height: 40px;
   margin: 0px;
   color: red;
+  line-height: 40px;
+  text-align: center;
+}
+
+p.info-msg{
+  height: 40px;
+  margin: 0px;
+  color: green;
   line-height: 40px;
   text-align: center;
 }

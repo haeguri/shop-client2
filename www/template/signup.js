@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('SignupCtrl', function(RadioAuth, $scope, $location, $rootScope){
+	.controller('SignupCtrl', function(RadioAuth, $scope, $location, $rootScope, $state){
 		$scope.signup = {};
 		$scope.signup.warnning = [];
 
