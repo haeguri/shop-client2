@@ -80,37 +80,39 @@ angular.module('radio.controller')
 		url_pattern = /main|channel|private|search/.exec($state.current.name)[0];
 
 		$scope.product_detail.goTagGlobalProducts = function(tag_id) {
-			switch(url_pattern) {
-                case 'main':
-                    $state.go('tabs.main_tag_global', {'tag':tag_id,'view':'products'})
-                    break; 
-                case 'channel':
-                    $state.go('tabs.channel_tag_global', {'tag':tag_id,'view':'products'})
-                    break;
-                case 'private':
-                    $state.go('tabs.private_tag_global', {'tag':tag_id,'view':'products'})
-                    break;
-                case 'search':
-                    $state.go('tabs.search_tag_global', {'tag':tag_id,'view':'products'})
-                    break;
-            }
+			$state.go('tabs.' + url_pattern + '_tag_global', {'tag':tag_id,'view':'products'})
+			// switch(url_pattern) {
+   //              case 'main':
+   //                  $state.go('tabs.main_tag_global', {'tag':tag_id,'view':'products'})
+   //                  break; 
+   //              case 'channel':
+   //                  $state.go('tabs.channel_tag_global', {'tag':tag_id,'view':'products'})
+   //                  break;
+   //              case 'private':
+   //                  $state.go('tabs.private_tag_global', {'tag':tag_id,'view':'products'})
+   //                  break;
+   //              case 'search':
+   //                  $state.go('tabs.search_tag_global', {'tag':tag_id,'view':'products'})
+   //                  break;
+   //          }
 		}
 
 		$scope.product_detail.goBrandDetail = function(brand_id) {
-			switch(url_pattern) {
-                case 'main':
-                    $state.go('tabs.main_brand_detail', {'brand_id':brand_id})
-                    break; 
-                case 'channel':
-                    $state.go('tabs.channel_brand_detail', {'brand_id':brand_id})
-                    break;
-                case 'private':
-                    $state.go('tabs.private_brand_detail', {'brand_id':brand_id})
-                    break;
-                case 'search':
-                    $state.go('tabs.search_brand_detail', {'brand_id':brand_id})
-                    break;
-            }
+			$state.go('tabs.' + url_pattern + '_brand_detail', {'brand_id':brand_id})
+			// switch(url_pattern) {
+   //              case 'main':
+   //                  $state.go('tabs.main_brand_detail', {'brand_id':brand_id})
+   //                  break; 
+   //              case 'channel':
+   //                  $state.go('tabs.channel_brand_detail', {'brand_id':brand_id})
+   //                  break;
+   //              case 'private':
+   //                  $state.go('tabs.private_brand_detail', {'brand_id':brand_id})
+   //                  break;
+   //              case 'search':
+   //                  $state.go('tabs.search_brand_detail', {'brand_id':brand_id})
+   //                  break;
+   //          }
 		}
 
 		$scope.product_detail.viewInfo = function(menu_name) {

@@ -40,38 +40,40 @@ angular.module('radio.controller')
         url_pattern = /main|channel|private|search/.exec($state.current.name)[0];
 
         $scope.product_list.goProductDetail = function(product_id) {
-            switch(url_pattern) {
-                case 'main':
-                    $state.go('tabs.main_product_detail', {'product_id':product_id});
-                    break; 
-                case 'channel':
-                    $state.go('tabs.channel_product_detail', {'product_id':product_id});
-                    break;
-                case 'private':
-                    $state.go('tabs.private_product_detail', {'product_id':product_id});
-                    break;
-                case 'search':
-                    $state.go('tabs.search_product_detail', {'product_id':product_id});
-                    break;
-            }
+            $state.go('tabs.' + url_pattern + '_product_detail', {'product_id':product_id});
+            // switch(url_pattern) {
+            //     case 'main':
+            //         $state.go('tabs.main_product_detail', {'product_id':product_id});
+            //         break; 
+            //     case 'channel':
+            //         $state.go('tabs.channel_product_detail', {'product_id':product_id});
+            //         break;
+            //     case 'private':
+            //         $state.go('tabs.private_product_detail', {'product_id':product_id});
+            //         break;
+            //     case 'search':
+            //         $state.go('tabs.search_product_detail', {'product_id':product_id});
+            //         break;
+            // }
         }
 
         $scope.product_list.goTagGlobalProducts = function(tag_id, $event) {
             $event.stopPropagation();
-            switch(url_pattern) {
-                case 'main':
-                    $state.go('tabs.main_tag_global.products', {'tag':tag_id});
-                    break; 
-                case 'channel':
-                    $state.go('tabs.channel_tag_global.products', {'tag':tag_id});
-                    break;
-                case 'private':
-                    $state.go('tabs.private_tag_global.products', {'tag':tag_id});
-                    break;
-                case 'search':
-                    $state.go('tabs.search_tag_global.products', {'tag':tag_id});
-                    break;
-            }
+            $state.go('tabs.' + url_pattern + '_tag_global.products', {'tag':tag_id});
+            // switch(url_pattern) {
+            //     case 'main':
+            //         $state.go('tabs.main_tag_global.products', {'tag':tag_id});
+            //         break; 
+            //     case 'channel':
+            //         $state.go('tabs.channel_tag_global.products', {'tag':tag_id});
+            //         break;
+            //     case 'private':
+            //         $state.go('tabs.private_tag_global.products', {'tag':tag_id});
+            //         break;
+            //     case 'search':
+            //         $state.go('tabs.search_tag_global.products', {'tag':tag_id});
+            //         break;
+            // }
         }
 
     })

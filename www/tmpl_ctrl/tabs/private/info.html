@@ -1,0 +1,28 @@
+<ion-view hide-back-button="true">
+    <ion-nav-buttons side="left">
+      <a class="button button-icon fa fa-plus-square" ng-click="private_intro.goFollow()"></a>
+    </ion-nav-buttons>
+    <!--
+    <ion-nav-title>
+       <a class="button button-icon fa fa-heart title actived" ng-click="private_intro.goLike()"></a>
+    </ion-nav-title>
+    <ion-nav-buttons side="right">
+      <a class="button button-icon fa fa-shopping-cart" ng-click="private_intro.goCart()"></a>
+    </ion-nav-buttons>
+    -->
+    <ion-nav-buttons side="right">
+       <a class="button button-icon fa fa-heart actived" ng-click="private_intro.goLike()"></a>
+    </ion-nav-buttons>
+    <ion-header-bar class="bar bar-header">
+      <div class="two-button-bar like">
+        <!--
+        <a ng-click="tag_global.toggleInfo(menu)" class="button" ng-repeat="menu in tag_global.menuList" nav-transition="none">{{menu}}</a>
+        -->
+        <a class="button" ng-click="private_like.toggleView('이슈')">이슈</a>
+        <a class="button" ng-click="private_like.toggleView('상품')">상품</a>
+      </div>
+    </ion-header-bar>
+    <ion-content has-bouncing="false">
+      
+    </ion-content>
+</ion-view>

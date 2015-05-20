@@ -75,38 +75,41 @@ angular.module('radio.controller')
         url_pattern = /main|channel|private|search/.exec($state.current.name)[0];
 
         $scope.brand_detail.goProductDetail = function(product_id) {
-            switch(url_pattern) {
-                case 'main':
-                    $state.go('tabs.main_product_detail', {'product_id':product_id});
-                    break; 
-                case 'channel':
-                    $state.go('tabs.channel_product_detail', {'product_id':product_id});
-                    break;
-                case 'private':
-                    $state.go('tabs.private_product_detail', {'product_id':product_id});
-                    break;
-                case 'search':
-                    $state.go('tabs.search_product_detail', {'product_id':product_id});
-                    break;
-            }
+            $state.go('tabs.' + url_pattern + '_product_detail', {'product_id':product_id});
+
+            // switch(url_pattern) {
+            //     case 'main':
+            //         $state.go('tabs.main_product_detail', {'product_id':product_id});
+            //         break; 
+            //     case 'channel':
+            //         $state.go('tabs.channel_product_detail', {'product_id':product_id});
+            //         break;
+            //     case 'private':
+            //         $state.go('tabs.private_product_detail', {'product_id':product_id});
+            //         break;
+            //     case 'search':
+            //         $state.go('tabs.search_product_detail', {'product_id':product_id});
+            //         break;
+            // }
         }
 
         $scope.brand_detail.goTagSpecificProducts = function($event, brand_id, tag_id) {
             $event.stopPropagation();
-            switch(url_pattern) {
-                case 'main':
-                    $state.go('tabs.main_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
-                    break; 
-                case 'channel':
-                    $state.go('tabs.channel_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
-                    break;
-                case 'private':
-                    $state.go('tabs.private_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
-                    break;
-                case 'search':
-                    $state.go('tabs.search_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
-                    break;
-            }
+            $state.go('tabs.' + url_pattern + '_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
+            // switch(url_pattern) {
+            //     case 'main':
+            //         $state.go('tabs.main_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
+            //         break; 
+            //     case 'channel':
+            //         $state.go('tabs.channel_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
+            //         break;
+            //     case 'private':
+            //         $state.go('tabs.private_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
+            //         break;
+            //     case 'search':
+            //         $state.go('tabs.search_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
+            //         break;
+            // }
         }
 
         $scope.brand_detail.goBack = function() {

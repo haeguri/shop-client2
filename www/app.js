@@ -10,7 +10,6 @@ angular.module('radio', [
   'ngRoute',
   'tabSlideBox',
   'ui.bootstrap',
-  'radio.directive',
   'radio.service',
   'radio.controller'
   ])
@@ -59,20 +58,20 @@ angular.module('radio', [
   
     .state('login', {
       url: '/login',
-      templateUrl: 'template/login.html',
+      templateUrl: 'tmpl_ctrl/login.html',
       controller: 'LoginCtrl'
     })
 
     .state('signup', {
       url: '/signup',
-      templateUrl: 'template/signup.html',
+      templateUrl: 'tmpl_ctrl/signup.html',
       controller: 'SignupCtrl'
     })
 
     /* Radio 하단 탭 */
     .state('tabs', {
       abstract: true,
-      templateUrl: 'template/tabs/tabs.html',
+      templateUrl: 'tmpl_ctrl/tabs/tabs.html',
       controller: 'TabsCtrl'
     })
     
@@ -81,7 +80,7 @@ angular.module('radio', [
       url: '/main',
       views: {
         'main': {
-          templateUrl: 'template/tabs/main/intro.html',
+          templateUrl: 'tmpl_ctrl/tabs/main/intro.html',
           controller: 'MainIntroCtrl'
         }
       }
@@ -90,7 +89,7 @@ angular.module('radio', [
       url: '/main/channels/:channel_id',
       views: {
         'main': {
-          templateUrl: 'template/channel/channel_detail.html',
+          templateUrl: 'tmpl_ctrl/channel/channel_detail.html',
           controller: 'ChannelDetailCtrl'
         }
       }
@@ -99,7 +98,7 @@ angular.module('radio', [
       url: '/main/issues/:issue_id',
       views: {
         'main':{
-          templateUrl: 'template/issue/issue_detail.html',
+          templateUrl: 'tmpl_ctrl/issue/issue_detail.html',
           controller: 'IssueDetailCtrl'
         }
       }
@@ -108,7 +107,7 @@ angular.module('radio', [
       url: '/main/products/:product_id',
       views: {
         'main': {
-          templateUrl: 'template/product/product_detail.html',
+          templateUrl: 'tmpl_ctrl/product/product_detail.html',
           controller: 'ProductDetailCtrl'
         }
       }
@@ -117,7 +116,7 @@ angular.module('radio', [
       url: '/main/brands/:brand_id',
       views: {
         'main': {
-          templateUrl: 'template/brand/brand_detail.html',
+          templateUrl: 'tmpl_ctrl/brand/brand_detail.html',
           controller: 'BrandDetailCtrl'
         }
       }
@@ -126,7 +125,7 @@ angular.module('radio', [
       url: '/main/tag?tag&view',
       views: {
         'main': {
-          templateUrl: 'template/tabs/tag_global.html',
+          templateUrl: 'tmpl_ctrl/tabs/tag_global.html',
           controller: 'TagGlobalCtrl'
         }
       }
@@ -135,7 +134,7 @@ angular.module('radio', [
       url: '/main/tag/specific?tag&owner&owner_id',
       views: {
         'main': {
-          templateUrl: 'template/tabs/tag_specific.html',
+          templateUrl: 'tmpl_ctrl/tabs/tag_specific.html',
           controller: 'TagSpecificCtrl'
         }
       }
@@ -146,7 +145,7 @@ angular.module('radio', [
       url: '/channel',
       views: {
         'channel': {
-          templateUrl: 'template/tabs/channel/intro.html',
+          templateUrl: 'tmpl_ctrl/tabs/channel/intro.html',
           controller: 'ChannelIntroCtrl'
         }
       }
@@ -155,7 +154,7 @@ angular.module('radio', [
       url: '/channel/tag?tag&view',
       views: {
         'channel': {
-          templateUrl: 'template/tabs/tag_global.html',
+          templateUrl: 'tmpl_ctrl/tabs/tag_global.html',
           controller: 'TagGlobalCtrl'
         }
       }
@@ -164,7 +163,7 @@ angular.module('radio', [
       url: '/channel/tag/specific/tag?tag&owner&owner_id',
       views: {
         'channel': {
-          templateUrl: 'template/tabs/tag_specific.html',
+          templateUrl: 'tmpl_ctrl/tabs/tag_specific.html',
           controller: 'TagSpecificCtrl'
         }
       }
@@ -173,7 +172,7 @@ angular.module('radio', [
       url: '/channel/channels/:channel_id',
       views: {
         'channel': {
-          templateUrl: 'template/channel/channel_detail.html',
+          templateUrl: 'tmpl_ctrl/channel/channel_detail.html',
           controller: 'ChannelDetailCtrl'
         }
       }
@@ -182,7 +181,7 @@ angular.module('radio', [
       url: '/channel/issues/:issue_id',
       views: {
         'channel': {
-          templateUrl: 'template/issue/issue_detail.html',
+          templateUrl: 'tmpl_ctrl/issue/issue_detail.html',
           controller: 'IssueDetailCtrl'
         }
       }
@@ -191,7 +190,7 @@ angular.module('radio', [
       url: '/channel/products/:product_id',
       views: {
         'channel': {
-          templateUrl: 'template/product/product_detail.html',
+          templateUrl: 'tmpl_ctrl/product/product_detail.html',
           controller: 'ProductDetailCtrl'
         }
       }
@@ -200,7 +199,7 @@ angular.module('radio', [
       url: '/channel/brands/:brand_id',
       views: {
         'channel': {
-          templateUrl: 'template/brand/brand_detail.html',
+          templateUrl: 'tmpl_ctrl/brand/brand_detail.html',
           controller: 'BrandDetailCtrl'
         }
       }
@@ -211,7 +210,7 @@ angular.module('radio', [
       url: '/private',
       views: {
         'private': {
-          templateUrl: 'template/tabs/private/intro.html',
+          templateUrl: 'tmpl_ctrl/tabs/private/intro.html',
           controller: 'PrivateIntroCtrl'
         }
       }
@@ -220,7 +219,7 @@ angular.module('radio', [
       url: '/follow',
       views: {
         'private': {
-          templateUrl: 'template/tabs/private/follow.html',
+          templateUrl: 'tmpl_ctrl/tabs/private/follow.html',
           controller: 'PrivateFollowCtrl'
         }
       }
@@ -229,7 +228,7 @@ angular.module('radio', [
       url: '/like',
       views: {
         'private': {
-          templateUrl: 'template/tabs/private/like.html',
+          templateUrl: 'tmpl_ctrl/tabs/private/like.html',
           controller: 'PrivateLikeCtrl'
         }
       }
@@ -239,7 +238,7 @@ angular.module('radio', [
       url: '/cart',
       views: {
         'private': {
-          templateUrl: 'template/tabs/private/cart.html',
+          templateUrl: 'tmpl_ctrl/tabs/private/cart.html',
           controller: 'PrivateCartCtrl'
         }
       }
@@ -249,7 +248,7 @@ angular.module('radio', [
       url: '/private/tag?tag&view',
       views: {
         'private': {
-          templateUrl: 'template/tabs/tag_global.html',
+          templateUrl: 'tmpl_ctrl/tabs/tag_global.html',
           controller: 'TagGlobalCtrl'
         }
       }
@@ -258,7 +257,7 @@ angular.module('radio', [
       url: '/private/tag/specific/tag?tag&owner&owner_id',
       views: {
         'private': {
-          templateUrl: 'template/tabs/tag_specific.html',
+          templateUrl: 'tmpl_ctrl/tabs/tag_specific.html',
           controller: 'TagSpecificCtrl'
         }
       }
@@ -267,7 +266,7 @@ angular.module('radio', [
       url: '/private/channels/:channel_id',
       views: {
         'private': {
-          templateUrl: 'template/channel/channel_detail.html',
+          templateUrl: 'tmpl_ctrl/channel/channel_detail.html',
           controller: 'ChannelDetailCtrl'
         }
       }
@@ -276,7 +275,7 @@ angular.module('radio', [
       url: '/private/issues/:issue_id',
       views: {
         'private': {
-          templateUrl: 'template/issue/issue_detail.html',
+          templateUrl: 'tmpl_ctrl/issue/issue_detail.html',
           controller: 'IssueDetailCtrl'
         }
       }
@@ -285,7 +284,7 @@ angular.module('radio', [
       url: '/private/products/:product_id',
       views: {
         'private': {
-          templateUrl: 'template/product/product_detail.html',
+          templateUrl: 'tmpl_ctrl/product/product_detail.html',
           controller: 'ProductDetailCtrl'
         }
       }
@@ -294,7 +293,7 @@ angular.module('radio', [
       url: '/private/brands/:brand_id',
       views: {
         'private': {
-          templateUrl: 'template/brand/brand_detail.html',
+          templateUrl: 'tmpl_ctrl/brand/brand_detail.html',
           controller: 'BrandDetailCtrl'
         }
       }
@@ -305,7 +304,7 @@ angular.module('radio', [
       url: '/search',
       views: {
         'search': {
-          templateUrl: 'template/tabs/search/intro.html',
+          templateUrl: 'tmpl_ctrl/tabs/search/intro.html',
           controller: 'SearchIntroCtrl'
         }        
       }
@@ -314,7 +313,7 @@ angular.module('radio', [
       url: '/search/input',
       views: {
         'search': {
-          templateUrl: 'template/tabs/search/input.html',
+          templateUrl: 'tmpl_ctrl/tabs/search/input.html',
           controller: 'SearchInputCtrl'
         }        
       }
@@ -323,7 +322,7 @@ angular.module('radio', [
       url: '/search/tag?tag&view',
       views: {
         'search': {
-          templateUrl: 'template/tabs/tag_global.html',
+          templateUrl: 'tmpl_ctrl/tabs/tag_global.html',
           controller: 'TagGlobalCtrl'
         }
       }
@@ -332,7 +331,7 @@ angular.module('radio', [
       url: '/search/specific/tag?tag&owner&owner_id',
       views: {
         'search': {
-          templateUrl: 'template/tabs/tag_specific.html',
+          templateUrl: 'tmpl_ctrl/tabs/tag_specific.html',
           controller: 'TagSpecificCtrl'
         }
       }
@@ -341,7 +340,7 @@ angular.module('radio', [
       url: '/search/channels/:channel_id',
       views: {
         'search': {
-          templateUrl: 'template/channel/channel_detail.html',
+          templateUrl: 'tmpl_ctrl/channel/channel_detail.html',
           controller: 'ChannelDetailCtrl'
         }
       }
@@ -350,7 +349,7 @@ angular.module('radio', [
       url: '/search/issues/:issue_id',
       views: {
         'search': {
-          templateUrl: 'template/issue/issue_detail.html',
+          templateUrl: 'tmpl_ctrl/issue/issue_detail.html',
           controller: 'IssueDetailCtrl'
         }
       }
@@ -359,7 +358,7 @@ angular.module('radio', [
       url: '/search/products/:product_id',
       views: {
         'search': {
-          templateUrl: 'template/product/product_detail.html',
+          templateUrl: 'tmpl_ctrl/product/product_detail.html',
           controller: 'ProductDetailCtrl'
         }
       }
@@ -368,7 +367,7 @@ angular.module('radio', [
       url: '/search/brands/:brand_id',
       views: {
         'search': {
-          templateUrl: 'template/brand/brand_detail.html',
+          templateUrl: 'tmpl_ctrl/brand/brand_detail.html',
           controller: 'BrandDetailCtrl'
         }
       }
