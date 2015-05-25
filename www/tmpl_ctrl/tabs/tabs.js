@@ -11,7 +11,6 @@ angular.module('radio.controller')
 
 		$scope.tabs.goTab = function(menu) {
 			var state = 'tabs.'+menu;
-			$log.log(state);
 			$state.go(state);
 			$scope.tabs.clearCache();
 		}

@@ -7,11 +7,27 @@ angular.module('radio.controller')
 		$scope.signup.requestSignUp = function() {
 			$scope.signup.warnning = [];
 			console.log("username", $scope.signup.username);
+			/*
 			if ($scope.signup.username == undefined || $scope.signup.email == undefined || 
 				$scope.signup.password1 == undefined || $scope.signup.password2 == undefined) {
 				$scope.signup.warnning.push('필수정보 입력오류');
-			} else if ($scope.signup.username.length < 4) {
-				$scope.signup.warnning.push('아이디는 최소 4글자');
+			} 
+			else if ($scope.signup.username.length < 4) {
+				//$scope.signup.warnning.push('아이디는 최소 4글자');
+				RadioAuth.signup(
+					$scope.signup.email,
+					$scope.signup.password1,
+					$scope.signup.password2
+				).then(function(data) {
+					$scope.signup.email = '';
+					$scope.signup.password1 = '';
+					$scope.signup.password2 = '';
+				});
+			} 
+			*/
+			if ($scope.signup.email == undefined || $scope.signup.password1 == undefined || 
+				$scope.signup.password2 == undefined) {
+				$scope.signup.warnning.push('필수정보 입력오류');
 			} else if ($scope.signup.password1 != $scope.signup.password2) {
 				$scope.signup.warnning.push('같지 않은 비밀번호');
 			} else if ($scope.signup.password1.length < 6) {

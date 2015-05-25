@@ -1,43 +1,35 @@
 angular.module('radio.controller', [])
 
-	.controller('MasterCtrl', function($scope, $rootScope, Cart, $ionicPopup,
+	.controller('MasterCtrl', function($scope, $rootScope, RadioUtil, Cart, $ionicPopup,
 		$route, $timeout, $location, $ionicScrollDelegate, RadioAuth, $ionicLoading,
-		$rootScope, $location, $ionicModal, $ionicSlideBoxDelegate, $state) {
+		$rootScope, $location, $ionicModal, $ionicSlideBoxDelegate, $state, $stateParams) {
+
+		$scope.master = {};
 
 		$scope.$on('Logout', function() {
 			$route.reload();
+		});
+
+		$scope.$on('LoginRequired', function() {
+			$rootScope.lastStateName = $state.current.name;
+			$rootScope.lastStateParams = {};
+			for (var attr in $stateParams) {
+				$rootScope.lastStateParams[attr] = $stateParams[attr];
+			}
+			$state.go('login');
 		})
 
-	    /*
-	    $scope.cody_detail.openShopDetail = function(product) {
+		$scope.$on('SuccessLogin', function(event, data) {
+			// services/auth.js 의 RadioAuth로 부터 넘어오는 data의 포멧은 아래와 같음.
+			// data = {'key':some_key_value, 'user':user_primary_key} 
+			RadioAuth.getUser(data.user);
 
-	      var main_tabs_pattern = /\/tabs\/shop\/intro/.exec($location.absUrl());
-
-	      if(main_tabs_pattern != null) {
-	        $location.url('/tabs/main/genders/'+product.tag.gender+'/tags/'+product.tag.id+'/products/'+product.id);
-	      }
-	      if(channel_tabs_pattern != null) {
-	        $location.url('/tabs/channel/genders/'+product.tag.gender+'/tags/'+product.tag.id+'/products/'+product.id);
-	      }
-	    }
-	    */
-/*
-	    $rootScope.$on('$stateChangeSuccess', function() {
-	    	var shop_intro_pattern = /\/tabs\/shop\/intro/.exec($location.absUrl());
-	    	console.log("$location.absUrl()", $location.absUrl());
-
-	      	if(shop_intro_pattern != null) {
-	      		$ionicSlideBoxDelegate.update();
-	      		console.log("Update! pattern != null");
-	      	}
-	    });
-*/
-	    /*
-	    $scope.$on('$ionicView.beforeEnter', function() {
-			$ionicSlideBoxDelegate.update();
-			console.log("beforeEnter");
+			if (RadioUtil.isEmpty($rootScope.lastStateParams) === true) {
+				$state.go($rootScope.lastStateName);
+			} else {
+				$state.go($rootScope.lastStateName, $rootScope.lastStateParams);
+			}
 		});
-		*/
 
 
 	});

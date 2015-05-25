@@ -3,8 +3,6 @@ angular.module('radio.controller')
 		$rootScope, $ionicPopup, $state){
 		$scope.login = {};
 
-		console.log("Init Login Ctrl");
-
 		$scope.login.requestLogin = function() {
 			$scope.login.info_msg = '';
 			if ($scope.login.username == '' && $scope.login.password == '') {

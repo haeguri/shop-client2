@@ -11,10 +11,11 @@ angular.module('radio', [
   'tabSlideBox',
   'ui.bootstrap',
   'radio.service',
-  'radio.controller'
+  'radio.controller',
+  'radio.util'
   ])
 
-.run(function($ionicPlatform, RadioAuth, $location, $http, $cookies, 
+.run(function($ionicPlatform, RadioAuth, $location, $http, $cookies, $state, 
     $rootScope, $ionicLoading, $cordovaSplashscreen, $timeout) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -24,12 +25,10 @@ angular.module('radio', [
     // useful especially with forms, though we would prefer giving the user a little more room
     // to interact with the app.
 
+    $state.go('tabs.main');
+
     if(window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-    }
-
-    if (RadioAuth.authenticated === false) {
-      $location.url('/login');
     }
 
     $rootScope.$on('loading:show', function() {
@@ -55,17 +54,17 @@ angular.module('radio', [
   $httpProvider, $compileProvider) {
 
   $stateProvider
-  
-    .state('login', {
-      url: '/login',
-      templateUrl: 'tmpl_ctrl/login.html',
-      controller: 'LoginCtrl'
-    })
 
     .state('signup', {
       url: '/signup',
       templateUrl: 'tmpl_ctrl/signup.html',
       controller: 'SignupCtrl'
+    })
+  
+    .state('login', {
+      url: '/login',
+      templateUrl: 'tmpl_ctrl/login.html',
+      controller: 'LoginCtrl'
     })
 
     /* Radio 하단 탭 */

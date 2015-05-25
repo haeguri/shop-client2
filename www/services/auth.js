@@ -33,11 +33,10 @@ angular.module('radio.service', [])
 	            	RadioAuth.authenticated = true;
 	                $http.defaults.headers.common.Authorization = 'Token ' + response.data.key;
 	                $cookies.token = response.data.key;
-	                RadioAuth.getUser(response.data.user).then(function() {
-	                	$location.url('/main');
-	                });
+	                $rootScope.$broadcast('SuccessLogin', response.data);
+	                
 	            }, function(response) {
-	            	$rootScope.$broadcast('LoginDeny', response.data);
+	            	$rootScope.$broadcast('LoginDeny', response);
 	            })
 	        },
 	        'logout': function() {
@@ -58,7 +57,6 @@ angular.module('radio.service', [])
 	                'method':'POST',
 	                'url':'/rest-auth/registration/',
 	                'data': {
-	                    'username':username,
 	                    'email':email,
 	                    'password1':password1,
 	                    'password2':password2,
@@ -86,7 +84,6 @@ angular.module('radio.service', [])
 			                'channels' : response.data.channel_follows_of_user,
 			                'brands' : response.data.brand_follows_of_user
 			            };
-			            $log.log("User Data", $rootScope.user);
 	        		});
         		}
 	        },

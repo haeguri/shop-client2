@@ -2,20 +2,26 @@ angular.module('radio.service')
 	.factory('Follow', function(RootUrl, RadioAuth, $http, $rootScope) {
 		var Follow = {
 			'request':function(args) {
-				var API_URL = RootUrl + '/users/' + $rootScope.user.id;
-				var method = args.method;
-				var extra_url = args.extra_url || '';
-				var params = args.params || {};
-				var data = args.data || {};
-				return $http({
-					'url':API_URL + extra_url,
-					'method':method,
-					'params':params,
-					'data':data
-				}).success(function(data, config, headers, status) {
-				}).error(function(data, config, headers, status) {
-					console.log("follow error", data);
-				});
+				if ($rootScope.user === undefined) {
+					//www/tmpl_ctrl/master.js
+					$rootScope.$broadcast('LoginRequired');
+				} else {
+					var API_URL = RootUrl + '/users/' + $rootScope.user.id;
+					var method = args.method;
+					var extra_url = args.extra_url || '';
+					var params = args.params || {};
+					var data = args.data || {};
+					return $http({
+						'url':API_URL + extra_url,
+						'method':method,
+						'params':params,
+						'data':data
+					}).success(function(data, config, headers, status) {
+					}).error(function(data, config, headers, status) {
+						console.log("follow error", data);
+					});
+				}
+				
 			},
 			'toggleChannelFollow':function(args) {
 				var Follow = this;

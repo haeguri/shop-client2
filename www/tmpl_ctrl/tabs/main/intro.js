@@ -1,7 +1,8 @@
 angular.module('radio.controller')
 
 .controller('MainIntroCtrl', function($scope, $location, $rootScope, 
-    $timeout, $state, Product, Channel, Follow, $ionicNavBarDelegate) {
+    $timeout, $state, Product, Channel, Follow, $ionicNavBarDelegate
+    , $stateParams) {
 
     $scope.main_intro = {};
     $scope.main_intro.issues = [];
@@ -89,13 +90,14 @@ angular.module('radio.controller')
         Follow.toggleChannelFollow({
                 'method':method,
                 'channel_id':channel.id
-        }).then(function(data) {
-            if (channel.follow === false) {
-                $scope.main_intro.channels[index].follow= true;
-            } else {
-                $scope.main_intro.channels[index].follow = false;
-            }
-        });
+            });
+        // }).then(function(data) {
+        //     if (channel.follow === false) {
+        //         $scope.main_intro.channels[index].follow= true;
+        //     } else {
+        //         $scope.main_intro.channels[index].follow = false;
+        //     }
+        // });
     };
 
 })
