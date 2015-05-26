@@ -6,11 +6,8 @@
 	</ion-nav-title>
     <ion-content has-bouncing="false">
     	<div ng-if="!search_intro.isSearch">
-    		<div class="search-two-btn-wrap">
-	    		<div class="two-button-bar another">
-					<a class="button active" ng-click="search_intro.viewMenu('실시간')">실시간 해시태그</a>
-			     	<a class="button" ng-click="search_intro.viewMenu('추천')">추천 해시태그</a>
-		    	</div>
+    		<div class="search-rec-wrap">
+		     	<a class="button" ng-click="search_intro.viewMenu('추천')">추천 해시태그</a>
 	    	</div>
     		<div class="realtime">
 				<ul class="list">

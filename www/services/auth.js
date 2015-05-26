@@ -38,20 +38,16 @@ angular.module('radio.service', [])
 	                'url':'/rest-auth/logout/',
 	            });
 	        },
-	        'signup': function(username, email, password1, password2) {
+	        'signup': function(username, password1, password2) {
 	            var RadioAuth = this;
 	            return RadioAuth.request({
 	                'method':'POST',
 	                'url':'/rest-auth/registration/',
 	                'data': {
-	                    'email':email,
+	                    'username':username,
 	                    'password1':password1,
 	                    'password2':password2,
 	                }
-	            }).then(function(response) {
-	                $rootScope.$broadcast('SignUpAllowed', response.data);
-	            }, function(response) {
-	            	$rootScope.$broadcast('SignUpDeny', response.data);
 	            });
 	        },
 	        'getUser':function(id) {

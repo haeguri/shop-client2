@@ -6,26 +6,7 @@ angular.module('radio.controller')
 
 		$scope.signup.requestSignUp = function() {
 			$scope.signup.warnning = [];
-			console.log("username", $scope.signup.username);
-			/*
-			if ($scope.signup.username == undefined || $scope.signup.email == undefined || 
-				$scope.signup.password1 == undefined || $scope.signup.password2 == undefined) {
-				$scope.signup.warnning.push('필수정보 입력오류');
-			} 
-			else if ($scope.signup.username.length < 4) {
-				//$scope.signup.warnning.push('아이디는 최소 4글자');
-				RadioAuth.signup(
-					$scope.signup.email,
-					$scope.signup.password1,
-					$scope.signup.password2
-				).then(function(data) {
-					$scope.signup.email = '';
-					$scope.signup.password1 = '';
-					$scope.signup.password2 = '';
-				});
-			} 
-			*/
-			if ($scope.signup.email == undefined || $scope.signup.password1 == undefined || 
+			if ($scope.signup.username == undefined || $scope.signup.password1 == undefined || 
 				$scope.signup.password2 == undefined) {
 				$scope.signup.warnning.push('필수정보 입력오류');
 			} else if ($scope.signup.password1 != $scope.signup.password2) {
@@ -35,25 +16,26 @@ angular.module('radio.controller')
 			} else {
 				RadioAuth.signup(
 					$scope.signup.username,
-					$scope.signup.email,
 					$scope.signup.password1,
 					$scope.signup.password2
 				).then(function(data) {
+					// LoginCtrl에서 'SignUpAllowed' 이벤트를 기다리고 있다.
+					$rootScope.$broadcast('SignUpAllowed', data);
 					$scope.signup.username = '';
-					$scope.signup.email = '';
 					$scope.signup.password1 = '';
 					$scope.signup.password2 = '';
+				}, function(data) {
+					$rootScope.$broadcast('SignUpDeny', data);
 				});
 			}
 		};
 
 		$scope.$on('SignUpDeny', function(event, data) {
 			$rootScope.$broadcast('loading:hide');
-			console.log("signup deny!", data);
+			// if (data.hasOwnProperty('username')) {
+			// 	$scope.signup.warnning.push('이미 등록된 아이디');
+			// };
 			if (data.hasOwnProperty('username')) {
-				$scope.signup.warnning.push('이미 등록된 아이디');
-			};
-			if (data.hasOwnProperty('email')) {
 				$scope.signup.warnning.push('이미 등록된 이메일');
 			};
 			if (data.hasOwnProperty('password')) {

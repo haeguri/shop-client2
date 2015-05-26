@@ -1,7 +1,7 @@
 angular.module('radio.controller')
 
-	.controller('PrivateIntroCtrl', function($state, $scope, $log, 
-		$ionicHistory, RadioAuth, $rootScope, $route, $ionicPopup) {
+	.controller('PrivateIntroCtrl', function($state, $scope, $log, $cookies,
+		$ionicHistory, RadioAuth, $rootScope, $route, $ionicPopup, $http) {
 
         $scope.private_intro = {};
 
@@ -9,8 +9,7 @@ angular.module('radio.controller')
             RadioAuth.getUser($rootScope.user.id).then(function(data) {
                 $rootScope.user = {
                     'id': data.id,
-                    'name' : data.username,
-                    'email' : data.email,
+                    'username' : data.username,
                     'products' : data.product_likes_of_user,
                     'issues': data.issue_likes_of_user,
                     'channels' : data.channel_follows_of_user,

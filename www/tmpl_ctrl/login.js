@@ -29,8 +29,7 @@ angular.module('radio.controller')
 					RadioAuth.getUser(data.user).then(function(data) {
 						$rootScope.user = {
 			                'id': data.id,
-			                'name' : data.username,
-			                'email' : data.email,
+			                'username' : data.username,
 			                'products' : data.product_likes_of_user,
 			                'issues': data.issue_likes_of_user,
 			                'channels' : data.channel_follows_of_user,
@@ -47,6 +46,7 @@ angular.module('radio.controller')
 						}
 					});
 				}, function(reason) {
+					console.log("Failed Login", reason);
 					$scope.login.username = '';
 					$scope.login.password = '';
 					$rootScope.$broadcast('loading:hide');
@@ -58,7 +58,6 @@ angular.module('radio.controller')
 		}
 
 		$rootScope.$on('SignUpAllowed', function(event, data) {
-			console.log("SignUpAllowed & data !", data);
 			$state.go('login');
 			$scope.login.alert_msg = '';
 			$scope.login.username = data.username;

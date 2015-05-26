@@ -946,7 +946,6 @@ ion-header-bar div.title.search-nav i{
   margin-left: auto;
   margin-right: auto;
   top: 0px;
-  lef
   color: #000;
 }
 
@@ -957,15 +956,21 @@ ion-header-bar div.title.search-nav input {
   border-radius: 6px;
 }
 
-ion-header-bar div.title.search-nav input:focus{
-  
-}
-
-div.search-two-btn-wrap {
+div.search-rec-wrap {
   display: inline-block;
   width: 100%;
   padding: 10px;
 }
+
+div.search-rec-wrap a.button {
+  width: 100%;
+  color: #0080ff;
+  border: 2px solid #0080ff;
+  background: none;
+  border-radius: 5px;
+}
+
+
 
 div.search-input-content *{
   font-size: 17px !important;
