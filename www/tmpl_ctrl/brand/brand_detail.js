@@ -1,7 +1,7 @@
 angular.module('radio.controller')
 
-	.controller('BrandDetailCtrl', function(Channel, Brand, Follow, Product, $scope, 
-		$stateParams, $log, $ionicSlideBoxDelegate, $ionicHistory, $location, $state) {
+	.controller('BrandDetailCtrl', function(Brand, Follow, Product, $scope, 
+		$stateParams, $log, $ionicSlideBoxDelegate, $ionicHistory, $rootScope, $state) {
 
         $scope.brand_detail = {};
  		$scope.brand_detail.submenu = ['FEED', 'ITEM'];
@@ -9,35 +9,53 @@ angular.module('radio.controller')
 
         var feed_page = 1;
         var product_page = 1;
- 		var slideOnceUpdated = false;
         var method = '';
         var url_pattern = '';
 
-        Brand.getBrand({
-        	'brand_id':$stateParams.brand_id
-        }).then(function(data) {
-    		$log.log('data', data);
-    		$scope.brand_detail.brand = data;
+        var getBrand = function() {
+            Brand.getBrand({
+                'brand_id':$stateParams.brand_id
+            }).then(function(data) {
+                $scope.brand_detail.brand = data;
+                $ionicSlideBoxDelegate.update();
+            });
+        }
 
+        var getFeeds = function(page) {
             Brand.getFeeds({
                 'params': {
                     'brand':$stateParams.brand_id,
                     'page':feed_page
                 }
             }).then(function(data) {
-                $log.log('feeds!!!!', data.results);
                 $scope.brand_detail.feeds = data.results;
-                Product.getProducts({
-                    'params': {
-                        'page':product_page,
-                        'brand':$stateParams.brand_id
-                    }
-                }).then(function(data) {
-                    $log.log("products!!!!", data.results);
-                    $scope.brand_detail.products = data.results;
-                })
+            });
+        }
+
+        var getProducts = function(page) {
+            Product.getProducts({
+                'params': {
+                    'page':product_page,
+                    'brand':$stateParams.brand_id
+                }
+            }).then(function(data) {
+                $scope.brand_detail.products = data.results;
             })
-    	})
+        }
+
+        var initDatas = function() {
+            getBrand();
+            getFeeds(1);
+            getProducts(1);
+        }
+
+        initDatas();
+
+        $rootScope.$on('brand_detail_reload', function() {
+            console.log("brand_detail_reload!");
+            getBrand();
+            $ionicHistory.clearCache();
+        })
 
         $scope.brand_detail.toggleBrandFollow = function() {
             method = $scope.brand_detail.brand.follow === false ? 'POST' : 'DELETE';
@@ -47,21 +65,12 @@ angular.module('radio.controller')
             }).then(function(data) {
                 if ($scope.brand_detail.brand.follow === false) {
                     $scope.brand_detail.brand.follow = true;
-                    //$(event.target).addClass('true').removeClass('false');
-                    $log.log("brand follow");
+                    console.log("add follow");
                 } else {
                     $scope.brand_detail.brand.follow = false;
-                    $log.log("brand unfollow");
+                    console.loog("cancel follow");
                 }
             });
-        }
-
-        $scope.brand_detail.resizeSlides = function () {
-    	/* fix for slides-box bug */
-        	if(slideOnceUpdated == false ) {
-        		slideOnceUpdated = true;
-        		$ionicSlideBoxDelegate.update();
-        	}
         }
 
         $scope.brand_detail.viewInfo = function($event, submenu) {
@@ -76,40 +85,11 @@ angular.module('radio.controller')
 
         $scope.brand_detail.goProductDetail = function(product_id) {
             $state.go('tabs.' + url_pattern + '_product_detail', {'product_id':product_id});
-
-            // switch(url_pattern) {
-            //     case 'main':
-            //         $state.go('tabs.main_product_detail', {'product_id':product_id});
-            //         break; 
-            //     case 'channel':
-            //         $state.go('tabs.channel_product_detail', {'product_id':product_id});
-            //         break;
-            //     case 'private':
-            //         $state.go('tabs.private_product_detail', {'product_id':product_id});
-            //         break;
-            //     case 'search':
-            //         $state.go('tabs.search_product_detail', {'product_id':product_id});
-            //         break;
-            // }
         }
 
         $scope.brand_detail.goTagSpecificProducts = function($event, brand_id, tag_id) {
             $event.stopPropagation();
             $state.go('tabs.' + url_pattern + '_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
-            // switch(url_pattern) {
-            //     case 'main':
-            //         $state.go('tabs.main_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
-            //         break; 
-            //     case 'channel':
-            //         $state.go('tabs.channel_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
-            //         break;
-            //     case 'private':
-            //         $state.go('tabs.private_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
-            //         break;
-            //     case 'search':
-            //         $state.go('tabs.search_tag_specific', {'tag':tag_id, 'owner':'brand', 'owner_id':brand_id});
-            //         break;
-            // }
         }
 
         $scope.brand_detail.goBack = function() {

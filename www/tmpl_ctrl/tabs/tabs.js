@@ -1,7 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('TabsCtrl', function($scope, $ionicSlideBoxDelegate, $ionicHistory, 
-		$state, $log, $location) {
+	.controller('TabsCtrl', function($scope, $ionicSlideBoxDelegate, $ionicHistory, $state) {
 
 		$scope.tabs = {};
 

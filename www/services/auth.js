@@ -1,24 +1,24 @@
 angular.module('radio.service', [])
 
-	.factory('RadioAuth', function(RootUrl, $http, $cookies, $location, $rootScope, 
+	.factory('RadioAuth', function(RootUrl, $http, $q, $cookies, $location, $rootScope, 
 		$log, $location) {
 
 		var RadioAuth = {
 	        'authenticated': false,
 	        'request':function(args) {
-	            if($cookies.token){
-	                $http.defaults.headers.common.Authorization = 'Token ' + $cookies.token;
-	            }
-	            return $http({
+	        	var deferred = $q.defer();
+	            $http({
 	                url : RootUrl + args.url,
 	                method : args.method || {},
 	                params : args.params || {},
 	                data : args.data || {}
 	            }).success(function(data, status, headers, config){
-
+	            	deferred.resolve(data);
 	            }).error(function(data, status, headers, config){
-	                
+	                deferred.reject(data);
 	            });
+
+	            return deferred.promise;
 	        },
 	        'login': function(username, password) {
 	            var RadioAuth = this;
@@ -29,26 +29,13 @@ angular.module('radio.service', [])
 	                    'username':username,
 	                    'password':password
 	                }
-	            }).then(function(response){
-	            	RadioAuth.authenticated = true;
-	                $http.defaults.headers.common.Authorization = 'Token ' + response.data.key;
-	                $cookies.token = response.data.key;
-	                $rootScope.$broadcast('SuccessLogin', response.data);
-	                
-	            }, function(response) {
-	            	$rootScope.$broadcast('LoginDeny', response);
-	            })
+	            });
 	        },
 	        'logout': function() {
 	            var RadioAuth = this;
 	            return RadioAuth.request({
 	                'method':'POST',
 	                'url':'/rest-auth/logout/',
-	            }).then(function(data) {
-	                delete $http.defaults.headers.common.Authorization;
-	                delete $cookies.token;
-	                RadioAuth.authenticated = false;
-	                $rootScope.$broadcast('UserLogout');
 	            });
 	        },
 	        'signup': function(username, email, password1, password2) {
@@ -69,26 +56,10 @@ angular.module('radio.service', [])
 	        },
 	        'getUser':function(id) {
 	        	var RadioAuth = this;
-	        	if(RadioAuth.authenticated === true) {
-	        		return RadioAuth.request({
+	        	return RadioAuth.request({
 	        			'method':'GET',
 	        			'url': '/users/' + id
-	        		}).then(function(response) {
-	        			$rootScope.user = {
-			                'id': response.data.id,
-			                'name' : response.data.username,
-			                'email' : response.data.email,
-			                'cart': response.data.cart,
-			                'products' : response.data.product_likes_of_user,
-			                'issues': response.data.issue_likes_of_user,
-			                'channels' : response.data.channel_follows_of_user,
-			                'brands' : response.data.brand_follows_of_user
-			            };
-	        		});
-        		}
-	        },
-	        'user':{
-	        	/* empty space for user data */
+        		});
 	        }
     	};
     

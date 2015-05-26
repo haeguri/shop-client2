@@ -7,7 +7,7 @@
     </ion-nav-buttons>
     -->
     <ion-nav-title>
-       <a class="button button-icon fa fa-heart-o title {{product_detail.product.like}}" ng-click="product_detail.productLike($event)"></a>
+       <a class="button button-icon fa fa-heart-o title {{product_detail.product.like}}" ng-click="product_detail.toggleLike($event)"></a>
     </ion-nav-title>
     <!--
     <ion-nav-buttons side="right">
@@ -18,7 +18,7 @@
     -->
     <ion-content has-bouncing="false">
       <ion-slide-box on-slide-changed="slideHasChanged($index)" class="product-image-slides" has-bouncing="false">
-        <ion-slide ng-repeat="image_obj in product_detail.product.images" ng-init="product_detail.resizeSlides()">
+        <ion-slide ng-repeat="image_obj in product_detail.product.images">
           <img ng-src="{{image_obj.image}}">
         </ion-slide>
       </ion-slide-box>

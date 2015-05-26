@@ -6,7 +6,7 @@
     <ion-content has-bouncing="false">
     	<div class="brand-detail">
     		<ion-slide-box on-slide-changed="slideHasChanged($index)" class="product-image-slides" has-bouncing="false">
-		        <ion-slide ng-repeat="interview_obj in brand_detail.brand.interviews" ng-init="brand_detail.resizeSlides()">
+		        <ion-slide ng-repeat="interview_obj in brand_detail.brand.interviews">
 		          <img ng-src="{{interview_obj.image}}">
 		        </ion-slide>
       		</ion-slide-box>

@@ -5,7 +5,24 @@ angular.module('radio.controller')
 
         $scope.private_intro = {};
 
-        RadioAuth.getUser($rootScope.user.id);
+        if ($rootScope.user != undefined) {
+            RadioAuth.getUser($rootScope.user.id).then(function(data) {
+                $rootScope.user = {
+                    'id': data.id,
+                    'name' : data.username,
+                    'email' : data.email,
+                    'products' : data.product_likes_of_user,
+                    'issues': data.issue_likes_of_user,
+                    'channels' : data.channel_follows_of_user,
+                    'brands' : data.brand_follows_of_user
+                };
+            });
+        } else {
+            $rootScope.$broadcast('LoginRequired');
+        }
+        
+
+        $rootScope.$on('private.follow_reload', function() {})
 
         $scope.private_intro.goFollow = function() {
             $ionicHistory.nextViewOptions({
@@ -38,16 +55,13 @@ angular.module('radio.controller')
             });
 
             confirmPopup.then(function(res) {
-                if(res) {
-                    RadioAuth.logout().then(function() {
-                        //$ionicHistory.clearCache();
-                        //$state.go('login', {},  {reload: true});
-                        //$rootScope.$broadcast('Logout');
-                        window.location.reload(true);    
-                    });
-                } else {
-                    console.log('You are not sure');
-                }
+                RadioAuth.logout().then(function() {
+                    delete $http.defaults.headers.common.Authorization;
+                    delete $cookies.token;
+                    window.location.reload(true);    
+                }, function() {
+                    console.log("Failed Logout");
+                });
             });
         }
 

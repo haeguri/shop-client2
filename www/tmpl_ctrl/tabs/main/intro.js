@@ -16,6 +16,70 @@ angular.module('radio.controller')
     $scope.main_intro.selectedItem = items[0];
     $scope.main_intro.selectedFilter = filters[0];
 
+    var getIssues = function(page) {
+        Channel.getIssues({
+            'params':{
+                'page':page
+            }
+        }).then(function(data) {
+            console.log("issues!!! on main", data.results);
+            $scope.main_intro.issues = data.results;
+        });
+    }
+
+    var getChannels = function(page) {
+        Channel.getChannels({
+            'params': {
+                'page':page
+            }
+        }).then(function(data) {
+            $scope.main_intro.channels = data.results;
+            console.log("Channel List!!", data.results);
+        })
+    }
+
+    var getProducts = function(page) {
+        Product.getProducts({
+            'params': {
+                'page':page
+            }
+        }).then(function(data) {
+            $scope.main_intro.products = data.results;
+            console.log("Products List!!", data.results);
+        })  
+    }
+
+    var initDatas = function() {
+        getIssues(1);
+        getChannels(1);
+        getProducts(1);
+    }
+
+    initDatas();
+
+    $rootScope.$on('tabs.main_reload', function() {
+        console.log("main_reload!");
+        initDatas();
+    })
+
+    $scope.main_intro.toggleChannelFollow = function(channel, index, event) {
+        event.stopPropagation();
+        method = channel.follow === false ? 'POST' : 'DELETE';
+        Follow.toggleChannelFollow({
+                'method':method,
+                'channel_id':channel.id
+        }).then(function(data) {
+            if (channel.follow === false) {
+                $scope.main_intro.channels[index].follow= true;
+            } else {
+                $scope.main_intro.channels[index].follow = false;
+            }
+            console.log("success!");
+        }, function(data) {
+            console.log("failed")
+        });
+    };
+
     $scope.main_intro.changeFilter = function() {
         for(var i = 0; i < filters.length ; i++) {
             if ( $scope.main_intro.selectedFilter != filters[i] ) {
@@ -34,29 +98,6 @@ angular.module('radio.controller')
         }
     }
 
-    Channel.getIssues({
-        'params':{
-            'page':1
-        }
-    }).then(function(data) {
-        console.log("issues!!! on main", data.results);
-        $scope.main_intro.issues = data.results;
-        Channel.getChannels({
-            'params':{
-                'page':1
-            }
-        }).then(function(data) {
-           $scope.main_intro.channels = data.results;
-           console.log("Channel List!!", data.results);
-           Product.getProducts({
-                'params': {
-                    'page':1
-                }
-           }).then(function(data){
-                $scope.main_intro.products = data.results;
-           })
-        })
-    });
 
     $scope.main_intro.goIssueDetail = function(issue_id) {
         $state.go('tabs.main_issue_detail', {'issue_id':issue_id});
@@ -82,22 +123,6 @@ angular.module('radio.controller')
         $event.stopPropagation();
         console.log("고 프로덕");
         $state.go('tabs.main_tag_global', {'tag_id':tag_id, 'view':'products'});
-    };
-
-    $scope.main_intro.toggleChannelFollow = function(channel, index, event) {
-        event.stopPropagation();
-        method = channel.follow === false ? 'POST' : 'DELETE';
-        Follow.toggleChannelFollow({
-                'method':method,
-                'channel_id':channel.id
-            });
-        // }).then(function(data) {
-        //     if (channel.follow === false) {
-        //         $scope.main_intro.channels[index].follow= true;
-        //     } else {
-        //         $scope.main_intro.channels[index].follow = false;
-        //     }
-        // });
     };
 
 })
