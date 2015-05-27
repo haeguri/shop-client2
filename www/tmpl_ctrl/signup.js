@@ -36,7 +36,7 @@ angular.module('radio.controller')
 			// 	$scope.signup.warnning.push('이미 등록된 아이디');
 			// };
 			if (data.hasOwnProperty('username')) {
-				$scope.signup.warnning.push('이미 등록된 이메일');
+				$scope.signup.warnning.push('이미 등록된 닉네임');
 			};
 			if (data.hasOwnProperty('password')) {
 				$scope.signup.warnning.push('비밀번호는 최소 6글자');

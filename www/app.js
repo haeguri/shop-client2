@@ -8,6 +8,7 @@ angular.module('radio', [
   'ngCordova',
   'ngCookies',
   'ngRoute',
+  'ngStorage',
   'tabSlideBox',
   'ui.bootstrap',
   'radio.service',
@@ -16,7 +17,7 @@ angular.module('radio', [
   ])
 
 .run(function($ionicPlatform, RadioAuth, $location, $http, $cookies, $state, 
-    $rootScope, $ionicLoading, $cordovaSplashscreen, $timeout) {
+    $rootScope, $cordovaSplashscreen, $timeout, $localStorage, RadioUtil) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs).
@@ -31,20 +32,29 @@ angular.module('radio', [
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
 
-    $rootScope.$on('loading:show', function() {
-      $ionicLoading.show({template: 'Loading'});
-    })
+    $rootScope.storage = $localStorage;
 
-    $rootScope.$on('loading:hide', function() {
-      $ionicLoading.hide();
-    })
+    if ($rootScope.storage.hasOwnProperty('AUTO_LOGIN') === false) {
+      $rootScope.storage.AUTO_LOGIN = true;
+    } 
+
+    if ($rootScope.storage.AUTO_LOGIN === true && $rootScope.storage.NICKNAME != undefined) {
+      RadioAuth.login(
+        $rootScope.storage.NICKNAME,
+        $rootScope.storage.PASSWORD
+      );
+    }
+
+    $rootScope.clearStorage = function() {
+      delete $rootScope.storage.AUTO_LOGIN;
+    }
 
     $timeout(function() {
       try {
         $cordovaSplashscreen.hide();
       }
       catch(e){
-        /* 실행환경이 에뮬레이터 혹은 실 디바이스가 아닐 경우..*/
+        // 테스트 혹은 실행환경이 웹 브라우저일 경우.
       }
     }, 3000);
   });
@@ -229,6 +239,15 @@ angular.module('radio', [
         'private': {
           templateUrl: 'tmpl_ctrl/tabs/private/like.html',
           controller: 'PrivateLikeCtrl'
+        }
+      }
+    })
+    .state('tabs.private.info', {
+      url: '/info',
+      views: {
+        'private': {
+          templateUrl: 'tmpl_ctrl/tabs/private/info.html',
+          controller: 'PrivateInfoCtrl'
         }
       }
     })

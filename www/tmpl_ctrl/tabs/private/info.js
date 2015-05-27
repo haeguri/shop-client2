@@ -1,24 +1,37 @@
 angular.module('radio.controller')
 
-	.controller('PrivateInfoCtrl', function($scope, Product, $log, $rootScope, $state) {
+	.controller('PrivateInfoCtrl', function($scope, Product, $log, $rootScope, 
+		$state, $ionicPopup, $http, $cookies, RadioAuth, $timeout, $localStorage) {
 
         $scope.private_info = {};
+       	
+        $scope.private_info.openLogout = function() {
+            var confirmPopup = $ionicPopup.confirm({
+                title: 'LADIO',
+                template: '로그아웃 하시겠습니까?',
+                cancelText: '취소',
+                okText: '로그아웃',
+                okType: 'button-dark'
+            });
 
-        //$('div.two-button-bar.like a.button:first-child').addClass('actived');
+            confirmPopup.then(function(res) {
+                if(res) {
+                    RadioAuth.logout().then(function() {
+                        delete $rootScope.storage.NICKNAME;
+                        delete $rootScope.storage.PASSWORD;
 
-        $scope.private_info.currentView = '이슈';
-
-       	$scope.private_info.toggleView = function(new_view) {
-	    	$(event.target).addClass('actived');
-			$(event.target).siblings('a').removeClass('actived');
-			$scope.private_info.currentView = new_view;
+                        delete $http.defaults.headers.common.Authorization;
+                        delete $cookies.token;
+                        $timeout(function() {
+                            window.location.reload(true);
+                        },500)
+                    }, function() {
+                        console.log("Failed Logout");
+                    });
+                } else {
+                    // 로그아웃 취소
+                }
+            });
         }
 
-        $scope.private_info.goIssueDetail = function(issue_id) {
-            $state.go('tabs.private_issue_detail', {'issue_id':issue_id});
-        }
-
-        $scope.private_info.goProductDetail = function(product_id) {
-            $state.go('tabs.private_product_detail', {'product_id':product_id}); 
-        }
 	});

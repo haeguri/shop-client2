@@ -1,5 +1,16 @@
 /* tabs & nav */
 
+#login-required-msg {
+  width: 100%;
+  text-align: center;
+  padding: 10% 0;
+  font-weight: 700;
+}
+
+#login-back-btn i.fa-chevron-left{
+  font-size: 25px !important;
+}
+
 .bar.bar-header {
   position: relative;
   width: 100%;
@@ -829,6 +840,14 @@ div.my-channel-list img {
 }
 
 
+a.item.logout-btn i {
+  vertical-align: center;
+  float: right;
+}
+
+a.item.logout-btn span {
+  line-height: 32px;
+}
 
 div.my-channel-list img{
   width: 100%;
@@ -840,8 +859,6 @@ div.my-channel-list h6 {
   margin: 0px;
 }
 
-
-
 div.my-issue h3 {
   text-align: center;
 }
@@ -850,7 +867,6 @@ div.my-issue div.info {
   top: 91px;
   left: 0px;
 }
-
 
 div.my-product-list i, div.my-issue div.radio-list i {
   position: absolute;

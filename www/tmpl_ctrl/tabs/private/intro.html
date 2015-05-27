@@ -1,5 +1,12 @@
 <ion-view>
 	<ion-content scroll="true">
-		<ion-nav-view name="private">
+		<div>Test!!1</div>
+		<div ng-if="$root.user">
+			<ion-nav-view name="private">
+		</div>
+		<div ng-if="!$root.user" id="login-required-msg">
+			<h1>LADIO</h1>
+			<p style="margin-top:50px; font-size:20px;">로그인이 필요한 서비스입니다.</p>
+		</div>
 	</ion-content>
 </ion-view>

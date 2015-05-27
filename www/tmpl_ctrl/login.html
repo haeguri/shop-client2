@@ -1,4 +1,7 @@
 <ion-view>
+    <ion-nav-buttons side="left">
+        <button ng-click="login.goBack()" id="login-back-btn"><i class="fa fa-chevron-left"></i></button>
+    </ion-nav-buttons>
     <ion-nav-title>
         <h3 class="title">
             LADIO
@@ -8,7 +11,7 @@
         <form ng-submit="login.requestLogin()">
             <ion-list>
                 <label class="item item-input">
-                    <input type="text" placeholder="별명을 입력하세요" ng-model="login.username" name="username">
+                    <input type="text" placeholder="닉네임을 입력하세요" ng-model="login.username" name="username">
                 </label>
                 <label class="item item-input">
                     <input type="password" placeholder="비밀번호를 입력하세요." ng-model="login.password" name="password">

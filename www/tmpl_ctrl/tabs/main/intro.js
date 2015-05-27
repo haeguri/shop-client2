@@ -1,8 +1,8 @@
 angular.module('radio.controller')
 
-.controller('MainIntroCtrl', function($scope, $location, $rootScope, 
-    $timeout, $state, Product, Channel, Follow, $ionicNavBarDelegate
-    , $stateParams) {
+.controller('MainIntroCtrl', function($scope, $rootScope, 
+    $state, Product, Channel, Follow, $localStorage, $sessionStorage
+    ) {
 
     $scope.main_intro = {};
     $scope.main_intro.issues = [];
