@@ -1,6 +1,6 @@
 angular.module('radio.controller')
 
-	.controller('PrivateFollowCtrl', function($scope, Brand, $log, $state, $rootScope) {
+	.controller('PrivateFollowCtrl', function($scope, Brand, $log, $state, $rootScope, $ionicScrollDelegate) {
 
         $scope.private_follow = {};
         $scope.private_follow.currentView = '채널'
@@ -27,14 +27,6 @@ angular.module('radio.controller')
         	$(event.target).addClass('actived');
 			$(event.target).siblings('a').removeClass('actived');
 			$scope.private_follow.currentView = new_view;
-        }
-
-        $scope.private_follow.goChannelDetail = function(channel_id) {
-            $state.go('tabs.private_channel_detail', {'channel_id':channel_id});
-        }
-
-        $scope.private_follow.goBrandDetail = function(brand_id) {
-            $state.go('tabs.private_brand_detail', {'brand_id':brand_id});
         }
 
 	});

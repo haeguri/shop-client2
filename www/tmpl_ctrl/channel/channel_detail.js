@@ -41,6 +41,7 @@ angular.module('radio.controller')
                     $scope.channel_detail.channel.follow = false;
                     $log.log("channel unfollow");
                 }
+                $ionicHistory.clearCache();
             });
         }
 

@@ -35,23 +35,7 @@ angular.module('radio.service', [])
 	        	return RadioAuth.request({
         			'method':'GET',
         			'url': '/users/' + id
-        		}).then(function(data) {
-					RadioAuth.setUserData(data);
-					// 사용자 데이터를 reload하고 나서 redirect할 수 있도록
-					// reload 하는 경우 -> 1. private 페이지 진입 시 2. 로그인 후
-					/*
-		            if (RadioUtil.isEmpty($rootScope.lastStateParams) === true) {
-						$state.go($rootScope.lastStateName);
-					} else {
-						$state.go($rootScope.lastStateName, $rootScope.lastStateParams);
-					}
-					*/
-					if ($rootScope.lastStateName != undefined) {
-						$state.go($rootScope.lastStateName, $rootScope.lastStateParams);
-					}
-				}, function(reason) {
-					console.log("Failed to get an User Data.", reason);
-				});
+        		});
 	        },
 	        'login': function(username, password) {
 	            var RadioAuth = this;
@@ -62,15 +46,6 @@ angular.module('radio.service', [])
 	                    'username':username,
 	                    'password':password
 	                }
-	            }).then(function(data) {
-	            	$http.defaults.headers.common.Authorization = 'Token ' + data.key;
-	                $cookies.token = data.key;
-
-	                // services/auth.js 의 RadioAuth로 부터 넘어오는 data의 포멧은 아래와 같음.
-					// data = {'key':some_key_value, 'user':user_primary_key} 
-					RadioAuth.getUser(data.user);
-	            }, function(reason) {
-	            	$rootScope.$broadcast('LoginDenied', reason);
 	            });
 	        },
 	        'logout': function() {

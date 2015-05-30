@@ -68,8 +68,11 @@ angular.module('radio.controller')
                     console.log("add follow");
                 } else {
                     $scope.brand_detail.brand.follow = false;
-                    console.loog("cancel follow");
+                    console.log("cancel follow");
                 }
+                $ionicHistory.clearCache();
+            }, function(reason) {
+                console.log("Failed brand follow! reason : ", reason);
             });
         }
 

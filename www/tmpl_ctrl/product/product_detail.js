@@ -48,6 +48,7 @@ angular.module('radio.controller')
                     $(event.target).removeClass('true').addClass('false');
                     console.log("cancel like");
                 }
+                $ionicHistory.clearCache();
 			}, function(reason) {
 				console.log("Like Failed! Reason : ", reason);
 			})

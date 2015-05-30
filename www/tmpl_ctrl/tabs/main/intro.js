@@ -9,12 +9,24 @@ angular.module('radio.controller')
     $scope.main_intro.channels = [];
     $scope.main_intro.products = [];
 
-    var filters = ['추천', '인기'];
-    var items = ['issue', 'product', 'channel'];
-    var current_item = 0;
+    var menus = [
+        {
+            'name':'Issue',
+            'isInited':false
+        },
+        {
+            'name':'Product',
+            'isInited':false
+        },
+        {
+            'name':'Channel',
+            'isInited':false
+        }
+    ];
 
-    $scope.main_intro.selectedItem = items[0];
-    $scope.main_intro.selectedFilter = filters[0];
+    var current_index = 0;
+
+    $scope.main_intro.selectedItem = menus[0];
 
     var getIssues = function(page) {
         Channel.getIssues({
@@ -22,20 +34,10 @@ angular.module('radio.controller')
                 'page':page
             }
         }).then(function(data) {
-            console.log("issues!!! on main", data.results);
+            menus[0].isInited = true;
+            console.log("issue_list : ", data.results);
             $scope.main_intro.issues = data.results;
         });
-    }
-
-    var getChannels = function(page) {
-        Channel.getChannels({
-            'params': {
-                'page':page
-            }
-        }).then(function(data) {
-            $scope.main_intro.channels = data.results;
-            console.log("Channel List!!", data.results);
-        })
     }
 
     var getProducts = function(page) {
@@ -44,60 +46,52 @@ angular.module('radio.controller')
                 'page':page
             }
         }).then(function(data) {
+            menus[1].isInited = true;
+            console.log("product_list : ", data.results);
             $scope.main_intro.products = data.results;
-            console.log("Products List!!", data.results);
         })  
     }
 
-    var initDatas = function() {
+    var getChannels = function(page) {
+        console.log("channellist!");
+        Channel.getChannels({
+            'params': {
+                'page':page
+            }
+        }).then(function(data) {
+            menus[2].isInited = true;
+            console.log("channel_list : ", data.results);
+            $scope.main_intro.channels = data.results;
+        })
+    }
+
+    var initData = function() {
+        getIssues(1);
+    }
+
+    var loadAllData = function() {
         getIssues(1);
         getChannels(1);
         getProducts(1);
     }
 
-    initDatas();
+    initData();
 
     $rootScope.$on('tabs.main_reload', function() {
         console.log("main_reload!");
-        initDatas();
+        loadAllData();
     })
 
-    $scope.main_intro.toggleChannelFollow = function(channel, index, event) {
-        event.stopPropagation();
-        method = channel.follow === false ? 'POST' : 'DELETE';
-        Follow.toggleChannelFollow({
-                'method':method,
-                'channel_id':channel.id
-        }).then(function(data) {
-            if (channel.follow === false) {
-                $scope.main_intro.channels[index].follow= true;
-            } else {
-                $scope.main_intro.channels[index].follow = false;
-            }
-            console.log("success!");
-        }, function(data) {
-            console.log("failed")
-        });
-    };
-
-    $scope.main_intro.changeFilter = function() {
-        for(var i = 0; i < filters.length ; i++) {
-            if ( $scope.main_intro.selectedFilter != filters[i] ) {
-                $scope.main_intro.selectedFilter = filters[i];
-                break;
-            }
-        }
-    }
-
     $scope.main_intro.changeItem = function() {
-        if (current_item == items.length-1)  {
-            current_item = 0;
-            $scope.main_intro.selectedItem = items[current_item];
-        } else {
-            $scope.main_intro.selectedItem = items[++current_item];
+        if ( menus.length == ++current_index ) {
+            current_index = 0;
+        }
+        $scope.main_intro.selectedItem = menus[current_index];
+
+        if($scope.main_intro.selectedItem.isInited == false) {
+            eval('get'+$scope.main_intro.selectedItem.name+'s(1)');
         }
     }
-
 
     $scope.main_intro.goIssueDetail = function(issue_id) {
         $state.go('tabs.main_issue_detail', {'issue_id':issue_id});
@@ -123,6 +117,24 @@ angular.module('radio.controller')
         $event.stopPropagation();
         console.log("고 프로덕");
         $state.go('tabs.main_tag_global', {'tag_id':tag_id, 'view':'products'});
+    };
+
+    $scope.main_intro.toggleChannelFollow = function(channel, index, event) {
+        event.stopPropagation();
+        method = channel.follow === false ? 'POST' : 'DELETE';
+        Follow.toggleChannelFollow({
+                'method':method,
+                'channel_id':channel.id
+        }).then(function(data) {
+            if (channel.follow === false) {
+                $scope.main_intro.channels[index].follow= true;
+            } else {
+                $scope.main_intro.channels[index].follow = false;
+            }
+            console.log("success!");
+        }, function(data) {
+            console.log("failed")
+        });
     };
 
 })

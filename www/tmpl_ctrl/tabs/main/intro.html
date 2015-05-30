@@ -5,15 +5,12 @@
         </h3>
     </ion-nav-title>
     <ion-header-bar class="bar bar-subheader main-intro">
-        <button ng-click="main_intro.changeFilter()">
-            <i class="fa fa-chevron-down"></i>{{main_intro.selectedFilter}}
-        </button>
         <button ng-click="main_intro.changeItem()">
-            <i class="fa fa-chevron-down"></i>{{main_intro.selectedItem}}
+            <i class="fa fa-chevron-down"></i>{{main_intro.selectedItem.name}}
         </button>
     </ion-header-bar>
     <ion-content class="has-subheader" has-bouncing="false">
-        <div ng-if="main_intro.selectedItem == 'issue'" >
+        <div ng-if="main_intro.selectedItem.name == 'Issue'" >
             <h2>{{main_intro.clickTest}}</h2>
             <div class="radio-list" ng-click="main_intro.goIssueDetail(issue.id)" ng-repeat="issue in main_intro.issues">
                 <img ng-src="{{issue.image}}">
@@ -27,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div ng-if="main_intro.selectedItem == 'channel'">
+        <div ng-if="main_intro.selectedItem.name == 'Channel'">
             <div class="channel-list" ng-click="main_intro.goChannelDetail(channel.id, $event)" ng-repeat="channel in main_intro.channels track by $index">
                 <img ng-src="{{channel.background}}">
                 <div class="image-wrap-black"></div>
@@ -51,7 +48,7 @@
                 </div>  
             </div>  
         </div>
-        <div ng-if="main_intro.selectedItem == 'product'">
+        <div ng-if="main_intro.selectedItem.name == 'Product'">
             <div class="radio-list" ng-click="main_intro.goProductDetail(product.id)" ng-repeat="product in main_intro.products">
                 <img ng-src="{{product.images[0].image}}">
                 <div class="image-wrap-white"></div>

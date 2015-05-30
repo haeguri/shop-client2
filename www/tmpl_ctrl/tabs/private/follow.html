@@ -1,35 +1,48 @@
 <ion-view hide-back-button="true">
-    <ion-nav-buttons side="left">
-      <a class="button button-icon fa fa-plus-square actived" ng-click="private_intro.goFollow()"></a>
-    </ion-nav-buttons>
-    <ion-nav-title>
-       <a class="button button-icon fa fa-heart title" ng-click="private_intro.goLike()"></a>
-    </ion-nav-title>
-    <ion-nav-buttons side="right">
-       <a class="button button-icon fa fa-info-circle" ng-click="private_intro.goInfo()"></a>
-    </ion-nav-buttons>
     <ion-header-bar class="bar bar-header">
-      <div class="two-button-bar follow">
-        <a class="button" ng-click="private_follow.toggleView('채널')">채널</a>
-        <a class="button" ng-click="private_follow.toggleView('브랜드')">브랜드</a>
+      <div class="four-button-bar">
+        <a class="button actived" ng-click="private_intro.toggleView('channel')">채널</a>
+        <a class="button" ng-click="private_intro.toggleView('brand')">브랜드</a>
+        <a class="button" ng-click="private_intro.toggleView('issue')">이슈</a>
+        <a class="button" ng-click="private_intro.toggleView('product')">상품</a>
       </div>
     </ion-header-bar>
     <ion-content has-bouncing="false">
-      <div class="my-channel" ng-show="private_follow.currentView=='채널'">
+      <div class="my-channel" ng-show="private_intro.currentSubheaderMenu == 'channel'">
         <div class="my-channel-list" ng-repeat="channel_obj in $root.user.channels">
-          <img ng-src="{{channel_obj.channel.profile}}" ng-click="private_follow.goChannelDetail(channel_obj.channel.id)">
+          <img ng-src="{{channel_obj.channel.profile}}" ng-click="private_intro.goChannelDetail(channel_obj.channel.id)">
           <h6>{{channel_obj.channel.name}}</h6>
         </div>
       </div>
-      <div class="my-brand" ng-show="private_follow.currentView=='브랜드'">
-        <div class="brand-feed" ng-repeat="feed in private_follow.feeds">
-          <div class="title">
-            <span>{{feed.pub_date}}</span>
+      <div class="my-product" ng-show="private_intro.currentSubheaderMenu == 'brand'">
+        <div ng-repeat="brand_obj in $root.user.brands">
+          <div class="my-product-list" ng-repeat="product in brand_obj.brand.products_of_brand" ng-click="private_intro.goProductDetail(product.id)">
+            <img ng-src="{{product.images[0].image}}">
+            <i class='fa fa-heart-o fa-lg {{product.like}}'></i>
+            <!--
+            <h5>{{product.name}}</h5>
+            <h6>{{product.price}}</h6>
+            -->
+            <h5>{{product.brand.name}}</h5><span>{{product.name}}</span>
           </div>
-          <img ng-src="{{feed.image}}" ng-click="private_follow.goBrandDetail(feed.brand)">
-          <div class="body">
-            <p>{{feed.body}}</p>
+        </div>
+      </div>
+      <div class="my-issue" ng-show="private_intro.currentSubheaderMenu == 'issue'">
+        <div class="radio-list" ng-repeat="issue_obj in $root.user.issues" ng-click="private_intro.goIssueDetail(issue_obj.issue.id)">
+          <img ng-src="{{issue_obj.issue.image}}">
+          <div class="image-wrap-black"></div>
+          <i class='fa fa-heart-o fa-lg {{issue_obj.issue.like}}'></i>
+          <div class="info">
+          <h3>{{issue_obj.issue.title}}</h3>
           </div>
+        </div>
+      </div>
+      <div class="my-product" ng-show="private_intro.currentSubheaderMenu == 'product'">
+        <div class="my-product-list" ng-repeat="product_obj in $root.user.products" ng-click="private_intro.goProductDetail(product_obj.product.id)">
+          <img ng-src="{{product_obj.product.images[0].image}}">
+          <i class='fa fa-heart-o fa-lg {{product_obj.product.like}}'></i>
+          <h5>{{product_obj.product.name}}</h5>
+          <h6>{{product_obj.product.price}}</h6>
         </div>
       </div>
     </ion-content>

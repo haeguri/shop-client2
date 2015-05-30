@@ -19,16 +19,31 @@ angular.module('radio.controller')
 				RadioAuth.login(
 					$scope.login.username,
 					$scope.login.password
-				);
+				).then(function(data) {
+					console.log("Received Token is ", data.key);
+					$http.defaults.headers.common.Authorization = 'Token ' + data.key;
+	                $cookies.token = data.key;
+
+	                // services/auth.js 의 RadioAuth로 부터 넘어오는 data의 포멧은 아래와 같음.
+					// data = {'key':some_key_value, 'user':user_primary_key} 
+					RadioAuth.getUser(data.user).then(function(data){
+						RadioAuth.setUserData(data);
+						if ($rootScope.lastStateName != undefined) {
+							$state.go($rootScope.lastStateName, $rootScope.lastStateParams);
+						}
+					});
+				}, function(reason) {
+					$rootScope.$broadcast('LoginDenied', reason);
+				});
 			}	
 		}
 
 		$scope.login.goBack = function() {
-			$ionicHistory.goBack();
+			// $ionicHistory.goBack();
+			$state.go('tabs.main');
 		}
 
 		$rootScope.$on('LoginDenied', function(event, data) {
-			console.log("LoginDenied", reason);
 			$scope.login.username = '';
 			$scope.login.password = '';
 			$rootScope.$broadcast('loading:hide');

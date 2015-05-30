@@ -42,7 +42,17 @@ angular.module('radio', [
       RadioAuth.login(
         $rootScope.storage.NICKNAME,
         $rootScope.storage.PASSWORD
-      );
+      ).then(function(data) {
+        $http.defaults.headers.common.Authorization = 'Token ' + data.key;
+        $cookies.token = data.key;
+
+        // services/auth.js 의 RadioAuth로 부터 넘어오는 data의 포멧은 아래와 같음.
+        // data = {'key':some_key_value, 'user':user_primary_key} 
+        RadioAuth.getUser(data.user).then(function(data){
+          RadioAuth.setUserData(data);
+          $state.go('tabs.main');
+        });
+      });
     }
 
     $rootScope.clearStorage = function() {
@@ -233,35 +243,6 @@ angular.module('radio', [
         }
       }
     })
-    .state('tabs.private.like', {
-      url: '/like',
-      views: {
-        'private': {
-          templateUrl: 'tmpl_ctrl/tabs/private/like.html',
-          controller: 'PrivateLikeCtrl'
-        }
-      }
-    })
-    .state('tabs.private.info', {
-      url: '/info',
-      views: {
-        'private': {
-          templateUrl: 'tmpl_ctrl/tabs/private/info.html',
-          controller: 'PrivateInfoCtrl'
-        }
-      }
-    })
-    /*
-    .state('tabs.private.cart', {
-      url: '/cart',
-      views: {
-        'private': {
-          templateUrl: 'tmpl_ctrl/tabs/private/cart.html',
-          controller: 'PrivateCartCtrl'
-        }
-      }
-    })
-    */
     .state('tabs.private_tag_global', {
       url: '/private/tag?tag&view',
       views: {

@@ -1,12 +1,14 @@
-<ion-view>
+<ion-view ng-init="private_intro.check_auth()">
+	<ion-nav-buttons side="left">
+      <a class="button button-icon fa fa-plus-square follow actived" ng-click="private_intro.goFollow()"></a>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+      <a class="button button-icon fa fa-info-circle info" ng-click="private_intro.goInfo()"></a>
+    </ion-nav-buttons>
+    <ion-header-bar>
+    </ion-header-bar>
 	<ion-content scroll="true">
-		<div>Test!!1</div>
-		<div ng-if="$root.user">
-			<ion-nav-view name="private">
-		</div>
-		<div ng-if="!$root.user" id="login-required-msg">
-			<h1>LADIO</h1>
-			<p style="margin-top:50px; font-size:20px;">로그인이 필요한 서비스입니다.</p>
+		<div ng-include="private_intro.currentHeaderMenu.url" style="width:100%; display:inline-block;">
 		</div>
 	</ion-content>
 </ion-view>
