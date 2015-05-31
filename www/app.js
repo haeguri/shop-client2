@@ -400,13 +400,13 @@ angular.module('radio', [
     $httpProvider.interceptors.push(function($rootScope, $q) {
       return {
         request: function(config) {
-          $rootScope.$broadcast('loading:show');
+          $rootScope.$broadcast('loading:show',config);
           return config;
         },
         response: function(response) {
-         $rootScope.$broadcast('loading:hide');
+          $rootScope.$broadcast('loading:hide');
          return response;
-       }
+        }
      }
     });
 

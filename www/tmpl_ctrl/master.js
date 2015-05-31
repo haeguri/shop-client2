@@ -1,14 +1,29 @@
 angular.module('radio.controller', [])
 
 	.controller('MasterCtrl', function($scope, $rootScope,$state, $stateParams, 
-		$ionicHistory, $ionicLoading, RadioAuth, $q) {
+		$ionicHistory, $ionicLoading, RadioAuth, $q, $timeout, $ionicPopup) {
 
-	    $rootScope.$on('loading:show', function() {
+		var timeoutRequest;
+
+	    $rootScope.$on('loading:show', function(event, config) {
+	    	var url_pattern = /^http:\/\//.exec(config.url)
+	    	if(url_pattern != undefined) {
+	    		console.log("config", config);
+	    		timeoutRequest = $timeout(function() {
+		    		$ionicPopup.alert({
+			          title: '네트워크 연결 오류',
+			          template: '<p align="center">네트워크 연결상태를 확인 해주세요.</p>',
+			          okText: '확인',
+			          okType: 'button-dark'
+			        });
+				}, 5000)
+	    	}
 	      $ionicLoading.show({template: 'Loading'});
 	    });
 
-	    $rootScope.$on('loading:hide', function() {
-	      $ionicLoading.hide();
+	    $rootScope.$on('loading:hide', function(event, response) {
+	    	$timeout.cancel(timeoutRequest);
+	    	$ionicLoading.hide();
 	    });
 
 		$scope.$on('LoginRequired', function(toStateName) {

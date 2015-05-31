@@ -20,7 +20,7 @@ angular.module('radio.controller')
 					$scope.login.username,
 					$scope.login.password
 				).then(function(data) {
-					console.log("Received Token is ", data.key);
+					// console.log("Received Token is ", data.key);
 					$http.defaults.headers.common.Authorization = 'Token ' + data.key;
 	                $cookies.token = data.key;
 
@@ -48,7 +48,7 @@ angular.module('radio.controller')
 			$scope.login.username = '';
 			$scope.login.password = '';
 			$rootScope.$broadcast('loading:hide');
-			if (reason.hasOwnProperty('non_field_errors')) {
+			if (data.hasOwnProperty('non_field_errors')) {
 				$scope.login.alert_msg = '닉네임 혹은 비밀번호가 잘못 입력됐습니다.'
 			}
 		})
