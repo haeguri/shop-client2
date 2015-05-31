@@ -16,8 +16,8 @@ angular.module('radio', [
   'radio.util'
   ])
 
-.run(function($ionicPlatform, RadioAuth, $location, $http, $cookies, $state, 
-    $rootScope, $cordovaSplashscreen, $timeout, $localStorage, RadioUtil) {
+.run(function($ionicPlatform, $ionicPopup,RadioAuth, $location, $http, $cookies, $state, 
+    $rootScope, $cordovaSplashscreen, $timeout, $localStorage, RadioUtil, $ionicBackdrop) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs).
@@ -30,6 +30,27 @@ angular.module('radio', [
 
     if(window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+    }
+
+    if(window.Connection) {
+      if(navigator.connection.type == Connection.NONE) {
+        $ionicPopup.alert({
+          title: '네트워크 연결 오류',
+          template: '<p align="center">네트워크 연결상태를 확인 후</p>' +
+                    '<p align="center">앱을 다시 실행해주세요.</p>',
+          okText: '확인',
+          okType: 'button-dark'
+        }).then(function(res) {
+            if (ionic.Platform.isAndroid()) {
+              ionic.Platform.exitApp();
+
+            } 
+            // ios, ipad etc...
+            else {
+              $ionicBackdrop.retain();
+            }
+        });
+      }
     }
 
     $rootScope.storage = $localStorage;
@@ -50,7 +71,6 @@ angular.module('radio', [
         // data = {'key':some_key_value, 'user':user_primary_key} 
         RadioAuth.getUser(data.user).then(function(data){
           RadioAuth.setUserData(data);
-          $state.go('tabs.main');
         });
       });
     }
