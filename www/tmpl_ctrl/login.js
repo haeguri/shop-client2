@@ -33,6 +33,7 @@ angular.module('radio.controller')
 						}
 					});
 				}, function(reason) {
+					console.log("login denied");
 					$rootScope.$broadcast('LoginDenied', reason);
 				});
 			}	

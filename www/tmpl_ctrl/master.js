@@ -1,7 +1,7 @@
 angular.module('radio.controller', [])
 
 	.controller('MasterCtrl', function($scope, $rootScope,$state, $stateParams, 
-		$ionicHistory, $ionicLoading, RadioAuth) {
+		$ionicHistory, $ionicLoading, RadioAuth, $q) {
 
 	    $rootScope.$on('loading:show', function() {
 	      $ionicLoading.show({template: 'Loading'});

@@ -377,14 +377,13 @@ angular.module('radio', [
 
     //$ionicConfigProvider.views.maxCache(0);
 
-    $httpProvider.interceptors.push(function($rootScope) {
+    $httpProvider.interceptors.push(function($rootScope, $q) {
       return {
         request: function(config) {
           $rootScope.$broadcast('loading:show');
           return config;
         },
         response: function(response) {
-
          $rootScope.$broadcast('loading:hide');
          return response;
        }
