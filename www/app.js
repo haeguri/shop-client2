@@ -53,31 +53,33 @@ angular.module('radio', [
       }
     }
 
-    $rootScope.storage = $localStorage;
+    $state.go('login');
 
-    if ($rootScope.storage.hasOwnProperty('AUTO_LOGIN') === false) {
-      $rootScope.storage.AUTO_LOGIN = true;
-    } 
+    // $rootScope.storage = $localStorage;
 
-    if ($rootScope.storage.AUTO_LOGIN === true && $rootScope.storage.NICKNAME != undefined) {
-      RadioAuth.login(
-        $rootScope.storage.NICKNAME,
-        $rootScope.storage.PASSWORD
-      ).then(function(data) {
-        $http.defaults.headers.common.Authorization = 'Token ' + data.key;
-        $cookies.token = data.key;
+    // if ($rootScope.storage.hasOwnProperty('AUTO_LOGIN') === false) {
+    //   $rootScope.storage.AUTO_LOGIN = true;
+    // } 
 
-        // services/auth.js 의 RadioAuth로 부터 넘어오는 data의 포멧은 아래와 같음.
-        // data = {'key':some_key_value, 'user':user_primary_key} 
-        RadioAuth.getUser(data.user).then(function(data){
-          RadioAuth.setUserData(data);
-        });
-      });
-    }
+    // if ($rootScope.storage.AUTO_LOGIN === true && $rootScope.storage.NICKNAME != undefined) {
+    //   RadioAuth.login(
+    //     $rootScope.storage.NICKNAME,
+    //     $rootScope.storage.PASSWORD
+    //   ).then(function(data) {
+    //     $http.defaults.headers.common.Authorization = 'Token ' + data.key;
+    //     $cookies.token = data.key;
 
-    $rootScope.clearStorage = function() {
-      delete $rootScope.storage.AUTO_LOGIN;
-    }
+    //     // services/auth.js 의 RadioAuth로 부터 넘어오는 data의 포멧은 아래와 같음.
+    //     // data = {'key':some_key_value, 'user':user_primary_key} 
+    //     RadioAuth.getUser(data.user).then(function(data){
+    //       RadioAuth.setUserData(data);
+    //     });
+    //   });
+    // }
+
+    // $rootScope.clearStorage = function() {
+    //   delete $rootScope.storage.AUTO_LOGIN;
+    // }
 
     $timeout(function() {
       try {
@@ -86,7 +88,7 @@ angular.module('radio', [
       catch(e){
         // 테스트 혹은 실행환경이 웹 브라우저일 경우.
       }
-    }, 3000);
+    }, 500);
   });
 })
 

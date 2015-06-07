@@ -37,13 +37,13 @@ angular.module('radio.service', [])
         			'url': '/users/' + id
         		});
 	        },
-	        'login': function(username, password) {
+	        'login': function(email, password) {
 	            var RadioAuth = this;
 	            return RadioAuth.request({
 	                'method':'POST',
 	                'url':'/rest-auth/login/',
 	                'data':{
-	                    'username':username,
+	                    'email':email,
 	                    'password':password
 	                }
 	            });
@@ -55,17 +55,39 @@ angular.module('radio.service', [])
 	                'url':'/rest-auth/logout/',
 	            });
 	        },
-	        'signup': function(username, password1, password2) {
+	        'signup': function(email, nickname, password1, password2) {
 	            var RadioAuth = this;
 	            return RadioAuth.request({
 	                'method':'POST',
 	                'url':'/rest-auth/registration/',
 	                'data': {
-	                    'username':username,
+	                	'email':email,
+	                    'nickname':nickname,
 	                    'password1':password1,
 	                    'password2':password2,
 	                }
 	            });
+	        },
+	        'passwordChange': function(password1, password2) {
+	        	var RadioAuth = this;
+	        	return RadioAuth.request({
+	        		'method':'POST',
+	        		'url':'/rest-auth/password/change/',
+	        		'data': {
+	        			'new_password1':password1,
+	        			'new_password2':password2
+	        		}
+	        	});
+	        },
+	        'passwordReset': function(email) {
+	        	var RadioAuth = this;
+	        	return RadioAuth.request({
+	        		'method':'POST',
+	        		'url':'/rest-auth/password/reset/',
+	        		'data': {
+	        			'email':email
+	        		}
+	        	});
 	        }
     	};
     

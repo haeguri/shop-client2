@@ -11,7 +11,7 @@
         <form ng-submit="login.requestLogin()">
             <ion-list>
                 <label class="item item-input">
-                    <input type="text" placeholder="닉네임을 입력하세요" ng-model="login.username" name="username">
+                    <input type="text" placeholder="이메일을 입력하세요" ng-model="login.email" name="email">
                 </label>
                 <label class="item item-input">
                     <input type="password" placeholder="비밀번호를 입력하세요." ng-model="login.password" name="password">
@@ -20,7 +20,12 @@
             <p ng-if="!login.info_msg" class="alert-msg">{{login.alert_msg}}</p>
             <p ng-if="login.info_msg" class="info-msg">{{login.info_msg}}</p>
             <input type="submit" class="button button-dark button-block" value="로그인">
-            <a href="#/signup" id="signup-btn" class="button button-clear button-dark">아이디가 없다면 간단하게 가입하세요!</a>
         </form>
+        <a class="button" ng-click="login.callAPI()">API CALL</a> <br>
+        <a class="button" ng-click="login.requestToServer()">oauth to server</a>
+        <a id="fb-login-btn" class="button" ng-click="login.requestFBLogin()">페이스북으로 로그인하기</a>
+        <a class="button" ng-click="login.passwordChange()">비밀번호 변경하기</a>
+        <a class="button" ng-click="login.passwordReset()">비밀번호 찾기</a>
+        <a href="#/signup" id="signup-btn" class="button button-clear button-dark">이메일로 간편하게 가입할 수 있어요!</a>
     </ion-content>
 </ion-view> 

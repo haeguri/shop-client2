@@ -6,16 +6,16 @@ angular.module('radio.controller', [])
 		var timeoutRequest;
 
 	    $rootScope.$on('loading:show', function(event, config) {
-	    	var url_pattern = /^http:\/\//.exec(config.url)
+	    	var url_pattern = /^http:\/\//.exec(config.url);
 	    	if(url_pattern != undefined) {
-	    		console.log("config", config);
 	    		timeoutRequest = $timeout(function() {
 		    		$ionicPopup.alert({
-			          title: '네트워크 연결 오류',
-			          template: '<p align="center">네트워크 연결상태를 확인 해주세요.</p>',
+			          title: '죄송합니다',
+			          template: '<p align="center">네트워크 연결 오류 혹은 잘못된 요청으로</p><p align="center">에러가 발생했습니다. 다시 시도해주세요.</p>',
 			          okText: '확인',
 			          okType: 'button-dark'
 			        });
+			        $rootScope.$broadcast('loading:hide');
 				}, 5000)
 	    	}
 	      $ionicLoading.show({template: 'Loading'});

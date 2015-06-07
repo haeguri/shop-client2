@@ -8,13 +8,11 @@
         <form ng-submit="signup.requestSignUp()" id="signup-form">
             <ion-list>
                 <label class="item item-input">
-                    <input type="text" placeholder="닉네임" ng-model="signup.username">
+                    <input type="email" placeholder="이메일 your@email.com" ng-model="signup.email">
                 </label>
-                <!--
                 <label class="item item-input">
-                    <input type="email" placeholder="이메일" ng-model="signup.email">
+                    <input type="text" placeholder="별명" ng-model="signup.nickname">
                 </label>
-                -->
                 <label class="item item-input">
                     <input type="password" placeholder="비밀번호" ng-model="signup.password1">
                 </label>

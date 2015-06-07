@@ -1070,6 +1070,16 @@ p.info-msg{
   font-weight: 700;
 }
 
+#fb-login-btn {
+  width: 100% !important;
+  background-color: #3a5795;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
 /* -----signup page------
 ---------------------- */
 

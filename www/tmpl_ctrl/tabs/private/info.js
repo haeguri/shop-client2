@@ -17,8 +17,8 @@ angular.module('radio.controller')
             confirmPopup.then(function(res) {
                 if(res) {
                     RadioAuth.logout().then(function() {
-                        delete $rootScope.storage.NICKNAME;
-                        delete $rootScope.storage.PASSWORD;
+                        // delete $rootScope.storage.NICKNAME;
+                        // delete $rootScope.storage.PASSWORD;
 
                         delete $http.defaults.headers.common.Authorization;
                         delete $cookies.token;
